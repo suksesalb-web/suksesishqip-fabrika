@@ -1,7 +1,8 @@
 """Send approved posts to Buffer.
 
 Usage: python fabrika/publish.py approved/2026-11-08.json
-approved file: {"date": "2026-11-08", "approve": ["p1", "p3"]}
+approved file: {"date": "2026-11-08", "approve": ["p1", "p3"], "now": ["p1"]}
+("now" is optional: those ids publish immediately instead of at their time.)
 
 Images are taken from out/<date>/manifest.json and passed to Buffer as
 raw.githubusercontent.com URLs (the repo is public, so Buffer can fetch them).
@@ -85,12 +86,22 @@ def main(path):
                        for u in urls],
             "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}},
         }
-        if due > now + timedelta(minutes=5):
+        if pid in ap.get("now", []):
+            inp["mode"] = "shareNow"
+        elif due > now + timedelta(minutes=5):
             inp["mode"] = "customScheduled"
             inp["dueAt"] = due.strftime("%Y-%m-%dT%H:%M:%S.000Z")
         else:
             inp["mode"] = "addToQueue"
-        res = gql(CREATE, {"input": inp})["createPost"]
+        try:
+            res = gql(CREATE, {"input": inp})["createPost"]
+        except RuntimeError as e:
+            if inp["mode"] != "shareNow":
+                raise
+            print(pid, "shareNow not accepted, scheduling in 3 minutes instead:", e)
+            inp["mode"] = "customScheduled"
+            inp["dueAt"] = (now + timedelta(minutes=3)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+            res = gql(CREATE, {"input": inp})["createPost"]
         if "post" in res:
             published[pid] = {"buffer_id": res["post"]["id"], "dueAt": res["post"]["dueAt"], "images": len(urls)}
             print(pid, "scheduled for", res["post"]["dueAt"])
