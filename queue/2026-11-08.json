@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "statement",
+      "time": "10:40",
+      "photo_query": "man walking alone city night",
+      "slides": [
+        {
+          "text": "Askush nuk do të vijë ta ndryshojë jetën tënde.",
+          "highlight": "Ky është lajmi i mirë."
+        }
+      ],
+      "caption": "Askush nuk do të vijë ta ndryshojë jetën tënde. As shefi, as fati, as momenti i duhur.\n\nKjo do të thotë që vendimi është i yti. Sot.\n\nDërgoja dikujt që po pret \"momentin e duhur\".\n\n#suksesishqip #motivim #disiplinë #shqipëri"
+    },
+    {
+      "id": "p2",
+      "style": "story",
+      "time": "15:20",
+      "photo_query": "vintage car factory assembly line",
+      "slides": [
+        {
+          "kicker": "Histori suksesi",
+          "title": "Në 1914, Henry Ford dyfishoi pagat e punëtorëve.",
+          "subtitle": "Shumë e quajtën gabim. Ja çfarë ndodhi më pas."
+        },
+        {
+          "title": "Problemi",
+          "body": "Fabrika humbiste punëtorë çdo muaj. Puna në linjë ishte e lodhshme dhe shumë largoheshin pas pak javësh."
+        },
+        {
+          "title": "Vendimi",
+          "body": "Në janar 1914, Ford e çoi pagën ditore në 5 dollarë, rreth dyfishi i asaj që paguhej zakonisht atëherë."
+        },
+        {
+          "title": "Rezultati",
+          "body": "Punëtorët qëndronin më gjatë dhe punonin më mirë. Shumë prej tyre mund të blinin tani makinën që vetë ndërtonin."
+        },
+        {
+          "title": "Mësimi",
+          "body": "Kur njerëzit që punojnë me ty fitojnë, fiton edhe ti. Pagesa e mirë nuk është shpenzim, është investim."
+        }
+      ],
+      "caption": "Në 1914, Henry Ford bëri diçka që të gjithë e quajtën të çmendur: dyfishoi pagat.\n\nRrëshqit për të parë pse funksionoi.\n\nRuaje këtë postim për herën kur do të ndërtosh ekipin tënd.\n\n#suksesishqip #biznes #histori #mendësi"
+    },
+    {
+      "id": "p3",
+      "style": "quote",
+      "time": "20:10",
+      "photo_query": "ancient statue dark",
+      "slides": [
+        {
+          "quote": "Nuk është se kemi pak kohë për të jetuar. Është se humbim shumë prej saj.",
+          "author": "Seneka",
+          "source": "Mbi shkurtësinë e jetës"
+        }
+      ],
+      "caption": "Seneka e shkroi këtë rreth 2,000 vjet më parë. Ende vlen.\n\nSa orë humbe sot në gjëra që nuk të çojnë askund?\n\nRuaje si kujtesë.\n\n#suksesishqip #seneka #stoicizëm #disiplinë"
+    }
+  ]
+}

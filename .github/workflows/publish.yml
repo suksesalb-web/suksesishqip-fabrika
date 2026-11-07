@@ -1,0 +1,61 @@
+name: Publish to Buffer
+
+on:
+  push:
+    branches: [main]
+    paths: ["approved/*.json"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Approved date to publish, e.g. 2026-11-08"
+        required: true
+
+concurrency:
+  group: fabrika
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Find approved files
+        id: files
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "list=approved/${{ github.event.inputs.date }}.json" >> "$GITHUB_OUTPUT"
+          else
+            echo "list=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} -- 'approved/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send to Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          status=0
+          for f in ${{ steps.files.outputs.list }}; do
+            echo "== $f"
+            python fabrika/publish.py "$f" || status=1
+          done
+          echo "status=$status" >> "$GITHUB_ENV"
+
+      - name: Commit publish log
+        if: always()
+        run: |
+          git config user.name "fabrika-bot"
+          git config user.email "fabrika-bot@users.noreply.github.com"
+          git add published
+          git diff --cached --quiet || { git commit -m "Publish log"; git pull --rebase; git push; }
+          exit ${status:-0}
