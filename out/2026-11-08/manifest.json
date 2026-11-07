@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-08",
+  "rendered_at": 1794092883,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "3556090",
+        "page": "https://pixabay.com/photos/man-outdoors-monochrome-sunlight-3556090/",
+        "query": "man walking alone city night"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p2/01.jpg",
+        "out/2026-11-08/p2/02.jpg",
+        "out/2026-11-08/p2/03.jpg",
+        "out/2026-11-08/p2/04.jpg",
+        "out/2026-11-08/p2/05.jpg",
+        "out/2026-11-08/p2/06.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7300881",
+        "page": "https://pixabay.com/photos/vintage-car-classic-car-car-vehicle-7300881/",
+        "query": "vintage car factory assembly line"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p3/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "6708897",
+        "page": "https://pixabay.com/photos/cultural-relics-museum-statue-6708897/",
+        "query": "ancient statue dark"
+      }
+    }
+  ]
+}
