@@ -7,12 +7,22 @@ This file is the brief every daily run follows. Change it to change what the pag
 - Voice: direct, warm, grounded. Like a smart older friend, not a guru. Short sentences.
 - Standard Albanian (gjuha standarde) with correct ë and ç everywhere. No English words where an Albanian one exists.
 
-## Daily mix (3 posts)
+## Daily mix (5 posts)
 | Slot (Tirana time) | Style | What |
 |---|---|---|
-| ~10:40 | `statement` or `tweet` | One sharp idea on discipline or mindset |
-| ~15:20 | `story` (carousel, 4–6 slides) | A success story or a practical lesson (side hustle, money habit, book idea) |
-| ~20:10 | `quote` or `tweet` | A verified quote, or a reflective thought |
+| 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
+| 12:00 | `story` (carousel, 5–7 slides) | Practical value: a side hustle that works from Albania, a money habit, a skill to learn |
+| 15:00 | `quote` | A verified quote from a thinker, with the source named |
+| 18:00 | `story` (carousel, 5–7 slides) | A success story: how a real person built something, told as a mini-story |
+| 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend |
+
+## Writing for reach (views, saves, sends)
+- **Carousels are the engine.** They get saved and re-shown in feed. Each slide must make the reader want the next one: open a loop on the cover, pay it off at the end.
+- **Cover hook = the whole game.** Specific beats vague: "Në 1914, Ford dyfishoi pagat" beats "Një histori frymëzuese". Use numbers, names, contrast, a surprising claim that's true.
+- **Write to be sent.** The strongest signal for reaching non-followers is people sending a post in DMs. Ask: would someone send this to a friend with "kjo je ti" or "lexoje këtë"?
+- **One idea per post.** If it needs two ideas, it's two posts.
+- **The photo must say the same thing as the text.** A post about a factory shows a factory; a post about loneliness shows someone alone. If the photo could belong to any post, it's the wrong photo.
+- **Albanian context wins.** Albanian names, places, prices in lek, realities of working from Albania. Global stories are fine, local relevance is the edge.
 
 Rotate topics across the week: discipline, habits, money mindset, side hustles that work from Albania, stories of people who built something, Stoic ideas, book lessons. Check `data/topics_log.txt` and don't repeat a topic or quote used in the last 60 days.
 
@@ -45,6 +55,9 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 }
 ```
 `tweet` posts use `"slides": [{"text": "..."}]`.
+
+## Buffer free plan
+Max 10 scheduled posts per channel at a time. Schedule only the current day (5 posts), never days ahead.
 
 ## Quality gate (every run)
 1. `python fabrika/spellcheck.py queue/<date>.json` must pass. Add real proper names to `fabrika/dict/allowlist.txt`, never a misspelling.

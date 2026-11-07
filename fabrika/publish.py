@@ -65,6 +65,7 @@ def main(path):
     print(f"Instagram channel: {channel_name}")
     now = datetime.now(timezone.utc)
     failed = False
+    late = 0
     for pid in ap["approve"]:
         if published.get(pid, {}).get("buffer_id"):
             print(pid, "already published, skipping")
@@ -92,7 +93,10 @@ def main(path):
             inp["mode"] = "customScheduled"
             inp["dueAt"] = due.strftime("%Y-%m-%dT%H:%M:%S.000Z")
         else:
-            inp["mode"] = "addToQueue"
+            # Its slot already passed (late run): post soon, spaced 20 min apart.
+            late += 1
+            inp["mode"] = "customScheduled"
+            inp["dueAt"] = (now + timedelta(minutes=5 + 20 * (late - 1))).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         try:
             res = gql(CREATE, {"input": inp})["createPost"]
         except RuntimeError as e:
