@@ -78,6 +78,20 @@ def pixabay_video(query, used):
     return data.content, str(h["id"]), h.get("pageURL", "")
 
 
+def pixabay_video_by_id(vid):
+    import requests
+    r = requests.get("https://pixabay.com/api/videos/", timeout=30,
+                     params=dict(key=os.environ["PIXABAY_API_KEY"], id=vid))
+    r.raise_for_status()
+    h = r.json()["hits"][0]
+    vs = h["videos"]
+    v = next((vs[n] for n in ("large", "medium") if (vs.get(n) or {}).get("url")
+              and vs[n].get("height", 0) >= 1080 and vs[n].get("size", 0) < 120_000_000), vs["medium"])
+    data = requests.get(v["url"], timeout=180)
+    data.raise_for_status()
+    return data.content, str(h["id"]), h.get("pageURL", "")
+
+
 def placeholder_video(path, seconds):
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"gradients=s=1080x1920:d={seconds}:speed=0.02:c0=0x1a1a2e:c1=0x3a2f1f",
          "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(path)])
@@ -210,7 +224,10 @@ def render_reel(post, pdir, used, offline=False):
     if offline:
         placeholder_video(src, total)
     else:
-        data, vid, page = pixabay_video(post["video_query"], used)
+        if post.get("video_id"):  # locked: a reviewer kept this footage
+            data, vid, page = pixabay_video_by_id(post["video_id"])
+        else:
+            data, vid, page = pixabay_video(post["video_query"], used)
         src.write_bytes(data)
         used.add("v" + vid)
         info["video"] = {"pixabay_id": vid, "page": page, "query": post["video_query"]}
@@ -259,7 +276,8 @@ def render_reel(post, pdir, used, offline=False):
     last = "v0"
     for i in range(len(beats)):
         s, e = starts[i], ends[i] if i < len(beats) - 1 else total
-        chain.append(f"[{i + 2}:v]format=rgba,fade=t=in:st={s:.2f}:d=0.25:alpha=1[o{i}]")
+        fade = "" if i == 0 else f",fade=t=in:st={s:.2f}:d=0.25:alpha=1"  # hook visible from frame 1
+        chain.append(f"[{i + 2}:v]format=rgba{fade}[o{i}]")
         chain.append(f"[{last}][o{i}]overlay=0:0:enable='between(t,{s:.2f},{e:.2f})'[v{i + 1}]")
         last = f"v{i + 1}"
     part = pdir / "reel.part.mp4"
