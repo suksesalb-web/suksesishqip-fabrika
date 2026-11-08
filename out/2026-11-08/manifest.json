@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "rendered_at": 1794119267,
+  "rendered_at": 1794140036,
   "posts": [
     {
       "id": "p1",
@@ -28,9 +28,9 @@
         "out/2026-11-08/p2/08.jpg"
       ],
       "photo": {
-        "pixabay_id": "8057248",
-        "page": "https://pixabay.com/photos/smartphone-screen-room-wall-sunset-8057248/",
-        "query": "smartphone on tripod filming"
+        "pixabay_id": "7862413",
+        "page": "https://pixabay.com/photos/woman-shopping-market-lifestyle-7862413/",
+        "query": "woman filming food with smartphone restaurant"
       }
     },
     {
@@ -71,9 +71,9 @@
         "out/2026-11-08/p5/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "6942931",
-        "page": "https://pixabay.com/photos/candle-book-read-study-fiction-6942931/",
-        "query": "cozy kitchen table at home warm light"
+        "pixabay_id": "7736494",
+        "page": "https://pixabay.com/photos/dinner-food-date-couple-love-7736494/",
+        "query": "family dinner table home evening"
       }
     }
   ]
