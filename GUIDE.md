@@ -46,6 +46,13 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - We stay ourselves: practical business, AI and side hustles from Albania, honest and specific. No "millionaire lifestyle" tone, no reposted viral videos, no political figures.
 - If today's file is missing, use the most recent one, or carry on without it.
 
+## Quote bank
+`data/quote_bank.json` holds quotes believed to be genuinely in the named book, with their Goodreads likes (popularity), topic tags, and a `banned` list of famous fake quotes. For quote posts:
+- Prefer a quote from the bank whose tags match today's trend themes; among those, prefer higher `likes` and quotes not used in the last 60 days. After posting, set its `"used": "DATE"`.
+- `"paraphrase": true` quotes are popular wordings of a translation: present them as "sipas Mark Aurelit" with the book name, not as an exact quotation.
+- A new quote can be added to the bank only if you can name the book (and ideally the chapter/letter) it comes from; never use anything on the banned list.
+- Instagram signal so far: short, sharp business lines (≤ 15 words) beat long quotes. Prefer short quotes, or cut to the strongest sentence.
+
 ## Book posts ("mësime nga libri")
 - Format: `story` carousel. Cover: kicker "Mësime nga librat", title "N mësime nga \"<Book>\" …", subtitle with author and year. Then 4–6 lessons, one per slide, then the automatic save/follow slide.
 - Books that fit the page: Rich Dad Poor Dad, The 48 Laws of Power (also as a weekly series "Ligji 1, 2, 3…"), Atomic Habits, The Psychology of Money, Think and Grow Rich, The Richest Man in Babylon, Can't Hurt Me, Meditations, The Almanack of Naval Ravikant, Deep Work.
