@@ -150,7 +150,7 @@ def avatar():
 # ---------- styles ----------
 
 def s_tweet(photo, s):
-    img = gradient(darken(fill(photo), 0.35), 250, 0.9)
+    img = gradient(darken(fill(photo), 0.5), 200, 0.95)
     d = ImageDraw.Draw(img)
     f, lines, step, h = fit(d, s["text"], "i400", 64, 40, W - 2 * PAD, 640, 1.35)
     top = H - 190 - h - 150
@@ -207,7 +207,7 @@ def s_quote(photo, s):
 
 
 def s_cover(photo, s):
-    img = gradient(darken(fill(photo), 0.2), 380, 0.95)
+    img = gradient(darken(fill(photo), 0.42), 240, 0.97)
     d = ImageDraw.Draw(img)
     f, lines, step, h = fit(d, s["title"], "s700", 100, 60, W - 2 * PAD, 470, 1.12)
     sub_lines, sstep, sh = [], 0, 0
@@ -226,7 +226,7 @@ def s_cover(photo, s):
 
 def s_slide(photo, s, num, page):
     img = Image.new("RGB", (W, H), (14, 13, 12))
-    strip = darken(ImageOps.fit(photo, (W, 300), centering=(0.5, 0.4)), 0.55)
+    strip = darken(ImageOps.fit(photo, (W, 300), centering=(0.5, 0.4)).filter(ImageFilter.GaussianBlur(6)), 0.6)
     img.paste(strip, (0, 0))
     d = ImageDraw.Draw(img)
     d.rectangle([0, 300, W, 304], fill=GOLD)
