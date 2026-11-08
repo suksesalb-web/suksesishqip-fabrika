@@ -1,0 +1,19 @@
+# Instagram pages the daily report watches (one username per line, without @).
+# Must be Business or Creator accounts. Accounts that fail show an error in the report.
+# Add Albanian pages in this niche here.
+
+# business, side hustles, AI
+hormozi
+codie_sanchez
+sahilbloom
+noahkagan
+foundr
+entrepreneur
+garyvee
+thefutur
+
+# discipline, habits, mindset
+jamesclear
+dailystoic
+ryanholiday
+thegoodquote
