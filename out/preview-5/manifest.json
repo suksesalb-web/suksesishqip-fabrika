@@ -1,0 +1,32 @@
+{
+  "date": "preview-5",
+  "rendered_at": 1794163993,
+  "posts": [
+    {
+      "id": "r1",
+      "status": "rendered",
+      "files": [
+        "out/preview-5/r1/reel.mp4",
+        "out/preview-5/r1/frame-01.jpg",
+        "out/preview-5/r1/frame-02.jpg",
+        "out/preview-5/r1/frame-03.jpg",
+        "out/preview-5/r1/frame-04.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "23232",
+        "page": "https://pixabay.com/videos/id-23232/",
+        "query": "sports car driving city night"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "23232",
+          "page": "https://pixabay.com/videos/id-23232/",
+          "query": "sports car driving city night"
+        },
+        "music": "cinematic-1.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "duration": 22.23
+      }
+    }
+  ]
+}
