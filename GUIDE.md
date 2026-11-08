@@ -14,7 +14,7 @@ This file is the brief every daily run follows. Change it to change what the pag
 | 12:00 | `reel` (12–25 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania |
 | 15:00 | `quote` | A verified quote from a thinker, with the source named |
 | 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story) |
-| 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend |
+| 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work well here, a few times a week |
 
 ## Main focus
 The page's core is **interesting side hustles, making money with AI, and how to start a business**. Discipline and mindset support it. Never post religious, gaming, K-pop, sport-gossip or political content.
@@ -42,6 +42,8 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - **Never copy** titles, scripts or wording, and never present someone else's video as ours.
 - Ignore entries that are off-niche, clickbait without substance, religious or political, or unsuitable for the page.
 - `data/instagram/<today>.json` (same action) shows what is working on Instagram itself: `outliers` = posts from watched niche pages (data/instagram_watchlist.txt) in the last 7 days that did far better than that page's usual; `formats` = how Reels, carousels and images perform; `hashtags_on_outliers`; and `own_posts` = reach, saves, shares and views of our own recent posts. Use the outliers for themes and hooks, and our own numbers to do more of what works for us (and less of what doesn't).
+- **Albanian pages in the watchlist** (e.g. millionaire_albania) show what works with our own audience. When one of their posts is an outlier, weigh it above the foreign pages. Take the theme or the emotion, never their format, look or wording.
+- We stay ourselves: practical business, AI and side hustles from Albania, honest and specific. No "millionaire lifestyle" tone, no reposted viral videos, no political figures.
 - If today's file is missing, use the most recent one, or carry on without it.
 
 ## Hard rules
