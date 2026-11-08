@@ -30,6 +30,16 @@ def font(name, size):
 
 # ---------- photos ----------
 
+def pixabay_by_id(pid):
+    import requests
+    r = requests.get("https://pixabay.com/api/", params=dict(key=os.environ["PIXABAY_API_KEY"], id=pid), timeout=30)
+    r.raise_for_status()
+    h = r.json()["hits"][0]
+    img = requests.get(h["largeImageURL"], timeout=60)
+    img.raise_for_status()
+    return Image.open(io.BytesIO(img.content)).convert("RGB"), str(h["id"]), h.get("pageURL", "")
+
+
 def pixabay_photo(query, used):
     import requests
     key = os.environ["PIXABAY_API_KEY"]
@@ -46,7 +56,7 @@ def pixabay_photo(query, used):
         hits = [h for h in r.json().get("hits", []) if str(h["id"]) not in used]
     if not hits:
         raise RuntimeError(f"no unused Pixabay photo for '{query}'")
-    h = random.choice(hits[:12])
+    h = random.choice(hits[:6])
     img = requests.get(h["largeImageURL"], timeout=60)
     img.raise_for_status()
     return Image.open(io.BytesIO(img.content)).convert("RGB"), str(h["id"]), h.get("pageURL", "")
@@ -284,6 +294,8 @@ def main(path, offline=False):
         try:
             if offline:
                 photo, pid, page = placeholder_photo(p["id"]), None, ""
+            elif p.get("photo_id"):  # locked photo: a reviewer kept it
+                photo, pid, page = pixabay_by_id(p["photo_id"])
             else:
                 photo, pid, page = pixabay_photo(p["photo_query"], used)
                 used.add(pid)

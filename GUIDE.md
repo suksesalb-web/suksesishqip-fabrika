@@ -62,4 +62,5 @@ Max 10 scheduled posts per channel at a time. Schedule only the current day (5 p
 ## Quality gate (every run)
 1. `python fabrika/spellcheck.py queue/<date>.json` must pass. Add real proper names to `fabrika/dict/allowlist.txt`, never a misspelling.
 2. After the Render action, open every image in `out/<date>/`: text readable, nothing cut off, photo fits the message, no awkward or inappropriate photo.
-3. Approve only posts that pass: write `approved/<date>.json` with `{"date": "...", "approve": ["p1", ...]}`. A failed post can be fixed (edit the queue, re-render) or dropped.
+3. When re-rendering, **lock every photo that passed** by adding `"photo_id": "<pixabay_id from manifest>"` to that post, and only change `photo_query` on the posts that failed. Otherwise every photo gets re-picked.
+4. Approve only posts that pass: write `approved/<date>.json` with `{"date": "...", "approve": ["p1", ...]}`. A failed post can be fixed (edit the queue, re-render) or dropped.
