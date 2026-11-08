@@ -29,7 +29,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install pillow requests spylls
+      - run: sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: pip install pillow requests spylls edge-tts
 
       - name: Find queue files to render
         id: files

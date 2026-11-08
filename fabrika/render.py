@@ -291,6 +291,23 @@ def main(path, offline=False):
     manifest = {"date": date, "rendered_at": int(time.time()), "posts": []}
     for p in q["posts"]:
         entry = {"id": p["id"], "status": "rendered", "files": [], "photo": None}
+        if p.get("style") == "reel":
+            try:
+                from reel import render_reel
+                pdir = outdir / p["id"]
+                pdir.mkdir(exist_ok=True)
+                for old in list(pdir.glob("*.jpg")) + list(pdir.glob("*.mp4")):
+                    old.unlink()
+                files, info = render_reel(p, pdir, used, offline)
+                entry["files"] = [str(f.relative_to(ROOT)) for f in files]
+                entry["reel"] = info
+                entry["photo"] = info.get("video")
+            except Exception as e:
+                entry["status"] = "failed"
+                entry["error"] = f"{type(e).__name__}: {e}"
+            manifest["posts"].append(entry)
+            print(p["id"], entry["status"], entry.get("error", ""))
+            continue
         try:
             if offline:
                 photo, pid, page = placeholder_photo(p["id"]), None, ""

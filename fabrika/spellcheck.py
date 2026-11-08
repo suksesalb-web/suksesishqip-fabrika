@@ -31,7 +31,7 @@ def load_allow():
 
 def texts_of(post):
     out = [post.get("caption", "")]
-    for s in post.get("slides", []):
+    for s in post.get("slides", []) + post.get("beats", []):
         out += [str(v) for k, v in s.items() if isinstance(v, str)]
     return out
 

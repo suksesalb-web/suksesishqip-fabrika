@@ -1,0 +1,20 @@
+{
+  "date": "preview-4",
+  "posts": [
+    {
+      "id": "r1",
+      "style": "reel",
+      "time": "18:00",
+      "video_query": "man walking alone city street night",
+      "voice": "sq-AL-AnilaNeural",
+      "music": "none",
+      "beats": [
+        {"text": "\"Çfarë do thonë njerëzit?\""},
+        {"text": "Kjo fjali ka ndalur më shumë biznese shqiptare se mungesa e parave."},
+        {"text": "E vërteta? Njerëzit mendojnë për ty shumë më pak nga sa kujton."},
+        {"text": "Pas 5 vjetësh, askush s'e mban mend që dështove.", "highlight": "Por ti do ta mbash mend që nuk provove."}
+      ],
+      "caption": "Sa ëndrra kanë mbetur në sirtar vetëm nga frika e kësaj fjalie?\n\nNjerëzit do flasin gjithsesi. Pyetja është nëse do flasin për dikë që provoi.\n\nDërgoja dikujt që ka nevojë ta dëgjojë sot.\n\n#suksesishqip #mendësi #guxim #biznes"
+    }
+  ]
+}
