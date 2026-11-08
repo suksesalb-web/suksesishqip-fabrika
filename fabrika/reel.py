@@ -265,10 +265,11 @@ def render_reel(post, pdir, used, offline=False):
         vol = "0.22" if real else "0.7"
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
              f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
-             f"[0:a][m]amix=inputs=2:normalize=0:duration=first[out]",
+             f"[0:a][m]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
              "-map", "[out]", "-t", str(total), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
     else:
-        run(["ffmpeg", "-y", "-i", str(voice_wav), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
+        run(["ffmpeg", "-y", "-i", str(voice_wav), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+             "-c:a", "aac", "-b:a", "160k", str(final_audio)])
 
     # 6. video: base + constant layer + beat layers (each fades in), then audio
     inputs = ["-stream_loop", "-1", "-i", str(src), "-loop", "1", "-i", str(tmp / "frame.png")]
