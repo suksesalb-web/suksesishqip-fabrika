@@ -188,9 +188,13 @@ def pick_music(choice):
     tracks = sorted(p for p in MUSIC.iterdir() if p.suffix.lower() in (".mp3", ".m4a", ".wav"))
     if not tracks:
         return None
+    if choice and choice.startswith("mood:"):  # e.g. "mood:piano"
+        mood = choice[5:]
+        same = [t for t in tracks if t.name.startswith(mood + "-")]
+        return random.choice(same or tracks)
     if choice and choice != "auto":
         p = MUSIC / choice
-        return p if p.exists() else None
+        return p if p.exists() else random.choice(tracks)
     return random.choice(tracks)
 
 
@@ -258,7 +262,7 @@ def render_reel(post, pdir, used, offline=False):
     final_audio = tmp / "audio.m4a"
     if track:
         info["music"] = track.name
-        vol = "0.16" if real else "0.6"
+        vol = "0.22" if real else "0.7"
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
              f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
              f"[0:a][m]amix=inputs=2:normalize=0:duration=first[out]",

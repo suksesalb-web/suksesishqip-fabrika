@@ -1,0 +1,79 @@
+[
+  {
+    "file": "piano-1.mp3",
+    "mood": "piano",
+    "source": "Pixabay Music",
+    "original": "atlasaudio-emotional-piano-621564.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "dark-1.mp3",
+    "mood": "dark",
+    "source": "Pixabay Music",
+    "original": "cinematic-soul-dark-ambient-background-music-617907.mp3",
+    "seconds": 61.3
+  },
+  {
+    "file": "uplifting-1.mp3",
+    "mood": "uplifting",
+    "source": "Pixabay Music",
+    "original": "jonasblakewood-inspiring-corporate-inspiring-corporate-music-562848.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "piano-2.mp3",
+    "mood": "piano",
+    "source": "Pixabay Music",
+    "original": "leberch-besides-the-motion-emotional-piano-615166.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "dark-2.mp3",
+    "mood": "dark",
+    "source": "Pixabay Music",
+    "original": "mondamusic-dark-ambient-589187.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "cinematic-1.mp3",
+    "mood": "cinematic",
+    "source": "Pixabay Music",
+    "original": "music_for_creators-cinematic-motivational-136831.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "cinematic-2.mp3",
+    "mood": "cinematic",
+    "source": "Pixabay Music",
+    "original": "nastelbom-cinematic-cinematic-music-623748.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "uplifting-2.mp3",
+    "mood": "uplifting",
+    "source": "Pixabay Music",
+    "original": "nastelbom-inspiring-inspiring-music-623759.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "lofi-1.mp3",
+    "mood": "lofi",
+    "source": "Pixabay Music",
+    "original": "ornave-lofi-night-haze-553402.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "lofi-2.mp3",
+    "mood": "lofi",
+    "source": "Pixabay Music",
+    "original": "velariomusic-chill-lofi-616929.mp3",
+    "seconds": 75.0
+  },
+  {
+    "file": "lofi-3.mp3",
+    "mood": "lofi",
+    "source": "Pixabay Music",
+    "original": "zephiramusic-chill-lofi-585360.mp3",
+    "seconds": 75.0
+  }
+]
