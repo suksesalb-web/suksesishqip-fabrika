@@ -76,8 +76,8 @@ def main(path):
             print(pid, "not rendered, skipping")
             continue
         is_reel = post.get("style") == "reel"
-        # Instagram gets everything; TikTok gets the Reels.
-        targets = ["instagram"] + (["tiktok"] if is_reel and "tiktok" in chans else [])
+        # Every post goes to Instagram and TikTok (Reels as video, image posts as TikTok photo carousels).
+        targets = ["instagram"] + (["tiktok"] if "tiktok" in chans else [])
         rec = published.get(pid, {})
         urls = [f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{f}" for f in m["files"]]
         if is_reel:
