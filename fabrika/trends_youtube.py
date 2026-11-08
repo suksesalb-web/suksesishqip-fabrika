@@ -21,6 +21,28 @@ SEARCHES = [
 ]
 
 
+NOISE = ("roblox", "minecraft", "fortnite", "gameplay", "gaming", "prank", "krishna",
+         "bhakti", "comedy", "funny", "asmr", "anime")
+
+
+def is_latin(text):
+    letters = [c for c in text if c.isalpha()]
+    return bool(letters) and sum(c.isascii() for c in letters) / len(letters) > 0.9
+
+
+def keep(v):
+    title = v["title"]
+    words = [w for w in title.split() if not w.startswith("#")]
+    if len(words) < 3:            # titles that are only hashtags say nothing
+        return False
+    if not is_latin(title):
+        return False
+    if any(n in title.lower() for n in NOISE):
+        return False
+    lang = (v.get("lang") or "").lower()
+    return lang == "" or lang.startswith("en")
+
+
 def get(path, **params):
     r = requests.get(f"{API}/{path}", params={**params, "key": KEY}, timeout=30)
     r.raise_for_status()
@@ -34,7 +56,7 @@ def main():
     for q in SEARCHES:
         res = get("search", part="snippet", q=q, type="video", order="viewCount",
                   publishedAfter=since, videoDuration="short", maxResults=25,
-                  relevanceLanguage="en", safeSearch="strict")
+                  relevanceLanguage="en", regionCode="US", safeSearch="strict")
         for it in res.get("items", []):
             vid = it["id"]["videoId"]
             found.setdefault(vid, {"query": q, "title": it["snippet"]["title"],
@@ -42,16 +64,19 @@ def main():
                                    "published": it["snippet"]["publishedAt"]})
     ids = list(found)
     for i in range(0, len(ids), 50):
-        res = get("videos", part="statistics", id=",".join(ids[i:i + 50]))
+        res = get("videos", part="snippet,statistics", id=",".join(ids[i:i + 50]))
         for it in res.get("items", []):
             st = it.get("statistics", {})
             v = found[it["id"]]
+            sn = it.get("snippet", {})
+            v["title"] = sn.get("title", v["title"])
+            v["lang"] = sn.get("defaultAudioLanguage") or sn.get("defaultLanguage")
             v["views"] = int(st.get("viewCount", 0))
             v["likes"] = int(st.get("likeCount", 0)) if "likeCount" in st else None
             v["comments"] = int(st.get("commentCount", 0)) if "commentCount" in st else None
     rows = []
     for vid, v in found.items():
-        if "views" not in v:
+        if "views" not in v or not keep(v):
             continue
         pub = datetime.fromisoformat(v["published"].replace("Z", "+00:00"))
         hours = max(1.0, (now - pub).total_seconds() / 3600)
