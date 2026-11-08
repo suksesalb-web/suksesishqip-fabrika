@@ -1,0 +1,24 @@
+{
+  "date": "preview-6",
+  "rendered_at": 1794180776,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/preview-6/p1/01.jpg",
+        "out/preview-6/p1/02.jpg",
+        "out/preview-6/p1/03.jpg",
+        "out/preview-6/p1/04.jpg",
+        "out/preview-6/p1/05.jpg",
+        "out/preview-6/p1/06.jpg",
+        "out/preview-6/p1/07.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "8934573",
+        "page": "https://pixabay.com/photos/books-library-story-literature-8934573/",
+        "query": "man reading book at night lamp"
+      }
+    }
+  ]
+}
