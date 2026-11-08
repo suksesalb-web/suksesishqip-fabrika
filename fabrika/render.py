@@ -294,6 +294,9 @@ def main(path, offline=False):
         try:
             if offline:
                 photo, pid, page = placeholder_photo(p["id"]), None, ""
+            elif p.get("photo_query") == "none":  # fallback: plain dark background
+                photo = Image.new("RGB", (W, H), (20, 18, 16))
+                pid, page = None, ""
             elif p.get("photo_id"):  # locked photo: a reviewer kept it
                 photo, pid, page = pixabay_by_id(p["photo_id"])
             else:
