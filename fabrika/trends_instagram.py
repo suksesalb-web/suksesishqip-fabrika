@@ -118,7 +118,13 @@ def main():
             print(f"skip {u}: {e}", file=sys.stderr)
 
     recent = [p for p in posts if p["age_days"] <= 7]
-    outliers = sorted([p for p in recent if p["score"] >= 1.5], key=lambda p: p["score"], reverse=True)[:40]
+    ranked = sorted([p for p in recent if p["score"] >= 1.5], key=lambda p: p["score"], reverse=True)
+    per_acc, outliers = {}, []
+    for p in ranked:  # max 4 per account, so one big page can't fill the list
+        if per_acc.get(p["account"], 0) < 4:
+            per_acc[p["account"]] = per_acc.get(p["account"], 0) + 1
+            outliers.append(p)
+    outliers = outliers[:40]
 
     formats = {}
     for p in posts:

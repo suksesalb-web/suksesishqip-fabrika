@@ -41,6 +41,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - Look for the idea behind a hit ("looking rich makes you look poor", "discipline vs motivation"), then write our own post about it, in Albanian, with Albanian context.
 - **Never copy** titles, scripts or wording, and never present someone else's video as ours.
 - Ignore entries that are off-niche, clickbait without substance, religious or political, or unsuitable for the page.
+- `data/instagram/<today>.json` (same action) shows what is working on Instagram itself: `outliers` = posts from watched niche pages (data/instagram_watchlist.txt) in the last 7 days that did far better than that page's usual; `formats` = how Reels, carousels and images perform; `hashtags_on_outliers`; and `own_posts` = reach, saves, shares and views of our own recent posts. Use the outliers for themes and hooks, and our own numbers to do more of what works for us (and less of what doesn't).
 - If today's file is missing, use the most recent one, or carry on without it.
 
 ## Hard rules
