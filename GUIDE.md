@@ -11,9 +11,9 @@ This file is the brief every daily run follows. Change it to change what the pag
 | Slot (Tirana time) | Style | What |
 |---|---|---|
 | 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
-| 12:00 | `story` (carousel, 5–7 slides) | **AI or side hustle:** something a person can actually do with AI tools or a skill, from Albania, step by step |
+| 12:00 | `reel` (12–25 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania |
 | 15:00 | `quote` | A verified quote from a thinker, with the source named |
-| 18:00 | `story` (carousel, 5–7 slides) | **Business:** how to start or grow a small business, or how a real person built one (mini-story) |
+| 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend |
 
 ## Main focus
@@ -73,6 +73,21 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 }
 ```
 `tweet` posts use `"slides": [{"text": "..."}]`.
+
+## Reels (`"style": "reel"`)
+```json
+{"id": "p2", "style": "reel", "time": "12:00",
+ "video_query": "man driving car at night city lights",
+ "voice": "sq-AL-AnilaNeural", "music": "mood:cinematic",
+ "beats": [{"text": "HOOK"}, {"text": "..."}, {"text": "...", "highlight": "PAYOFF"}],
+ "caption": "..."}
+```
+- **3–5 beats.** Beat 1 is the hook: max ~12 words, a surprising, specific claim that makes someone think of a person they know. Other beats: max ~18 words. The last beat lands the payoff in `highlight` (gold), max ~6 words.
+- The voice (Anila) reads every beat while it's on screen; the Reel's length follows the voice (aim 12–25 s). Write beats to be **heard** as well as read: natural spoken Albanian, no lists of symbols, numbers written so they read well aloud.
+- `video_query`: concrete, literal, moving footage (a person doing the thing, the place). No visible brand names or logos, no close-up faces. If no footage fits after 3 searches, `"video_query": "none"` gives a dark moving background: never drop a Reel over footage. Lock footage that passed with `"video_id"`.
+- `music`: `mood:cinematic`, `mood:piano` (emotional), `mood:dark` (stoic, serious), `mood:lofi` (tips, business how-to), `mood:uplifting` (success stories). Tracks live in `fabrika/music/` (see tracks.json).
+- Review a Reel by opening its `frame-01.jpg … frame-NN.jpg` (one per beat): text readable and not cut off, footage fits, no logos. The video itself is `reel.mp4`.
+- Caption: same rules as posts, and always a send/comment prompt.
 
 ## Buffer free plan
 Max 10 scheduled posts per channel at a time. Schedule only the current day (5 posts), never days ahead.
