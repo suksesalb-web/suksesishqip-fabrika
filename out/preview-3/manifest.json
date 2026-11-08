@@ -1,0 +1,23 @@
+{
+  "date": "preview-3",
+  "rendered_at": 1794102904,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/preview-3/p1/01.jpg",
+        "out/preview-3/p1/02.jpg",
+        "out/preview-3/p1/03.jpg",
+        "out/preview-3/p1/04.jpg",
+        "out/preview-3/p1/05.jpg",
+        "out/preview-3/p1/06.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "6708761",
+        "page": "https://pixabay.com/photos/castle-man-tourist-street-6708761/",
+        "query": "man walking opposite direction crowd street"
+      }
+    }
+  ]
+}
