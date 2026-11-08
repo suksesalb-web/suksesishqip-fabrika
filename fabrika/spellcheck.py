@@ -10,7 +10,7 @@ from pathlib import Path
 from spylls.hunspell import Dictionary
 
 HERE = Path(__file__).parent
-WORD = re.compile(r"[A-Za-zËëÇç]+(?:'[A-Za-zËëÇç]+)?")
+WORD = re.compile(r"[A-Za-zËëÇç]+(?:[-'][A-Za-zËëÇç]+)?")
 
 # Words that exist in the dictionary but are almost always a missing-ë typo
 # in this page's writing. "te"/"ne"/"se" etc. are real words, so the
@@ -39,7 +39,9 @@ def texts_of(post):
 def check_text(d, allow, text):
     bad = []
     for w in WORD.findall(text):
-        if w in allow or w.isdigit():
+        if "-" in w:  # "Potter-it": check the name, the case ending is fine
+            w = w.split("-")[0]
+        if w in allow or w.lower() in allow or w.isdigit():
             continue
         if w.lower() in SUSPICIOUS:
             bad.append(f"{w} (→ {SUSPICIOUS[w.lower()]}?)")

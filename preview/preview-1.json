@@ -1,0 +1,112 @@
+{
+  "date": "preview-1",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "statement",
+      "time": "09:00",
+      "photo_query": "running shoes ready on floor morning",
+      "slides": [
+        {
+          "text": "Nuk ke nevojë për më shumë motivim.",
+          "highlight": "Ke nevojë për më pak justifikime."
+        }
+      ],
+      "caption": "Motivimi vjen e shkon. Justifikimet janë gjithmonë aty.\n\nTelefoni në dhomën tjetër. Rrobat e palestrës gati që mbrëmë. Libri mbi jastëk.\n\nMos prit të ndihesh gati. Hiqi rrugët e ikjes.\n\n#suksesishqip #disiplinë #zakone #motivim"
+    },
+    {
+      "id": "p2",
+      "style": "story",
+      "time": "12:00",
+      "photo_query": "smartphone photographing coffee shop",
+      "slides": [
+        {
+          "kicker": "Biznes anësor",
+          "title": "5 aftësi që bizneset e vogla në Shqipëri po kërkojnë.",
+          "subtitle": "Asnjëra s'kërkon diplomë. Të gjitha kërkojnë praktikë."
+        },
+        {
+          "title": "Postime për rrjetet",
+          "body": "Shumë dyqane e restorante postojnë rrallë ose keq. Nëse di të bësh foto të mira me telefon dhe të shkruash dy rreshta, ke një shërbim për të shitur."
+        },
+        {
+          "title": "Video të shkurtra",
+          "body": "Reels për një kafene apo palestër. Mjafton telefoni dhe një aplikacion falas si CapCut. Fillo duke bërë 3 video falas për një biznes që njeh."
+        },
+        {
+          "title": "Përkthime",
+          "body": "Firmat që punojnë me të huaj kanë nevojë për anglisht, italisht ose gjermanisht të saktë. Nëse e flet mirë një gjuhë, kjo aftësi paguhet."
+        },
+        {
+          "title": "Profili në Google",
+          "body": "Shumë biznese s'kanë as profil në Google Maps. Ta krijosh dhe ta mbash me foto, orar dhe përgjigje ndaj vlerësimeve është punë e thjeshtë që vlen."
+        },
+        {
+          "title": "Dizajn i thjeshtë",
+          "body": "Menu, fletëpalosje, afishe. Me Canva bën punë të pastër pa qenë profesionist. Bëj 5 shembuj dhe tregoji."
+        }
+      ],
+      "caption": "Nuk të duhet kapital për të filluar. Të duhet një aftësi që dikush tjetër s'ka kohë ta bëjë.\n\nCila nga këto 5 të përshtatet më shumë? Shkruaje në koment.\n\nRuaje dhe dërgoja një shoku që kërkon punë anësore.\n\n#suksesishqip #biznes #punë #shqipëri"
+    },
+    {
+      "id": "p3",
+      "style": "quote",
+      "time": "15:00",
+      "photo_query": "roman emperor marble statue",
+      "slides": [
+        {
+          "quote": "Hakmarrja më e mirë është të mos i ngjash atij që të bëri keq.",
+          "author": "Mark Aureli",
+          "source": "Meditime, libri VI"
+        }
+      ],
+      "caption": "Perandori më i fuqishëm i kohës së tij e shkroi këtë në ditarin e tij personal.\n\nKur dikush të lëndon, tundimi është t'i përgjigjesh njësoj. Forca e vërtetë është të mbetesh vetvetja.\n\nDërgoja dikujt që ka nevojë ta lexojë sot.\n\n#suksesishqip #stoicizëm #markaureli #mendësi"
+    },
+    {
+      "id": "p4",
+      "style": "story",
+      "time": "18:00",
+      "photo_query": "old typewriter paper manuscript",
+      "slides": [
+        {
+          "kicker": "Histori suksesi",
+          "title": "12 shtëpi botuese e refuzuan. E 13-ta ndryshoi gjithçka.",
+          "subtitle": "Historia e J.K. Rowling, para Harry Potter-it."
+        },
+        {
+          "title": "Fillimi",
+          "body": "Në vitet '90, Rowling ishte nënë e vetme në Edinburg, me shumë pak para. Shkruante nëpër kafene, ndërsa vajza i flinte në karrocë."
+        },
+        {
+          "title": "Refuzimet",
+          "body": "Dorëshkrimi i parë i Harry Potter-it u refuzua nga 12 shtëpi botuese. Ajo vazhdoi ta dërgonte."
+        },
+        {
+          "title": "Po-ja",
+          "body": "Në 1997, një shtëpi botuese në Londër, Bloomsbury, e botoi. Tirazhi i parë ishte vetëm 500 kopje."
+        },
+        {
+          "title": "Rezultati",
+          "body": "Sot seria Harry Potter është shitur në mbi 500 milionë kopje në mbarë botën."
+        },
+        {
+          "title": "Mësimi",
+          "body": "Një \"jo\" nuk është vlerësim për ty. Është thjesht një derë që s'ishte e jotja. Vazhdo të trokasësh."
+        }
+      ],
+      "caption": "12 herë \"jo\". Pastaj një \"po\" që ndryshoi letërsinë për fëmijë.\n\nSa herë je dorëzuar pas refuzimit të parë?\n\nDërgoja dikujt që sapo mori një \"jo\".\n\n#suksesishqip #motivim #histori #këmbëngulje"
+    },
+    {
+      "id": "p5",
+      "style": "tweet",
+      "time": "22:00",
+      "photo_query": "person sitting alone window night city",
+      "slides": [
+        {
+          "text": "Në 20 vjeç mendon se ke kohë për gjithçka.\n\nNë 30 kupton që koha nuk mungonte. Mungonte vendimi për të filluar."
+        }
+      ],
+      "caption": "Nëse je në të 20-at dhe po e lexon këtë: fillo sot. Jo të hënën.\n\nDërgoja dikujt që po e shtyn.\n\n#suksesishqip #mendësi #jeta #vendim"
+    }
+  ]
+}

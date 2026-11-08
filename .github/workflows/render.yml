@@ -3,7 +3,7 @@ name: Render posts
 on:
   push:
     branches: [main]
-    paths: ["queue/*.json"]
+    paths: ["queue/*.json", "preview/*.json"]
   workflow_dispatch:
     inputs:
       date:
@@ -35,11 +35,12 @@ jobs:
         id: files
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            echo "list=queue/${{ github.event.inputs.date }}.json" >> "$GITHUB_OUTPUT"
+            f=queue/${{ github.event.inputs.date }}.json; [ -f "$f" ] || f=preview/${{ github.event.inputs.date }}.json
+            echo "list=$f" >> "$GITHUB_OUTPUT"
           elif [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
             echo "list=$(ls queue/*.json | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
           else
-            echo "list=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} -- 'queue/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+            echo "list=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} -- 'queue/*.json' 'preview/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Spellcheck and render
