@@ -1,0 +1,40 @@
+name: Trend report
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 05:30 Tirana in winter, 06:30 in summer: always before the 07:23 content run
+  workflow_dispatch:
+
+concurrency:
+  group: fabrika
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  trends:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: YouTube trends
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python fabrika/trends_youtube.py
+
+      - name: Commit report
+        run: |
+          git config user.name "fabrika-bot"
+          git config user.email "fabrika-bot@users.noreply.github.com"
+          git add data/trends
+          git diff --cached --quiet && exit 0
+          git commit -m "Trend report"
+          git pull --rebase
+          git push
