@@ -23,5 +23,10 @@
     "buffer_id": "6af067f1229bf05dafade64d",
     "dueAt": "2026-11-08T21:00:00.000Z",
     "images": 1
+  },
+  "r1": {
+    "buffer_id": "6af0c6c0229bf05dafcc7d2c",
+    "dueAt": "2026-11-08T19:30:00.000Z",
+    "images": 1
   }
 }
