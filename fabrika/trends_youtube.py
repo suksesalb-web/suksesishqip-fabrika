@@ -34,6 +34,8 @@ NOISE = (
     "asmr", "anime",
     # get-rich-quick bait we don't want to look like
     "earning app", "loot offer", "free money", "giveaway",
+    # paid sponsorships, not organic trends
+    "partner", "#ad ", "sponsored", "comment \u201c", "comment \"",
 )
 
 
