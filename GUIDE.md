@@ -12,7 +12,7 @@ This file is the brief every daily run follows. Change it to change what the pag
 |---|---|---|
 | 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
 | 12:00 | `reel` (12–25 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania |
-| 15:00 | `quote` | A verified quote from a thinker, with the source named |
+| 15:00 | `quote` or `story` | Books & thinkers: a verified quote with the source named, or (2–3 times a week) a "mësime nga libri" carousel (see Book posts) |
 | 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work well here, a few times a week |
 
@@ -45,6 +45,14 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - **Albanian pages in the watchlist** (e.g. millionaire_albania) show what works with our own audience. When one of their posts is an outlier, weigh it above the foreign pages. Take the theme or the emotion, never their format, look or wording.
 - We stay ourselves: practical business, AI and side hustles from Albania, honest and specific. No "millionaire lifestyle" tone, no reposted viral videos, no political figures.
 - If today's file is missing, use the most recent one, or carry on without it.
+
+## Book posts ("mësime nga libri")
+- Format: `story` carousel. Cover: kicker "Mësime nga librat", title "N mësime nga \"<Book>\" …", subtitle with author and year. Then 4–6 lessons, one per slide, then the automatic save/follow slide.
+- Books that fit the page: Rich Dad Poor Dad, The 48 Laws of Power (also as a weekly series "Ligji 1, 2, 3…"), Atomic Habits, The Psychology of Money, Think and Grow Rich, The Richest Man in Babylon, Can't Hurt Me, Meditations, The Almanack of Naval Ravikant, Deep Work.
+- **Only ideas that are really in the book.** Write lessons in our own words, with Albanian examples (këste, qira, paga, dyqan). At most one short direct quote per post, clearly attributed. Never reproduce passages, chapter text or lists word for word.
+- If you're not sure an idea or quote is in the book, leave it out. Many popular "book quotes" online are fake.
+- Caption ends with the source line: 📖 "<Book>", <Author> (<year>). Mësimet janë përmbledhje me fjalët tona.
+- Track book posts in topics_log ("book: <title>") and don't repeat a book within 30 days (a numbered series counts as one book continuing).
 
 ## Hard rules
 - **No get-rich-quick claims.** No income promises, no "make €X from home", no specific investment advice, no crypto tips.

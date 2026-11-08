@@ -1,0 +1,40 @@
+{
+  "date": "preview-6",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "story",
+      "time": "15:00",
+      "photo_query": "man reading book at night lamp",
+      "book": "Rich Dad Poor Dad, Robert Kiyosaki (1997)",
+      "slides": [
+        {
+          "kicker": "Mësime nga librat",
+          "title": "5 mësime nga \"Rich Dad Poor Dad\" që shkolla nuk ta mëson.",
+          "subtitle": "Robert Kiyosaki, 1997. Një nga librat më të shitur për paratë."
+        },
+        {
+          "title": "\"S'e përballoj dot\"",
+          "body": "Babai i varfër thoshte \"s'e përballoj dot\" dhe biseda mbaronte aty. Babai i pasur pyeste \"si mund ta përballoj?\". Pyetja e dytë të detyron të mendosh."
+        },
+        {
+          "title": "Aktivi dhe pasivi",
+          "body": "Aktivi të fut para në xhep. Pasivi të nxjerr para nga xhepi. Makina me këste është pasiv, edhe kur e quan \"pasuria ime\". Një dyqan që e jep me qira, është aktiv."
+        },
+        {
+          "title": "Puno për të mësuar",
+          "body": "Në fillim, zgjidh punën nga ajo që të mëson, jo vetëm nga paga. Shitja, komunikimi dhe menaxhimi i parave të vlejnë gjithë jetën."
+        },
+        {
+          "title": "Merru me biznesin tënd",
+          "body": "Paga paguan qiranë. Por diçka anash, edhe e vogël, është e jotja. Çdo muaj, kthe një pjesë të pagës në diçka që sjell para."
+        },
+        {
+          "title": "Sa mban, jo sa fiton",
+          "body": "Kiyosaki e thotë qartë: nuk ka rëndësi sa para fiton, por sa para mban. Shumë njerëz me paga të larta mbeten pa asgjë në fund të muajit."
+        }
+      ],
+      "caption": "Shkolla të mëson të punosh për paratë. Ky libër të mëson t'i bësh paratë të punojnë për ty.\n\nCili nga këto 5 mësime të ka prekur më shumë? Shkruaje në koment.\n\nRuaje, dhe dërgoja shokut që thotë gjithmonë \"s'e përballoj dot\".\n\n📖 \"Rich Dad Poor Dad\", Robert Kiyosaki (1997). Mësimet janë përmbledhje me fjalët tona.\n\n#suksesishqip #librat #para #richdadpoordad"
+    }
+  ]
+}
