@@ -33,15 +33,18 @@ def gql(query, variables=None):
     return data["data"]
 
 
-def instagram_channel():
+def channels():
+    """All connected Buffer channels by service: {"instagram": (id, name), "tiktok": (id, name), ...}"""
+    out = {}
     orgs = gql("query { account { organizations { id name } } }")["account"]["organizations"]
     for org in orgs:
         chans = gql("query($o: OrganizationId!) { channels(input: {organizationId: $o}) { id name service } }",
                     {"o": org["id"]})["channels"]
         for c in chans:
-            if c["service"].lower() == "instagram":
-                return c["id"], c["name"]
-    raise RuntimeError("no Instagram channel connected in Buffer")
+            out.setdefault(c["service"].lower(), (c["id"], c["name"]))
+    if "instagram" not in out:
+        raise RuntimeError("no Instagram channel connected in Buffer")
+    return out
 
 
 CREATE = """
@@ -62,65 +65,76 @@ def main(path):
     pub_path = ROOT / "published" / f"{date}.json"
     published = json.loads(pub_path.read_text(encoding="utf-8")) if pub_path.exists() else {}
 
-    channel_id, channel_name = instagram_channel()
-    print(f"Instagram channel: {channel_name}")
+    chans = channels()
+    print("Buffer channels:", {k: v[1] for k, v in chans.items()})
     now = datetime.now(timezone.utc)
     failed = False
     late = 0
     for pid in ap["approve"]:
-        if published.get(pid, {}).get("buffer_id"):
-            print(pid, "already published, skipping")
-            continue
         post, m = queue[pid], manifest[pid]
         if m["status"] != "rendered":
             print(pid, "not rendered, skipping")
             continue
+        is_reel = post.get("style") == "reel"
+        # Instagram gets everything; TikTok gets the Reels.
+        targets = ["instagram"] + (["tiktok"] if is_reel and "tiktok" in chans else [])
+        rec = published.get(pid, {})
         urls = [f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{f}" for f in m["files"]]
+        if is_reel:
+            urls = [next(u for u in urls if u.endswith(".mp4"))]
         local = datetime.fromisoformat(f"{date}T{post['time']}").replace(tzinfo=TZ)
         due = local.astimezone(timezone.utc)
-        if post.get("style") == "reel":
-            video = next(u for u in urls if u.endswith(".mp4"))
-            urls = [video]
-            assets = [{"video": {"url": video, "metadata": {"thumbnailOffset": 0}}}]
-            ig = {"type": "reel", "shouldShareToFeed": True}
-        else:
-            first = post["slides"][0]
-            alt = first.get("text") or first.get("title") or first.get("quote", "")
-            assets = [{"image": {"url": u, "metadata": {"altText": alt}}} for u in urls]
-            ig = {"type": "post", "shouldShareToFeed": True}
-        inp = {
-            "text": post["caption"] + (REEL_CREDIT if post.get("style") == "reel" else CREDIT),
-            "channelId": channel_id,
-            "schedulingType": "automatic",
-            "assets": assets,
-            "metadata": {"instagram": ig},
-        }
         if pid in ap.get("now", []):
-            inp["mode"] = "shareNow"
+            when = {"mode": "shareNow"}
         elif due > now + timedelta(minutes=5):
-            inp["mode"] = "customScheduled"
-            inp["dueAt"] = due.strftime("%Y-%m-%dT%H:%M:%S.000Z")
-        else:
-            # Its slot already passed (late run): post soon, spaced 20 min apart.
+            when = {"mode": "customScheduled", "dueAt": due.strftime("%Y-%m-%dT%H:%M:%S.000Z")}
+        else:  # its slot already passed (late run): post soon, spaced 20 min apart
             late += 1
-            inp["mode"] = "customScheduled"
-            inp["dueAt"] = (now + timedelta(minutes=5 + 20 * (late - 1))).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-        try:
-            res = gql(CREATE, {"input": inp})["createPost"]
-        except RuntimeError as e:
-            if inp["mode"] != "shareNow":
-                raise
-            print(pid, "shareNow not accepted, scheduling in 3 minutes instead:", e)
-            inp["mode"] = "customScheduled"
-            inp["dueAt"] = (now + timedelta(minutes=3)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-            res = gql(CREATE, {"input": inp})["createPost"]
-        if "post" in res:
-            published[pid] = {"buffer_id": res["post"]["id"], "dueAt": res["post"]["dueAt"], "images": len(urls)}
-            print(pid, "scheduled for", res["post"]["dueAt"])
-        else:
-            published[pid] = {"error": res.get("message")}
-            print(pid, "FAILED:", res.get("message"))
-            failed = True
+            when = {"mode": "customScheduled",
+                    "dueAt": (now + timedelta(minutes=5 + 20 * (late - 1))).strftime("%Y-%m-%dT%H:%M:%S.000Z")}
+        for svc in targets:
+            done = rec.get("buffer_id") if svc == "instagram" else rec.get(svc, {}).get("buffer_id")
+            if done:
+                print(pid, svc, "already published, skipping")
+                continue
+            if is_reel:
+                assets = [{"video": {"url": urls[0], "metadata": {"thumbnailOffset": 0}}}]
+            else:
+                first = post["slides"][0]
+                alt = first.get("text") or first.get("title") or first.get("quote", "")
+                assets = [{"image": {"url": u, "metadata": {"altText": alt}}} for u in urls]
+            inp = {
+                "text": post["caption"] + (REEL_CREDIT if is_reel else CREDIT),
+                "channelId": chans[svc][0],
+                "schedulingType": "automatic",
+                "assets": assets,
+                **when,
+            }
+            if svc == "instagram":
+                inp["metadata"] = {"instagram": {"type": "reel" if is_reel else "post", "shouldShareToFeed": True}}
+            try:
+                res = gql(CREATE, {"input": inp})["createPost"]
+            except RuntimeError as e:
+                if inp["mode"] != "shareNow":
+                    print(pid, svc, "FAILED:", e)
+                    res = {"message": str(e)}
+                else:
+                    print(pid, svc, "shareNow not accepted, scheduling in 3 minutes instead:", e)
+                    inp["mode"] = "customScheduled"
+                    inp["dueAt"] = (now + timedelta(minutes=3)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+                    res = gql(CREATE, {"input": inp})["createPost"]
+            if "post" in res:
+                entry = {"buffer_id": res["post"]["id"], "dueAt": res["post"]["dueAt"], "images": len(urls)}
+                print(pid, svc, "scheduled for", res["post"]["dueAt"])
+            else:
+                entry = {"error": res.get("message")}
+                print(pid, svc, "FAILED:", res.get("message"))
+                failed = True
+            if svc == "instagram":
+                rec.update(entry)
+            else:
+                rec[svc] = entry
+        published[pid] = rec
     pub_path.parent.mkdir(exist_ok=True)
     pub_path.write_text(json.dumps(published, ensure_ascii=False, indent=2), encoding="utf-8")
     if failed:
