@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-08",
+  "rendered_at": 1794119179,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "6183295",
+        "page": "https://pixabay.com/photos/strategy-chess-game-chess-pieces-6183295/",
+        "query": "fallen chess king piece dark board"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p2/01.jpg",
+        "out/2026-11-08/p2/02.jpg",
+        "out/2026-11-08/p2/03.jpg",
+        "out/2026-11-08/p2/04.jpg",
+        "out/2026-11-08/p2/05.jpg",
+        "out/2026-11-08/p2/06.jpg",
+        "out/2026-11-08/p2/07.jpg",
+        "out/2026-11-08/p2/08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "9182458",
+        "page": "https://pixabay.com/photos/man-fashion-model-pose-portrait-9182458/",
+        "query": "smartphone filming food in cafe"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p3/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "8342939",
+        "page": "https://pixabay.com/photos/statue-sculpture-art-artwork-8342939/",
+        "query": "ancient greek marble statue dark background"
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p4/01.jpg",
+        "out/2026-11-08/p4/02.jpg",
+        "out/2026-11-08/p4/03.jpg",
+        "out/2026-11-08/p4/04.jpg",
+        "out/2026-11-08/p4/05.jpg",
+        "out/2026-11-08/p4/06.jpg",
+        "out/2026-11-08/p4/07.jpg",
+        "out/2026-11-08/p4/08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "8770514",
+        "page": "https://pixabay.com/photos/teeth-mouth-kiss-painting-art-8770514/",
+        "query": "cafe interior paintings hanging on wall"
+      }
+    },
+    {
+      "id": "p5",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/p5/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7868140",
+        "page": "https://pixabay.com/photos/set-table-cover-cutlery-plate-meal-7868140/",
+        "query": "dinner table set at home warm evening light"
+      }
+    }
+  ]
+}
