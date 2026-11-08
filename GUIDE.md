@@ -36,7 +36,7 @@ The page's core is **interesting side hustles, making money with AI, and how to 
 Rotate topics across the week: discipline, habits, money mindset, side hustles that work from Albania, stories of people who built something, Stoic ideas, book lessons. Check `data/topics_log.txt` and don't repeat a topic or quote used in the last 60 days.
 
 ## Trend input (read every run)
-`data/trends/<today>.json` is written at 05:30–06:30 Tirana time by the Trend report action: the fastest-growing English short videos of the last 48 hours in this niche, ranked by views per hour (and later, Instagram data).
+`data/trends/<today>.json` is written at 05:30–06:30 Tirana time by the Trend report action: the fastest-growing English short videos of the last 48 hours, ranked by views per hour. `by_search` holds the top 6 per search (read the AI, side-hustle and business searches first); `top` is the overall top 30.
 - Use it to pick **themes and angles** that are hot right now: at least 2 of the 5 posts should build on a theme from the report when one fits the page.
 - Look for the idea behind a hit ("looking rich makes you look poor", "discipline vs motivation"), then write our own post about it, in Albanian, with Albanian context.
 - **Never copy** titles, scripts or wording, and never present someone else's video as ours.

@@ -95,11 +95,18 @@ def main():
         rows.append({**v, "hours_live": round(hours, 1), "views_per_hour": round(v["views"] / hours),
                      "url": f"https://www.youtube.com/shorts/{vid}"})
     rows.sort(key=lambda r: r["views_per_hour"], reverse=True)
+    # Keep the best few per search, so niche topics (AI, business) aren't
+    # crowded out by broad ones with bigger audiences.
+    by_query = {}
+    for r in rows:
+        by_query.setdefault(r["query"], [])
+        if len(by_query[r["query"]]) < 6:
+            by_query[r["query"]].append(r)
     date = now.astimezone(ZoneInfo("Europe/Tirane")).strftime("%Y-%m-%d")
     out = ROOT / "data" / "trends" / f"{date}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"date": date, "source": "youtube", "window_hours": 48,
-                               "searches": SEARCHES, "top": rows[:60]},
+                               "searches": SEARCHES, "by_search": by_query, "top": rows[:30]},
                               ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{len(rows)} videos, top: {rows[0]['title'] if rows else '-'}")
 
