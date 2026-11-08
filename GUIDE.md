@@ -26,6 +26,14 @@ This file is the brief every daily run follows. Change it to change what the pag
 
 Rotate topics across the week: discipline, habits, money mindset, side hustles that work from Albania, stories of people who built something, Stoic ideas, book lessons. Check `data/topics_log.txt` and don't repeat a topic or quote used in the last 60 days.
 
+## Trend input (read every run)
+`data/trends/<today>.json` is written at 05:30–06:30 Tirana time by the Trend report action: the fastest-growing English short videos of the last 48 hours in this niche, ranked by views per hour (and later, Instagram data).
+- Use it to pick **themes and angles** that are hot right now: at least 2 of the 5 posts should build on a theme from the report when one fits the page.
+- Look for the idea behind a hit ("looking rich makes you look poor", "discipline vs motivation"), then write our own post about it, in Albanian, with Albanian context.
+- **Never copy** titles, scripts or wording, and never present someone else's video as ours.
+- Ignore entries that are off-niche, clickbait without substance, religious or political, or unsuitable for the page.
+- If today's file is missing, use the most recent one, or carry on without it.
+
 ## Hard rules
 - **No get-rich-quick claims.** No income promises, no "make €X from home", no specific investment advice, no crypto tips.
 - **Quotes must be real and attributed correctly.** Only use a quote when you can name the work it comes from. Misattributed internet quotes are banned.

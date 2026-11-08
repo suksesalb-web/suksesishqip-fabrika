@@ -22,7 +22,7 @@ SEARCHES = [
 
 
 NOISE = ("roblox", "minecraft", "fortnite", "gameplay", "gaming", "prank", "krishna",
-         "bhakti", "comedy", "funny", "asmr", "anime")
+         "bhakti", "comedy", "funny", "asmr", "anime", "kpop", " bts", "#bts", "manchester", "football")
 
 
 def is_latin(text):
