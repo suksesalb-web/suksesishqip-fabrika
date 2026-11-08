@@ -19,7 +19,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-GRAPH = "https://graph.facebook.com/v23.0"
+GRAPH = "https://graph.facebook.com/v27.0"
 TOKEN = os.environ["META_PAGE_TOKEN"]
 WATCHLIST = ROOT / "data" / "instagram_watchlist.txt"
 HASHTAG = re.compile(r"#([\wëçËÇ]+)", re.UNICODE)
