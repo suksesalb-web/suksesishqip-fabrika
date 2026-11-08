@@ -144,7 +144,7 @@ def beat_overlay(beat, first):
     f, lines, step = fit(d, beat["text"], name, start, 52, maxw, 640, 1.18)
     hl_lines, hstep, hf = [], 0, None
     if beat.get("highlight"):
-        hf, hl_lines, hstep = fit(d, beat["highlight"], "i800", 72, 48, maxw - 30, 300, 1.3)
+        hf, hl_lines, hstep = fit(d, beat["highlight"], "i800", 64, 44, maxw - 30, 300, 1.3)
     block = len(lines) * step + (40 + len(hl_lines) * hstep if hl_lines else 0)
     # Reels UI covers the bottom ~25% and the top ~12%: keep text in the middle band.
     y = int(H * 0.42 - block / 2)
