@@ -1,0 +1,23 @@
+name: Status check (read-only)
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to check, e.g. 2026-11-08"
+        required: true
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Check Buffer and Instagram (publishes nothing)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+        run: python fabrika/status.py "${{ github.event.inputs.date }}"
