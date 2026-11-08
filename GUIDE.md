@@ -11,10 +11,19 @@ This file is the brief every daily run follows. Change it to change what the pag
 | Slot (Tirana time) | Style | What |
 |---|---|---|
 | 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
-| 12:00 | `story` (carousel, 5–7 slides) | Practical value: a side hustle that works from Albania, a money habit, a skill to learn |
+| 12:00 | `story` (carousel, 5–7 slides) | **AI or side hustle:** something a person can actually do with AI tools or a skill, from Albania, step by step |
 | 15:00 | `quote` | A verified quote from a thinker, with the source named |
-| 18:00 | `story` (carousel, 5–7 slides) | A success story: how a real person built something, told as a mini-story |
+| 18:00 | `story` (carousel, 5–7 slides) | **Business:** how to start or grow a small business, or how a real person built one (mini-story) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend |
+
+## Main focus
+The page's core is **interesting side hustles, making money with AI, and how to start a business**. Discipline and mindset support it. Never post religious, gaming, K-pop, sport-gossip or political content.
+
+## Tone: a bit clickbaity, never fake
+- Hooks can tease and surprise: "Ky biznes s'kërkon asnjë lek kapital", "AI-ja që po zëvendëson një punë 800€ në muaj", "Pse askush s'ta thotë këtë për…".
+- But every post must **deliver** on its hook with real, specific steps or facts. If the slides can't back up the cover, rewrite the cover.
+- No promised earnings ("fito 1000€ në javë"), no "pa punë", no "pasivisht", no app/crypto schemes. Say what the work is, what tools it needs, and how someone gets their first client.
+- AI side hustles must name real tools (ChatGPT, Claude, Canva, CapCut, ElevenLabs etc.) and be realistic for a beginner in Albania.
 
 ## Writing for reach (views, saves, sends)
 - **Carousels are the engine.** They get saved and re-shown in feed. Each slide must make the reader want the next one: open a loop on the cover, pay it off at the end.

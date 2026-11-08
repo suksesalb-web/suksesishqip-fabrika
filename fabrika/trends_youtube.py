@@ -15,14 +15,26 @@ API = "https://www.googleapis.com/youtube/v3"
 KEY = os.environ["YOUTUBE_API_KEY"]
 
 SEARCHES = [
-    "motivation", "discipline", "self improvement", "mindset",
-    "side hustle", "make money", "personal finance tips",
-    "stoicism", "success story", "entrepreneur advice",
+    # main focus: side hustles, AI, starting a business
+    "AI side hustle", "make money with AI", "AI business ideas", "AI tools for business",
+    "side hustle ideas", "small business ideas", "how to start a business",
+    "online business", "freelancing tips", "business ideas 2026",
+    # supporting: money mindset and discipline
+    "money mindset", "discipline", "entrepreneur advice",
 ]
 
 
-NOISE = ("roblox", "minecraft", "fortnite", "gameplay", "gaming", "prank", "krishna",
-         "bhakti", "comedy", "funny", "asmr", "anime", "kpop", " bts", "#bts", "manchester", "football")
+NOISE = (
+    # gaming
+    "roblox", "minecraft", "fortnite", "gameplay", "gaming", "gta", "fisch", "valorant", "free fire",
+    # religion
+    "god ", "god's", "jesus", "allah", "krishna", "bhakti", "bible", "prayer", "anoint", "spiritual",
+    # k-pop / entertainment / sport noise
+    "kpop", "k-pop", " bts", "#bts", "jimin", "manchester", "football", "prank", "comedy", "funny",
+    "asmr", "anime",
+    # get-rich-quick bait we don't want to look like
+    "earning app", "loot offer", "free money", "giveaway",
+)
 
 
 def is_latin(text):
