@@ -7,23 +7,51 @@
       "time": "09:00",
       "photo_query": "fallen chess king piece dark board",
       "trend": "YouTube 2026-11-08: 'Ego will never accept defeat' (~10k views/hour)",
-      "slides": [{"text": "Egoja do të ketë të drejtë.", "highlight": "Ti ke nevojë të mësosh."}],
-      "caption": "Ai që s'e pranon dot gabimin, e përsërit.\n\nPyet kur nuk di. Thuaj \"gabova\" pa justifikime. Kërko mendimin e atij që di më shumë se ti.\n\nNuk humbet asgjë. Fiton kohë.\n\nRuaje për ditët kur egoja flet më fort.\n\n#suksesishqip #disiplinë #mendësi #rritje"
+      "slides": [
+        {
+          "text": "Egoja do të ketë të drejtë.",
+          "highlight": "Ti ke nevojë të mësosh."
+        }
+      ],
+      "caption": "Ai që s'e pranon dot gabimin, e përsërit.\n\nPyet kur nuk di. Thuaj \"gabova\" pa justifikime. Kërko mendimin e atij që di më shumë se ti.\n\nNuk humbet asgjë. Fiton kohë.\n\nRuaje për ditët kur egoja flet më fort.\n\n#suksesishqip #disiplinë #mendësi #rritje",
+      "photo_id": "6183295"
     },
     {
       "id": "p2",
       "style": "story",
       "time": "12:00",
-      "photo_query": "smartphone filming food in cafe",
+      "photo_query": "hands holding smartphone recording food video",
       "trend": "YouTube 2026-11-08: AI side hustle searches ('AI videos as a side hustle', 'Stop using AI just for basic tasks')",
       "slides": [
-        {"kicker": "AI + punë anësore", "title": "Lokali poshtë shtëpisë tënde ka nevojë për video. Nuk di si t'i bëjë.", "subtitle": "Si t'i bësh ti, me telefon dhe dy mjete AI."},
-        {"title": "Problemi", "body": "Shumë lokale, dyqane dhe klinika në Shqipëri kanë Instagram, por postojnë rrallë. Pronari s'ka kohë. Këtu hyn ti."},
-        {"title": "Mjetet", "body": "Telefoni për xhirime. CapCut për montazh dhe titra. ChatGPT ose Claude për idetë dhe tekstin e çdo videoje."},
-        {"title": "Hapi 1", "body": "Zgjidh 10 biznese në lagjen tënde me profil të dobët. Kërkoji ChatGPT-së 3 ide videosh për secilin: si bëhet produkti, një ditë pune, pyetja që bëjnë klientët më shpesh."},
-        {"title": "Hapi 2", "body": "Xhiro një video falas për njërin prej tyre. 20–30 sekonda, dritë natyrale, titra të qarta në shqip. Ky është portofoli yt i parë."},
-        {"title": "Hapi 3", "body": "Shko vetë, jo me mesazh. Tregoja videon e gatshme në telefon dhe propozo një paketë mujore, për shembull 8 video në muaj me çmim fiks."},
-        {"title": "E vërteta", "body": "Klientët e parë nuk vijnë nga algoritmi, vijnë nga dera që troket. Mos premto ndjekës. Premto video të rregullta dhe mbaje fjalën."}
+        {
+          "kicker": "AI + punë anësore",
+          "title": "Lokali poshtë shtëpisë tënde ka nevojë për video. Nuk di si t'i bëjë.",
+          "subtitle": "Si t'i bësh ti, me telefon dhe dy mjete AI."
+        },
+        {
+          "title": "Problemi",
+          "body": "Shumë lokale, dyqane dhe klinika në Shqipëri kanë Instagram, por postojnë rrallë. Pronari s'ka kohë. Këtu hyn ti."
+        },
+        {
+          "title": "Mjetet",
+          "body": "Telefoni për xhirime. CapCut për montazh dhe titra. ChatGPT ose Claude për idetë dhe tekstin e çdo videoje."
+        },
+        {
+          "title": "Hapi 1",
+          "body": "Zgjidh 10 biznese në lagjen tënde me profil të dobët. Kërkoji ChatGPT-së 3 ide videosh për secilin: si bëhet produkti, një ditë pune, pyetja që bëjnë klientët më shpesh."
+        },
+        {
+          "title": "Hapi 2",
+          "body": "Xhiro një video falas për njërin prej tyre. 20–30 sekonda, dritë natyrale, titra të qarta në shqip. Ky është portofoli yt i parë."
+        },
+        {
+          "title": "Hapi 3",
+          "body": "Shko vetë, jo me mesazh. Tregoja videon e gatshme në telefon dhe propozo një paketë mujore, për shembull 8 video në muaj me çmim fiks."
+        },
+        {
+          "title": "E vërteta",
+          "body": "Klientët e parë nuk vijnë nga algoritmi, vijnë nga dera që troket. Mos premto ndjekës. Premto video të rregullta dhe mbaje fjalën."
+        }
       ],
       "caption": "Nuk të duhet kamerë e shtrenjtë. Të duhet telefoni, pak durim dhe guximi për të hyrë te dera e parë.\n\nCili biznes në lagjen tënde ka më shumë nevojë për video?\n\nRuaje dhe dërgoja shokut që di të montojë.\n\n#suksesishqip #punë #AI #marketing"
     },
@@ -31,25 +59,53 @@
       "id": "p3",
       "style": "quote",
       "time": "15:00",
-      "photo_query": "ancient greek marble statue dark background",
+      "photo_query": "marble bust philosopher museum",
       "trend": "YouTube 2026-11-08: 'The less you react, the more powerful you become' (~2.4k views/hour)",
-      "slides": [{"quote": "Njerëzit nuk i shqetësojnë ngjarjet, por mendimet që kanë për to.", "author": "Epikteti", "source": "Doracaku, kapitulli 5"}],
+      "slides": [
+        {
+          "quote": "Njerëzit nuk i shqetësojnë ngjarjet, por mendimet që kanë për to.",
+          "author": "Epikteti",
+          "source": "Doracaku, kapitulli 5"
+        }
+      ],
       "caption": "Një skllav i liruar, që u bë mësues filozofie, e mësonte këtë rreth 1900 vjet më parë.\n\nNuk të lëndon fjala e shefit. Të lëndon historia që i tregon vetes pas saj.\n\nHerën tjetër që diçka të nxeh, pyet: a është kjo ngjarja, apo gjykimi im për të?\n\nDërgoja dikujt që i merr të gjitha personalisht.\n\n#suksesishqip #stoicizëm #epikteti #mendësi"
     },
     {
       "id": "p4",
       "style": "story",
       "time": "18:00",
-      "photo_query": "cafe interior paintings hanging on wall",
+      "photo_query": "framed paintings on cafe wall",
       "trend": "YouTube 2026-11-08: 'This Café Turned Its Walls Into a Business' (~860 views/hour)",
       "slides": [
-        {"kicker": "Ide biznesi", "title": "Muri bosh i kafenesë tënde është një dyqan që s'e ke hapur ende.", "subtitle": "Modeli \"galeri në kafene\", hap pas hapi."},
-        {"title": "Ideja", "body": "Kafeneja var në mure punët e artistëve vendas. Çdo pikturë ka një etiketë me emrin, çmimin dhe kontaktin. Klienti e sheh ndërsa pi kafen."},
-        {"title": "Si fiton kafeneja", "body": "Artisti merr pjesën më të madhe të çmimit. Kafeneja mban një përqindje të rënë dakord që në fillim, shpesh 20–30%."},
-        {"title": "Si fiton artisti", "body": "Punët e tij shihen nga qindra njerëz në javë, pa paguar qira galerie. Shumë artistë të rinj në Shqipëri nuk kanë ku të ekspozojnë."},
-        {"title": "Pse funksionon", "body": "Muri ndryshon çdo muaj, ndaj klientët kanë arsye të rikthehen. Çdo ekspozitë e re është një mbrëmje me njerëz, foto dhe postime falas."},
-        {"title": "Si ta nisësh", "body": "Bëj një marrëveshje të shkurtër me shkrim: përqindja, kush përgjigjet nëse dëmtohet vepra, sa kohë qëndron. Fillo me një artist dhe 6–8 punë."},
-        {"title": "S'ke kafene?", "body": "Bëhu ti ndërmjetësi. Gjej artistët, gjej lokalet, organizo ekspozitat dhe merr një pjesë të vogël nga çdo shitje."}
+        {
+          "kicker": "Ide biznesi",
+          "title": "Muri bosh i kafenesë tënde është një dyqan që s'e ke hapur ende.",
+          "subtitle": "Modeli \"galeri në kafene\", hap pas hapi."
+        },
+        {
+          "title": "Ideja",
+          "body": "Kafeneja var në mure punët e artistëve vendas. Çdo pikturë ka një etiketë me emrin, çmimin dhe kontaktin. Klienti e sheh ndërsa pi kafen."
+        },
+        {
+          "title": "Si fiton kafeneja",
+          "body": "Artisti merr pjesën më të madhe të çmimit. Kafeneja mban një përqindje të rënë dakord që në fillim, shpesh 20–30%."
+        },
+        {
+          "title": "Si fiton artisti",
+          "body": "Punët e tij shihen nga qindra njerëz në javë, pa paguar qira galerie. Shumë artistë të rinj në Shqipëri nuk kanë ku të ekspozojnë."
+        },
+        {
+          "title": "Pse funksionon",
+          "body": "Muri ndryshon çdo muaj, ndaj klientët kanë arsye të rikthehen. Çdo ekspozitë e re është një mbrëmje me njerëz, foto dhe postime falas."
+        },
+        {
+          "title": "Si ta nisësh",
+          "body": "Bëj një marrëveshje të shkurtër me shkrim: përqindja, kush përgjigjet nëse dëmtohet vepra, sa kohë qëndron. Fillo me një artist dhe 6–8 punë."
+        },
+        {
+          "title": "S'ke kafene?",
+          "body": "Bëhu ti ndërmjetësi. Gjej artistët, gjej lokalet, organizo ekspozitat dhe merr një pjesë të vogël nga çdo shitje."
+        }
       ],
       "caption": "Qiraja paguhet për çdo metër katror. Edhe për muret.\n\nNjë ekspozitë e vogël mund ta kthejë kafenenë në vendin ku njerëzit vijnë për të parë diçka të re.\n\nNjeh një kafene ose një artist që duhet ta lexojë këtë? Dërgoja.\n\n#suksesishqip #biznes #ide #art #sipërmarrje"
     },
@@ -57,9 +113,13 @@
       "id": "p5",
       "style": "tweet",
       "time": "22:00",
-      "photo_query": "dinner table set at home warm evening light",
+      "photo_query": "home cooked meal on kitchen table",
       "trend": "YouTube 2026-11-08: '6 Things you will miss one day' (~1.6k views/hour)",
-      "slides": [{"text": "Një ditë do të të marrë malli për gjërat që sot të bezdisin.\n\nMamaja që pyet \"ke ngrënë?\". Zhurma në shtëpi të dielën. Telefonata e babait që zgjat pak më shumë."}],
+      "slides": [
+        {
+          "text": "Një ditë do të të marrë malli për gjërat që sot të bezdisin.\n\nMamaja që pyet \"ke ngrënë?\". Zhurma në shtëpi të dielën. Telefonata e babait që zgjat pak më shumë."
+        }
+      ],
       "caption": "Disa gjëra i kupton vetëm kur nuk janë më aty.\n\nMerri në telefon sonte. Pa ndonjë arsye.\n\nDërgoja dikujt që e ka familjen larg.\n\n#suksesishqip #jeta #familja #mirënjohje"
     }
   ]
