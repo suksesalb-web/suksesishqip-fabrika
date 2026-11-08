@@ -1,0 +1,35 @@
+name: Voice test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts
+      - name: List Albanian voices
+        run: edge-tts --list-voices | grep -i "sq-AL" || true
+      - name: Generate samples
+        run: |
+          mkdir -p voice/samples
+          for v in sq-AL-AnilaNeural sq-AL-IlirNeural; do
+            edge-tts --voice "$v" --rate=-5% --file voice/sample.txt --write-media "voice/samples/$v.mp3"
+            edge-tts --voice "$v" --rate=+8% --file voice/sample.txt --write-media "voice/samples/$v-fast.mp3"
+          done
+          ls -la voice/samples
+      - name: Commit samples
+        run: |
+          git config user.name "fabrika-bot"
+          git config user.email "fabrika-bot@users.noreply.github.com"
+          git add voice/samples
+          git commit -m "Voice samples" || exit 0
+          git pull --rebase
+          git push
