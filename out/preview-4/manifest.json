@@ -1,0 +1,32 @@
+{
+  "date": "preview-4",
+  "rendered_at": 1794162597,
+  "posts": [
+    {
+      "id": "r1",
+      "status": "rendered",
+      "files": [
+        "out/preview-4/r1/reel.mp4",
+        "out/preview-4/r1/frame-01.jpg",
+        "out/preview-4/r1/frame-02.jpg",
+        "out/preview-4/r1/frame-03.jpg",
+        "out/preview-4/r1/frame-04.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "245583",
+        "page": "https://pixabay.com/videos/id-245583/",
+        "query": "man walking alone city street night"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "245583",
+          "page": "https://pixabay.com/videos/id-245583/",
+          "query": "man walking alone city street night"
+        },
+        "music": null,
+        "voice": "sq-AL-AnilaNeural",
+        "duration": 19.92
+      }
+    }
+  ]
+}
