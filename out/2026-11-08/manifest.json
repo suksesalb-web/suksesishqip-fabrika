@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "rendered_at": 1794140112,
+  "rendered_at": 1794164332,
   "posts": [
     {
       "id": "p1",
@@ -74,6 +74,32 @@
         "pixabay_id": "10505991",
         "page": "https://pixabay.com/photos/cozy-living-room-rustic-interior-10505991/",
         "query": "old house window warm light evening"
+      }
+    },
+    {
+      "id": "r1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-08/r1/reel.mp4",
+        "out/2026-11-08/r1/frame-01.jpg",
+        "out/2026-11-08/r1/frame-02.jpg",
+        "out/2026-11-08/r1/frame-03.jpg",
+        "out/2026-11-08/r1/frame-04.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "19627",
+        "page": "https://pixabay.com/videos/id-19627/",
+        "query": "man driving car at night city lights"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "19627",
+          "page": "https://pixabay.com/videos/id-19627/",
+          "query": "man driving car at night city lights"
+        },
+        "music": "cinematic-2.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "duration": 22.23
       }
     }
   ]
