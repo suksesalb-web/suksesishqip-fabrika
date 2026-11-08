@@ -225,7 +225,7 @@ def render_reel(post, pdir, used, offline=False):
 
     # 2. footage, cropped/scaled to 1080x1920, darkened, looped to length
     src = tmp / "src.mp4"
-    if offline:
+    if offline or post.get("video_query") == "none":  # fallback: dark moving gradient
         placeholder_video(src, total)
     else:
         if post.get("video_id"):  # locked: a reviewer kept this footage

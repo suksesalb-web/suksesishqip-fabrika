@@ -20,6 +20,7 @@ TZ = ZoneInfo("Europe/Tirane")
 REPO = os.environ.get("GITHUB_REPOSITORY", "suksesalb-web/suksesishqip-fabrika")
 BRANCH = os.environ.get("BRANCH", "main")
 CREDIT = "\n\n📷 Pixabay"
+REEL_CREDIT = "\n\n🎬🎵 Pixabay"
 
 
 def gql(query, variables=None):
@@ -77,15 +78,22 @@ def main(path):
         urls = [f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{f}" for f in m["files"]]
         local = datetime.fromisoformat(f"{date}T{post['time']}").replace(tzinfo=TZ)
         due = local.astimezone(timezone.utc)
+        if post.get("style") == "reel":
+            video = next(u for u in urls if u.endswith(".mp4"))
+            urls = [video]
+            assets = [{"video": {"url": video, "metadata": {"thumbnailOffset": 0}}}]
+            ig = {"type": "reel", "shouldShareToFeed": True}
+        else:
+            first = post["slides"][0]
+            alt = first.get("text") or first.get("title") or first.get("quote", "")
+            assets = [{"image": {"url": u, "metadata": {"altText": alt}}} for u in urls]
+            ig = {"type": "post", "shouldShareToFeed": True}
         inp = {
-            "text": post["caption"] + CREDIT,
+            "text": post["caption"] + (REEL_CREDIT if post.get("style") == "reel" else CREDIT),
             "channelId": channel_id,
             "schedulingType": "automatic",
-            "assets": [{"image": {"url": u, "metadata": {"altText": post["slides"][0].get("text")
-                                                                  or post["slides"][0].get("title")
-                                                                  or post["slides"][0].get("quote", "")}}}
-                       for u in urls],
-            "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}},
+            "assets": assets,
+            "metadata": {"instagram": ig},
         }
         if pid in ap.get("now", []):
             inp["mode"] = "shareNow"
