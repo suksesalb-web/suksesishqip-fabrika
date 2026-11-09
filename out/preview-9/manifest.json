@@ -1,6 +1,6 @@
 {
   "date": "preview-9",
-  "rendered_at": 1794184783,
+  "rendered_at": 1794185426,
   "posts": [
     {
       "id": "r1",
@@ -18,6 +18,33 @@
         "video": null,
         "music": "lofi-2.mp3",
         "voice": "sq-AL-AnilaNeural",
+        "clips": [
+          {
+            "beat": 1,
+            "pixabay_id": "177164",
+            "page": "https://pixabay.com/videos/id-177164/"
+          },
+          {
+            "beat": 2,
+            "pixabay_id": "1028",
+            "page": "https://pixabay.com/videos/id-1028/"
+          },
+          {
+            "beat": 3,
+            "pixabay_id": "24603",
+            "page": "https://pixabay.com/videos/id-24603/"
+          },
+          {
+            "beat": 4,
+            "pixabay_id": "237504",
+            "page": "https://pixabay.com/videos/id-237504/"
+          },
+          {
+            "beat": 5,
+            "pixabay_id": "236256",
+            "page": "https://pixabay.com/videos/id-236256/"
+          }
+        ],
         "engine": "motion",
         "duration": 31.29,
         "shots": [
