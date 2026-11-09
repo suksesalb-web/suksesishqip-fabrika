@@ -1,0 +1,48 @@
+{
+  "date": "preview-9",
+  "rendered_at": 1794184479,
+  "posts": [
+    {
+      "id": "r1",
+      "status": "rendered",
+      "files": [
+        "out/preview-9/r1/reel.mp4",
+        "out/preview-9/r1/frame-01.jpg",
+        "out/preview-9/r1/frame-02.jpg",
+        "out/preview-9/r1/frame-03.jpg",
+        "out/preview-9/r1/frame-04.jpg",
+        "out/preview-9/r1/frame-05.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "lofi-3.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "engine": "motion",
+        "duration": 39.28,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          }
+        ]
+      }
+    }
+  ]
+}
