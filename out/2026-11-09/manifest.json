@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-09",
+  "rendered_at": 1794205710,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-09/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "6818253",
+        "page": "https://pixabay.com/photos/mountains-sunrise-sunset-6818253/",
+        "query": "man running alone on empty road early morning"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-09/p2/reel.mp4",
+        "out/2026-11-09/p2/frame-01.jpg",
+        "out/2026-11-09/p2/frame-02.jpg",
+        "out/2026-11-09/p2/frame-03.jpg",
+        "out/2026-11-09/p2/frame-04.jpg",
+        "out/2026-11-09/p2/frame-05.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "lofi-2.mp3",
+        "voice": "gemini:Riko",
+        "clips": [
+          {
+            "beat": 1,
+            "pixabay_id": "251587",
+            "page": "https://pixabay.com/videos/id-251587/"
+          },
+          {
+            "beat": 2,
+            "pixabay_id": "227567",
+            "page": "https://pixabay.com/videos/id-227567/"
+          },
+          {
+            "beat": 3,
+            "pixabay_id": "283431",
+            "page": "https://pixabay.com/videos/id-283431/"
+          },
+          {
+            "beat": 4,
+            "pixabay_id": "359535",
+            "page": "https://pixabay.com/videos/id-359535/"
+          },
+          {
+            "beat": 5,
+            "pixabay_id": "293085",
+            "page": "https://pixabay.com/videos/id-293085/"
+          }
+        ],
+        "engine": "motion",
+        "duration": 30.0,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-09/p3/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7992123",
+        "page": "https://pixabay.com/photos/man-statue-sculpture-stoic-7992123/",
+        "query": "marble statue roman philosopher dark background"
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-09/p4/reel.mp4",
+        "out/2026-11-09/p4/frame-01.jpg",
+        "out/2026-11-09/p4/frame-02.jpg",
+        "out/2026-11-09/p4/frame-03.jpg",
+        "out/2026-11-09/p4/frame-04.jpg",
+        "out/2026-11-09/p4/frame-05.jpg",
+        "out/2026-11-09/p4/frame-06.jpg",
+        "out/2026-11-09/p4/frame-07.jpg",
+        "out/2026-11-09/p4/frame-08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "206029",
+        "page": "https://pixabay.com/videos/id-206029/",
+        "query": "small shop owner counting money"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "206029",
+          "page": "https://pixabay.com/videos/id-206029/",
+          "query": "small shop owner counting money"
+        },
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "clips": [
+          {
+            "pixabay_id": "206029",
+            "page": "https://pixabay.com/videos/id-206029/"
+          },
+          {
+            "pixabay_id": "283431",
+            "page": "https://pixabay.com/videos/id-283431/"
+          },
+          {
+            "pixabay_id": "342229",
+            "page": "https://pixabay.com/videos/id-342229/"
+          },
+          {
+            "pixabay_id": "253997",
+            "page": "https://pixabay.com/videos/id-253997/"
+          },
+          {
+            "pixabay_id": "345244",
+            "page": "https://pixabay.com/videos/id-345244/"
+          },
+          {
+            "pixabay_id": "253998",
+            "page": "https://pixabay.com/videos/id-253998/"
+          },
+          {
+            "pixabay_id": "43459",
+            "page": "https://pixabay.com/videos/id-43459/"
+          },
+          {
+            "pixabay_id": "10822",
+            "page": "https://pixabay.com/videos/id-10822/"
+          }
+        ],
+        "video_ids": [
+          "206029",
+          "283431",
+          "342229",
+          "253997",
+          "345244",
+          "253998",
+          "43459",
+          "10822"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 3.55
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 5.95
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 3,
+            "start": 8.34
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 10.86
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 13.39
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 5,
+            "start": 16.83
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 5,
+            "start": 19.36
+          }
+        ],
+        "duration": 21.89
+      }
+    },
+    {
+      "id": "p5",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-09/p5/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7304948",
+        "page": "https://pixabay.com/photos/candles-massage-spa-relaxation-7304948/",
+        "query": "hourglass on wooden table dim light"
+      }
+    }
+  ]
+}
