@@ -5,15 +5,15 @@ import requests
 
 OUT = Path("voice/samples-gemini")
 OUT.mkdir(parents=True, exist_ok=True)
-TEXT = ("Ai që duket më i pasur në lagje, shpesh ka më pak para se ti. "
-        "Makina me këste. Telefoni me këste. Pushimet me kredi. "
+TEXT = ("E di çfarë më habit? <breath> Ai që duket më i pasur në lagje, shpesh ka më pak para se ti. "
+        "Makina me këste. Telefoni me këste. Pushimet me kredi. <sigh> Dhe çdo muaj, rroga ikën para se të vijë. "
         "Çdo lek që shpenzon për t'u dukur, është një lek që nuk punon kurrë për ty. "
         "Të pasurit e vërtetë duken të thjeshtë. S'kanë nevojë të bindin askënd.")
 STYLE = ("Shqip standarde, natyrshëm, si një shok që të tregon diçka të vërtetë në kafe: "
          "i qetë, bindës, me pauza të shkurtra, pa ton reklame")
 STYLE_EN = ("Speak in standard Albanian, naturally, like a friend telling you something true over coffee: "
             "calm, convincing, short pauses, not like an advert")
-VOICES = ["Sulafat", "Achird", "Charon", "Zubenelgenubi"]
+VOICES = ["Sami", "Riko", "Despina", "Sulafat"]
 MODELS = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"]
 KEY = os.environ["GEMINI_API_KEY"]
 
