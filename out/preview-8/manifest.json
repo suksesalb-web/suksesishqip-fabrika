@@ -1,0 +1,57 @@
+{
+  "date": "preview-8",
+  "rendered_at": 1794183106,
+  "posts": [
+    {
+      "id": "r1",
+      "status": "rendered",
+      "files": [
+        "out/preview-8/r1/reel.mp4",
+        "out/preview-8/r1/frame-01.jpg",
+        "out/preview-8/r1/frame-02.jpg",
+        "out/preview-8/r1/frame-03.jpg",
+        "out/preview-8/r1/frame-04.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "21985",
+        "page": "https://pixabay.com/videos/id-21985/",
+        "query": "city street night"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "21985",
+          "page": "https://pixabay.com/videos/id-21985/",
+          "query": "city street night"
+        },
+        "music": "cinematic-1.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "clips": [
+          {
+            "pixabay_id": "21985",
+            "page": "https://pixabay.com/videos/id-21985/"
+          },
+          {
+            "pixabay_id": "59139",
+            "page": "https://pixabay.com/videos/id-59139/"
+          },
+          {
+            "pixabay_id": "109146",
+            "page": "https://pixabay.com/videos/id-109146/"
+          },
+          {
+            "pixabay_id": "160973",
+            "page": "https://pixabay.com/videos/id-160973/"
+          }
+        ],
+        "video_ids": [
+          "21985",
+          "59139",
+          "109146",
+          "160973"
+        ],
+        "captions": "beats",
+        "duration": 22.23
+      }
+    }
+  ]
+}
