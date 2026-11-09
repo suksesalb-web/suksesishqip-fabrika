@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-09",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "statement",
+      "time": "09:00",
+      "photo_query": "man running alone on empty road early morning",
+      "trend": "YouTube 2026-11-09: 'Motivation Vs Discipline Vs Obsession: Who Wins After 365 Days?' (~7.7k views/hour), discipline searches top the report",
+      "slides": [
+        {
+          "text": "Motivimi zgjat sa një kafe.",
+          "highlight": "Disiplina zgjat sa një vit."
+        }
+      ],
+      "caption": "Motivimi vjen kur ke qejf. Disiplina të çon përpara edhe kur s'ke.\n\nMos prit të ndihesh gati. Vendos një orë, një vend dhe një detyrë të vogël, dhe bëje edhe në ditët e këqija.\n\nPas një viti, ndryshimin nuk do ta ketë bërë motivimi.\n\nRuaje për mëngjeset kur s'ke qejf.\n\n#suksesishqip #disiplinë #motivim #zakone"
+    },
+    {
+      "id": "p2",
+      "style": "reel",
+      "engine": "motion",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:lofi",
+      "video_query": "smartphone photographing product on table",
+      "trend": "YouTube 2026-11-09: 'businesses are paying a lot of money for this #aitools' (AI tools for business search)",
+      "beats": [
+        {
+          "type": "hook",
+          "text": "Shumë dyqane në Instagram humbasin klientë nga fotot e këqija.",
+          "video_query": "woman taking photo of product with smartphone"
+        },
+        {
+          "type": "list",
+          "title": "Të duhen vetëm:",
+          "items": ["Telefoni yt", "Dritë nga dritarja", "Canva për sfondin"],
+          "say": "Të duhen tri gjëra. Telefoni yt. Dritë nga dritarja. Canva për sfondin.",
+          "video_query": "product photography near window natural light"
+        },
+        {
+          "type": "steps",
+          "title": "Klienti i parë:",
+          "items": ["Gjej 10 dyqane në Instagram", "Rregullo 3 foto falas", "Ofro paketë mujore"],
+          "say": "Gjej dhjetë dyqane në Instagram. Rregullo tri foto falas. Ofro një paketë mujore.",
+          "video_query": "person scrolling online shop on phone"
+        },
+        {
+          "type": "compare",
+          "left": {"label": "Foto e tyre", "items": ["Dritë e verdhë", "Sfond i rrëmujshëm"]},
+          "right": {"label": "Foto jote", "items": ["Dritë natyrale", "Sfond i pastër"]},
+          "say": "Foto e tyre: dritë e verdhë, sfond i rrëmujshëm. Foto jote: dritë natyrale, sfond i pastër.",
+          "video_query": "handmade products on white background studio"
+        },
+        {
+          "type": "text",
+          "text": "Klienti në internet blen me sy.",
+          "highlight": "Fotoja e mirë shet.",
+          "video_query": "woman packing order box at home"
+        }
+      ],
+      "caption": "Një punë anash që kërkon vetëm telefon dhe sy të mirë.\n\nQindra dyqane të vogla në Instagram shesin rroba, bizhuteri, ëmbëlsira. Shumica i fotografojnë produktet në dritë të keqe. Canva e heq sfondin me AI me një klikim (në versionin Pro, që ka edhe provë falas).\n\nFillo me tri foto falas për një dyqan. Pastaj ofro një paketë mujore.\n\nKe një shok që shet në internet? Dërgoja këtë.\n\n#suksesishqip #punëanash #AI #biznes"
+    },
+    {
+      "id": "p3",
+      "style": "quote",
+      "time": "15:00",
+      "photo_query": "marble statue roman philosopher dark background",
+      "trend": "Instagram outlier 2026-11-09: garyvee 'How do you stop caring so much about what other people think?' (score 76)",
+      "slides": [
+        {
+          "quote": "Nëse jeton sipas mendimit të të tjerëve, nuk do të jesh kurrë i pasur.",
+          "author": "Seneka",
+          "source": "Letrat morale, letra 16"
+        }
+      ],
+      "caption": "Sa biznese nuk u hapën kurrë nga frika e \"çfarë do thonë\"?\n\nKëtë frikë e dëgjon në familje, në lagje, në kafe. Por ata që flasin nuk do t'i paguajnë faturat e tua dhe nuk do ta jetojnë jetën tënde.\n\nDërgoja dikujt që po pret leje nga të tjerët.\n\n📖 Seneka, Letrat morale, letra 16 (përkthim i lirë)\n\n#suksesishqip #stoicizëm #mendësi #biznes"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "video_query": "small shop owner counting money",
+      "trend": "Instagram outlier 2026-11-09: foundr 'Nobody has ever been saved by revenue that hadn't landed yet' (score 4.65)",
+      "beats": [
+        {
+          "text": "Shumë biznese të vogla nuk mbyllen nga mungesa e klientëve.",
+          "video_query": "empty small shop with closed shutter"
+        },
+        {
+          "text": "Mbyllen sepse u mbarojnë paratë në arkë, ndërsa presin pagesa që do të vijnë.",
+          "video_query": "hands counting banknotes on table"
+        },
+        {
+          "text": "Klienti thotë: të paguaj javën tjetër. Ti i ke shpenzuar që sot.",
+          "video_query": "worried man looking at bills at kitchen table"
+        },
+        {
+          "text": "Qiraja dhe furnitori nuk pranojnë premtime.",
+          "video_query": "delivery man carrying boxes into small shop"
+        },
+        {
+          "text": "Planifiko vetëm me paratë që ke në dorë.",
+          "highlight": "Premtimi nuk paguan qiranë.",
+          "video_query": "woman writing in notebook with calculator"
+        }
+      ],
+      "caption": "Fatura e lëshuar nuk është para në xhep.\n\nShumë biznese të vogla duken mirë në letër, por mbeten pa para për qiranë dhe furnitorin. Shpenzo vetëm atë që ke marrë, jo atë që të kanë premtuar.\n\nTë ka ndodhur ndonjëherë? Shkruaje në koment, ose dërgoja dikujt që sapo hapi biznes.\n\n#suksesishqip #biznes #para #sipërmarrje"
+    },
+    {
+      "id": "p5",
+      "style": "tweet",
+      "time": "22:00",
+      "photo_query": "hourglass on wooden table dim light",
+      "slides": [
+        {
+          "text": "Kur nxitoj, zakonisht e bëj dy herë.\n\nNjë herë shpejt. Një herë si duhet.\n\nTani po mësoj ta bëj si duhet që herën e parë."
+        }
+      ],
+      "caption": "Shpejtësia duket si fitim kohë. Shpesh është humbje e dyfishtë.\n\nNgadalëso pak nesër. Shiko si ndryshon dita.\n\nDërgoja dikujt që gjithmonë nxiton.\n\n#suksesishqip #jeta #durim #mendësi"
+    }
+  ]
+}
