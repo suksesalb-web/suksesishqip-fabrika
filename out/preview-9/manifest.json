@@ -1,6 +1,6 @@
 {
   "date": "preview-9",
-  "rendered_at": 1794184479,
+  "rendered_at": 1794184783,
   "posts": [
     {
       "id": "r1",
@@ -16,10 +16,10 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "lofi-3.mp3",
+        "music": "lofi-2.mp3",
         "voice": "sq-AL-AnilaNeural",
         "engine": "motion",
-        "duration": 39.28,
+        "duration": 31.29,
         "shots": [
           {
             "frame": "frame-01.jpg",
