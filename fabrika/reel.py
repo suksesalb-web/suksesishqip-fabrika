@@ -448,6 +448,37 @@ def render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, au
             if fr:
                 pb["item_times"] = fr
         props_beats.append(pb)
+    # background footage per beat (blurred and darkened behind the animation)
+    bgdir = REMOTION / "public" / "bg"
+    if post.get("video_query") and post["video_query"] != "none" and os.environ.get("PIXABAY_API_KEY"):
+        shutil.rmtree(bgdir, ignore_errors=True)
+        bgdir.mkdir(parents=True)
+        used = info.setdefault("_used", set())
+        try:
+            pool = pixabay_videos(post["video_query"], used, n)
+        except RuntimeError:
+            pool = []
+        info["clips"] = []
+        for i, b in enumerate(beats):
+            c = None
+            if b.get("video_id"):
+                c = pixabay_video_by_id(b["video_id"])
+            elif b.get("video_query"):
+                try:
+                    c = pixabay_videos(b["video_query"], used, 1)[0]
+                except RuntimeError:
+                    c = None
+            if c is None and pool:
+                c = pool[i % len(pool)]
+            if c is None:
+                continue
+            fp = bgdir / f"b{i}.mp4"
+            fp.write_bytes(c[0])
+            used.add("v" + c[1])
+            props_beats[i]["bg"] = f"bg/b{i}.mp4"
+            props_beats[i]["bg_frames"] = int(duration(fp) * FPS)
+            info["clips"].append({"beat": i + 1, "pixabay_id": c[1], "page": c[2]})
+        info.pop("_used", None)
     props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats}
     pf = tmp / "props.json"
     pf.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
@@ -457,6 +488,7 @@ def render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, au
     if os.environ.get("REMOTION_BROWSER"):
         cmd.append(f"--browser-executable={os.environ['REMOTION_BROWSER']}")
     p = subprocess.run(cmd, cwd=REMOTION, capture_output=True, text=True)
+    shutil.rmtree(REMOTION / "public" / "bg", ignore_errors=True)
     if p.returncode != 0:
         raise RuntimeError("remotion failed: " + (p.stderr or p.stdout)[-1500:])
     audio = audio_track(post, beats, starts, total, timings, audio_parts, tmp, info)

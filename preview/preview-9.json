@@ -11,7 +11,8 @@
       "beats": [
         {
           "type": "hook",
-          "text": "Shumë kafene ende kanë menu të vjetra. Kjo është mundësia jote."
+          "text": "Shumë kafene ende kanë menu të vjetra. Kjo është mundësia jote.",
+          "video_query": "barista making coffee cafe"
         },
         {
           "type": "list",
@@ -21,7 +22,8 @@
             "ChatGPT për përkthimin",
             "Një kod QR falas"
           ],
-          "say": "Të duhen tre gjëra. Canva, falas. ChatGPT për përkthimin. Një kod QR."
+          "say": "Të duhen tre gjëra. Canva, falas. ChatGPT për përkthimin. Një kod QR.",
+          "video_query": "laptop graphic design desk"
         },
         {
           "type": "steps",
@@ -31,7 +33,8 @@
             "Shko te 10 kafene",
             "Ofroje me çmim të vogël"
           ],
-          "say": "Bëj një menu shembull. Shko te dhjetë kafene. Ofroje me çmim të vogël."
+          "say": "Bëj një menu shembull. Shko te dhjetë kafene. Ofroje me çmim të vogël.",
+          "video_query": "walking city street shops"
         },
         {
           "type": "compare",
@@ -49,15 +52,18 @@
               "Me QR"
             ]
           },
-          "say": "E vjetra: vetëm shqip, pa QR. E jotja: dy gjuhë, me QR."
+          "say": "E vjetra: vetëm shqip, pa QR. E jotja: dy gjuhë, me QR.",
+          "video_query": "restaurant menu table"
         },
         {
           "type": "text",
           "text": "Një menu e mirë shitet vetë.",
-          "highlight": "Fillo me një kafene."
+          "highlight": "Fillo me një kafene.",
+          "video_query": "people drinking coffee cafe"
         }
       ],
-      "caption": "Një punë anash që e sheh çdo ditë, por askush s'e bën.\n\nShumica e kafeneve kanë menu të printuara para shumë vitesh. Me Canva dhe ChatGPT ti mund t'ua bësh të reja, në dy gjuhë, me kod QR.\n\nKe një shok me kafene? Dërgoja këtë.\n\n#suksesishqip #punëanash #biznes #ai"
+      "caption": "Një punë anash që e sheh çdo ditë, por askush s'e bën.\n\nShumica e kafeneve kanë menu të printuara para shumë vitesh. Me Canva dhe ChatGPT ti mund t'ua bësh të reja, në dy gjuhë, me kod QR.\n\nKe një shok me kafene? Dërgoja këtë.\n\n#suksesishqip #punëanash #biznes #ai",
+      "video_query": "cafe interior coffee"
     }
   ]
 }
