@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "rendered_at": 1794206969,
+  "rendered_at": 1794208068,
   "posts": [
     {
       "id": "p1",
@@ -29,8 +29,7 @@
       "reel": {
         "video": null,
         "music": "lofi-3.mp3",
-        "voice": "sq-AL-AnilaNeural",
-        "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
+        "voice": "gemini:Riko",
         "clips": [
           {
             "beat": 1,
@@ -59,7 +58,7 @@
           }
         ],
         "engine": "motion",
-        "duration": 32.54,
+        "duration": 30.04,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -143,8 +142,8 @@
             "page": "https://pixabay.com/videos/id-51592/"
           },
           {
-            "pixabay_id": "263961",
-            "page": "https://pixabay.com/videos/id-263961/"
+            "pixabay_id": "209854",
+            "page": "https://pixabay.com/videos/id-209854/"
           },
           {
             "pixabay_id": "209854",
@@ -168,7 +167,7 @@
           "63747",
           "20857",
           "51592",
-          "263961",
+          "209854",
           "209854",
           "43459",
           "10822",
