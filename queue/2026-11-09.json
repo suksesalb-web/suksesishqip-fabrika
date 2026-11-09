@@ -160,6 +160,50 @@
       ],
       "caption": "Shpejtësia duket si fitim kohë. Shpesh është humbje e dyfishtë.\n\nNgadalëso pak nesër. Shiko si ndryshon dita.\n\nDërgoja dikujt që gjithmonë nxiton.\n\n#suksesishqip #jeta #durim #mendësi",
       "photo_id": "1489042"
+    },
+    {
+      "id": "p6",
+      "style": "reel",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "video_query": "small shop owner counting money",
+      "trend": "Instagram outlier 2026-11-09: foundr 'Nobody has ever been saved by revenue that hadn't landed yet' (score 4.65)",
+      "beats": [
+        {
+          "text": "Shumë biznese të vogla nuk mbyllen nga mungesa e klientëve.",
+          "video_query": "empty small shop with closed shutter"
+        },
+        {
+          "text": "Mbyllen sepse u mbarojnë paratë në arkë, ndërsa presin pagesa që do të vijnë.",
+          "video_query": "hands counting money cash"
+        },
+        {
+          "text": "Klienti thotë: të paguaj javën tjetër. Ti i ke shpenzuar që sot.",
+          "video_query": "worried man reading invoice paper at desk"
+        },
+        {
+          "text": "Qiraja dhe furnitori nuk pranojnë premtime.",
+          "video_query": "worker unloading boxes from delivery van"
+        },
+        {
+          "text": "Planifiko vetëm me paratë që ke në dorë.",
+          "highlight": "Premtimi nuk paguan qiranë.",
+          "video_query": "woman writing in notebook with calculator"
+        }
+      ],
+      "caption": "Fatura e lëshuar nuk është para në xhep.\n\nShumë biznese të vogla duken mirë në letër, por mbeten pa para për qiranë dhe furnitorin. Shpenzo vetëm atë që ke marrë, jo atë që të kanë premtuar.\n\nTë ka ndodhur ndonjëherë? Shkruaje në koment, ose dërgoja dikujt që sapo hapi biznes.\n\n#suksesishqip #biznes #para #sipërmarrje",
+      "video_ids": [
+        "206029",
+        "63747",
+        "20857",
+        "51592",
+        "209854",
+        "209854",
+        "43459",
+        "10822"
+      ],
+      "note": "Re-render of p4 with Riko (p4 went out with Anila after a Gemini 429); same text and caption"
     }
   ]
 }

@@ -235,6 +235,123 @@
         "page": "https://pixabay.com/photos/hourglass-sand-time-1489042/",
         "query": "hourglass sand timer"
       }
+    },
+    {
+      "id": "p6",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-09/p6/reel.mp4",
+        "out/2026-11-09/p6/frame-01.jpg",
+        "out/2026-11-09/p6/frame-02.jpg",
+        "out/2026-11-09/p6/frame-03.jpg",
+        "out/2026-11-09/p6/frame-04.jpg",
+        "out/2026-11-09/p6/frame-05.jpg",
+        "out/2026-11-09/p6/frame-06.jpg",
+        "out/2026-11-09/p6/frame-07.jpg",
+        "out/2026-11-09/p6/frame-08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "206029",
+        "page": "https://pixabay.com/videos/id-206029/",
+        "query": "small shop owner counting money"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "206029",
+          "page": "https://pixabay.com/videos/id-206029/",
+          "query": "small shop owner counting money"
+        },
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "clips": [
+          {
+            "pixabay_id": "206029",
+            "page": "https://pixabay.com/videos/id-206029/"
+          },
+          {
+            "pixabay_id": "63747",
+            "page": "https://pixabay.com/videos/id-63747/"
+          },
+          {
+            "pixabay_id": "20857",
+            "page": "https://pixabay.com/videos/id-20857/"
+          },
+          {
+            "pixabay_id": "51592",
+            "page": "https://pixabay.com/videos/id-51592/"
+          },
+          {
+            "pixabay_id": "209854",
+            "page": "https://pixabay.com/videos/id-209854/"
+          },
+          {
+            "pixabay_id": "209854",
+            "page": "https://pixabay.com/videos/id-209854/"
+          },
+          {
+            "pixabay_id": "43459",
+            "page": "https://pixabay.com/videos/id-43459/"
+          },
+          {
+            "pixabay_id": "10822",
+            "page": "https://pixabay.com/videos/id-10822/"
+          }
+        ],
+        "video_ids": [
+          "206029",
+          "63747",
+          "20857",
+          "51592",
+          "209854",
+          "209854",
+          "43459",
+          "10822"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 1,
+            "start": 2.15
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 4.3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 2,
+            "start": 7.78
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 11.25
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 15.0
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 5,
+            "start": 18.99
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 5,
+            "start": 21.82
+          }
+        ],
+        "duration": 24.65
+      }
     }
   ]
 }
