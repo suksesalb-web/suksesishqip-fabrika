@@ -80,6 +80,30 @@ def pixabay_video(query, used):
     return data.content, str(h["id"]), h.get("pageURL", "")
 
 
+def pixabay_videos(query, used, n):
+    """Up to n different clips for one search (vertical first). Returns [(bytes, id, page)]."""
+    import requests
+    r = requests.get("https://pixabay.com/api/videos/", timeout=30,
+                     params=dict(key=os.environ["PIXABAY_API_KEY"], q=query, video_type="film",
+                                 safesearch="true", per_page=50, order="popular"))
+    r.raise_for_status()
+    hits = [h for h in r.json().get("hits", []) if "v" + str(h["id"]) not in used and h.get("duration", 0) >= 5]
+    if not hits:
+        raise RuntimeError(f"no unused Pixabay video for '{query}'")
+    vertical = [h for h in hits if h["videos"]["medium"]["height"] > h["videos"]["medium"]["width"]]
+    pool = (vertical + [h for h in hits if h not in vertical])[:max(8, n * 2)]
+    random.shuffle(pool)
+    out = []
+    for h in pool[:n]:
+        vs = h["videos"]
+        v = next((vs[k] for k in ("large", "medium") if (vs.get(k) or {}).get("url")
+                  and vs[k].get("height", 0) >= 1080 and vs[k].get("size", 0) < 120_000_000), vs["medium"])
+        data = requests.get(v["url"], timeout=180)
+        data.raise_for_status()
+        out.append((data.content, str(h["id"]), h.get("pageURL", "")))
+    return out
+
+
 def pixabay_video_by_id(vid):
     import requests
     r = requests.get("https://pixabay.com/api/videos/", timeout=30,
@@ -362,18 +386,36 @@ def render_reel(post, pdir, used, offline=False):
         ends.append(t)
     total = round(t - GAP + TAIL, 2)
 
-    # 2. footage, cropped/scaled to 1080x1920, darkened, looped to length
-    src = tmp / "src.mp4"
-    if offline or post.get("video_query") == "none":  # fallback: dark moving gradient
-        placeholder_video(src, total)
+    # 2. footage: one clip per beat (a cut on every beat).
+    #    Per beat: beat["video_id"] (locked) > beat["video_query"] > clips from the post's video_query.
+    n = len(beats)
+    clips = [None] * n
+    info["clips"] = []
+    if not (offline or post.get("video_query") == "none"):
+        locked = post.get("video_ids") or ([post["video_id"]] * n if post.get("video_id") else [])
+        need = [i for i in range(n) if not beats[i].get("video_query") and not beats[i].get("video_id")
+                and not (i < len(locked) and locked[i])]
+        pool = pixabay_videos(post["video_query"], used, len(need)) if need else []
+        for i in range(n):
+            vid = beats[i].get("video_id") or (locked[i] if i < len(locked) else None)
+            if vid:
+                c = pixabay_video_by_id(vid)
+            elif beats[i].get("video_query"):
+                c = pixabay_videos(beats[i]["video_query"], used, 1)[0]
+            else:
+                c = pool[need.index(i) % len(pool)]
+            path = tmp / f"src{i}.mp4"
+            path.write_bytes(c[0])
+            used.add("v" + c[1])
+            clips[i] = path
+            info["clips"].append({"pixabay_id": c[1], "page": c[2]})
+        info["video"] = {"pixabay_id": info["clips"][0]["pixabay_id"], "page": info["clips"][0]["page"],
+                         "query": post["video_query"]}
+        info["video_ids"] = [c["pixabay_id"] for c in info["clips"]]
     else:
-        if post.get("video_id"):  # locked: a reviewer kept this footage
-            data, vid, page = pixabay_video_by_id(post["video_id"])
-        else:
-            data, vid, page = pixabay_video(post["video_query"], used)
-        src.write_bytes(data)
-        used.add("v" + vid)
-        info["video"] = {"pixabay_id": vid, "page": page, "query": post["video_query"]}
+        g = tmp / "grad.mp4"
+        placeholder_video(g, total)
+        clips = [g] * n
 
     # 3. overlays
     mode = post.get("captions", "beats")  # switch default to "words" once approved
@@ -403,6 +445,30 @@ def render_reel(post, pdir, used, offline=False):
     else:
         run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r=44100:cl=stereo", "-t", str(total), str(voice_wav)])
 
+    # 4b. sound effects: a whoosh on every cut, a low hit when the payoff lands
+    if post.get("sfx", True) and real:
+        parts, labels = [], []
+        for i in range(1, len(beats)):
+            ms = max(0, int((starts[i] - 0.25) * 1000))
+            parts.append(f"anoisesrc=d=0.5:c=pink:a=0.6,highpass=f=500,lowpass=f=6000,"
+                         f"afade=t=in:d=0.3,afade=t=out:st=0.3:d=0.2,volume=0.30,"
+                         f"aformat=sample_rates=44100:channel_layouts=stereo,adelay={ms}|{ms}[x{i}]")
+            labels.append(f"[x{i}]")
+        if beats[-1].get("highlight"):
+            ms = int((starts[-1] + max(0.3, timings[-1][1] * 0.55)) * 1000)
+            if timings[-1][0]:  # land exactly on the first payoff word
+                ms = int((starts[-1] + timings[-1][0][len(beats[-1]["text"].split())][0]) * 1000) \
+                    if len(timings[-1][0]) > len(beats[-1]["text"].split()) else ms
+            parts.append(f"sine=f=55:d=0.7,afade=t=out:st=0:d=0.7,volume=0.9,"
+                         f"aformat=sample_rates=44100:channel_layouts=stereo,adelay={ms}|{ms}[xh]")
+            labels.append("[xh]")
+        if labels:
+            sfx_voice = tmp / "voice_sfx.wav"
+            run(["ffmpeg", "-y", "-i", str(voice_wav), "-filter_complex",
+                 ";".join(parts) + f";[0:a]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0:duration=first[out]",
+                 "-map", "[out]", "-ar", "44100", "-ac", "2", str(sfx_voice)])
+            voice_wav = sfx_voice
+
     # 5. music under the voice
     track = pick_music(post.get("music", "auto"))
     final_audio = tmp / "audio.m4a"
@@ -417,31 +483,49 @@ def render_reel(post, pdir, used, offline=False):
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
              "-c:a", "aac", "-b:a", "160k", str(final_audio)])
 
-    # 6. video: base + constant layer + beat layers (each fades in), then audio
-    inputs = ["-stream_loop", "-1", "-i", str(src), "-loop", "1", "-i", str(tmp / "frame.png")]
-    layers = 1 if mode == "words" else len(beats)
-    if mode == "words":
-        inputs += ["-i", str(caps)]
-    else:
-        for i in range(len(beats)):
-            inputs += ["-loop", "1", "-i", str(tmp / f"b{i}.png")]
-    chain = [f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,"
-             f"eq=saturation=0.85[base]",
-             "[base][1:v]overlay=0:0:shortest=0[v0]"]
+    # 6. video: one scene per beat (punch-in at the cut, then a slow push or pull),
+    #    joined, then the constant layer and the text (beats slide up into place).
+    bounds = starts[1:] + [total]
+    lens = [round(bounds[i] - starts[i], 3) for i in range(n)]
+    inputs, chain = [], []
+    for i in range(n):
+        off = 0.0 if clips[i] != clips[i - 1] or i == 0 else sum(lens[:i])
+        inputs += ["-stream_loop", "-1", "-ss", f"{off:.2f}", "-i", str(clips[i])]
+        punch = "0.10*max(0,1-on/8)"
+        drift = "1+0.0016*on" if i % 2 == 0 else "1.09-0.0016*on"
+        z = f"max(1,{drift}+{punch})"
+        chain.append(f"[{i}:v]scale=1620:2880:force_original_aspect_ratio=increase,crop=1620:2880,fps={FPS},"
+                     f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},"
+                     f"trim=duration={lens[i]},setpts=PTS-STARTPTS,setsar=1,eq=saturation=0.85[s{i}]")
+    chain.append("".join(f"[s{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[base]")
+    k = n
+    inputs += ["-loop", "1", "-i", str(tmp / "frame.png")]
+    chain.append(f"[base][{k}:v]overlay=0:0:shortest=0[v0]")
+    k += 1
     last = "v0"
     if mode == "words":
-        chain.append("[v0][2:v]overlay=0:0:eof_action=repeat[v1]")
+        inputs += ["-i", str(caps)]
+        chain.append(f"[v0][{k}:v]overlay=0:0:eof_action=repeat[v1]")
+        k += 1
         last = "v1"
-    for i in range(len(beats) if mode != "words" else 0):
-        s, e = starts[i], ends[i] if i < len(beats) - 1 else total
-        fade = "" if i == 0 else f",fade=t=in:st={s:.2f}:d=0.25:alpha=1"  # hook visible from frame 1
-        chain.append(f"[{i + 2}:v]format=rgba{fade}[o{i}]")
-        chain.append(f"[{last}][o{i}]overlay=0:0:enable='between(t,{s:.2f},{e:.2f})'[v{i + 1}]")
-        last = f"v{i + 1}"
+    else:
+        for i in range(n):
+            inputs += ["-loop", "1", "-i", str(tmp / f"b{i}.png")]
+            s0, e = starts[i], bounds[i]
+            if i == 0:  # hook visible from frame 1
+                chain.append(f"[{k}:v]format=rgba[o{i}]")
+                ypos = "0"
+            else:
+                chain.append(f"[{k}:v]format=rgba,fade=t=in:st={s0:.2f}:d=0.2:alpha=1[o{i}]")
+                ypos = f"'if(lt(t-{s0:.2f},0.3),60*(1-(t-{s0:.2f})/0.3),0)'"
+            chain.append(f"[{last}][o{i}]overlay=x=0:y={ypos}:enable='between(t,{s0:.2f},{e:.2f})'[v{i + 1}]")
+            last = f"v{i + 1}"
+            k += 1
+    audio_idx = k
     part = pdir / "reel.part.mp4"
     out = pdir / "reel.mp4"
     run(["ffmpeg", "-y", *inputs, "-i", str(final_audio), "-filter_complex", ";".join(chain),
-         "-map", f"[{last}]", "-map", f"{layers + 2}:a", "-t", str(total),
+         "-map", f"[{last}]", "-map", f"{audio_idx}:a", "-t", str(total),
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", "-r", str(FPS),
          "-c:a", "copy", "-movflags", "+faststart", str(part)])
     part.rename(out)
