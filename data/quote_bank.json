@@ -1,55 +1,390 @@
 {
   "about": "Quote bank for @suksesishqip. Popularity = Goodreads likes (checked 2026-11-09). Only quotes believed to be genuinely in the named book. 'paraphrase': true means common wording is a paraphrase of the translation: present it as 'sipas' (according to) the author, not as an exact quote. Translate into Albanian at posting time and mark as 'përkthim i lirë'. Mark 'used' with the date after posting.",
   "banned": [
-    {"quote": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.", "reason": "Widely attributed to Marcus Aurelius but not in Meditations."},
-    {"quote": "The love of money is the root of all evil.", "reason": "Bible (1 Timothy 6:10), only quoted in Rich Dad Poor Dad."}
+    {
+      "quote": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+      "reason": "Widely attributed to Marcus Aurelius but not in Meditations."
+    },
+    {
+      "quote": "The love of money is the root of all evil.",
+      "reason": "Bible (1 Timothy 6:10), only quoted in Rich Dad Poor Dad."
+    }
   ],
   "quotes": [
-    {"author": "Marcus Aurelius", "book": "Meditations", "likes": 6110, "paraphrase": true, "tags": ["mendësi", "stoicizëm"], "quote": "You have power over your mind - not outside events. Realize this, and you will find strength."},
-    {"author": "Marcus Aurelius", "book": "Meditations", "likes": 4356, "paraphrase": true, "tags": ["mendësi"], "quote": "The happiness of your life depends upon the quality of your thoughts."},
-    {"author": "Marcus Aurelius", "book": "Meditations", "likes": 3025, "tags": ["disiplinë", "karakter"], "quote": "Waste no more time arguing about what a good man should be. Be one.", "used": "2026-11-07"},
-    {"author": "Marcus Aurelius", "book": "Meditations", "likes": 2299, "tags": ["vetëkontroll", "marrëdhënie"], "quote": "The best revenge is to be unlike him who performed the injury."},
-    {"author": "Marcus Aurelius", "book": "Meditations", "likes": 2220, "tags": ["mendësi"], "quote": "The soul becomes dyed with the colour of its thoughts."},
-    {"author": "Marcus Aurelius", "book": "Meditations", "likes": 2082, "tags": ["guxim", "jeta"], "quote": "It is not death that a man should fear, but he should fear never beginning to live."},
-
-    {"author": "Seneca", "book": "Letters from a Stoic", "likes": 611, "tags": ["para", "thjeshtësi"], "quote": "Until we have begun to go without them, we fail to realize how unnecessary many things are."},
-    {"author": "Seneca", "book": "Letters from a Stoic", "likes": 414, "tags": ["para", "çfarë do thonë"], "quote": "If you live in harmony with nature you will never be poor; if you live according to what others think, you will never be rich."},
-    {"author": "Seneca", "book": "Letters from a Stoic", "likes": 200, "tags": ["para"], "quote": "It is not the man who has too little that is poor, but the one who hankers after more."},
-    {"author": "Seneca", "book": "Letters from a Stoic", "likes": 170, "tags": ["fokus"], "quote": "To be everywhere is to be nowhere."},
-    {"author": "Seneca", "book": "Letters from a Stoic", "likes": 156, "tags": ["vetja"], "quote": "What progress, you ask, have I made? I have begun to be a friend to myself."},
-    {"author": "Seneca", "book": "On the Shortness of Life", "likes": null, "tags": ["koha"], "quote": "It is not that we have a short time to live, but that we waste a lot of it.", "used": "2026-11-08"},
-
-    {"author": "James Clear", "book": "Atomic Habits", "likes": 932, "tags": ["zakone", "identitet"], "quote": "Every action you take is a vote for the type of person you wish to become."},
-    {"author": "James Clear", "book": "Atomic Habits", "likes": 694, "tags": ["zakone", "disiplinë"], "quote": "You do not rise to the level of your goals. You fall to the level of your systems."},
-    {"author": "James Clear", "book": "Atomic Habits", "likes": 466, "tags": ["progres"], "quote": "You should be far more concerned with your current trajectory than with your current results."},
-    {"author": "James Clear", "book": "Atomic Habits", "likes": 252, "tags": ["zakone"], "quote": "Habits are the compound interest of self-improvement."},
-    {"author": "James Clear", "book": "Atomic Habits", "likes": 215, "tags": ["qëllime"], "quote": "Winners and losers have the same goals."},
-    {"author": "James Clear", "book": "Atomic Habits", "likes": 177, "tags": ["zakone"], "quote": "Success is the product of daily habits—not once-in-a-lifetime transformations."},
-
-    {"author": "Robert Greene", "book": "The 48 Laws of Power", "likes": 986, "tags": ["fjalët", "pushtet"], "quote": "When you are trying to impress people with words, the more you say, the more common you appear, and the less in control."},
-    {"author": "Robert Greene", "book": "The 48 Laws of Power", "likes": 688, "tags": ["vendim"], "quote": "If you are unsure of a course of action, do not attempt it. Your doubts and hesitations will infect your execution."},
-    {"author": "Robert Greene", "book": "The 48 Laws of Power", "likes": 675, "tags": ["biznes", "miqtë"], "quote": "Keep your friends for friendship, but work with the skilled and competent."},
-    {"author": "Robert Greene", "book": "The 48 Laws of Power", "likes": 523, "tags": ["imazh"], "quote": "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses."},
-    {"author": "Robert Greene", "book": "The 48 Laws of Power", "likes": 459, "tags": ["respekt"], "quote": "Never assume that the person you are dealing with is weaker or less important than you are."},
-    {"author": "Robert Greene", "book": "The 48 Laws of Power", "likes": 356, "tags": ["fokus", "thashetheme"], "quote": "Never waste valuable time, or mental peace of mind, on the affairs of others—that is too high a price to pay."},
-
-    {"author": "Robert Kiyosaki", "book": "Rich Dad Poor Dad", "likes": 820, "tags": ["shkolla", "gabime"], "quote": "In school we learn that mistakes are bad, and we are punished for making them."},
-    {"author": "Robert Kiyosaki", "book": "Rich Dad Poor Dad", "likes": 693, "tags": ["dështim", "guxim"], "quote": "Winners are not afraid of losing. But losers are. Failure is part of the process of success."},
-    {"author": "Robert Kiyosaki", "book": "Rich Dad Poor Dad", "likes": 242, "tags": ["këmbëngulje"], "quote": "You're only poor if you give up. The most important thing is that you did something."},
-    {"author": "Robert Kiyosaki", "book": "Rich Dad Poor Dad", "likes": 166, "tags": ["paga", "biznes"], "quote": "Workers work hard enough to not be fired, and owners pay just enough so that workers won't quit."},
-
-    {"author": "Napoleon Hill", "book": "Think and Grow Rich", "likes": 2492, "tags": ["dëshirë", "qëllime"], "quote": "The starting point of all achievement is desire."},
-    {"author": "Napoleon Hill", "book": "Think and Grow Rich", "likes": 804, "tags": ["dështim", "plan"], "quote": "When defeat comes, accept it as a signal that your plans are not sound."},
-    {"author": "Napoleon Hill", "book": "Think and Grow Rich", "likes": 405, "tags": ["dështim"], "quote": "Before success comes in any man's life, he is sure to meet with much temporary defeat, and, perhaps, some failure."},
-    {"author": "Napoleon Hill", "book": "Think and Grow Rich", "likes": 200, "tags": ["dështim", "shpresë"], "quote": "Every adversity, every failure, every heartbreak, carries with it the seed of an equal or greater benefit."},
-
-    {"author": "David Goggins", "book": "Can't Hurt Me", "likes": 311, "tags": ["rehati", "potencial"], "quote": "You are in danger of living a life so comfortable and soft, that you will die without ever realizing your true potential."},
-    {"author": "David Goggins", "book": "Can't Hurt Me", "likes": 162, "tags": ["përgjegjësi"], "quote": "No one is going to come help you. No one's coming to save you."},
-    {"author": "David Goggins", "book": "Can't Hurt Me", "likes": 119, "tags": ["vetja"], "quote": "The most important conversations you'll ever have are the ones you'll have with yourself."},
-    {"author": "David Goggins", "book": "Can't Hurt Me", "likes": 105, "tags": ["progres"], "quote": "We're either getting better or we're getting worse."},
-    {"author": "David Goggins", "book": "Can't Hurt Me", "likes": 90, "tags": ["rehati"], "quote": "Denial is the ultimate comfort zone."},
-
-    {"author": "Morgan Housel", "book": "The Psychology of Money", "likes": null, "tags": ["para", "kursim"], "quote": "Getting money is one thing. Keeping it is another."},
-    {"author": "Morgan Housel", "book": "The Psychology of Money", "likes": null, "tags": ["rrezik"], "quote": "Risk is what you don't see."}
+    {
+      "author": "Marcus Aurelius",
+      "book": "Meditations",
+      "likes": 6110,
+      "paraphrase": true,
+      "tags": [
+        "mendësi",
+        "stoicizëm"
+      ],
+      "quote": "You have power over your mind - not outside events. Realize this, and you will find strength."
+    },
+    {
+      "author": "Marcus Aurelius",
+      "book": "Meditations",
+      "likes": 4356,
+      "paraphrase": true,
+      "tags": [
+        "mendësi"
+      ],
+      "quote": "The happiness of your life depends upon the quality of your thoughts."
+    },
+    {
+      "author": "Marcus Aurelius",
+      "book": "Meditations",
+      "likes": 3025,
+      "tags": [
+        "disiplinë",
+        "karakter"
+      ],
+      "quote": "Waste no more time arguing about what a good man should be. Be one.",
+      "used": "2026-11-07"
+    },
+    {
+      "author": "Marcus Aurelius",
+      "book": "Meditations",
+      "likes": 2299,
+      "tags": [
+        "vetëkontroll",
+        "marrëdhënie"
+      ],
+      "quote": "The best revenge is to be unlike him who performed the injury."
+    },
+    {
+      "author": "Marcus Aurelius",
+      "book": "Meditations",
+      "likes": 2220,
+      "tags": [
+        "mendësi"
+      ],
+      "quote": "The soul becomes dyed with the colour of its thoughts."
+    },
+    {
+      "author": "Marcus Aurelius",
+      "book": "Meditations",
+      "likes": 2082,
+      "tags": [
+        "guxim",
+        "jeta"
+      ],
+      "quote": "It is not death that a man should fear, but he should fear never beginning to live."
+    },
+    {
+      "author": "Seneca",
+      "book": "Letters from a Stoic",
+      "likes": 611,
+      "tags": [
+        "para",
+        "thjeshtësi"
+      ],
+      "quote": "Until we have begun to go without them, we fail to realize how unnecessary many things are."
+    },
+    {
+      "author": "Seneca",
+      "book": "Letters from a Stoic",
+      "likes": 414,
+      "tags": [
+        "para",
+        "çfarë do thonë"
+      ],
+      "quote": "If you live in harmony with nature you will never be poor; if you live according to what others think, you will never be rich.",
+      "used": "2026-11-09"
+    },
+    {
+      "author": "Seneca",
+      "book": "Letters from a Stoic",
+      "likes": 200,
+      "tags": [
+        "para"
+      ],
+      "quote": "It is not the man who has too little that is poor, but the one who hankers after more."
+    },
+    {
+      "author": "Seneca",
+      "book": "Letters from a Stoic",
+      "likes": 170,
+      "tags": [
+        "fokus"
+      ],
+      "quote": "To be everywhere is to be nowhere."
+    },
+    {
+      "author": "Seneca",
+      "book": "Letters from a Stoic",
+      "likes": 156,
+      "tags": [
+        "vetja"
+      ],
+      "quote": "What progress, you ask, have I made? I have begun to be a friend to myself."
+    },
+    {
+      "author": "Seneca",
+      "book": "On the Shortness of Life",
+      "likes": null,
+      "tags": [
+        "koha"
+      ],
+      "quote": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "used": "2026-11-08"
+    },
+    {
+      "author": "James Clear",
+      "book": "Atomic Habits",
+      "likes": 932,
+      "tags": [
+        "zakone",
+        "identitet"
+      ],
+      "quote": "Every action you take is a vote for the type of person you wish to become."
+    },
+    {
+      "author": "James Clear",
+      "book": "Atomic Habits",
+      "likes": 694,
+      "tags": [
+        "zakone",
+        "disiplinë"
+      ],
+      "quote": "You do not rise to the level of your goals. You fall to the level of your systems."
+    },
+    {
+      "author": "James Clear",
+      "book": "Atomic Habits",
+      "likes": 466,
+      "tags": [
+        "progres"
+      ],
+      "quote": "You should be far more concerned with your current trajectory than with your current results."
+    },
+    {
+      "author": "James Clear",
+      "book": "Atomic Habits",
+      "likes": 252,
+      "tags": [
+        "zakone"
+      ],
+      "quote": "Habits are the compound interest of self-improvement."
+    },
+    {
+      "author": "James Clear",
+      "book": "Atomic Habits",
+      "likes": 215,
+      "tags": [
+        "qëllime"
+      ],
+      "quote": "Winners and losers have the same goals."
+    },
+    {
+      "author": "James Clear",
+      "book": "Atomic Habits",
+      "likes": 177,
+      "tags": [
+        "zakone"
+      ],
+      "quote": "Success is the product of daily habits—not once-in-a-lifetime transformations."
+    },
+    {
+      "author": "Robert Greene",
+      "book": "The 48 Laws of Power",
+      "likes": 986,
+      "tags": [
+        "fjalët",
+        "pushtet"
+      ],
+      "quote": "When you are trying to impress people with words, the more you say, the more common you appear, and the less in control."
+    },
+    {
+      "author": "Robert Greene",
+      "book": "The 48 Laws of Power",
+      "likes": 688,
+      "tags": [
+        "vendim"
+      ],
+      "quote": "If you are unsure of a course of action, do not attempt it. Your doubts and hesitations will infect your execution."
+    },
+    {
+      "author": "Robert Greene",
+      "book": "The 48 Laws of Power",
+      "likes": 675,
+      "tags": [
+        "biznes",
+        "miqtë"
+      ],
+      "quote": "Keep your friends for friendship, but work with the skilled and competent."
+    },
+    {
+      "author": "Robert Greene",
+      "book": "The 48 Laws of Power",
+      "likes": 523,
+      "tags": [
+        "imazh"
+      ],
+      "quote": "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses."
+    },
+    {
+      "author": "Robert Greene",
+      "book": "The 48 Laws of Power",
+      "likes": 459,
+      "tags": [
+        "respekt"
+      ],
+      "quote": "Never assume that the person you are dealing with is weaker or less important than you are."
+    },
+    {
+      "author": "Robert Greene",
+      "book": "The 48 Laws of Power",
+      "likes": 356,
+      "tags": [
+        "fokus",
+        "thashetheme"
+      ],
+      "quote": "Never waste valuable time, or mental peace of mind, on the affairs of others—that is too high a price to pay."
+    },
+    {
+      "author": "Robert Kiyosaki",
+      "book": "Rich Dad Poor Dad",
+      "likes": 820,
+      "tags": [
+        "shkolla",
+        "gabime"
+      ],
+      "quote": "In school we learn that mistakes are bad, and we are punished for making them."
+    },
+    {
+      "author": "Robert Kiyosaki",
+      "book": "Rich Dad Poor Dad",
+      "likes": 693,
+      "tags": [
+        "dështim",
+        "guxim"
+      ],
+      "quote": "Winners are not afraid of losing. But losers are. Failure is part of the process of success."
+    },
+    {
+      "author": "Robert Kiyosaki",
+      "book": "Rich Dad Poor Dad",
+      "likes": 242,
+      "tags": [
+        "këmbëngulje"
+      ],
+      "quote": "You're only poor if you give up. The most important thing is that you did something."
+    },
+    {
+      "author": "Robert Kiyosaki",
+      "book": "Rich Dad Poor Dad",
+      "likes": 166,
+      "tags": [
+        "paga",
+        "biznes"
+      ],
+      "quote": "Workers work hard enough to not be fired, and owners pay just enough so that workers won't quit."
+    },
+    {
+      "author": "Napoleon Hill",
+      "book": "Think and Grow Rich",
+      "likes": 2492,
+      "tags": [
+        "dëshirë",
+        "qëllime"
+      ],
+      "quote": "The starting point of all achievement is desire."
+    },
+    {
+      "author": "Napoleon Hill",
+      "book": "Think and Grow Rich",
+      "likes": 804,
+      "tags": [
+        "dështim",
+        "plan"
+      ],
+      "quote": "When defeat comes, accept it as a signal that your plans are not sound."
+    },
+    {
+      "author": "Napoleon Hill",
+      "book": "Think and Grow Rich",
+      "likes": 405,
+      "tags": [
+        "dështim"
+      ],
+      "quote": "Before success comes in any man's life, he is sure to meet with much temporary defeat, and, perhaps, some failure."
+    },
+    {
+      "author": "Napoleon Hill",
+      "book": "Think and Grow Rich",
+      "likes": 200,
+      "tags": [
+        "dështim",
+        "shpresë"
+      ],
+      "quote": "Every adversity, every failure, every heartbreak, carries with it the seed of an equal or greater benefit."
+    },
+    {
+      "author": "David Goggins",
+      "book": "Can't Hurt Me",
+      "likes": 311,
+      "tags": [
+        "rehati",
+        "potencial"
+      ],
+      "quote": "You are in danger of living a life so comfortable and soft, that you will die without ever realizing your true potential."
+    },
+    {
+      "author": "David Goggins",
+      "book": "Can't Hurt Me",
+      "likes": 162,
+      "tags": [
+        "përgjegjësi"
+      ],
+      "quote": "No one is going to come help you. No one's coming to save you."
+    },
+    {
+      "author": "David Goggins",
+      "book": "Can't Hurt Me",
+      "likes": 119,
+      "tags": [
+        "vetja"
+      ],
+      "quote": "The most important conversations you'll ever have are the ones you'll have with yourself."
+    },
+    {
+      "author": "David Goggins",
+      "book": "Can't Hurt Me",
+      "likes": 105,
+      "tags": [
+        "progres"
+      ],
+      "quote": "We're either getting better or we're getting worse."
+    },
+    {
+      "author": "David Goggins",
+      "book": "Can't Hurt Me",
+      "likes": 90,
+      "tags": [
+        "rehati"
+      ],
+      "quote": "Denial is the ultimate comfort zone."
+    },
+    {
+      "author": "Morgan Housel",
+      "book": "The Psychology of Money",
+      "likes": null,
+      "tags": [
+        "para",
+        "kursim"
+      ],
+      "quote": "Getting money is one thing. Keeping it is another."
+    },
+    {
+      "author": "Morgan Housel",
+      "book": "The Psychology of Money",
+      "likes": null,
+      "tags": [
+        "rrezik"
+      ],
+      "quote": "Risk is what you don't see."
+    }
   ]
 }
