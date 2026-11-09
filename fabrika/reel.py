@@ -489,10 +489,11 @@ def audio_track(post, beats, starts, total, timings, audio_parts, tmp, info):
     final_audio = tmp / "audio.m4a"
     if track:
         info["music"] = track.name
-        vol = "0.22" if real else "0.7"
+        vol = "0.10" if real else "0.7"
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
              f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
-             f"[0:a][m]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
+             f"[0:a]loudnorm=I=-16:TP=-2,asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[md];"
+             f"[vo][md]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
              "-map", "[out]", "-t", str(total), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
     else:
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
@@ -733,10 +734,11 @@ def render_reel(post, pdir, used, offline=False):
     final_audio = tmp / "audio.m4a"
     if track:
         info["music"] = track.name
-        vol = "0.22" if real else "0.7"
+        vol = "0.10" if real else "0.7"
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
              f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
-             f"[0:a][m]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
+             f"[0:a]loudnorm=I=-16:TP=-2,asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[md];"
+             f"[vo][md]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
              "-map", "[out]", "-t", str(total), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
     else:
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
