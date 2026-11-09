@@ -1,0 +1,31 @@
+{
+  "date": "preview-7",
+  "posts": [
+    {
+      "id": "r1",
+      "style": "reel",
+      "time": "18:00",
+      "video_query": "man driving car at night city lights",
+      "voice": "sq-AL-AnilaNeural",
+      "music": "mood:cinematic",
+      "trend": "YouTube 2026-11-08: 'Why Trying to Look Rich Makes You Look Poor' (~17k views/hour, top money video); Instagram: short, sendable lines outperform",
+      "beats": [
+        {
+          "text": "Ai që duket më i pasur në lagje, shpesh ka më pak para se ti."
+        },
+        {
+          "text": "Makina me këste. Telefoni me këste. Pushimet me kredi."
+        },
+        {
+          "text": "Çdo lek që shpenzon për t'u dukur, është një lek që nuk punon kurrë për ty."
+        },
+        {
+          "text": "Të pasurit e vërtetë duken të thjeshtë.",
+          "highlight": "S'kanë nevojë të bindin askënd."
+        }
+      ],
+      "caption": "Askush nuk të pyet sa ke në llogari. Por të gjithë e shohin makinën.\n\nKy është kurthi.\n\nE njeh dikë që jeton kështu? Mos përmend emra 😅\n\nDërgoja shokut që sapo mori makinë me këste.\n\n#suksesishqip #para #mendësi #financa",
+      "captions": "words"
+    }
+  ]
+}

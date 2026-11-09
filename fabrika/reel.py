@@ -6,6 +6,8 @@ Queue entry (style "reel"):
    "voice": "sq-AL-AnilaNeural",            # or "none"
    "music": "auto",                          # a file in fabrika/music/, "auto" or "none"
    "beats": [{"text": "...", "highlight": "..."}, ...],   # 3-6 beats, first one is the hook
+   "captions": "words",                      # "words": word-by-word captions after the hook
+                                             # "beats" (default for now): each beat's full text on screen
    "caption": "..."}
 
 Each beat is on screen while the voice reads it (beats without voice: ~3 s each).
@@ -100,13 +102,25 @@ def placeholder_video(path, seconds):
 # ---------- voice ----------
 
 async def _tts(text, voice, path):
+    """Save the voice and return word timings [(start_s, end_s, word), ...] (may be empty)."""
     import edge_tts
-    await edge_tts.Communicate(text, voice, rate=VOICE_RATE).save(str(path))
+    try:
+        c = edge_tts.Communicate(text, voice, rate=VOICE_RATE, boundary="WordBoundary")
+    except TypeError:  # older edge-tts: word boundaries are the default
+        c = edge_tts.Communicate(text, voice, rate=VOICE_RATE)
+    words = []
+    with open(path, "wb") as f:
+        async for ch in c.stream():
+            if ch["type"] == "audio":
+                f.write(ch["data"])
+            elif ch["type"] == "WordBoundary":
+                words.append((ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7, ch["text"]))
+    return words
 
 
 def voice_beat(text, voice, path):
-    asyncio.run(_tts(text, voice, path))
-    return duration(path)
+    words = asyncio.run(_tts(text, voice, path))
+    return duration(path), words
 
 
 # ---------- overlays ----------
@@ -180,6 +194,124 @@ def frame_overlay():
     return img
 
 
+# ---------- word-by-word captions ----------
+
+CAP_SIZE = 108
+CAP_Y = 0.44  # centre of the caption band (fraction of height)
+
+
+def word_times(tokens, bounds, dur):
+    """Start time of each displayed token inside its beat (seconds)."""
+    if bounds and len(bounds) == len(tokens):
+        return [b[0] for b in bounds]
+    # counts differ (numbers, symbols read out): spread by length over the voiced span
+    a = bounds[0][0] if bounds else 0.0
+    b = bounds[-1][1] if bounds else dur
+    lens = [max(2, len(t)) for t in tokens]
+    tot, acc, out = sum(lens), 0, []
+    for l in lens:
+        out.append(a + (b - a) * acc / tot)
+        acc += l
+    return out
+
+
+def chunks(tokens, maxw_chars=20, maxn=3):
+    """Group token indexes into short caption chunks, breaking after punctuation."""
+    out, cur = [], []
+    for i, t in enumerate(tokens):
+        if cur and (len(cur) >= maxn or len(" ".join(tokens[j] for j in cur + [i])) > maxw_chars):
+            out.append(cur)
+            cur = []
+        cur.append(i)
+        if t[-1] in ".,!?:;…":
+            out.append(cur)
+            cur = []
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_png(words, active, path):
+    """Chunk of 1-3 words, the spoken word in gold. Black stroke keeps it readable on any footage."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    maxw = W - 2 * PAD
+    for size in range(CAP_SIZE, 50, -4):
+        f = font("i800", size)
+        lines = wrap(d, " ".join(words), f, maxw)
+        if all(d.textlength(l, font=f) <= maxw for l in lines) and len(lines) <= 2:
+            break
+    step = int(size * 1.2)
+    y = int(H * CAP_Y - len(lines) * step / 2)
+    k = 0
+    for l in lines:
+        x = (W - d.textlength(l, font=f)) / 2
+        for w in l.split():
+            col = GOLD if k == active else WHITE
+            d.text((x, y), w, font=f, fill=col + (255,), stroke_width=7, stroke_fill=(0, 0, 0, 255))
+            x += d.textlength(w + " ", font=f)
+            k += 1
+        y += step
+    img.save(path)
+
+
+def highlight_png(text, path):
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    hf, lines, step = fit(d, text, "i800", 84, 48, W - 2 * PAD - 30, 400, 1.3)
+    y = int(H * CAP_Y - len(lines) * step / 2)
+    for l in lines:
+        tw = d.textlength(l, font=hf)
+        x = (W - tw) / 2
+        b = hf.getbbox(l)
+        d.rectangle([x - 18, y + b[1] - 16, x + tw + 18, y + b[3] + 16], fill=GOLD + (255,))
+        d.text((x, y), l, font=hf, fill=INK)
+        y += step
+    img.save(path)
+
+
+def caption_track(beats, starts, ends, total, timings, tmp):
+    """Transparent caption video: hook beat in full, then word-by-word captions, payoff in a gold box."""
+    segs = []  # (start, png)
+    blank = tmp / "blank.png"
+    Image.new("RGBA", (W, H), (0, 0, 0, 0)).save(blank)
+    n = 0
+    for i, b in enumerate(beats):
+        s0 = starts[i]
+        if i == 0:
+            p = tmp / "c_hook.png"
+            beat_overlay(b, True).save(p)
+            segs.append((0.0, p))
+            continue
+        tokens = b["text"].split()
+        hl = b.get("highlight", "").split()
+        bounds, dur = timings[i]
+        times = word_times(tokens + hl, bounds, dur)
+        for ch in chunks(tokens):
+            for j, idx in enumerate(ch):
+                p = tmp / f"c{n}.png"; n += 1
+                caption_png([tokens[k] for k in ch], j, p)
+                segs.append((s0 + (0 if idx == 0 else times[idx]), p))
+        if hl:
+            p = tmp / f"c{n}.png"; n += 1
+            highlight_png(b["highlight"], p)
+            segs.append((s0 + times[len(tokens)], p))
+    segs.sort(key=lambda x: x[0])
+    lines, min_d = [], 1.0 / FPS
+    for k, (t0, p) in enumerate(segs):
+        t1 = segs[k + 1][0] if k + 1 < len(segs) else total
+        if t1 - t0 < min_d:
+            continue
+        lines += [f"file '{p}'", f"duration {t1 - t0:.3f}"]
+    lines.append(f"file '{segs[-1][1]}'")
+    lst = tmp / "caps.txt"
+    lst.write_text("\n".join(lines))
+    out = tmp / "caps.mov"
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-vf", f"fps={FPS},format=argb",
+         "-t", str(total), "-c:v", "qtrle", str(out)])
+    return out, segs
+
+
 # ---------- music ----------
 
 def pick_music(choice):
@@ -208,16 +340,17 @@ def render_reel(post, pdir, used, offline=False):
 
     # 1. voice per beat -> timings
     starts, ends, t = [], [], 0.0
-    audio_parts = []
+    audio_parts, timings = [], []
     for i, b in enumerate(beats):
         spoken = b.get("say") or " ".join(x for x in (b["text"], b.get("highlight", "")) if x)
         if voice != "none" and not offline:
             ap = tmp / f"v{i}.mp3"
-            dur = voice_beat(spoken, voice, ap)
+            dur, words = voice_beat(spoken, voice, ap)
             audio_parts.append((ap, dur))
         else:
-            dur = SILENT_BEAT
+            dur, words = SILENT_BEAT, []
             audio_parts.append((None, dur))
+        timings.append((words, dur))
         starts.append(t)
         t += dur + GAP
         ends.append(t)
@@ -237,9 +370,14 @@ def render_reel(post, pdir, used, offline=False):
         info["video"] = {"pixabay_id": vid, "page": page, "query": post["video_query"]}
 
     # 3. overlays
+    mode = post.get("captions", "beats")  # switch default to "words" once approved
+    info["captions"] = mode
     frame_overlay().save(tmp / "frame.png")
-    for i, b in enumerate(beats):
-        beat_overlay(b, i == 0).save(tmp / f"b{i}.png")
+    if mode == "words":
+        caps, segs = caption_track(beats, starts, ends, total, timings, tmp)
+    else:
+        for i, b in enumerate(beats):
+            beat_overlay(b, i == 0).save(tmp / f"b{i}.png")
 
     # 4. voice track: beats placed at their start times
     voice_wav = tmp / "voice.wav"
@@ -273,13 +411,20 @@ def render_reel(post, pdir, used, offline=False):
 
     # 6. video: base + constant layer + beat layers (each fades in), then audio
     inputs = ["-stream_loop", "-1", "-i", str(src), "-loop", "1", "-i", str(tmp / "frame.png")]
-    for i in range(len(beats)):
-        inputs += ["-loop", "1", "-i", str(tmp / f"b{i}.png")]
+    layers = 1 if mode == "words" else len(beats)
+    if mode == "words":
+        inputs += ["-i", str(caps)]
+    else:
+        for i in range(len(beats)):
+            inputs += ["-loop", "1", "-i", str(tmp / f"b{i}.png")]
     chain = [f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,"
              f"eq=saturation=0.85[base]",
              "[base][1:v]overlay=0:0:shortest=0[v0]"]
     last = "v0"
-    for i in range(len(beats)):
+    if mode == "words":
+        chain.append("[v0][2:v]overlay=0:0:eof_action=repeat[v1]")
+        last = "v1"
+    for i in range(len(beats) if mode != "words" else 0):
         s, e = starts[i], ends[i] if i < len(beats) - 1 else total
         fade = "" if i == 0 else f",fade=t=in:st={s:.2f}:d=0.25:alpha=1"  # hook visible from frame 1
         chain.append(f"[{i + 2}:v]format=rgba{fade}[o{i}]")
@@ -288,7 +433,7 @@ def render_reel(post, pdir, used, offline=False):
     part = pdir / "reel.part.mp4"
     out = pdir / "reel.mp4"
     run(["ffmpeg", "-y", *inputs, "-i", str(final_audio), "-filter_complex", ";".join(chain),
-         "-map", f"[{last}]", "-map", f"{len(beats) + 2}:a", "-t", str(total),
+         "-map", f"[{last}]", "-map", f"{layers + 2}:a", "-t", str(total),
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", "-r", str(FPS),
          "-c:a", "copy", "-movflags", "+faststart", str(part)])
     part.rename(out)
