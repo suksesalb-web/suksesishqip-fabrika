@@ -110,11 +110,12 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - Caption: same rules as posts, and always a send/comment prompt.
 
 ## Animated Reels (`"engine": "motion"`)
-For AI tools, side hustles and how-tos (things stock footage can't show: tools, steps, prices, before/after), the 12:00 Reel can be an animated Reel instead of footage, **2–3 times a week**. Same voice, music (use `mood:lofi` or `mood:uplifting`), sound effects and review. No `video_query`.
+For AI tools, side hustles and how-tos (things stock footage can't show: tools, steps, prices, before/after), the 12:00 Reel can be an animated Reel instead of footage, **2–3 times a week**. Same voice, music (use `mood:lofi` or `mood:uplifting`), sound effects and review. Give the post a `video_query` and each beat its own `video_query` (literal, what the sentence is about): that footage plays blurred and darkened behind the animation and changes on every beat. Without footage the background is animated gold light and particles.
 ```json
 {"id": "p2", "style": "reel", "engine": "motion", "time": "12:00", "voice": "sq-AL-AnilaNeural", "music": "mood:lofi",
+ "video_query": "cafe interior coffee",
  "beats": [
-  {"type": "hook", "text": "HOOK (max ~12 words)"},
+  {"type": "hook", "text": "HOOK (max ~12 words)", "video_query": "barista making coffee cafe"},
   {"type": "list", "title": "Të duhen vetëm:", "items": ["...", "...", "..."], "say": "what the voice says"},
   {"type": "steps", "title": "Si fillon:", "items": ["...", "...", "..."], "say": "..."},
   {"type": "number", "value": 15, "from_value": 0, "prefix": "", "suffix": " min", "label": "...", "say": "..."},
