@@ -96,14 +96,17 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 {"id": "p2", "style": "reel", "time": "12:00",
  "video_query": "man driving car at night city lights",
  "voice": "sq-AL-AnilaNeural", "music": "mood:cinematic",
- "beats": [{"text": "HOOK"}, {"text": "..."}, {"text": "...", "highlight": "PAYOFF"}],
+ "beats": [{"text": "HOOK", "video_query": "..."}, {"text": "...", "video_query": "..."},
+           {"text": "...", "highlight": "PAYOFF", "video_query": "..."}],
  "caption": "..."}
 ```
+- **Every beat gets its own footage** (`video_query` per beat, English, literal: what that sentence shows). The Reel cuts on every beat, beats longer than ~4 s get a second shot from the same search, every shot opens with a quick zoom punch and then slowly pushes in or pulls out, text slides in, and a whoosh marks each cut (a low hit when the gold payoff lands). The post-level `video_query` is the fallback for beats without one.
+- Review **every** `frame-NN.jpg` (one per shot; `manifest.json` → `reel.shots` says which beat each belongs to). When re-rendering, lock the shots that passed with `"video_ids": [...]` (one id per shot, in order, from `reel.video_ids`; use `""` for a shot to re-pick) and change only the failing beat's `video_query`.
 - **3–5 beats.** Beat 1 is the hook: max ~12 words, a surprising, specific claim that makes someone think of a person they know. Other beats: max ~18 words. The last beat lands the payoff in `highlight` (gold), max ~6 words.
 - The voice (Anila) reads every beat while it's on screen; the Reel's length follows the voice (aim 12–25 s). Write beats to be **heard** as well as read: natural spoken Albanian, no lists of symbols, numbers written so they read well aloud.
-- `video_query`: concrete, literal, moving footage (a person doing the thing, the place). No visible brand names or logos, no close-up faces. If no footage fits after 3 searches, `"video_query": "none"` gives a dark moving background: never drop a Reel over footage. Lock footage that passed with `"video_id"`.
+- `video_query`: concrete, literal, moving footage (a person doing the thing, the place). No visible brand names or logos, no close-up faces. If no footage fits after 3 searches, `"video_query": "none"` on the post gives a dark moving background: never drop a Reel over footage.
 - `music`: `mood:cinematic`, `mood:piano` (emotional), `mood:dark` (stoic, serious), `mood:lofi` (tips, business how-to), `mood:uplifting` (success stories). Tracks live in `fabrika/music/` (see tracks.json).
-- Review a Reel by opening its `frame-01.jpg … frame-NN.jpg` (one per beat): text readable and not cut off, footage fits, no logos. The video itself is `reel.mp4`.
+- Each shot's frame: text readable and not cut off, footage fits the sentence, no logos, no black frames. The video itself is `reel.mp4`.
 - Caption: same rules as posts, and always a send/comment prompt.
 
 ## Buffer free plan
