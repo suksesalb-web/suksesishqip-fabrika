@@ -1,0 +1,123 @@
+{
+  "date": "preview-10",
+  "rendered_at": 1794189756,
+  "posts": [
+    {
+      "id": "r1",
+      "status": "rendered",
+      "files": [
+        "out/preview-10/r1/reel.mp4",
+        "out/preview-10/r1/frame-01.jpg",
+        "out/preview-10/r1/frame-02.jpg",
+        "out/preview-10/r1/frame-03.jpg",
+        "out/preview-10/r1/frame-04.jpg",
+        "out/preview-10/r1/frame-05.jpg",
+        "out/preview-10/r1/frame-06.jpg",
+        "out/preview-10/r1/frame-07.jpg",
+        "out/preview-10/r1/frame-08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "174007",
+        "page": "https://pixabay.com/videos/id-174007/",
+        "query": "woman walking city office"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "174007",
+          "page": "https://pixabay.com/videos/id-174007/",
+          "query": "woman walking city office"
+        },
+        "music": "uplifting-2.mp3",
+        "voice": "gemini:Riko",
+        "clips": [
+          {
+            "pixabay_id": "174007",
+            "page": "https://pixabay.com/videos/id-174007/"
+          },
+          {
+            "pixabay_id": "8625",
+            "page": "https://pixabay.com/videos/id-8625/"
+          },
+          {
+            "pixabay_id": "185341",
+            "page": "https://pixabay.com/videos/id-185341/"
+          },
+          {
+            "pixabay_id": "73531",
+            "page": "https://pixabay.com/videos/id-73531/"
+          },
+          {
+            "pixabay_id": "233390",
+            "page": "https://pixabay.com/videos/id-233390/"
+          },
+          {
+            "pixabay_id": "232538",
+            "page": "https://pixabay.com/videos/id-232538/"
+          },
+          {
+            "pixabay_id": "210786",
+            "page": "https://pixabay.com/videos/id-210786/"
+          },
+          {
+            "pixabay_id": "152798",
+            "page": "https://pixabay.com/videos/id-152798/"
+          }
+        ],
+        "video_ids": [
+          "174007",
+          "8625",
+          "185341",
+          "73531",
+          "233390",
+          "232538",
+          "210786",
+          "152798"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 1,
+            "start": 2.96
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 5.91
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 2,
+            "start": 8.77
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 11.63
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 3,
+            "start": 14.47
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 4,
+            "start": 17.31
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 4,
+            "start": 20.15
+          }
+        ],
+        "duration": 23.0
+      }
+    }
+  ]
+}
