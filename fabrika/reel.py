@@ -92,8 +92,8 @@ def pixabay_videos(query, used, n):
     if not hits:
         raise RuntimeError(f"no unused Pixabay video for '{query}'")
     vertical = [h for h in hits if h["videos"]["medium"]["height"] > h["videos"]["medium"]["width"]]
-    pool = (vertical + [h for h in hits if h not in vertical])[:max(8, n * 2)]
-    random.shuffle(pool)
+    # most popular first (best match for the search); vertical clips ahead of horizontal
+    pool = (vertical[:max(3, n)] + [h for h in hits if h not in vertical])[:max(4, n + 2)]
     out = []
     for h in pool[:n]:
         vs = h["videos"]
@@ -507,7 +507,8 @@ def render_reel(post, pdir, used, offline=False):
     #    joined, then the constant layer and the text (beats slide up into place).
     inputs, chain = [], []
     for q, (clip, s0, L, _) in enumerate(scenes):
-        off = 0.0 if q == 0 or clip != scenes[q - 1][0] else round(scenes[q - 1][2] + 0.5, 2)
+        # skip the first second (many clips fade in from black)
+        off = 1.0 if q == 0 or clip != scenes[q - 1][0] else round(1.0 + scenes[q - 1][2] + 0.5, 2)
         inputs += ["-stream_loop", "-1", "-ss", f"{off:.2f}", "-i", str(clip)]
         punch = "0.10*max(0,1-on/8)"
         drift = "1+0.0016*on" if q % 2 == 0 else "1.09-0.0016*on"
@@ -549,14 +550,16 @@ def render_reel(post, pdir, used, offline=False):
          "-c:a", "copy", "-movflags", "+faststart", str(part)])
     part.rename(out)
 
-    # 7. review frames: middle of each beat
+    # 7. review frames: one per shot (frame-01.jpg ...), so every piece of footage gets checked
     files = [out]
-    for i in range(len(beats)):
-        e = ends[i] if i < len(beats) - 1 else total
-        ts = starts[i] + min(1.2, (e - starts[i]) / 2)
-        fp = pdir / f"frame-{i + 1:02d}.jpg"
+    for q, (_, s0, L, _) in enumerate(scenes):
+        ts = s0 + min(1.0, L / 2)
+        fp = pdir / f"frame-{q + 1:02d}.jpg"
         run(["ffmpeg", "-y", "-ss", f"{ts:.2f}", "-i", str(out), "-frames:v", "1", "-q:v", "3", str(fp)])
         files.append(fp)
+    info["shots"] = [{"frame": f"frame-{q + 1:02d}.jpg", "beat": next(i for i in range(n) if starts[i] <= s0 + 0.01
+                      and (i == n - 1 or starts[i + 1] > s0 + 0.01)) + 1, "start": round(s0, 2)}
+                     for q, (_, s0, L, _) in enumerate(scenes)]
     shutil.rmtree(tmp, ignore_errors=True)
     info["duration"] = total
     return files, info
