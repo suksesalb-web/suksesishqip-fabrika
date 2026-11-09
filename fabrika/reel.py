@@ -578,6 +578,37 @@ def render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, au
     return files, info
 
 
+# ---------- stickman engine ----------
+
+def render_stickman(post, pdir, tmp, info, beats, starts, total, timings, audio_parts):
+    """Minimalist stickman acting out each beat, captions with red keywords (see fabrika/stickman.py)."""
+    from stickman import render_video
+    n = len(beats)
+    bounds = starts[1:] + [total]
+    voiced = [timings[i][1] if audio_parts[i][0] else (bounds[i] - starts[i]) * 0.7 for i in range(n)]
+    silent = tmp / "stickman.mp4"
+    render_video(beats, starts, bounds, total, voiced, silent)
+    post = dict(post)
+    post.setdefault("sfx", False)        # calm look: no whooshes
+    post.setdefault("music", "mood:piano")
+    audio = audio_track(post, beats, starts, total, timings, audio_parts, tmp, info)
+    part, out = pdir / "reel.part.mp4", pdir / "reel.mp4"
+    run(["ffmpeg", "-y", "-i", str(silent), "-i", str(audio), "-map", "0:v", "-map", "1:a",
+         "-c:v", "copy", "-c:a", "copy", "-shortest", "-movflags", "+faststart", str(part)])
+    part.rename(out)
+    files = [out]
+    for i in range(n):  # review: each beat near its end, when the whole caption is on screen
+        ts = starts[i] + 0.85 * (bounds[i] - starts[i])
+        fp = pdir / f"frame-{i + 1:02d}.jpg"
+        run(["ffmpeg", "-y", "-ss", f"{ts:.2f}", "-i", str(out), "-frames:v", "1", "-q:v", "3", str(fp)])
+        files.append(fp)
+    shutil.rmtree(tmp, ignore_errors=True)
+    info.update({"engine": "stickman", "duration": total,
+                 "scenes": [b.get("scene", "") for b in beats],
+                 "shots": [{"frame": f"frame-{i + 1:02d}.jpg", "beat": i + 1} for i in range(n)]})
+    return files, info
+
+
 # ---------- main ----------
 
 def render_reel(post, pdir, used, offline=False):
@@ -591,7 +622,11 @@ def render_reel(post, pdir, used, offline=False):
     # 1. voice per beat -> timings
     starts, ends, t = [], [], 0.0
     audio_parts, timings = [], []
-    spoken_all = [b.get("say") or " ".join(x for x in (b.get("text", ""), b.get("highlight", "")) if x) for b in beats]
+    if post.get("engine") == "stickman":  # red keywords are inside the text, not extra words
+        spoken_all = [b.get("say") or b.get("text", "") for b in beats]
+    else:
+        spoken_all = [b.get("say") or " ".join(x for x in (b.get("text", ""), b.get("highlight", "")) if x)
+                      for b in beats]
     gem = None
     if voice.startswith("gemini:") and not offline:
         try:
@@ -624,6 +659,8 @@ def render_reel(post, pdir, used, offline=False):
         ends.append(t)
     total = round(t - GAP + TAIL, 2)
 
+    if post.get("engine") == "stickman":
+        return render_stickman(post, pdir, tmp, info, beats, starts, total, timings, audio_parts)
     if post.get("engine") == "motion":
         return render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, audio_parts)
 

@@ -1,0 +1,23 @@
+{
+  "date": "stickman-1",
+  "posts": [
+    {
+      "id": "s1",
+      "style": "reel",
+      "engine": "stickman",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:piano",
+      "beats": [
+        {"scene": "wake", "clock": "06:30", "text": "Zgjohesh në 06:30.", "red": "06:30", "say": "Zgjohesh në gjashtë e tridhjetë."},
+        {"scene": "commute", "text": "Del në punë, si çdo ditë.", "red": "çdo ditë"},
+        {"scene": "desk", "text": "Tetë orë për ëndrrën e dikujt tjetër.", "red": "dikujt tjetër"},
+        {"scene": "home", "text": "Kthehesh i lodhur. Askush s'të pret.", "red": "Askush"},
+        {"scene": "phone", "text": "Pastaj dy orë në telefon, çdo natë.", "red": "dy orë"},
+        {"scene": "laptop", "text": "Ato dy orë mund të ishin biznesi yt.", "red": "biznesi yt"},
+        {"scene": "face", "text": "Fillo sonte. Edhe pak.", "red": "sonte"}
+      ],
+      "caption": "Dy orë në natë janë 60 orë në muaj.\nÇfarë do ndërtoje me to?\nDërgoja dikujt që ka nevojë ta dëgjojë.\n#suksesishqip #disiplinë #biznes #motivim"
+    }
+  ]
+}

@@ -29,8 +29,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: sudo apt-get install -y -qq ffmpeg > /dev/null
-      - run: pip install pillow requests spylls edge-tts
+      - run: sudo apt-get install -y -qq ffmpeg libcairo2-dev pkg-config > /dev/null
+      - run: pip install pillow requests spylls edge-tts pycairo
 
       - uses: actions/setup-node@v4
         with:

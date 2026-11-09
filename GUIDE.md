@@ -13,7 +13,7 @@ This file is the brief every daily run follows. Change it to change what the pag
 | 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
 | 12:00 | `reel` (12–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania. 2–3 times a week as an animated Reel (see Animated Reels) |
 | 15:00 | `quote` or `story` | Books & thinkers: a verified quote with the source named, or (2–3 times a week) a "mësime nga libri" carousel (see Book posts) |
-| 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story) |
+| 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story). 2–3 times a week as a Stickman Reel (see Stickman Reels) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work well here, a few times a week |
 
 ## Main focus
@@ -92,7 +92,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 `tweet` posts use `"slides": [{"text": "..."}]`.
 
 ## Reels (`"style": "reel"`)
-Two looks, both approved by the owner: **footage Reels** (real clips, a cut on every beat, zoom, whoosh) and **animated Reels** (`"engine": "motion"`, see below). The slot table gives defaults, but you have freedom: pick whichever look serves the idea best (footage for stories, mindset and money truths; animation for tools, steps, numbers and comparisons), and vary within it (music mood, beat types, pacing) so the feed doesn't feel repetitive.
+Three looks, all approved by the owner: **footage Reels** (real clips, a cut on every beat, zoom, whoosh), **animated Reels** (`"engine": "motion"`, see below) and **Stickman Reels** (`"engine": "stickman"`, see below). The slot table gives defaults, but you have freedom: pick whichever look serves the idea best (footage for stories, mindset and money truths; animation for tools, steps, numbers and comparisons), and vary within it (music mood, beat types, pacing) so the feed doesn't feel repetitive.
 ```json
 {"id": "p2", "style": "reel", "time": "12:00",
  "video_query": "man driving car at night city lights",
@@ -129,6 +129,25 @@ For AI tools, side hustles and how-tos (things stock footage can't show: tools, 
 - `say` is what the voice reads for list/steps/number/compare beats. Say each item using its first word, so it appears on screen exactly when spoken. Keep the whole Reel to **~50 spoken words (25–30 s)**.
 - Numbers must be true and realistic (time, cost of a tool, number of steps), **never income promises**.
 - Review: one frame per beat (`frame-NN.jpg`), check text fits and nothing overlaps.
+
+## Stickman Reels (`"engine": "stickman"`)
+A third look, approved by the owner: a minimalist white line-art stickman on a dark grey background acts out each sentence, captions appear word by word in the middle with the key words in **red**. Calm, a little melancholic, very relatable. Best for "your life right now vs what it could be" stories: the 9–5 loop, scrolling instead of building, procrastination, habits, saving, starting something on the side. Not for tools or step lists (use the animated Reel) or real people's stories (use footage).
+- Use it **2–3 times a week**, usually in the 18:00 slot (it may replace the 12:00 animated Reel when the idea fits better). Never two stickman Reels on the same day, and not on two days in a row. Alternate with footage and animated Reels so the feed stays varied; once `own_posts` has numbers, use more of whichever look performs.
+```json
+{"id": "p4", "style": "reel", "engine": "stickman", "time": "18:00", "voice": "gemini:Riko", "music": "mood:piano",
+ "beats": [
+  {"scene": "wake", "clock": "06:30", "text": "Zgjohesh në 06:30.", "red": "06:30", "say": "Zgjohesh në gjashtë e tridhjetë."},
+  {"scene": "desk", "text": "Tetë orë për ëndrrën e dikujt tjetër.", "red": "dikujt tjetër"},
+  {"scene": "phone", "text": "Në mbrëmje, dy orë në telefon.", "red": "dy orë"},
+  {"scene": "laptop", "text": "Ato dy orë mund të ishin biznesi yt.", "red": "biznesi yt"},
+  {"scene": "face", "text": "Fillo sonte. Edhe pak.", "red": "sonte"}],
+ "caption": "..."}
+```
+- **5–8 beats**, one short sentence each (max ~10 words), written as a story in the second person ("ti"). The whole Reel: ~45–60 spoken words (20–30 s). The last beat is the turn: what the viewer can do differently, usually with `scene: "face"` (the stickman turns to the camera).
+- `red`: 1–3 words that appear exactly in that beat's `text` (the emotional or key word). Every beat has one.
+- `scene` per beat, pick what the sentence shows: `wake` (bed, sits up; add `"clock": "HH:MM"` for a big red time), `commute` (walks to work with a briefcase), `desk` (office desk, clock spinning), `home` (comes home to an empty room), `stress` (hand on head, clock spinning), `phone` (on the couch scrolling at night), `laptop` (working on a laptop at night: the side hustle), `walk` (walking down a street), `run` (running: speed, competition), `stairs` (climbing steps to a red flag: progress), `money` (coins stacking up: saving), `think` (hand on chin, red "?"), `face` (turns to the camera with a red glow: the payoff). Don't use the same scene twice in a row.
+- Voice: Riko, same as other Reels. Use `say` when the text has numbers or times that should be read out in words. Music: `mood:piano` (default) or `mood:dark`. No whooshes (set automatically).
+- Review: one `frame-NN.jpg` per beat. Check the caption fits (max 3 lines), the red word is the right one, and the scene matches the sentence.
 
 ## Buffer free plan
 Max 10 scheduled posts per channel at a time. Schedule only the current day (5 posts), never days ahead.
