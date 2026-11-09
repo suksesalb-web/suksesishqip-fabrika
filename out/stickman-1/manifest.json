@@ -1,0 +1,67 @@
+{
+  "date": "stickman-1",
+  "rendered_at": 1794224738,
+  "posts": [
+    {
+      "id": "s1",
+      "status": "rendered",
+      "files": [
+        "out/stickman-1/s1/reel.mp4",
+        "out/stickman-1/s1/frame-01.jpg",
+        "out/stickman-1/s1/frame-02.jpg",
+        "out/stickman-1/s1/frame-03.jpg",
+        "out/stickman-1/s1/frame-04.jpg",
+        "out/stickman-1/s1/frame-05.jpg",
+        "out/stickman-1/s1/frame-06.jpg",
+        "out/stickman-1/s1/frame-07.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "piano-1.mp3",
+        "voice": "gemini:Riko",
+        "engine": "stickman",
+        "duration": 20.83,
+        "scenes": [
+          "wake",
+          "commute",
+          "desk",
+          "home",
+          "phone",
+          "laptop",
+          "face"
+        ],
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 7
+          }
+        ]
+      }
+    }
+  ]
+}
