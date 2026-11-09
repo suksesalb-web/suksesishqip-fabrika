@@ -32,6 +32,7 @@ VOICE_RATE = "+6%"
 GAP = 0.35          # silence between beats (s)
 TAIL = 0.8          # hold after the last beat (s)
 SILENT_BEAT = 3.0   # beat length when there is no voice (s)
+SPLIT = 4.2         # beats longer than this get a second shot (cut mid-beat)
 
 
 def font(name, size):
@@ -386,28 +387,38 @@ def render_reel(post, pdir, used, offline=False):
         ends.append(t)
     total = round(t - GAP + TAIL, 2)
 
-    # 2. footage: one clip per beat (a cut on every beat).
+    # 2. footage: a cut on every beat, and beats longer than SPLIT seconds get a second shot.
     #    Per beat: beat["video_id"] (locked) > beat["video_query"] > clips from the post's video_query.
     n = len(beats)
-    clips = [None] * n
+    bounds = starts[1:] + [total]
+    shots_per = [2 if bounds[i] - starts[i] > SPLIT else 1 for i in range(n)]
+    clips = [[None] * k for k in shots_per]
     info["clips"] = []
     if not (offline or post.get("video_query") == "none"):
-        locked = post.get("video_ids") or ([post["video_id"]] * n if post.get("video_id") else [])
-        need = [i for i in range(n) if not beats[i].get("video_query") and not beats[i].get("video_id")
-                and not (i < len(locked) and locked[i])]
+        locked = post.get("video_ids") or ([post["video_id"]] * sum(shots_per) if post.get("video_id") else [])
+        flat = [(i, j) for i in range(n) for j in range(shots_per[i])]
+        need = [(i, j) for (i, j) in flat if not beats[i].get("video_query") and not beats[i].get("video_id")
+                and not (flat.index((i, j)) < len(locked) and locked[flat.index((i, j))])]
         pool = pixabay_videos(post["video_query"], used, len(need)) if need else []
-        for i in range(n):
-            vid = beats[i].get("video_id") or (locked[i] if i < len(locked) else None)
+        per_beat = {}
+        for k, (i, j) in enumerate(flat):
+            vid = (locked[k] if k < len(locked) else None) or (beats[i].get("video_id") if j == 0 else None)
             if vid:
                 c = pixabay_video_by_id(vid)
             elif beats[i].get("video_query"):
-                c = pixabay_videos(beats[i]["video_query"], used, 1)[0]
+                if i not in per_beat:
+                    try:
+                        per_beat[i] = pixabay_videos(beats[i]["video_query"], used, shots_per[i])
+                    except RuntimeError:
+                        per_beat[i] = pixabay_videos(post["video_query"], used, shots_per[i])
+                c = per_beat[i][j % len(per_beat[i])]
             else:
-                c = pool[need.index(i) % len(pool)]
-            path = tmp / f"src{i}.mp4"
-            path.write_bytes(c[0])
+                c = pool[need.index((i, j)) % len(pool)]
+            path = tmp / f"src{i}_{j}.mp4"
+            if not path.exists():
+                path.write_bytes(c[0])
             used.add("v" + c[1])
-            clips[i] = path
+            clips[i][j] = path
             info["clips"].append({"pixabay_id": c[1], "page": c[2]})
         info["video"] = {"pixabay_id": info["clips"][0]["pixabay_id"], "page": info["clips"][0]["page"],
                          "query": post["video_query"]}
@@ -415,7 +426,16 @@ def render_reel(post, pdir, used, offline=False):
     else:
         g = tmp / "grad.mp4"
         placeholder_video(g, total)
-        clips = [g] * n
+        clips = [[g] * k for k in shots_per]
+    # scenes: (clip, start, length, is_beat_cut)
+    scenes = []
+    for i in range(n):
+        L = bounds[i] - starts[i]
+        if shots_per[i] == 2:
+            h = round(L * 0.5, 3)
+            scenes += [(clips[i][0], starts[i], h, True), (clips[i][1], starts[i] + h, round(L - h, 3), False)]
+        else:
+            scenes.append((clips[i][0], starts[i], round(L, 3), True))
 
     # 3. overlays
     mode = post.get("captions", "beats")  # switch default to "words" once approved
@@ -485,20 +505,19 @@ def render_reel(post, pdir, used, offline=False):
 
     # 6. video: one scene per beat (punch-in at the cut, then a slow push or pull),
     #    joined, then the constant layer and the text (beats slide up into place).
-    bounds = starts[1:] + [total]
-    lens = [round(bounds[i] - starts[i], 3) for i in range(n)]
     inputs, chain = [], []
-    for i in range(n):
-        off = 0.0 if clips[i] != clips[i - 1] or i == 0 else sum(lens[:i])
-        inputs += ["-stream_loop", "-1", "-ss", f"{off:.2f}", "-i", str(clips[i])]
+    for q, (clip, s0, L, _) in enumerate(scenes):
+        off = 0.0 if q == 0 or clip != scenes[q - 1][0] else round(scenes[q - 1][2] + 0.5, 2)
+        inputs += ["-stream_loop", "-1", "-ss", f"{off:.2f}", "-i", str(clip)]
         punch = "0.10*max(0,1-on/8)"
-        drift = "1+0.0016*on" if i % 2 == 0 else "1.09-0.0016*on"
+        drift = "1+0.0016*on" if q % 2 == 0 else "1.09-0.0016*on"
         z = f"max(1,{drift}+{punch})"
-        chain.append(f"[{i}:v]scale=1620:2880:force_original_aspect_ratio=increase,crop=1620:2880,fps={FPS},"
+        chain.append(f"[{q}:v]scale=1620:2880:force_original_aspect_ratio=increase,crop=1620:2880,fps={FPS},"
                      f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},"
-                     f"trim=duration={lens[i]},setpts=PTS-STARTPTS,setsar=1,eq=saturation=0.85[s{i}]")
-    chain.append("".join(f"[s{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[base]")
-    k = n
+                     f"trim=duration={L},setpts=PTS-STARTPTS,setsar=1,eq=saturation=0.85[s{q}]")
+    n_sc = len(scenes)
+    chain.append("".join(f"[s{q}]" for q in range(n_sc)) + f"concat=n={n_sc}:v=1:a=0[base]")
+    k = n_sc
     inputs += ["-loop", "1", "-i", str(tmp / "frame.png")]
     chain.append(f"[base][{k}:v]overlay=0:0:shortest=0[v0]")
     k += 1
