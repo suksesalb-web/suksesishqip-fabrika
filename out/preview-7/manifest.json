@@ -1,6 +1,6 @@
 {
   "date": "preview-7",
-  "rendered_at": 1794182566,
+  "rendered_at": 1794182644,
   "posts": [
     {
       "id": "r1",
@@ -13,19 +13,25 @@
         "out/preview-7/r1/frame-04.jpg"
       ],
       "photo": {
-        "pixabay_id": "2165",
-        "page": "https://pixabay.com/videos/id-2165/",
+        "pixabay_id": "6456",
+        "page": "https://pixabay.com/videos/id-6456/",
         "query": "man driving car at night city lights"
       },
       "reel": {
         "video": {
-          "pixabay_id": "2165",
-          "page": "https://pixabay.com/videos/id-2165/",
+          "pixabay_id": "6456",
+          "page": "https://pixabay.com/videos/id-6456/",
           "query": "man driving car at night city lights"
         },
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "sq-AL-AnilaNeural",
         "captions": "words",
+        "word_sync": [
+          "exact",
+          "exact",
+          "exact",
+          "exact"
+        ],
         "duration": 22.23
       }
     }
