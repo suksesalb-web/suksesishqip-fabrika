@@ -236,11 +236,17 @@ def caption_png(words, active, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     maxw = W - 2 * PAD
-    for size in range(CAP_SIZE, 50, -4):
-        f = font("i800", size)
-        lines = wrap(d, " ".join(words), f, maxw)
-        if all(d.textlength(l, font=f) <= maxw for l in lines) and len(lines) <= 2:
-            break
+    text = " ".join(words)
+    size = next((sz for sz in range(CAP_SIZE, 83, -4)  # one line if it fits at >= 84 px
+                 if d.textlength(text, font=font("i800", sz)) <= maxw), None)
+    if size:
+        f, lines = font("i800", size), [text]
+    else:
+        for size in range(CAP_SIZE, 50, -4):
+            f = font("i800", size)
+            lines = wrap(d, text, f, maxw)
+            if all(d.textlength(l, font=f) <= maxw for l in lines) and len(lines) <= 2:
+                break
     step = int(size * 1.2)
     y = int(H * CAP_Y - len(lines) * step / 2)
     k = 0
@@ -375,6 +381,8 @@ def render_reel(post, pdir, used, offline=False):
     frame_overlay().save(tmp / "frame.png")
     if mode == "words":
         caps, segs = caption_track(beats, starts, ends, total, timings, tmp)
+        info["word_sync"] = [("exact" if len(w) == len((b["text"] + " " + b.get("highlight", "")).split())
+                              else "estimated" if w else "none") for (w, _), b in zip(timings, beats)]
     else:
         for i, b in enumerate(beats):
             beat_overlay(b, i == 0).save(tmp / f"b{i}.png")
