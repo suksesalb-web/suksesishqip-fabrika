@@ -11,7 +11,7 @@ This file is the brief every daily run follows. Change it to change what the pag
 | Slot (Tirana time) | Style | What |
 |---|---|---|
 | 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
-| 12:00 | `reel` (12–25 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania |
+| 12:00 | `reel` (12–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania. 2–3 times a week as an animated Reel (see Animated Reels) |
 | 15:00 | `quote` or `story` | Books & thinkers: a verified quote with the source named, or (2–3 times a week) a "mësime nga libri" carousel (see Book posts) |
 | 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work well here, a few times a week |
@@ -108,6 +108,25 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - `music`: `mood:cinematic`, `mood:piano` (emotional), `mood:dark` (stoic, serious), `mood:lofi` (tips, business how-to), `mood:uplifting` (success stories). Tracks live in `fabrika/music/` (see tracks.json).
 - Each shot's frame: text readable and not cut off, footage fits the sentence, no logos, no black frames. The video itself is `reel.mp4`.
 - Caption: same rules as posts, and always a send/comment prompt.
+
+## Animated Reels (`"engine": "motion"`)
+For AI tools, side hustles and how-tos (things stock footage can't show: tools, steps, prices, before/after), the 12:00 Reel can be an animated Reel instead of footage, **2–3 times a week**. Same voice, music (use `mood:lofi` or `mood:uplifting`), sound effects and review. No `video_query`.
+```json
+{"id": "p2", "style": "reel", "engine": "motion", "time": "12:00", "voice": "sq-AL-AnilaNeural", "music": "mood:lofi",
+ "beats": [
+  {"type": "hook", "text": "HOOK (max ~12 words)"},
+  {"type": "list", "title": "Të duhen vetëm:", "items": ["...", "...", "..."], "say": "what the voice says"},
+  {"type": "steps", "title": "Si fillon:", "items": ["...", "...", "..."], "say": "..."},
+  {"type": "number", "value": 15, "from_value": 0, "prefix": "", "suffix": " min", "label": "...", "say": "..."},
+  {"type": "compare", "left": {"label": "...", "items": ["...", "..."]}, "right": {"label": "...", "items": ["...", "..."]}, "say": "..."},
+  {"type": "text", "text": "...", "highlight": "PAYOFF"}
+ ],
+ "caption": "..."}
+```
+- 4–5 beats, pick the types that fit the idea (not all of them). Items: 2–3 per list/steps, max ~4 words each. Compare: 2 items per side.
+- `say` is what the voice reads for list/steps/number/compare beats. Say each item using its first word, so it appears on screen exactly when spoken. Keep the whole Reel to **~50 spoken words (25–30 s)**.
+- Numbers must be true and realistic (time, cost of a tool, number of steps), **never income promises**.
+- Review: one frame per beat (`frame-NN.jpg`), check text fits and nothing overlaps.
 
 ## Buffer free plan
 Max 10 scheduled posts per channel at a time. Schedule only the current day (5 posts), never days ahead.
