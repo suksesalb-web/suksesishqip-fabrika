@@ -38,3 +38,6 @@ Menuja
 menuja
 QR
 punëanash
+Sara
+Blakely
+Spanx

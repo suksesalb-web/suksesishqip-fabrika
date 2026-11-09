@@ -27,7 +27,11 @@ GOLD = (212, 175, 55)
 WHITE = (255, 255, 255)
 INK = (12, 12, 12)
 HANDLE = "@suksesishqip"
-DEFAULT_VOICE = "sq-AL-AnilaNeural"
+DEFAULT_VOICE = "gemini:Riko"          # Gemini TTS; Anila (Edge) is the last-resort fallback
+FALLBACK_VOICE = "sq-AL-AnilaNeural"
+GEMINI_MODEL = "gemini-3.8-flash-tts"
+GEMINI_STYLE = ("Speak in standard Albanian, naturally, like a friend telling you something true over coffee: "
+                "calm, convincing, short natural pauses, never like an advert.")
 VOICE_RATE = "+6%"
 GAP = 0.35          # silence between beats (s)
 TAIL = 0.8          # hold after the last beat (s)
@@ -141,6 +145,71 @@ async def _tts(text, voice, path):
             elif ch["type"] == "WordBoundary":
                 words.append((ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7, ch["text"]))
     return words
+
+
+def gemini_tts(text, voice, style, out_wav):
+    """One Gemini TTS request for the whole Reel. Retries once after a minute on rate limits."""
+    import base64, time, requests
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        raise RuntimeError("no GEMINI_API_KEY")
+    bodies = [
+        {"contents": [{"role": "user", "parts": [{"text": text, "speech_metadata": {"style": style}}]}],
+         "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"voice": voice}}}},
+        {"contents": [{"role": "user", "parts": [{"text": f"{style}\n{text}"}]}],
+         "generationConfig": {"responseModalities": ["AUDIO"],
+                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}},
+    ]
+    last = ""
+    for attempt in range(3):
+        for body in bodies:
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+                              headers={"x-goog-api-key": key}, json=body, timeout=180)
+            if r.status_code == 200:
+                part = r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]
+                raw = base64.b64decode(part["data"])
+                src = out_wav.with_suffix(".raw")
+                src.write_bytes(raw)
+                inp = ["-i", str(src)] if raw[:4] == b"RIFF" else ["-f", "s16le", "-ar", "24000", "-ac", "1", "-i", str(src)]
+                run(["ffmpeg", "-y", *inp, "-ar", "44100", "-ac", "1", str(out_wav)])
+                return
+            last = f"{r.status_code} {r.text[:200]}"
+            if r.status_code == 429:
+                break
+        time.sleep(65)
+    raise RuntimeError("gemini tts failed: " + last)
+
+
+def split_on_pauses(wav, texts, tmp):
+    """Cut one narration into one clip per beat, at the pauses closest to where each beat should end."""
+    import re
+    total = duration(wav)
+    p = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-38dB:d=0.18", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    starts = [float(x) for x in re.findall(r"silence_start: ([0-9.]+)", p.stderr)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([0-9.]+)", p.stderr)]
+    mids = [(a + b) / 2 for a, b in zip(starts, ends)]
+    weights = [max(1, len(re.sub(r"<[^>]+>", "", t))) for t in texts]
+    cuts, acc, prev = [], 0, 0.0
+    for w in weights[:-1]:
+        acc += w
+        want = total * acc / sum(weights)
+        cand = [m for m in mids if m > prev + 0.6]
+        c = min(cand, key=lambda m: abs(m - want)) if cand else want
+        if abs(c - want) > 2.5:  # no pause near the expected spot
+            c = want
+        cuts.append(c)
+        prev = c
+    bounds = [0.0] + cuts + [total]
+    parts = []
+    trim = ("silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+            "silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+    for i in range(len(texts)):
+        out = tmp / f"v{i}.mp3"
+        run(["ffmpeg", "-y", "-i", str(wav), "-ss", f"{bounds[i]:.3f}", "-to", f"{bounds[i + 1]:.3f}",
+             "-af", trim, "-ar", "44100", "-ac", "2", str(out)])
+        parts.append((out, duration(out)))
+    return parts
 
 
 def voice_beat(text, voice, path):
@@ -513,17 +582,37 @@ def render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, au
 def render_reel(post, pdir, used, offline=False):
     beats = post["beats"]
     voice = post.get("voice", DEFAULT_VOICE)
+    if voice == FALLBACK_VOICE and not post.get("force_voice"):  # owner's choice: Riko first, Anila only as fallback
+        voice = DEFAULT_VOICE
     tmp = Path(tempfile.mkdtemp())
     info = {"video": None, "music": None, "voice": voice}
 
     # 1. voice per beat -> timings
     starts, ends, t = [], [], 0.0
     audio_parts, timings = [], []
+    spoken_all = [b.get("say") or " ".join(x for x in (b.get("text", ""), b.get("highlight", "")) if x) for b in beats]
+    gem = None
+    if voice.startswith("gemini:") and not offline:
+        try:
+            wav = tmp / "narration.wav"
+            gemini_tts("\n\n".join(spoken_all), voice.split(":", 1)[1], post.get("voice_style", GEMINI_STYLE), wav)
+            gem = split_on_pauses(wav, spoken_all, tmp)
+            info["voice"] = voice
+        except Exception as e:  # last resort: Anila
+            print("Gemini voice failed, using Anila:", e)
+            voice = FALLBACK_VOICE
+            info["voice"] = voice
+            info["voice_fallback"] = str(e)[:200]
     for i, b in enumerate(beats):
-        spoken = b.get("say") or " ".join(x for x in (b.get("text", ""), b.get("highlight", "")) if x)
-        if voice != "none" and not offline:
+        spoken = spoken_all[i]
+        if gem:
+            ap, dur = gem[i]
+            audio_parts.append((ap, dur))
+            words = []
+        elif voice != "none" and not offline:
             ap = tmp / f"v{i}.mp3"
-            dur, words = voice_beat(spoken, voice, ap)
+            import re
+            dur, words = voice_beat(re.sub(r"<[^>]+>", " ", spoken).strip(), voice, ap)
             audio_parts.append((ap, dur))
         else:
             dur, words = SILENT_BEAT, []

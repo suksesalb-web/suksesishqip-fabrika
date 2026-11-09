@@ -41,6 +41,8 @@ def texts_of(post):
 
 
 def check_text(d, allow, text):
+    import re
+    text = re.sub(r"<[^>]+>", " ", text)  # voice expression tags like <breath>
     bad = []
     for w in WORD.findall(text):
         if "-" in w:  # "Potter-it": check the name, the case ending is fine

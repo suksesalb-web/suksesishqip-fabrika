@@ -96,7 +96,7 @@ Two looks, both approved by the owner: **footage Reels** (real clips, a cut on e
 ```json
 {"id": "p2", "style": "reel", "time": "12:00",
  "video_query": "man driving car at night city lights",
- "voice": "sq-AL-AnilaNeural", "music": "mood:cinematic",
+ "voice": "gemini:Riko", "music": "mood:cinematic",
  "beats": [{"text": "HOOK", "video_query": "..."}, {"text": "...", "video_query": "..."},
            {"text": "...", "highlight": "PAYOFF", "video_query": "..."}],
  "caption": "..."}
@@ -104,7 +104,7 @@ Two looks, both approved by the owner: **footage Reels** (real clips, a cut on e
 - **Every beat gets its own footage** (`video_query` per beat, English, literal: what that sentence shows). The Reel cuts on every beat, beats longer than ~4 s get a second shot from the same search, every shot opens with a quick zoom punch and then slowly pushes in or pulls out, text slides in, and a whoosh marks each cut (a low hit when the gold payoff lands). The post-level `video_query` is the fallback for beats without one.
 - Review **every** `frame-NN.jpg` (one per shot; `manifest.json` → `reel.shots` says which beat each belongs to). When re-rendering, lock the shots that passed with `"video_ids": [...]` (one id per shot, in order, from `reel.video_ids`; use `""` for a shot to re-pick) and change only the failing beat's `video_query`.
 - **3–5 beats.** Beat 1 is the hook: max ~12 words, a surprising, specific claim that makes someone think of a person they know. Other beats: max ~18 words. The last beat lands the payoff in `highlight` (gold), max ~6 words.
-- The voice (Anila) reads every beat while it's on screen; the Reel's length follows the voice (aim 12–25 s). Write beats to be **heard** as well as read: natural spoken Albanian, no lists of symbols, numbers written so they read well aloud.
+- The voice is **Riko** (Gemini TTS, the owner's choice; Anila is only an automatic fallback). Riko reads every beat while it's on screen. For a more human delivery, a beat's `say` may include one light expression tag where it fits naturally, e.g. `<breath>` before a hook or `<laugh>` after an ironic line (max 1–2 per Reel, never in serious or sad posts). Tags are only spoken, never shown; the Reel's length follows the voice (aim 12–25 s). Write beats to be **heard** as well as read: natural spoken Albanian, no lists of symbols, numbers written so they read well aloud.
 - `video_query`: concrete, literal, moving footage (a person doing the thing, the place). No visible brand names or logos, no close-up faces. If no footage fits after 3 searches, `"video_query": "none"` on the post gives a dark moving background: never drop a Reel over footage.
 - `music`: `mood:cinematic`, `mood:piano` (emotional), `mood:dark` (stoic, serious), `mood:lofi` (tips, business how-to), `mood:uplifting` (success stories). Tracks live in `fabrika/music/` (see tracks.json).
 - Each shot's frame: text readable and not cut off, footage fits the sentence, no logos, no black frames. The video itself is `reel.mp4`.
@@ -113,7 +113,7 @@ Two looks, both approved by the owner: **footage Reels** (real clips, a cut on e
 ## Animated Reels (`"engine": "motion"`)
 For AI tools, side hustles and how-tos (things stock footage can't show: tools, steps, prices, before/after), the 12:00 Reel can be an animated Reel instead of footage, **2–3 times a week**. Same voice, music (use `mood:lofi` or `mood:uplifting`), sound effects and review. Give the post a `video_query` and each beat its own `video_query` (literal, what the sentence is about): that footage plays blurred and darkened behind the animation and changes on every beat. Without footage the background is animated gold light and particles.
 ```json
-{"id": "p2", "style": "reel", "engine": "motion", "time": "12:00", "voice": "sq-AL-AnilaNeural", "music": "mood:lofi",
+{"id": "p2", "style": "reel", "engine": "motion", "time": "12:00", "voice": "gemini:Riko", "music": "mood:lofi",
  "video_query": "cafe interior coffee",
  "beats": [
   {"type": "hook", "text": "HOOK (max ~12 words)", "video_query": "barista making coffee cafe"},
