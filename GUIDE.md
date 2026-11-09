@@ -92,6 +92,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 `tweet` posts use `"slides": [{"text": "..."}]`.
 
 ## Reels (`"style": "reel"`)
+Two looks, both approved by the owner: **footage Reels** (real clips, a cut on every beat, zoom, whoosh) and **animated Reels** (`"engine": "motion"`, see below). The slot table gives defaults, but you have freedom: pick whichever look serves the idea best (footage for stories, mindset and money truths; animation for tools, steps, numbers and comparisons), and vary within it (music mood, beat types, pacing) so the feed doesn't feel repetitive.
 ```json
 {"id": "p2", "style": "reel", "time": "12:00",
  "video_query": "man driving car at night city lights",
