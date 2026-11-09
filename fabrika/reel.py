@@ -361,6 +361,121 @@ def pick_music(choice):
     return random.choice(tracks)
 
 
+# ---------- motion engine (Remotion) ----------
+
+REMOTION = ROOT / "remotion"
+
+
+def _norm(w):
+    return "".join(ch for ch in w.lower() if ch.isalnum())
+
+
+def item_frames(items, words, beat_len):
+    """Frame (inside the beat) at which each list item should appear: when the voice says its first word."""
+    out, k = [], 0
+    for it in items:
+        first = _norm(it.split()[0]) if it.split() else ""
+        hit = None
+        for j in range(k, len(words)):
+            if first and _norm(words[j][2]).startswith(first[:5]):
+                hit = j
+                break
+        if hit is None:
+            return None
+        out.append(max(0, int(words[hit][0] * FPS) - 3))
+        k = hit + 1
+    return out
+
+
+def audio_track(post, beats, starts, total, timings, audio_parts, tmp, info):
+    """Voice + sound effects + music, loudness-normalised (same mix as footage Reels)."""
+    voice_wav = tmp / "voice.wav"
+    inputs, filt = [], []
+    real = [(i, p) for i, (p, _) in enumerate(audio_parts) if p]
+    if real:
+        for k, (i, p) in enumerate(real):
+            inputs += ["-i", str(p)]
+            ms = int(starts[i] * 1000)
+            filt.append(f"[{k}:a]adelay={ms}|{ms}[a{k}]")
+        mix = "".join(f"[a{k}]" for k in range(len(real)))
+        filt.append(f"{mix}amix=inputs={len(real)}:normalize=0,apad,atrim=0:{total}[out]")
+        run(["ffmpeg", "-y", *inputs, "-filter_complex", ";".join(filt), "-map", "[out]",
+             "-ar", "44100", "-ac", "2", str(voice_wav)])
+        parts, labels = [], []
+        for i in range(1, len(beats)):
+            ms = max(0, int((starts[i] - 0.25) * 1000))
+            parts.append(f"anoisesrc=d=0.5:c=pink:a=0.6,highpass=f=500,lowpass=f=6000,"
+                         f"afade=t=in:d=0.3,afade=t=out:st=0.3:d=0.2,volume=0.30,"
+                         f"aformat=sample_rates=44100:channel_layouts=stereo,adelay={ms}|{ms}[x{i}]")
+            labels.append(f"[x{i}]")
+        if labels and post.get("sfx", True):
+            sv = tmp / "voice_sfx.wav"
+            run(["ffmpeg", "-y", "-i", str(voice_wav), "-filter_complex",
+                 ";".join(parts) + f";[0:a]{''.join(labels)}amix=inputs={len(labels) + 1}:normalize=0:duration=first[out]",
+                 "-map", "[out]", "-ar", "44100", "-ac", "2", str(sv)])
+            voice_wav = sv
+    else:
+        run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", str(total), str(voice_wav)])
+    track = pick_music(post.get("music", "mood:lofi"))
+    final_audio = tmp / "audio.m4a"
+    if track:
+        info["music"] = track.name
+        vol = "0.22" if real else "0.7"
+        run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
+             f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
+             f"[0:a][m]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
+             "-map", "[out]", "-t", str(total), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
+    else:
+        run(["ffmpeg", "-y", "-i", str(voice_wav), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+             "-c:a", "aac", "-b:a", "160k", str(final_audio)])
+    return final_audio
+
+
+def render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, audio_parts):
+    """Animated Reel (no footage): hook, text, list, steps, number and compare beats drawn by Remotion."""
+    n = len(beats)
+    bounds = starts[1:] + [total]
+    total_frames = int(round(total * FPS))
+    props_beats = []
+    for i, b in enumerate(beats):
+        f0 = int(round(starts[i] * FPS))
+        f1 = total_frames if i == n - 1 else int(round(bounds[i] * FPS))
+        pb = {k: v for k, v in b.items() if k not in ("say", "video_query", "video_id")}
+        pb["type"] = b.get("type", "hook" if i == 0 else "text")
+        pb.update({"from": f0, "dur": max(1, f1 - f0)})
+        if pb["type"] in ("list", "steps") and timings[i][0]:
+            fr = item_frames(b.get("items", []), timings[i][0], f1 - f0)
+            if fr:
+                pb["item_times"] = fr
+        props_beats.append(pb)
+    props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats}
+    pf = tmp / "props.json"
+    pf.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
+    silent = tmp / "motion.mp4"
+    cmd = ["npx", "remotion", "render", "src/index.ts", "Explainer", str(silent), f"--props={pf}",
+           "--codec=h264", "--crf=20", "--muted"]
+    if os.environ.get("REMOTION_BROWSER"):
+        cmd.append(f"--browser-executable={os.environ['REMOTION_BROWSER']}")
+    p = subprocess.run(cmd, cwd=REMOTION, capture_output=True, text=True)
+    if p.returncode != 0:
+        raise RuntimeError("remotion failed: " + (p.stderr or p.stdout)[-1500:])
+    audio = audio_track(post, beats, starts, total, timings, audio_parts, tmp, info)
+    part, out = pdir / "reel.part.mp4", pdir / "reel.mp4"
+    run(["ffmpeg", "-y", "-i", str(silent), "-i", str(audio), "-map", "0:v", "-map", "1:a",
+         "-c:v", "copy", "-c:a", "copy", "-shortest", "-movflags", "+faststart", str(part)])
+    part.rename(out)
+    files = [out]
+    for i in range(n):  # review: each beat near its end, when everything in it is on screen
+        ts = starts[i] + 0.8 * (bounds[i] - starts[i])
+        fp = pdir / f"frame-{i + 1:02d}.jpg"
+        run(["ffmpeg", "-y", "-ss", f"{ts:.2f}", "-i", str(out), "-frames:v", "1", "-q:v", "3", str(fp)])
+        files.append(fp)
+    shutil.rmtree(tmp, ignore_errors=True)
+    info.update({"engine": "motion", "duration": total,
+                 "shots": [{"frame": f"frame-{i + 1:02d}.jpg", "beat": i + 1} for i in range(n)]})
+    return files, info
+
+
 # ---------- main ----------
 
 def render_reel(post, pdir, used, offline=False):
@@ -373,7 +488,7 @@ def render_reel(post, pdir, used, offline=False):
     starts, ends, t = [], [], 0.0
     audio_parts, timings = [], []
     for i, b in enumerate(beats):
-        spoken = b.get("say") or " ".join(x for x in (b["text"], b.get("highlight", "")) if x)
+        spoken = b.get("say") or " ".join(x for x in (b.get("text", ""), b.get("highlight", "")) if x)
         if voice != "none" and not offline:
             ap = tmp / f"v{i}.mp3"
             dur, words = voice_beat(spoken, voice, ap)
@@ -386,6 +501,9 @@ def render_reel(post, pdir, used, offline=False):
         t += dur + GAP
         ends.append(t)
     total = round(t - GAP + TAIL, 2)
+
+    if post.get("engine") == "motion":
+        return render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, audio_parts)
 
     # 2. footage: a cut on every beat, and beats longer than SPLIT seconds get a second shot.
     #    Per beat: beat["video_id"] (locked) > beat["video_query"] > clips from the post's video_query.

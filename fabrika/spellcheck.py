@@ -32,7 +32,11 @@ def load_allow():
 def texts_of(post):
     out = [post.get("caption", "")]
     for s in post.get("slides", []) + post.get("beats", []):
-        out += [str(v) for k, v in s.items() if isinstance(v, str) and k not in ("video_query", "video_id", "photo_query")]
+        out += [str(v) for k, v in s.items() if isinstance(v, str) and k not in ("video_query", "video_id", "photo_query", "type")]
+        out += [str(x) for x in s.get("items", [])]
+        for side in ("left", "right"):
+            if isinstance(s.get(side), dict):
+                out += [s[side].get("label", "")] + [str(x) for x in s[side].get("items", [])]
     return out
 
 

@@ -32,6 +32,15 @@ jobs:
       - run: sudo apt-get install -y -qq ffmpeg > /dev/null
       - run: pip install pillow requests spylls edge-tts
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
+      - name: Install Remotion (animated Reels)
+        working-directory: remotion
+        run: npm ci --no-audit --no-fund && npx remotion browser ensure
+
       - name: Find queue files to render
         id: files
         run: |

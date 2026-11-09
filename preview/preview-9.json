@@ -1,0 +1,25 @@
+{
+  "date": "preview-9",
+  "posts": [
+    {
+      "id": "r1",
+      "style": "reel",
+      "engine": "motion",
+      "time": "12:00",
+      "voice": "sq-AL-AnilaNeural",
+      "music": "mood:lofi",
+      "beats": [
+        {"type": "hook", "text": "Shumë kafene ende kanë menu të vjetra. Kjo është mundësia jote."},
+        {"type": "list", "title": "Të duhen vetëm:", "items": ["Canva, falas", "ChatGPT për përkthimin", "Një kod QR falas"],
+         "say": "Të duhen vetëm tre gjëra. Canva, falas. ChatGPT për përkthimin. Dhe një kod QR falas."},
+        {"type": "steps", "title": "Klienti i parë:", "items": ["Bëj një menu shembull", "Shko te 10 kafene", "Ofroje me çmim të vogël"],
+         "say": "Si e gjen klientin e parë? Bëj një menu shembull. Shko te dhjetë kafene në lagje. Dhe ofroje me një çmim të vogël."},
+        {"type": "compare", "left": {"label": "Menuja e vjetër", "items": ["Vetëm shqip", "E zbehur", "Pa QR"]},
+         "right": {"label": "Menuja jote", "items": ["Shqip dhe anglisht", "E pastër", "Me QR"]},
+         "say": "Menuja e vjetër: vetëm shqip, e zbehur, pa QR. Menuja jote: dy gjuhë, e pastër, me QR. Turistët e vënë re menjëherë."},
+        {"type": "text", "text": "Një menu e mirë shitet vetë.", "highlight": "Fillo me një kafene."}
+      ],
+      "caption": "Një punë anash që e sheh çdo ditë, por askush s'e bën.\n\nShumica e kafeneve kanë menu të printuara para shumë vitesh. Me Canva dhe ChatGPT ti mund t'ua bësh të reja, në dy gjuhë, me kod QR.\n\nKe një shok me kafene? Dërgoja këtë.\n\n#suksesishqip #punëanash #biznes #ai"
+    }
+  ]
+}
