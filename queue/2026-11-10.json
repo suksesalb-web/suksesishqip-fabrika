@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-10",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "statement",
+      "time": "09:00",
+      "photo_query": "man writing in notebook at desk early morning",
+      "trend": "YouTube 2026-11-10: 'Who are you becoming?' (discipline search, ~4.7k views/hour)",
+      "slides": [
+        {
+          "text": "Nuk je ai që thua se do të bëhesh.",
+          "highlight": "Je ai që bën çdo ditë."
+        }
+      ],
+      "caption": "Planet tregojnë çfarë do. Zakonet tregojnë kush je.\n\nÇfarë bën çdo ditë, edhe kur s'të sheh njeri? Ajo është përgjigjja e vërtetë.\n\nShkruaj në koment një gjë të vogël që do të bësh sot.\n\n#suksesishqip #disiplinë #zakone #mendësi"
+    },
+    {
+      "id": "p2",
+      "style": "reel",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:lofi",
+      "video_query": "woman typing message on smartphone",
+      "trend": "YouTube 2026-11-10: 'How to Make Money on WhatsApp & Telegram' and 'A simple way to make AI useful for your business' (make money with AI search)",
+      "beats": [
+        {
+          "text": "Një mesazh pa përgjigje është një klient që shkon te tjetri.",
+          "video_query": "woman typing message on smartphone"
+        },
+        {
+          "text": "Shumë lokale e dyqane përgjigjen pas disa orësh, ose kurrë.",
+          "video_query": "small shop owner busy behind counter"
+        },
+        {
+          "text": "Me ChatGPT shkruan përgjigjet për pyetjet që klientët bëjnë më shpesh.",
+          "video_query": "person typing on laptop at home"
+        },
+        {
+          "text": "I vendos te WhatsApp Business: mesazh mirëseardhjeje, përgjigje të shpejta, katalog.",
+          "video_query": "hand holding smartphone chatting"
+        },
+        {
+          "text": "Pastaj ua ofron si shërbim bizneseve të lagjes.",
+          "highlight": "Shpejtësia shet.",
+          "video_query": "two people shaking hands in small shop"
+        }
+      ],
+      "caption": "Një punë anash që kërkon vetëm telefon, ChatGPT dhe pak durim.\n\nWhatsApp Business është falas dhe ka mesazh mirëseardhjeje, përgjigje të shpejta dhe katalog produktesh. Shumica e bizneseve të vogla nuk i përdorin.\n\nFillo me një lokal që e njeh. Bëje falas herën e parë, pastaj kërko pagesë te të tjerët.\n\nKe një shok me biznes që s'i kthen mesazhet? Dërgoja këtë.\n\n#suksesishqip #punëanash #AI #biznes"
+    },
+    {
+      "id": "p3",
+      "style": "story",
+      "time": "15:00",
+      "photo_query": "open book and coins on wooden table",
+      "trend": "YouTube 2026-11-10: 'Top 5 business books for beginners' (online business search) + 'Less Than $10,000 Is Stressing You Out' (money mindset)",
+      "slides": [
+        {
+          "kicker": "Mësime nga librat",
+          "title": "5 mësime nga \"The Psychology of Money\"",
+          "subtitle": "Morgan Housel, 2020"
+        },
+        {
+          "title": "Koha jote",
+          "body": "Fitimi më i madh që të jep paraja është kontrolli mbi kohën. Të zgjohesh dhe të thuash: sot e vendos unë çfarë bëj."
+        },
+        {
+          "title": "Mjafton",
+          "body": "Pa e ditur sa të mjafton, synimi lëviz sa herë rritet paga. Paga e re bëhet normaliteti i ri. Vendose ti vijën."
+        },
+        {
+          "title": "Kurse pa arsye",
+          "body": "Nuk të duhet një qëllim i madh për të kursyer. Kursimi të blen kohë dhe zgjidhje kur jeta të befason: një defekt i makinës, një muaj pa punë."
+        },
+        {
+          "title": "Lër hapësirë",
+          "body": "Planifiko sikur diçka do të shkojë keq, sepse do të shkojë. Ai që ka rezervë mbijeton, dhe vetëm ai që mbijeton fiton me kohën."
+        },
+        {
+          "title": "Durimi",
+          "body": "Housel shkruan se pjesa më e madhe e pasurisë së Warren Buffett-it erdhi pasi ai mbushi 65 vjeç. Sekreti s'ishte vetëm talenti, por vitet."
+        }
+      ],
+      "caption": "Ky libër nuk të mëson si të bëhesh i pasur shpejt. Të mëson si sillemi me paratë.\n\nCili mësim të preku më shumë? Shkruaje në koment.\n\nRuaje për herën tjetër që merr pagën.\n\n📖 \"The Psychology of Money\", Morgan Housel (2020). Mësimet janë përmbledhje me fjalët tona.\n\n#suksesishqip #libra #para #financa"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "stickman",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:piano",
+      "trend": "YouTube 2026-11-10: 'Watch this before quitting your job…' (entrepreneur advice) + 'Why successful entrepreneurs stop planning and start doing'",
+      "beats": [
+        {"scene": "desk", "text": "Tetë orë në një punë që s'të pëlqen.", "red": "s'të pëlqen", "say": "Tetë orë, në një punë që s'të pëlqen."},
+        {"scene": "stress", "text": "Një ditë do ta lësh. Me inat.", "red": "Me inat"},
+        {"scene": "think", "text": "Por pa kursime, inati mbaron pas një muaji.", "red": "një muaji"},
+        {"scene": "money", "text": "Mblidh fillimisht shpenzimet e disa muajve.", "red": "disa muajve"},
+        {"scene": "laptop", "text": "Ndërto diçka anash, në mbrëmje.", "red": "anash"},
+        {"scene": "stairs", "text": "Kur të sjell klientë të rregullt,", "red": "klientë të rregullt"},
+        {"scene": "face", "text": "atëherë ik. Me plan, jo me inat.", "red": "Me plan"}
+      ],
+      "caption": "Ta lësh punën me inat është e lehtë. Ta lësh me plan kërkon durim.\n\nFillimisht kursime për disa muaj. Pastaj diçka anash që sjell klientë. Pastaj ik.\n\nDërgoja dikujt që çdo të hënë thotë \"do ta lë këtë punë\".\n\n#suksesishqip #punëanash #para #biznes"
+    },
+    {
+      "id": "p5",
+      "style": "tweet",
+      "time": "22:00",
+      "photo_query": "home cooked meal on kitchen table warm light",
+      "slides": [
+        {
+          "text": "Mamaja rrallë më pyeste si shkon puna.\n\nMë pyeste gjithmonë: \"A ke ngrënë?\"\n\nVonë e kuptova që ishte e njëjta pyetje."
+        }
+      ],
+      "caption": "Disa prindër nuk dinë ta thonë \"të dua\". E thonë me një pjatë gjellë.\n\nDërgoja dikujt që ta bën ende këtë pyetje.\n\n#suksesishqip #familja #mamaja #jeta"
+    }
+  ]
+}
