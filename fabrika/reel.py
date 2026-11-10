@@ -180,26 +180,83 @@ def gemini_tts(text, voice, style, out_wav):
     raise RuntimeError("gemini tts failed: " + last)
 
 
+def _speech_weight(t):
+    """Rough spoken length of a beat: letters count, punctuation inside a beat adds a short pause."""
+    import re
+    t = re.sub(r"<[^>]+>", "", t)
+    return max(1.0, len(re.sub(r"[^\w]", "", t)) + 4 * len(re.findall(r"[.,;:!?…]\s+\S", t)))
+
+
+def pick_cuts(pauses, weights, total):
+    """Choose one pause per beat boundary, in order.
+
+    pauses: [(mid_s, length_s), ...] sorted by time. A cut must land on a real pause; long pauses
+    (Gemini's paragraph breaks between beats) are preferred over short ones (commas/full stops inside a
+    beat), and each cut should be near where the beat is expected to end. Returns None if impossible.
+    """
+    n_cuts = len(weights) - 1
+    if n_cuts <= 0:
+        return []
+    if len(pauses) < n_cuts:
+        return None
+    tot_w = sum(weights)
+    want, acc = [], 0.0
+    for w in weights[:-1]:
+        acc += w
+        want.append(total * acc / tot_w)
+    longest = max(l for _, l in pauses) or 1.0
+    INF = float("inf")
+    m = len(pauses)
+    # cost[k][j]: best cost with cut k placed on pause j
+    cost = [[INF] * m for _ in range(n_cuts)]
+    back = [[-1] * m for _ in range(n_cuts)]
+
+    def local(k, j):
+        mid, ln = pauses[j]
+        return abs(mid - want[k]) / max(total, 1e-6) * 10 + (1 - ln / longest) * 3
+
+    for j in range(m):
+        if pauses[j][0] > 0.6:
+            cost[0][j] = local(0, j)
+    for k in range(1, n_cuts):
+        for j in range(m):
+            # best predecessor among pauses at least 0.6 s earlier
+            cands = [(cost[k - 1][i], i) for i in range(j) if pauses[j][0] - pauses[i][0] >= 0.6 and cost[k - 1][i] < INF]
+            if cands:
+                c, i = min(cands)
+                cost[k][j], back[k][j] = c + local(k, j), i
+    last = [(cost[n_cuts - 1][j], j) for j in range(m) if total - pauses[j][0] >= 0.6 and cost[n_cuts - 1][j] < INF]
+    if not last:
+        return None
+    _, j = min(last)
+    cuts = []
+    for k in range(n_cuts - 1, -1, -1):
+        cuts.append(pauses[j][0])
+        j = back[k][j]
+    return cuts[::-1]
+
+
+def sync_ok(parts, texts):
+    """Each beat's clip must fit its text: speaking speed (letters per second) within a sane band of
+    the Reel's median. A wrong cut gives one beat too much audio and its neighbour too little."""
+    rates = [_speech_weight(t) / max(d, 0.05) for (_, d), t in zip(parts, texts)]
+    med = sorted(rates)[len(rates) // 2]
+    bad = [i + 1 for i, r in enumerate(rates) if r < med * 0.6 or r > med * 1.6]
+    return not bad, bad, [round(r, 1) for r in rates]
+
+
 def split_on_pauses(wav, texts, tmp):
-    """Cut one narration into one clip per beat, at the pauses closest to where each beat should end."""
+    """Cut one narration into one clip per beat, on real pauses only. Raises if the cut can't be trusted."""
     import re
     total = duration(wav)
-    p = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-38dB:d=0.18", "-f", "null", "-"],
+    p = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-38dB:d=0.12", "-f", "null", "-"],
                        capture_output=True, text=True)
     starts = [float(x) for x in re.findall(r"silence_start: ([0-9.]+)", p.stderr)]
     ends = [float(x) for x in re.findall(r"silence_end: ([0-9.]+)", p.stderr)]
-    mids = [(a + b) / 2 for a, b in zip(starts, ends)]
-    weights = [max(1, len(re.sub(r"<[^>]+>", "", t))) for t in texts]
-    cuts, acc, prev = [], 0, 0.0
-    for w in weights[:-1]:
-        acc += w
-        want = total * acc / sum(weights)
-        cand = [m for m in mids if m > prev + 0.6]
-        c = min(cand, key=lambda m: abs(m - want)) if cand else want
-        if abs(c - want) > 2.5:  # no pause near the expected spot
-            c = want
-        cuts.append(c)
-        prev = c
+    pauses = [((a + b) / 2, b - a) for a, b in zip(starts, ends) if a > 0.05 and b < total - 0.05]
+    cuts = pick_cuts(pauses, [_speech_weight(t) for t in texts], total)
+    if cuts is None:
+        raise RuntimeError(f"not enough pauses to split the narration ({len(pauses)} for {len(texts)} beats)")
     bounds = [0.0] + cuts + [total]
     parts = []
     trim = ("silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
@@ -208,6 +265,23 @@ def split_on_pauses(wav, texts, tmp):
         out = tmp / f"v{i}.mp3"
         run(["ffmpeg", "-y", "-i", str(wav), "-ss", f"{bounds[i]:.3f}", "-to", f"{bounds[i + 1]:.3f}",
              "-af", trim, "-ar", "44100", "-ac", "2", str(out)])
+        parts.append((out, duration(out)))
+    ok, bad, rates = sync_ok(parts, texts)
+    if not ok:
+        raise RuntimeError(f"narration split looks out of sync on beat(s) {bad} (letters/s {rates})")
+    return parts
+
+
+def gemini_per_beat(texts, voice, style, tmp):
+    """Fallback: one Gemini request per beat, so each clip belongs to its beat by construction."""
+    trim = ("silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+            "silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+    parts = []
+    for i, t in enumerate(texts):
+        wav = tmp / f"g{i}.wav"
+        gemini_tts(t, voice, style, wav)
+        out = tmp / f"v{i}.mp3"
+        run(["ffmpeg", "-y", "-i", str(wav), "-af", trim, "-ar", "44100", "-ac", "2", str(out)])
         parts.append((out, duration(out)))
     return parts
 
@@ -632,7 +706,14 @@ def render_reel(post, pdir, used, offline=False):
         try:
             wav = tmp / "narration.wav"
             gemini_tts("\n\n".join(spoken_all), voice.split(":", 1)[1], post.get("voice_style", GEMINI_STYLE), wav)
-            gem = split_on_pauses(wav, spoken_all, tmp)
+            try:
+                gem = split_on_pauses(wav, spoken_all, tmp)
+                info["voice_sync"] = "split"
+            except RuntimeError as e:  # cut not trustworthy: voice each beat on its own (always in sync)
+                print("Narration split rejected, voicing each beat separately:", e)
+                info["voice_split_rejected"] = str(e)[:200]
+                gem = gemini_per_beat(spoken_all, voice.split(":", 1)[1], post.get("voice_style", GEMINI_STYLE), tmp)
+                info["voice_sync"] = "per-beat"
             info["voice"] = voice
         except Exception as e:  # last resort: Anila
             print("Gemini voice failed, using Anila:", e)
