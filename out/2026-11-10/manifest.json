@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-10",
+  "rendered_at": 1794292068,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-10/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "3485548",
+        "page": "https://pixabay.com/photos/work-write-desk-desktop-workplace-3485548/",
+        "query": "man writing in notebook at desk early morning"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-10/p2/reel.mp4",
+        "out/2026-11-10/p2/frame-01.jpg",
+        "out/2026-11-10/p2/frame-02.jpg",
+        "out/2026-11-10/p2/frame-03.jpg",
+        "out/2026-11-10/p2/frame-04.jpg",
+        "out/2026-11-10/p2/frame-05.jpg",
+        "out/2026-11-10/p2/frame-06.jpg",
+        "out/2026-11-10/p2/frame-07.jpg",
+        "out/2026-11-10/p2/frame-08.jpg",
+        "out/2026-11-10/p2/frame-09.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "38084",
+        "page": "https://pixabay.com/videos/id-38084/",
+        "query": "woman typing message on smartphone"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "38084",
+          "page": "https://pixabay.com/videos/id-38084/",
+          "query": "woman typing message on smartphone"
+        },
+        "music": "lofi-3.mp3",
+        "voice": "gemini:Riko",
+        "clips": [
+          {
+            "pixabay_id": "38084",
+            "page": "https://pixabay.com/videos/id-38084/"
+          },
+          {
+            "pixabay_id": "145582",
+            "page": "https://pixabay.com/videos/id-145582/"
+          },
+          {
+            "pixabay_id": "3175",
+            "page": "https://pixabay.com/videos/id-3175/"
+          },
+          {
+            "pixabay_id": "43559",
+            "page": "https://pixabay.com/videos/id-43559/"
+          },
+          {
+            "pixabay_id": "92480",
+            "page": "https://pixabay.com/videos/id-92480/"
+          },
+          {
+            "pixabay_id": "202987",
+            "page": "https://pixabay.com/videos/id-202987/"
+          },
+          {
+            "pixabay_id": "83865",
+            "page": "https://pixabay.com/videos/id-83865/"
+          },
+          {
+            "pixabay_id": "233400",
+            "page": "https://pixabay.com/videos/id-233400/"
+          },
+          {
+            "pixabay_id": "188778",
+            "page": "https://pixabay.com/videos/id-188778/"
+          }
+        ],
+        "video_ids": [
+          "38084",
+          "145582",
+          "3175",
+          "43559",
+          "92480",
+          "202987",
+          "83865",
+          "233400",
+          "188778"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 3.92
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 6.64
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 3,
+            "start": 9.36
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 11.78
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 14.2
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 4,
+            "start": 17.37
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 5,
+            "start": 20.54
+          },
+          {
+            "frame": "frame-09.jpg",
+            "beat": 5,
+            "start": 22.76
+          }
+        ],
+        "duration": 24.98
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-10/p3/01.jpg",
+        "out/2026-11-10/p3/02.jpg",
+        "out/2026-11-10/p3/03.jpg",
+        "out/2026-11-10/p3/04.jpg",
+        "out/2026-11-10/p3/05.jpg",
+        "out/2026-11-10/p3/06.jpg",
+        "out/2026-11-10/p3/07.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "10260378",
+        "page": "https://pixabay.com/photos/coffee-hot-chocolate-latte-art-book-10260378/",
+        "query": "open book and coins on wooden table"
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-10/p4/reel.mp4",
+        "out/2026-11-10/p4/frame-01.jpg",
+        "out/2026-11-10/p4/frame-02.jpg",
+        "out/2026-11-10/p4/frame-03.jpg",
+        "out/2026-11-10/p4/frame-04.jpg",
+        "out/2026-11-10/p4/frame-05.jpg",
+        "out/2026-11-10/p4/frame-06.jpg",
+        "out/2026-11-10/p4/frame-07.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "piano-1.mp3",
+        "voice": "gemini:Riko",
+        "engine": "stickman",
+        "duration": 25.08,
+        "scenes": [
+          "desk",
+          "stress",
+          "think",
+          "money",
+          "laptop",
+          "stairs",
+          "face"
+        ],
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-10/p5/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "10441688",
+        "page": "https://pixabay.com/photos/christmas-decoration-mother-and-child-10441688/",
+        "query": "home cooked meal on kitchen table warm light"
+      }
+    }
+  ]
+}
