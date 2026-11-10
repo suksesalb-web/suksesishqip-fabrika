@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "rendered_at": 1794292068,
+  "rendered_at": 1794292264,
   "posts": [
     {
       "id": "p1",
@@ -40,7 +40,7 @@
           "page": "https://pixabay.com/videos/id-38084/",
           "query": "woman typing message on smartphone"
         },
-        "music": "lofi-3.mp3",
+        "music": "lofi-2.mp3",
         "voice": "gemini:Riko",
         "clips": [
           {
@@ -48,48 +48,48 @@
             "page": "https://pixabay.com/videos/id-38084/"
           },
           {
-            "pixabay_id": "145582",
-            "page": "https://pixabay.com/videos/id-145582/"
+            "pixabay_id": "177164",
+            "page": "https://pixabay.com/videos/id-177164/"
+          },
+          {
+            "pixabay_id": "236256",
+            "page": "https://pixabay.com/videos/id-236256/"
           },
           {
             "pixabay_id": "3175",
             "page": "https://pixabay.com/videos/id-3175/"
           },
           {
-            "pixabay_id": "43559",
-            "page": "https://pixabay.com/videos/id-43559/"
+            "pixabay_id": "43558",
+            "page": "https://pixabay.com/videos/id-43558/"
           },
           {
             "pixabay_id": "92480",
             "page": "https://pixabay.com/videos/id-92480/"
           },
           {
-            "pixabay_id": "202987",
-            "page": "https://pixabay.com/videos/id-202987/"
+            "pixabay_id": "204527",
+            "page": "https://pixabay.com/videos/id-204527/"
           },
           {
-            "pixabay_id": "83865",
-            "page": "https://pixabay.com/videos/id-83865/"
+            "pixabay_id": "12513",
+            "page": "https://pixabay.com/videos/id-12513/"
           },
           {
-            "pixabay_id": "233400",
-            "page": "https://pixabay.com/videos/id-233400/"
-          },
-          {
-            "pixabay_id": "188778",
-            "page": "https://pixabay.com/videos/id-188778/"
+            "pixabay_id": "24114",
+            "page": "https://pixabay.com/videos/id-24114/"
           }
         ],
         "video_ids": [
           "38084",
-          "145582",
+          "177164",
+          "236256",
           "3175",
-          "43559",
+          "43558",
           "92480",
-          "202987",
-          "83865",
-          "233400",
-          "188778"
+          "204527",
+          "12513",
+          "24114"
         ],
         "captions": "beats",
         "shots": [
@@ -101,45 +101,45 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 3.92
+            "start": 4.06
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 6.64
+            "start": 6.7
           },
           {
             "frame": "frame-04.jpg",
             "beat": 3,
-            "start": 9.36
+            "start": 9.33
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 11.78
+            "start": 11.74
           },
           {
             "frame": "frame-06.jpg",
             "beat": 4,
-            "start": 14.2
+            "start": 14.14
           },
           {
             "frame": "frame-07.jpg",
             "beat": 4,
-            "start": 17.37
+            "start": 17.64
           },
           {
             "frame": "frame-08.jpg",
             "beat": 5,
-            "start": 20.54
+            "start": 21.14
           },
           {
             "frame": "frame-09.jpg",
             "beat": 5,
-            "start": 22.76
+            "start": 23.6
           }
         ],
-        "duration": 24.98
+        "duration": 26.06
       }
     },
     {
@@ -176,10 +176,10 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "piano-1.mp3",
+        "music": "piano-2.mp3",
         "voice": "gemini:Riko",
         "engine": "stickman",
-        "duration": 25.08,
+        "duration": 23.77,
         "scenes": [
           "desk",
           "stress",
@@ -228,9 +228,9 @@
         "out/2026-11-10/p5/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "10441688",
-        "page": "https://pixabay.com/photos/christmas-decoration-mother-and-child-10441688/",
-        "query": "home cooked meal on kitchen table warm light"
+        "pixabay_id": "4706924",
+        "page": "https://pixabay.com/photos/dumplings-chinese-cuisine-dimsum-4706924/",
+        "query": "mother cooking food in home kitchen"
       }
     }
   ]
