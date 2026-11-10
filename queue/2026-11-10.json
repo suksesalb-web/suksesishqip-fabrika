@@ -13,7 +13,8 @@
           "highlight": "Je ai që bën çdo ditë."
         }
       ],
-      "caption": "Planet tregojnë çfarë do. Zakonet tregojnë kush je.\n\nÇfarë bën çdo ditë, edhe kur s'të sheh njeri? Ajo është përgjigjja e vërtetë.\n\nShkruaj në koment një gjë të vogël që do të bësh sot.\n\n#suksesishqip #disiplinë #zakone #mendësi"
+      "caption": "Planet tregojnë çfarë do. Zakonet tregojnë kush je.\n\nÇfarë bën çdo ditë, edhe kur s'të sheh njeri? Ajo është përgjigjja e vërtetë.\n\nShkruaj në koment një gjë të vogël që do të bësh sot.\n\n#suksesishqip #disiplinë #zakone #mendësi",
+      "photo_id": "3485548"
     },
     {
       "id": "p2",
@@ -30,23 +31,34 @@
         },
         {
           "text": "Shumë lokale e dyqane përgjigjen pas disa orësh, ose kurrë.",
-          "video_query": "small shop owner busy behind counter"
+          "video_query": "barista working behind cafe counter"
         },
         {
           "text": "Me ChatGPT shkruan përgjigjet për pyetjet që klientët bëjnë më shpesh.",
-          "video_query": "person typing on laptop at home"
+          "video_query": "hands typing on laptop keyboard"
         },
         {
           "text": "I vendos te WhatsApp Business: mesazh mirëseardhjeje, përgjigje të shpejta, katalog.",
-          "video_query": "hand holding smartphone chatting"
+          "video_query": "hands texting on smartphone closeup"
         },
         {
           "text": "Pastaj ua ofron si shërbim bizneseve të lagjes.",
           "highlight": "Shpejtësia shet.",
-          "video_query": "two people shaking hands in small shop"
+          "video_query": "shop owner talking with customer at counter"
         }
       ],
-      "caption": "Një punë anash që kërkon vetëm telefon, ChatGPT dhe pak durim.\n\nWhatsApp Business është falas dhe ka mesazh mirëseardhjeje, përgjigje të shpejta dhe katalog produktesh. Shumica e bizneseve të vogla nuk i përdorin.\n\nFillo me një lokal që e njeh. Bëje falas herën e parë, pastaj kërko pagesë te të tjerët.\n\nKe një shok me biznes që s'i kthen mesazhet? Dërgoja këtë.\n\n#suksesishqip #punëanash #AI #biznes"
+      "caption": "Një punë anash që kërkon vetëm telefon, ChatGPT dhe pak durim.\n\nWhatsApp Business është falas dhe ka mesazh mirëseardhjeje, përgjigje të shpejta dhe katalog produktesh. Shumica e bizneseve të vogla nuk i përdorin.\n\nFillo me një lokal që e njeh. Bëje falas herën e parë, pastaj kërko pagesë te të tjerët.\n\nKe një shok me biznes që s'i kthen mesazhet? Dërgoja këtë.\n\n#suksesishqip #punëanash #AI #biznes",
+      "video_ids": [
+        "38084",
+        "",
+        "",
+        "3175",
+        "",
+        "92480",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "p3",
@@ -81,7 +93,8 @@
           "body": "Housel shkruan se pjesa më e madhe e pasurisë së Warren Buffett-it erdhi pasi ai mbushi 65 vjeç. Sekreti s'ishte vetëm talenti, por vitet."
         }
       ],
-      "caption": "Ky libër nuk të mëson si të bëhesh i pasur shpejt. Të mëson si sillemi me paratë.\n\nCili mësim të preku më shumë? Shkruaje në koment.\n\nRuaje për herën tjetër që merr pagën.\n\n📖 \"The Psychology of Money\", Morgan Housel (2020). Mësimet janë përmbledhje me fjalët tona.\n\n#suksesishqip #libra #para #financa"
+      "caption": "Ky libër nuk të mëson si të bëhesh i pasur shpejt. Të mëson si sillemi me paratë.\n\nCili mësim të preku më shumë? Shkruaje në koment.\n\nRuaje për herën tjetër që merr pagën.\n\n📖 \"The Psychology of Money\", Morgan Housel (2020). Mësimet janë përmbledhje me fjalët tona.\n\n#suksesishqip #libra #para #financa",
+      "photo_id": "10260378"
     },
     {
       "id": "p4",
@@ -92,13 +105,42 @@
       "music": "mood:piano",
       "trend": "YouTube 2026-11-10: 'Watch this before quitting your job…' (entrepreneur advice) + 'Why successful entrepreneurs stop planning and start doing'",
       "beats": [
-        {"scene": "desk", "text": "Tetë orë në një punë që s'të pëlqen.", "red": "s'të pëlqen", "say": "Tetë orë, në një punë që s'të pëlqen."},
-        {"scene": "stress", "text": "Një ditë do ta lësh. Me inat.", "red": "Me inat"},
-        {"scene": "think", "text": "Por pa kursime, inati mbaron pas një muaji.", "red": "një muaji"},
-        {"scene": "money", "text": "Mblidh fillimisht shpenzimet e disa muajve.", "red": "disa muajve"},
-        {"scene": "laptop", "text": "Ndërto diçka anash, në mbrëmje.", "red": "anash"},
-        {"scene": "stairs", "text": "Kur të sjell klientë të rregullt,", "red": "klientë të rregullt"},
-        {"scene": "face", "text": "atëherë ik. Me plan, jo me inat.", "red": "Me plan"}
+        {
+          "scene": "desk",
+          "text": "Tetë orë në një punë që s'të pëlqen.",
+          "red": "s'të pëlqen",
+          "say": "Tetë orë, në një punë që s'të pëlqen."
+        },
+        {
+          "scene": "stress",
+          "text": "Një ditë do ta lësh. Me inat.",
+          "red": "Me inat"
+        },
+        {
+          "scene": "think",
+          "text": "Por pa kursime, inati mbaron pas një muaji.",
+          "red": "një muaji"
+        },
+        {
+          "scene": "money",
+          "text": "Kurse fillimisht disa muaj jetese.",
+          "red": "disa muaj jetese"
+        },
+        {
+          "scene": "laptop",
+          "text": "Ndërto diçka anash, në mbrëmje.",
+          "red": "anash"
+        },
+        {
+          "scene": "stairs",
+          "text": "Kur të sjell klientë të rregullt,",
+          "red": "klientë të rregullt"
+        },
+        {
+          "scene": "face",
+          "text": "atëherë ik. Me plan, jo me inat.",
+          "red": "Me plan"
+        }
       ],
       "caption": "Ta lësh punën me inat është e lehtë. Ta lësh me plan kërkon durim.\n\nFillimisht kursime për disa muaj. Pastaj diçka anash që sjell klientë. Pastaj ik.\n\nDërgoja dikujt që çdo të hënë thotë \"do ta lë këtë punë\".\n\n#suksesishqip #punëanash #para #biznes"
     },
@@ -106,7 +148,7 @@
       "id": "p5",
       "style": "tweet",
       "time": "22:00",
-      "photo_query": "home cooked meal on kitchen table warm light",
+      "photo_query": "mother cooking food in home kitchen",
       "slides": [
         {
           "text": "Mamaja rrallë më pyeste si shkon puna.\n\nMë pyeste gjithmonë: \"A ke ngrënë?\"\n\nVonë e kuptova që ishte e njëjta pyetje."
