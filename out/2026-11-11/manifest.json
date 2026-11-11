@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-11",
+  "rendered_at": 1794378493,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-11/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "5077131",
+        "page": "https://pixabay.com/photos/man-running-moscow-the-kremlin-5077131/",
+        "query": "runner training alone on empty track early morning fog"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-11/p2/reel.mp4",
+        "out/2026-11-11/p2/frame-01.jpg",
+        "out/2026-11-11/p2/frame-02.jpg",
+        "out/2026-11-11/p2/frame-03.jpg",
+        "out/2026-11-11/p2/frame-04.jpg",
+        "out/2026-11-11/p2/frame-05.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "lofi-3.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [
+          {
+            "beat": 1,
+            "pixabay_id": "237643",
+            "page": "https://pixabay.com/videos/id-237643/"
+          },
+          {
+            "beat": 2,
+            "pixabay_id": "71350",
+            "page": "https://pixabay.com/videos/id-71350/"
+          },
+          {
+            "beat": 3,
+            "pixabay_id": "180776",
+            "page": "https://pixabay.com/videos/id-180776/"
+          },
+          {
+            "beat": 4,
+            "pixabay_id": "1058",
+            "page": "https://pixabay.com/videos/id-1058/"
+          },
+          {
+            "beat": 5,
+            "pixabay_id": "261978",
+            "page": "https://pixabay.com/videos/id-261978/"
+          }
+        ],
+        "engine": "motion",
+        "duration": 26.5,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-11/p3/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "6724514",
+        "page": "https://pixabay.com/photos/waterfall-foggy-mountain-romania-6724514/",
+        "query": "mountain climber silhouette on rocky slope"
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-11/p4/reel.mp4",
+        "out/2026-11-11/p4/frame-01.jpg",
+        "out/2026-11-11/p4/frame-02.jpg",
+        "out/2026-11-11/p4/frame-03.jpg",
+        "out/2026-11-11/p4/frame-04.jpg",
+        "out/2026-11-11/p4/frame-05.jpg",
+        "out/2026-11-11/p4/frame-06.jpg",
+        "out/2026-11-11/p4/frame-07.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "238823",
+        "page": "https://pixabay.com/videos/id-238823/",
+        "query": "coins falling into glass jar"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "238823",
+          "page": "https://pixabay.com/videos/id-238823/",
+          "query": "coins falling into glass jar"
+        },
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [
+          {
+            "pixabay_id": "238823",
+            "page": "https://pixabay.com/videos/id-238823/"
+          },
+          {
+            "pixabay_id": "16166",
+            "page": "https://pixabay.com/videos/id-16166/"
+          },
+          {
+            "pixabay_id": "3757",
+            "page": "https://pixabay.com/videos/id-3757/"
+          },
+          {
+            "pixabay_id": "11606",
+            "page": "https://pixabay.com/videos/id-11606/"
+          },
+          {
+            "pixabay_id": "4952",
+            "page": "https://pixabay.com/videos/id-4952/"
+          },
+          {
+            "pixabay_id": "13100",
+            "page": "https://pixabay.com/videos/id-13100/"
+          },
+          {
+            "pixabay_id": "754",
+            "page": "https://pixabay.com/videos/id-754/"
+          }
+        ],
+        "video_ids": [
+          "238823",
+          "16166",
+          "3757",
+          "11606",
+          "4952",
+          "13100",
+          "754"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 3.78
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 6.45
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 3,
+            "start": 9.12
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 4,
+            "start": 12.76
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 5,
+            "start": 16.92
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 5,
+            "start": 19.11
+          }
+        ],
+        "duration": 21.3
+      }
+    },
+    {
+      "id": "p5",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-11/p5/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "8228075",
+        "page": "https://pixabay.com/photos/child-boy-window-sit-alone-kid-8228075/",
+        "query": "old man sitting alone on bench from behind evening"
+      }
+    }
+  ]
+}
