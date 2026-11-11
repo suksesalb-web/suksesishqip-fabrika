@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "rendered_at": 1794379729,
+  "rendered_at": 1794380663,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-11/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "6625464",
-        "page": "https://pixabay.com/photos/running-sport-athlete-fitness-6625464/",
-        "query": "athletics running track"
+        "pixabay_id": null,
+        "page": "",
+        "query": "none"
       }
     },
     {
@@ -59,7 +59,7 @@
           }
         ],
         "engine": "motion",
-        "duration": 25.92,
+        "duration": 27.39,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -108,7 +108,9 @@
         "out/2026-11-11/p4/frame-05.jpg",
         "out/2026-11-11/p4/frame-06.jpg",
         "out/2026-11-11/p4/frame-07.jpg",
-        "out/2026-11-11/p4/frame-08.jpg"
+        "out/2026-11-11/p4/frame-08.jpg",
+        "out/2026-11-11/p4/frame-09.jpg",
+        "out/2026-11-11/p4/frame-10.jpg"
       ],
       "photo": {
         "pixabay_id": "238823",
@@ -121,18 +123,13 @@
           "page": "https://pixabay.com/videos/id-238823/",
           "query": "coins falling into glass jar"
         },
-        "music": "cinematic-2.mp3",
-        "voice": "sq-AL-AnilaNeural",
-        "voice_split_rejected": "narration split looks out of sync on beat(s) [5] (letters/s [16.0, 11.0, 13.4, 9.2, 39.0])",
-        "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
         "clips": [
           {
             "pixabay_id": "238823",
             "page": "https://pixabay.com/videos/id-238823/"
-          },
-          {
-            "pixabay_id": "21117",
-            "page": "https://pixabay.com/videos/id-21117/"
           },
           {
             "pixabay_id": "1735",
@@ -143,31 +140,45 @@
             "page": "https://pixabay.com/videos/id-3757/"
           },
           {
-            "pixabay_id": "34091",
-            "page": "https://pixabay.com/videos/id-34091/"
-          },
-          {
             "pixabay_id": "4952",
             "page": "https://pixabay.com/videos/id-4952/"
           },
           {
-            "pixabay_id": "186512",
-            "page": "https://pixabay.com/videos/id-186512/"
-          },
-          {
             "pixabay_id": "12564",
             "page": "https://pixabay.com/videos/id-12564/"
+          },
+          {
+            "pixabay_id": "3757",
+            "page": "https://pixabay.com/videos/id-3757/"
+          },
+          {
+            "pixabay_id": "12040",
+            "page": "https://pixabay.com/videos/id-12040/"
+          },
+          {
+            "pixabay_id": "107242",
+            "page": "https://pixabay.com/videos/id-107242/"
+          },
+          {
+            "pixabay_id": "28839",
+            "page": "https://pixabay.com/videos/id-28839/"
+          },
+          {
+            "pixabay_id": "28835",
+            "page": "https://pixabay.com/videos/id-28835/"
           }
         ],
         "video_ids": [
           "238823",
-          "21117",
           "1735",
           "3757",
-          "34091",
           "4952",
-          "186512",
-          "12564"
+          "12564",
+          "3757",
+          "12040",
+          "107242",
+          "28839",
+          "28835"
         ],
         "captions": "beats",
         "shots": [
@@ -178,41 +189,51 @@
           },
           {
             "frame": "frame-02.jpg",
-            "beat": 2,
-            "start": 3.97
+            "beat": 1,
+            "start": 2.27
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 6.19
+            "start": 4.54
           },
           {
             "frame": "frame-04.jpg",
-            "beat": 3,
-            "start": 8.4
+            "beat": 2,
+            "start": 6.89
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 10.54
+            "start": 9.24
           },
           {
             "frame": "frame-06.jpg",
-            "beat": 4,
-            "start": 12.67
+            "beat": 3,
+            "start": 11.44
           },
           {
             "frame": "frame-07.jpg",
-            "beat": 5,
-            "start": 16.76
+            "beat": 4,
+            "start": 13.63
           },
           {
             "frame": "frame-08.jpg",
+            "beat": 4,
+            "start": 15.85
+          },
+          {
+            "frame": "frame-09.jpg",
             "beat": 5,
-            "start": 19.68
+            "start": 18.07
+          },
+          {
+            "frame": "frame-10.jpg",
+            "beat": 5,
+            "start": 20.35
           }
         ],
-        "duration": 22.6
+        "duration": 22.63
       }
     },
     {
