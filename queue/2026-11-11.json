@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "statement",
       "time": "09:00",
-      "photo_query": "athletics running track",
+      "photo_query": "none",
       "trend": "YouTube 2026-11-11: 'Everyone Sees the Podium. Nobody Sees This' (discipline search, ~42k views/hour)",
       "slides": [
         {
@@ -104,22 +104,19 @@
         {
           "text": "300 lekë në ditë janë mbi 100 mijë lekë në vit.",
           "say": "<breath> Treqind lekë në ditë janë mbi njëqind mijë lekë në vit.",
-          "video_query": "coffee cup on cafe table morning",
-          "video_id": "238823"
+          "video_query": "coffee cup on cafe table morning"
         },
         {
-          "text": "Një kafe, një pije, diçka e ëmbël te dyqani i lagjes.",
+          "text": "Një kafe, një pije, diçka e ëmbël te dyqani.",
           "video_query": "supermarket checkout"
         },
         {
-          "text": "Problemi nuk është kafeja, por që s'e di ku shkojnë paratë.",
-          "video_query": "empty wallet in hands",
-          "video_id": "3757"
+          "text": "Problemi nuk është kafeja, por paratë që s'i ndjek.",
+          "video_query": "empty wallet in hands"
         },
         {
           "text": "Shkruaje çdo shpenzim për një javë, edhe më të voglin.",
-          "video_query": "hand writing in notebook with pen",
-          "video_id": "4952"
+          "video_query": "hand writing in notebook with pen"
         },
         {
           "text": "Pastaj vendos ti çfarë mban.",
@@ -127,7 +124,15 @@
           "video_query": "coins stack"
         }
       ],
-      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa"
+      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa",
+      "video_ids": [
+        "238823",
+        "1735",
+        "3757",
+        "4952",
+        "12564",
+        "3757"
+      ]
     },
     {
       "id": "p5",
@@ -140,7 +145,8 @@
           "text": "Babai s'ma tha kurrë \"jam krenar për ty\".\n\nPor e mora vesh nga komshiu, që e kishte dëgjuar njëqind herë."
         }
       ],
-      "caption": "Disa baballarë nuk e thonë dot me fjalë. E thonë te të tjerët, kur ti s'je aty.\n\nNëse babai yt është ende këtu, merre në telefon sot. Edhe pa ndonjë arsye.\n\nDërgoja dikujt që e ka babanë larg.\n\n#suksesishqip #familja #babai #jeta"
+      "caption": "Disa baballarë nuk e thonë dot me fjalë. E thonë te të tjerët, kur ti s'je aty.\n\nNëse babai yt është ende këtu, merre në telefon sot. Edhe pa ndonjë arsye.\n\nDërgoja dikujt që e ka babanë larg.\n\n#suksesishqip #familja #babai #jeta",
+      "photo_id": "4191143"
     }
   ]
 }
