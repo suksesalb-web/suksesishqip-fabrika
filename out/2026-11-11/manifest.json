@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "rendered_at": 1794378991,
+  "rendered_at": 1794379729,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-11/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "6526807",
-        "page": "https://pixabay.com/photos/breakfast-waffle-bed-morning-6526807/",
-        "query": "woman jogging alone in foggy park early morning"
+        "pixabay_id": "6625464",
+        "page": "https://pixabay.com/photos/running-sport-athlete-fitness-6625464/",
+        "query": "athletics running track"
       }
     },
     {
@@ -28,7 +28,7 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "lofi-1.mp3",
+        "music": "lofi-3.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -59,7 +59,7 @@
           }
         ],
         "engine": "motion",
-        "duration": 27.25,
+        "duration": 25.92,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -106,7 +106,9 @@
         "out/2026-11-11/p4/frame-03.jpg",
         "out/2026-11-11/p4/frame-04.jpg",
         "out/2026-11-11/p4/frame-05.jpg",
-        "out/2026-11-11/p4/frame-06.jpg"
+        "out/2026-11-11/p4/frame-06.jpg",
+        "out/2026-11-11/p4/frame-07.jpg",
+        "out/2026-11-11/p4/frame-08.jpg"
       ],
       "photo": {
         "pixabay_id": "238823",
@@ -119,43 +121,53 @@
           "page": "https://pixabay.com/videos/id-238823/",
           "query": "coins falling into glass jar"
         },
-        "music": "cinematic-1.mp3",
-        "voice": "gemini:Riko",
-        "voice_split_rejected": "narration split looks out of sync on beat(s) [3] (letters/s [9.3, 8.2, 26.1, 8.5, 14.0])",
-        "voice_sync": "per-beat",
+        "music": "cinematic-2.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [5] (letters/s [16.0, 11.0, 13.4, 9.2, 39.0])",
+        "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
         "clips": [
           {
             "pixabay_id": "238823",
             "page": "https://pixabay.com/videos/id-238823/"
           },
           {
-            "pixabay_id": "1006",
-            "page": "https://pixabay.com/videos/id-1006/"
+            "pixabay_id": "21117",
+            "page": "https://pixabay.com/videos/id-21117/"
+          },
+          {
+            "pixabay_id": "1735",
+            "page": "https://pixabay.com/videos/id-1735/"
           },
           {
             "pixabay_id": "3757",
             "page": "https://pixabay.com/videos/id-3757/"
           },
           {
-            "pixabay_id": "27539",
-            "page": "https://pixabay.com/videos/id-27539/"
+            "pixabay_id": "34091",
+            "page": "https://pixabay.com/videos/id-34091/"
           },
           {
             "pixabay_id": "4952",
             "page": "https://pixabay.com/videos/id-4952/"
           },
           {
-            "pixabay_id": "138317",
-            "page": "https://pixabay.com/videos/id-138317/"
+            "pixabay_id": "186512",
+            "page": "https://pixabay.com/videos/id-186512/"
+          },
+          {
+            "pixabay_id": "12564",
+            "page": "https://pixabay.com/videos/id-12564/"
           }
         ],
         "video_ids": [
           "238823",
-          "1006",
+          "21117",
+          "1735",
           "3757",
-          "27539",
+          "34091",
           "4952",
-          "138317"
+          "186512",
+          "12564"
         ],
         "captions": "beats",
         "shots": [
@@ -167,30 +179,40 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 3.1
+            "start": 3.97
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 5.47
+            "start": 6.19
           },
           {
             "frame": "frame-04.jpg",
             "beat": 3,
-            "start": 7.85
+            "start": 8.4
           },
           {
             "frame": "frame-05.jpg",
-            "beat": 4,
-            "start": 12.0
+            "beat": 3,
+            "start": 10.54
           },
           {
             "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 12.67
+          },
+          {
+            "frame": "frame-07.jpg",
             "beat": 5,
-            "start": 15.92
+            "start": 16.76
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 5,
+            "start": 19.68
           }
         ],
-        "duration": 19.9
+        "duration": 22.6
       }
     },
     {
@@ -200,9 +222,9 @@
         "out/2026-11-11/p5/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "946701",
-        "page": "https://pixabay.com/photos/guitar-country-road-female-946701/",
-        "query": "elderly man walking alone on country road from behind"
+        "pixabay_id": "4191143",
+        "page": "https://pixabay.com/photos/man-old-elderly-portrait-male-4191143/",
+        "query": "old man bench"
       }
     }
   ]
