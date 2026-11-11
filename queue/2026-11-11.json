@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "statement",
       "time": "09:00",
-      "photo_query": "woman jogging alone in foggy park early morning",
+      "photo_query": "athletics running track",
       "trend": "YouTube 2026-11-11: 'Everyone Sees the Podium. Nobody Sees This' (discipline search, ~42k views/hour)",
       "slides": [
         {
@@ -70,7 +70,8 @@
           "type": "text",
           "text": "Shqipja jote është një aftësi.",
           "highlight": "Dikush ka nevojë për të.",
-          "video_query": "notebook and pencil on wooden desk"
+          "video_query": "notebook and pencil on wooden desk",
+          "video_id": "283431"
         }
       ],
       "caption": "Një side hustle që e ke në gojë çdo ditë: gjuha jote.\n\nShumë prindër në Itali, Gjermani, Zvicër apo Angli duan që fëmijët të flasin dhe të shkruajnë shqip, por s'kanë kohë t'i mësojnë vetë. Me ChatGPT ose Claude përgatit ushtrime dhe tregime të shkurtra për moshën e fëmijës, me Canva i bën fletët me ngjyra, dhe mësimin e bën në Google Meet.\n\nFillo me një familje që e njeh. Një prind i kënaqur të sjell të tjerë.\n\nKe një të afërm jashtë me fëmijë të vegjël? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #diaspora #biznes"
@@ -103,42 +104,36 @@
         {
           "text": "300 lekë në ditë janë mbi 100 mijë lekë në vit.",
           "say": "<breath> Treqind lekë në ditë janë mbi njëqind mijë lekë në vit.",
-          "video_query": "coffee cup on cafe table morning"
+          "video_query": "coffee cup on cafe table morning",
+          "video_id": "238823"
         },
         {
           "text": "Një kafe, një pije, diçka e ëmbël te dyqani i lagjes.",
-          "video_query": "woman shopping in grocery store aisle"
+          "video_query": "supermarket checkout"
         },
         {
           "text": "Problemi nuk është kafeja, por që s'e di ku shkojnë paratë.",
-          "video_query": "empty wallet in hands"
+          "video_query": "empty wallet in hands",
+          "video_id": "3757"
         },
         {
           "text": "Shkruaje çdo shpenzim për një javë, edhe më të voglin.",
-          "video_query": "hand writing in notebook with pen"
+          "video_query": "hand writing in notebook with pen",
+          "video_id": "4952"
         },
         {
           "text": "Pastaj vendos ti çfarë mban.",
           "highlight": "Lekët e vogla bëhen të mëdha.",
-          "video_query": "piggy bank with coins"
+          "video_query": "coins stack"
         }
       ],
-      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa",
-      "video_ids": [
-        "238823",
-        "",
-        "3757",
-        "",
-        "4952",
-        "",
-        ""
-      ]
+      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa"
     },
     {
       "id": "p5",
       "style": "tweet",
       "time": "22:00",
-      "photo_query": "elderly man walking alone on country road from behind",
+      "photo_query": "old man bench",
       "trend": "YouTube 2026-11-11: 'POV Your Dad Finally Believes It's Your Time' (top 30, discipline search)",
       "slides": [
         {
