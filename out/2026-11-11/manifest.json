@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "rendered_at": 1794378493,
+  "rendered_at": 1794378991,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-11/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "5077131",
-        "page": "https://pixabay.com/photos/man-running-moscow-the-kremlin-5077131/",
-        "query": "runner training alone on empty track early morning fog"
+        "pixabay_id": "6526807",
+        "page": "https://pixabay.com/photos/breakfast-waffle-bed-morning-6526807/",
+        "query": "woman jogging alone in foggy park early morning"
       }
     },
     {
@@ -28,7 +28,7 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "lofi-3.mp3",
+        "music": "lofi-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -54,12 +54,12 @@
           },
           {
             "beat": 5,
-            "pixabay_id": "261978",
-            "page": "https://pixabay.com/videos/id-261978/"
+            "pixabay_id": "283431",
+            "page": "https://pixabay.com/videos/id-283431/"
           }
         ],
         "engine": "motion",
-        "duration": 26.5,
+        "duration": 27.25,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -106,8 +106,7 @@
         "out/2026-11-11/p4/frame-03.jpg",
         "out/2026-11-11/p4/frame-04.jpg",
         "out/2026-11-11/p4/frame-05.jpg",
-        "out/2026-11-11/p4/frame-06.jpg",
-        "out/2026-11-11/p4/frame-07.jpg"
+        "out/2026-11-11/p4/frame-06.jpg"
       ],
       "photo": {
         "pixabay_id": "238823",
@@ -120,47 +119,43 @@
           "page": "https://pixabay.com/videos/id-238823/",
           "query": "coins falling into glass jar"
         },
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
-        "voice_sync": "split",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [3] (letters/s [9.3, 8.2, 26.1, 8.5, 14.0])",
+        "voice_sync": "per-beat",
         "clips": [
           {
             "pixabay_id": "238823",
             "page": "https://pixabay.com/videos/id-238823/"
           },
           {
-            "pixabay_id": "16166",
-            "page": "https://pixabay.com/videos/id-16166/"
+            "pixabay_id": "1006",
+            "page": "https://pixabay.com/videos/id-1006/"
           },
           {
             "pixabay_id": "3757",
             "page": "https://pixabay.com/videos/id-3757/"
           },
           {
-            "pixabay_id": "11606",
-            "page": "https://pixabay.com/videos/id-11606/"
+            "pixabay_id": "27539",
+            "page": "https://pixabay.com/videos/id-27539/"
           },
           {
             "pixabay_id": "4952",
             "page": "https://pixabay.com/videos/id-4952/"
           },
           {
-            "pixabay_id": "13100",
-            "page": "https://pixabay.com/videos/id-13100/"
-          },
-          {
-            "pixabay_id": "754",
-            "page": "https://pixabay.com/videos/id-754/"
+            "pixabay_id": "138317",
+            "page": "https://pixabay.com/videos/id-138317/"
           }
         ],
         "video_ids": [
           "238823",
-          "16166",
+          "1006",
           "3757",
-          "11606",
+          "27539",
           "4952",
-          "13100",
-          "754"
+          "138317"
         ],
         "captions": "beats",
         "shots": [
@@ -172,35 +167,30 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 3.78
+            "start": 3.1
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 6.45
+            "start": 5.47
           },
           {
             "frame": "frame-04.jpg",
             "beat": 3,
-            "start": 9.12
+            "start": 7.85
           },
           {
             "frame": "frame-05.jpg",
             "beat": 4,
-            "start": 12.76
+            "start": 12.0
           },
           {
             "frame": "frame-06.jpg",
             "beat": 5,
-            "start": 16.92
-          },
-          {
-            "frame": "frame-07.jpg",
-            "beat": 5,
-            "start": 19.11
+            "start": 15.92
           }
         ],
-        "duration": 21.3
+        "duration": 19.9
       }
     },
     {
@@ -210,9 +200,9 @@
         "out/2026-11-11/p5/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "8228075",
-        "page": "https://pixabay.com/photos/child-boy-window-sit-alone-kid-8228075/",
-        "query": "old man sitting alone on bench from behind evening"
+        "pixabay_id": "946701",
+        "page": "https://pixabay.com/photos/guitar-country-road-female-946701/",
+        "query": "elderly man walking alone on country road from behind"
       }
     }
   ]
