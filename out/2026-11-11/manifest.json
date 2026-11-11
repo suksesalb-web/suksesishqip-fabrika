@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "rendered_at": 1794380663,
+  "rendered_at": 1794381311,
   "posts": [
     {
       "id": "p1",
@@ -28,7 +28,7 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "lofi-3.mp3",
+        "music": "lofi-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -59,7 +59,7 @@
           }
         ],
         "engine": "motion",
-        "duration": 27.39,
+        "duration": 27.53,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -109,8 +109,7 @@
         "out/2026-11-11/p4/frame-06.jpg",
         "out/2026-11-11/p4/frame-07.jpg",
         "out/2026-11-11/p4/frame-08.jpg",
-        "out/2026-11-11/p4/frame-09.jpg",
-        "out/2026-11-11/p4/frame-10.jpg"
+        "out/2026-11-11/p4/frame-09.jpg"
       ],
       "photo": {
         "pixabay_id": "238823",
@@ -140,8 +139,8 @@
             "page": "https://pixabay.com/videos/id-3757/"
           },
           {
-            "pixabay_id": "4952",
-            "page": "https://pixabay.com/videos/id-4952/"
+            "pixabay_id": "238823",
+            "page": "https://pixabay.com/videos/id-238823/"
           },
           {
             "pixabay_id": "12564",
@@ -156,29 +155,24 @@
             "page": "https://pixabay.com/videos/id-12040/"
           },
           {
+            "pixabay_id": "4952",
+            "page": "https://pixabay.com/videos/id-4952/"
+          },
+          {
             "pixabay_id": "107242",
             "page": "https://pixabay.com/videos/id-107242/"
-          },
-          {
-            "pixabay_id": "28839",
-            "page": "https://pixabay.com/videos/id-28839/"
-          },
-          {
-            "pixabay_id": "28835",
-            "page": "https://pixabay.com/videos/id-28835/"
           }
         ],
         "video_ids": [
           "238823",
           "1735",
           "3757",
-          "4952",
+          "238823",
           "12564",
           "3757",
           "12040",
-          "107242",
-          "28839",
-          "28835"
+          "4952",
+          "107242"
         ],
         "captions": "beats",
         "shots": [
@@ -190,50 +184,45 @@
           {
             "frame": "frame-02.jpg",
             "beat": 1,
-            "start": 2.27
+            "start": 2.32
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 4.54
+            "start": 4.64
           },
           {
             "frame": "frame-04.jpg",
             "beat": 2,
-            "start": 6.89
+            "start": 6.99
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 9.24
+            "start": 9.35
           },
           {
             "frame": "frame-06.jpg",
-            "beat": 3,
-            "start": 11.44
+            "beat": 4,
+            "start": 13.4
           },
           {
             "frame": "frame-07.jpg",
             "beat": 4,
-            "start": 13.63
+            "start": 15.56
           },
           {
             "frame": "frame-08.jpg",
-            "beat": 4,
-            "start": 15.85
+            "beat": 5,
+            "start": 17.72
           },
           {
             "frame": "frame-09.jpg",
             "beat": 5,
-            "start": 18.07
-          },
-          {
-            "frame": "frame-10.jpg",
-            "beat": 5,
-            "start": 20.35
+            "start": 19.97
           }
         ],
-        "duration": 22.63
+        "duration": 22.21
       }
     },
     {
