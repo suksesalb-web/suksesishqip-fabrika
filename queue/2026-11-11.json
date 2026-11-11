@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-11",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "statement",
+      "time": "09:00",
+      "photo_query": "runner training alone on empty track early morning fog",
+      "trend": "YouTube 2026-11-11: 'Everyone Sees the Podium. Nobody Sees This' (discipline search, ~42k views/hour)",
+      "slides": [
+        {
+          "text": "Të gjithë e shohin podiumin.",
+          "highlight": "Askush s'i sheh mëngjeset e ftohta."
+        }
+      ],
+      "caption": "Rezultatin e sheh e gjithë bota. Punën që e solli, vetëm ti.\n\nOrët para punës, provat që dolën keq, ditët kur s'kishe qejf dhe e bëre prapë. Ato janë suksesi i vërtetë, edhe kur s'i duartroket njeri.\n\nRuaje për mëngjesin kur të duket se askush s'po të sheh.\n\n#suksesishqip #disiplinë #mendësi #sukses"
+    },
+    {
+      "id": "p2",
+      "style": "reel",
+      "engine": "motion",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:lofi",
+      "video_query": "child doing homework with laptop at home",
+      "trend": "YouTube 2026-11-11: 'Why Tutoring Is a Smarter Side Hustle Than Retail' (side hustle ideas search)",
+      "beats": [
+        {
+          "type": "hook",
+          "text": "Mijëra fëmijë shqiptarë jashtë vendit nuk dinë të shkruajnë shqip.",
+          "video_query": "child writing in notebook at kitchen table"
+        },
+        {
+          "type": "list",
+          "title": "Të duhen vetëm:",
+          "items": ["Laptop dhe internet", "Durim me fëmijët", "ChatGPT për ushtrime"],
+          "say": "Të duhen vetëm: laptop dhe internet, durim me fëmijët, dhe ChatGPT për ushtrime.",
+          "video_query": "woman teaching online video call laptop"
+        },
+        {
+          "type": "steps",
+          "title": "Si fillon:",
+          "items": ["Bëj një mësim provë", "Pyet në grupet e diasporës", "Kërko rekomandime"],
+          "say": "Si fillon: bëj një mësim provë, pyet në grupet e diasporës, kërko rekomandime.",
+          "video_query": "person typing on laptop at home desk"
+        },
+        {
+          "type": "number",
+          "value": 45,
+          "from_value": 0,
+          "prefix": "",
+          "suffix": " min",
+          "label": "një mësim në internet",
+          "say": "Një mësim zgjat rreth dyzet e pesë minuta, nga shtëpia jote.",
+          "video_query": "kid smiling at laptop screen online class"
+        },
+        {
+          "type": "text",
+          "text": "Shqipja jote është një aftësi.",
+          "highlight": "Dikush ka nevojë për të.",
+          "video_query": "open book and notebook on wooden table"
+        }
+      ],
+      "caption": "Një side hustle që e ke në gojë çdo ditë: gjuha jote.\n\nShumë prindër në Itali, Gjermani, Zvicër apo Angli duan që fëmijët të flasin dhe të shkruajnë shqip, por s'kanë kohë t'i mësojnë vetë. Me ChatGPT ose Claude përgatit ushtrime dhe tregime të shkurtra për moshën e fëmijës, me Canva i bën fletët me ngjyra, dhe mësimin e bën në Google Meet.\n\nFillo me një familje që e njeh. Një prind i kënaqur të sjell të tjerë.\n\nKe një të afërm jashtë me fëmijë të vegjël? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #diaspora #biznes"
+    },
+    {
+      "id": "p3",
+      "style": "quote",
+      "time": "15:00",
+      "photo_query": "mountain climber silhouette on rocky slope",
+      "trend": "YouTube 2026-11-11: 'Ego never accepts defeat' (discipline search, ~57k views/hour) + Instagram outlier sahilbloom '99% of success is the ability to stay in the game'",
+      "slides": [
+        {
+          "quote": "Fituesit nuk kanë frikë të humbasin. Humbësit kanë. Dështimi është pjesë e rrugës drejt suksesit.",
+          "author": "Robert Kiyosaki",
+          "source": "Rich Dad Poor Dad (1997)"
+        }
+      ],
+      "caption": "Ai që s'ka provuar kurrë, nuk ka dështuar kurrë. Por as nuk ka fituar.\n\nBiznesi i parë mund të mos ecë. Klienti i parë mund të thotë jo. Kjo nuk është fundi, është mësimi që të duhej.\n\nDërgoja dikujt që po pret të jetë i sigurt 100% para se të fillojë.\n\n📖 \"Rich Dad Poor Dad\", Robert Kiyosaki (1997), përkthim i lirë\n\n#suksesishqip #biznes #mendësi #dështim"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "video_query": "coins falling into glass jar",
+      "trend": "YouTube 2026-11-11: '$5 a Day Cost Him $1,825' (money mindset search)",
+      "beats": [
+        {
+          "text": "300 lekë në ditë janë mbi 100 mijë lekë në vit.",
+          "say": "<breath> Treqind lekë në ditë janë mbi njëqind mijë lekë në vit.",
+          "video_query": "coffee cup on cafe table morning"
+        },
+        {
+          "text": "Një kafe, një pije, diçka e ëmbël te dyqani i lagjes.",
+          "video_query": "person paying cash at small shop counter"
+        },
+        {
+          "text": "Problemi nuk është kafeja, por që s'e di ku shkojnë paratë.",
+          "video_query": "man looking at receipts on kitchen table"
+        },
+        {
+          "text": "Shkruaje çdo shpenzim për një javë, edhe më të voglin.",
+          "video_query": "hand writing in notebook with pen"
+        },
+        {
+          "text": "Pastaj vendos ti çfarë mban.",
+          "highlight": "Lekët e vogla bëhen të mëdha.",
+          "video_query": "coins falling into glass jar"
+        }
+      ],
+      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa"
+    },
+    {
+      "id": "p5",
+      "style": "tweet",
+      "time": "22:00",
+      "photo_query": "old man sitting alone on bench from behind evening",
+      "trend": "YouTube 2026-11-11: 'POV Your Dad Finally Believes It's Your Time' (top 30, discipline search)",
+      "slides": [
+        {
+          "text": "Babai s'ma tha kurrë \"jam krenar për ty\".\n\nPor e mora vesh nga komshiu, që e kishte dëgjuar njëqind herë."
+        }
+      ],
+      "caption": "Disa baballarë nuk e thonë dot me fjalë. E thonë te të tjerët, kur ti s'je aty.\n\nNëse babai yt është ende këtu, merre në telefon sot. Edhe pa ndonjë arsye.\n\nDërgoja dikujt që e ka babanë larg.\n\n#suksesishqip #familja #babai #jeta"
+    }
+  ]
+}
