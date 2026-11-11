@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "statement",
       "time": "09:00",
-      "photo_query": "runner training alone on empty track early morning fog",
+      "photo_query": "woman jogging alone in foggy park early morning",
       "trend": "YouTube 2026-11-11: 'Everyone Sees the Podium. Nobody Sees This' (discipline search, ~42k views/hour)",
       "slides": [
         {
@@ -28,21 +28,32 @@
         {
           "type": "hook",
           "text": "Mijëra fëmijë shqiptarë jashtë vendit nuk dinë të shkruajnë shqip.",
-          "video_query": "child writing in notebook at kitchen table"
+          "video_query": "child writing in notebook at kitchen table",
+          "video_id": "237643"
         },
         {
           "type": "list",
           "title": "Të duhen vetëm:",
-          "items": ["Laptop dhe internet", "Durim me fëmijët", "ChatGPT për ushtrime"],
+          "items": [
+            "Laptop dhe internet",
+            "Durim me fëmijët",
+            "ChatGPT për ushtrime"
+          ],
           "say": "Të duhen vetëm: laptop dhe internet, durim me fëmijët, dhe ChatGPT për ushtrime.",
-          "video_query": "woman teaching online video call laptop"
+          "video_query": "woman teaching online video call laptop",
+          "video_id": "71350"
         },
         {
           "type": "steps",
           "title": "Si fillon:",
-          "items": ["Bëj një mësim provë", "Pyet në grupet e diasporës", "Kërko rekomandime"],
+          "items": [
+            "Bëj një mësim provë",
+            "Pyet në grupet e diasporës",
+            "Kërko rekomandime"
+          ],
           "say": "Si fillon: bëj një mësim provë, pyet në grupet e diasporës, kërko rekomandime.",
-          "video_query": "person typing on laptop at home desk"
+          "video_query": "person typing on laptop at home desk",
+          "video_id": "180776"
         },
         {
           "type": "number",
@@ -52,13 +63,14 @@
           "suffix": " min",
           "label": "një mësim në internet",
           "say": "Një mësim zgjat rreth dyzet e pesë minuta, nga shtëpia jote.",
-          "video_query": "kid smiling at laptop screen online class"
+          "video_query": "kid smiling at laptop screen online class",
+          "video_id": "1058"
         },
         {
           "type": "text",
           "text": "Shqipja jote është një aftësi.",
           "highlight": "Dikush ka nevojë për të.",
-          "video_query": "open book and notebook on wooden table"
+          "video_query": "notebook and pencil on wooden desk"
         }
       ],
       "caption": "Një side hustle që e ke në gojë çdo ditë: gjuha jote.\n\nShumë prindër në Itali, Gjermani, Zvicër apo Angli duan që fëmijët të flasin dhe të shkruajnë shqip, por s'kanë kohë t'i mësojnë vetë. Me ChatGPT ose Claude përgatit ushtrime dhe tregime të shkurtra për moshën e fëmijës, me Canva i bën fletët me ngjyra, dhe mësimin e bën në Google Meet.\n\nFillo me një familje që e njeh. Një prind i kënaqur të sjell të tjerë.\n\nKe një të afërm jashtë me fëmijë të vegjël? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #diaspora #biznes"
@@ -76,7 +88,8 @@
           "source": "Rich Dad Poor Dad (1997)"
         }
       ],
-      "caption": "Ai që s'ka provuar kurrë, nuk ka dështuar kurrë. Por as nuk ka fituar.\n\nBiznesi i parë mund të mos ecë. Klienti i parë mund të thotë jo. Kjo nuk është fundi, është mësimi që të duhej.\n\nDërgoja dikujt që po pret të jetë i sigurt 100% para se të fillojë.\n\n📖 \"Rich Dad Poor Dad\", Robert Kiyosaki (1997), përkthim i lirë\n\n#suksesishqip #biznes #mendësi #dështim"
+      "caption": "Ai që s'ka provuar kurrë, nuk ka dështuar kurrë. Por as nuk ka fituar.\n\nBiznesi i parë mund të mos ecë. Klienti i parë mund të thotë jo. Kjo nuk është fundi, është mësimi që të duhej.\n\nDërgoja dikujt që po pret të jetë i sigurt 100% para se të fillojë.\n\n📖 \"Rich Dad Poor Dad\", Robert Kiyosaki (1997), përkthim i lirë\n\n#suksesishqip #biznes #mendësi #dështim",
+      "photo_id": "6724514"
     },
     {
       "id": "p4",
@@ -94,11 +107,11 @@
         },
         {
           "text": "Një kafe, një pije, diçka e ëmbël te dyqani i lagjes.",
-          "video_query": "person paying cash at small shop counter"
+          "video_query": "woman shopping in grocery store aisle"
         },
         {
           "text": "Problemi nuk është kafeja, por që s'e di ku shkojnë paratë.",
-          "video_query": "man looking at receipts on kitchen table"
+          "video_query": "empty wallet in hands"
         },
         {
           "text": "Shkruaje çdo shpenzim për një javë, edhe më të voglin.",
@@ -107,16 +120,25 @@
         {
           "text": "Pastaj vendos ti çfarë mban.",
           "highlight": "Lekët e vogla bëhen të mëdha.",
-          "video_query": "coins falling into glass jar"
+          "video_query": "piggy bank with coins"
         }
       ],
-      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa"
+      "caption": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.\n\nNuk po të themi të heqësh dorë nga kafeja me shokët. Po të themi ta dish ku shkon çdo lek, që pastaj të zgjedhësh ti, jo zakoni.\n\nProvoje këtë javë: shkruaj çdo shpenzim në telefon. Do habitesh.\n\nDërgoja shokut që në fund të muajit pyet \"ku më shkuan paratë?\"\n\n#suksesishqip #para #kursim #financa",
+      "video_ids": [
+        "238823",
+        "",
+        "3757",
+        "",
+        "4952",
+        "",
+        ""
+      ]
     },
     {
       "id": "p5",
       "style": "tweet",
       "time": "22:00",
-      "photo_query": "old man sitting alone on bench from behind evening",
+      "photo_query": "elderly man walking alone on country road from behind",
       "trend": "YouTube 2026-11-11: 'POV Your Dad Finally Believes It's Your Time' (top 30, discipline search)",
       "slides": [
         {
