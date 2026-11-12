@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "statement",
       "time": "09:00",
-      "photo_query": "man training alone in empty gym early morning",
+      "photo_query": "runner tying shoes on empty track at dawn",
       "trend": "YouTube 2026-11-12: 'When talent becomes serious' (discipline search, ~73k views/hour)",
       "slides": [
         {
@@ -35,11 +35,11 @@
         },
         {
           "text": "Çdo kundërshtim që të jep është një problem që duhet ta zgjidhësh.",
-          "video_query": "person writing notes in notebook at desk"
+          "video_query": "woman writing list in notebook with pen"
         },
         {
           "text": "Pastaj pyet dhjetë njerëz të vërtetë, sepse ChatGPT-ja nuk të paguan.",
-          "video_query": "two friends talking at cafe table"
+          "video_query": "people having conversation in coffee shop"
         },
         {
           "text": "Dhjetë biseda sot",
@@ -47,7 +47,17 @@
           "video_query": "man closing laptop and smiling at desk"
         }
       ],
-      "caption": "Shumë biznese të reja nuk mbyllen sepse punuan keq. Mbyllen sepse askush s'e donte atë që shitën.\n\nProva falas: shkruaji ChatGPT-së ose Claude-it idenë tënde dhe kërkoji të sillet si klient i vështirë. Shëno çdo kundërshtim. Pastaj fol me 10 njerëz të vërtetë dhe pyeti: sa do të paguaje për këtë?\n\nKe një shok që po mendon të hapë diçka? Dërgoja para se të shpenzojë.\n\n#suksesishqip #biznes #AI #sidehustle #ChatGPT"
+      "caption": "Shumë biznese të reja nuk mbyllen sepse punuan keq. Mbyllen sepse askush s'e donte atë që shitën.\n\nProva falas: shkruaji ChatGPT-së ose Claude-it idenë tënde dhe kërkoji të sillet si klient i vështirë. Shëno çdo kundërshtim. Pastaj fol me 10 njerëz të vërtetë dhe pyeti: sa do të paguaje për këtë?\n\nKe një shok që po mendon të hapë diçka? Dërgoja para se të shpenzojë.\n\n#suksesishqip #biznes #AI #sidehustle #ChatGPT",
+      "video_ids": [
+        "203260",
+        "",
+        "3174",
+        "3188",
+        "",
+        "",
+        "",
+        "42305"
+      ]
     },
     {
       "id": "p3",
@@ -82,7 +92,8 @@
           "body": "Mënyra më e sigurt për të fituar më shumë është të dish më shumë. Një kurs, një zanat, një aftësi e re: këto s'ta merr dot njeri."
         }
       ],
-      "caption": "Një libër i vitit 1926, me tregime nga Babilonia e lashtë. Mësimet e tij vlejnë ende për çdo pagë në Shqipëri.\n\nCilin mësim po e zbaton tashmë? Shkruaje në koment.\n\nRuaje dhe lexoje sërish ditën e rrogës.\n\n📖 \"The Richest Man in Babylon\", George S. Clason (1926). Mësimet janë përmbledhje me fjalët tona.\n\n#suksesishqip #libra #para #kursime"
+      "caption": "Një libër i vitit 1926, me tregime nga Babilonia e lashtë. Mësimet e tij vlejnë ende për çdo pagë në Shqipëri.\n\nCilin mësim po e zbaton tashmë? Shkruaje në koment.\n\nRuaje dhe lexoje sërish ditën e rrogës.\n\n📖 \"The Richest Man in Babylon\", George S. Clason (1926). Mësimet janë përmbledhje me fjalët tona.\n\n#suksesishqip #libra #para #kursime",
+      "photo_id": "7404274"
     },
     {
       "id": "p4",
@@ -135,7 +146,7 @@
       "id": "p5",
       "style": "tweet",
       "time": "22:00",
-      "photo_query": "young man sitting alone on bench looking at city at dusk",
+      "photo_query": "person sitting alone on bench from behind at sunset",
       "trend": "Instagram outlier garyvee: 'So much of your anxiety ... is tied to expectations' (image, score 118)",
       "slides": [
         {
