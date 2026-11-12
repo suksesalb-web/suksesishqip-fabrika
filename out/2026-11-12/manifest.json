@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "rendered_at": 1794465079,
+  "rendered_at": 1794465305,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-12/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "7895953",
-        "page": "https://pixabay.com/photos/woman-smile-model-fashion-female-7895953/",
-        "query": "runner tying shoes on empty track at dawn"
+        "pixabay_id": "3280644",
+        "page": "https://pixabay.com/photos/stadium-compete-field-sports-track-3280644/",
+        "query": "empty running track lanes at sunrise"
       }
     },
     {
@@ -39,7 +39,7 @@
           "page": "https://pixabay.com/videos/id-203260/",
           "query": "woman typing on laptop at kitchen table"
         },
-        "music": "lofi-2.mp3",
+        "music": "lofi-3.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -64,12 +64,12 @@
             "page": "https://pixabay.com/videos/id-107240/"
           },
           {
-            "pixabay_id": "180",
-            "page": "https://pixabay.com/videos/id-180/"
+            "pixabay_id": "2340",
+            "page": "https://pixabay.com/videos/id-2340/"
           },
           {
-            "pixabay_id": "45358",
-            "page": "https://pixabay.com/videos/id-45358/"
+            "pixabay_id": "8252",
+            "page": "https://pixabay.com/videos/id-8252/"
           },
           {
             "pixabay_id": "42305",
@@ -82,8 +82,8 @@
           "3174",
           "3188",
           "107240",
-          "180",
-          "45358",
+          "2340",
+          "8252",
           "42305"
         ],
         "captions": "beats",
@@ -96,40 +96,40 @@
           {
             "frame": "frame-02.jpg",
             "beat": 1,
-            "start": 2.6
+            "start": 2.58
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 5.2
+            "start": 5.17
           },
           {
             "frame": "frame-04.jpg",
             "beat": 2,
-            "start": 7.68
+            "start": 7.62
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 10.16
+            "start": 10.07
           },
           {
             "frame": "frame-06.jpg",
             "beat": 4,
-            "start": 14.26
+            "start": 13.73
           },
           {
             "frame": "frame-07.jpg",
             "beat": 4,
-            "start": 16.83
+            "start": 16.06
           },
           {
             "frame": "frame-08.jpg",
             "beat": 5,
-            "start": 19.39
+            "start": 18.38
           }
         ],
-        "duration": 22.59
+        "duration": 21.72
       }
     },
     {
@@ -166,11 +166,11 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "piano-2.mp3",
+        "music": "piano-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "engine": "stickman",
-        "duration": 25.8,
+        "duration": 23.69,
         "scenes": [
           "think",
           "desk",
