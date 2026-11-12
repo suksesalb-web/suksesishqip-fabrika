@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "rendered_at": 1794464865,
+  "rendered_at": 1794465079,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-12/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "8564036",
-        "page": "https://pixabay.com/photos/fitness-exercise-woman-fit-8564036/",
-        "query": "man training alone in empty gym early morning"
+        "pixabay_id": "7895953",
+        "page": "https://pixabay.com/photos/woman-smile-model-fashion-female-7895953/",
+        "query": "runner tying shoes on empty track at dawn"
       }
     },
     {
@@ -39,7 +39,7 @@
           "page": "https://pixabay.com/videos/id-203260/",
           "query": "woman typing on laptop at kitchen table"
         },
-        "music": "lofi-3.mp3",
+        "music": "lofi-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -48,8 +48,8 @@
             "page": "https://pixabay.com/videos/id-203260/"
           },
           {
-            "pixabay_id": "130645",
-            "page": "https://pixabay.com/videos/id-130645/"
+            "pixabay_id": "1046",
+            "page": "https://pixabay.com/videos/id-1046/"
           },
           {
             "pixabay_id": "3174",
@@ -60,16 +60,16 @@
             "page": "https://pixabay.com/videos/id-3188/"
           },
           {
-            "pixabay_id": "1028",
-            "page": "https://pixabay.com/videos/id-1028/"
+            "pixabay_id": "107240",
+            "page": "https://pixabay.com/videos/id-107240/"
           },
           {
-            "pixabay_id": "363873",
-            "page": "https://pixabay.com/videos/id-363873/"
+            "pixabay_id": "180",
+            "page": "https://pixabay.com/videos/id-180/"
           },
           {
-            "pixabay_id": "1623",
-            "page": "https://pixabay.com/videos/id-1623/"
+            "pixabay_id": "45358",
+            "page": "https://pixabay.com/videos/id-45358/"
           },
           {
             "pixabay_id": "42305",
@@ -78,12 +78,12 @@
         ],
         "video_ids": [
           "203260",
-          "130645",
+          "1046",
           "3174",
           "3188",
-          "1028",
-          "363873",
-          "1623",
+          "107240",
+          "180",
+          "45358",
           "42305"
         ],
         "captions": "beats",
@@ -96,40 +96,40 @@
           {
             "frame": "frame-02.jpg",
             "beat": 1,
-            "start": 2.58
+            "start": 2.6
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 5.17
+            "start": 5.2
           },
           {
             "frame": "frame-04.jpg",
             "beat": 2,
-            "start": 7.5
+            "start": 7.68
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 9.82
+            "start": 10.16
           },
           {
             "frame": "frame-06.jpg",
             "beat": 4,
-            "start": 13.68
+            "start": 14.26
           },
           {
             "frame": "frame-07.jpg",
             "beat": 4,
-            "start": 16.04
+            "start": 16.83
           },
           {
             "frame": "frame-08.jpg",
             "beat": 5,
-            "start": 18.39
+            "start": 19.39
           }
         ],
-        "duration": 21.69
+        "duration": 22.59
       }
     },
     {
@@ -166,11 +166,11 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "piano-1.mp3",
+        "music": "piano-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "engine": "stickman",
-        "duration": 27.16,
+        "duration": 25.8,
         "scenes": [
           "think",
           "desk",
@@ -219,9 +219,9 @@
         "out/2026-11-12/p5/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "3353711",
-        "page": "https://pixabay.com/photos/woman-porch-sitting-leisure-casual-3353711/",
-        "query": "young man sitting alone on bench looking at city at dusk"
+        "pixabay_id": "4963688",
+        "page": "https://pixabay.com/photos/abstract-architecture-4963688/",
+        "query": "person sitting alone on bench from behind at sunset"
       }
     }
   ]
