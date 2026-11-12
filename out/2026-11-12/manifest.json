@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-12",
+  "rendered_at": 1794464865,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-12/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "8564036",
+        "page": "https://pixabay.com/photos/fitness-exercise-woman-fit-8564036/",
+        "query": "man training alone in empty gym early morning"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-12/p2/reel.mp4",
+        "out/2026-11-12/p2/frame-01.jpg",
+        "out/2026-11-12/p2/frame-02.jpg",
+        "out/2026-11-12/p2/frame-03.jpg",
+        "out/2026-11-12/p2/frame-04.jpg",
+        "out/2026-11-12/p2/frame-05.jpg",
+        "out/2026-11-12/p2/frame-06.jpg",
+        "out/2026-11-12/p2/frame-07.jpg",
+        "out/2026-11-12/p2/frame-08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "203260",
+        "page": "https://pixabay.com/videos/id-203260/",
+        "query": "woman typing on laptop at kitchen table"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "203260",
+          "page": "https://pixabay.com/videos/id-203260/",
+          "query": "woman typing on laptop at kitchen table"
+        },
+        "music": "lofi-3.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [
+          {
+            "pixabay_id": "203260",
+            "page": "https://pixabay.com/videos/id-203260/"
+          },
+          {
+            "pixabay_id": "130645",
+            "page": "https://pixabay.com/videos/id-130645/"
+          },
+          {
+            "pixabay_id": "3174",
+            "page": "https://pixabay.com/videos/id-3174/"
+          },
+          {
+            "pixabay_id": "3188",
+            "page": "https://pixabay.com/videos/id-3188/"
+          },
+          {
+            "pixabay_id": "1028",
+            "page": "https://pixabay.com/videos/id-1028/"
+          },
+          {
+            "pixabay_id": "363873",
+            "page": "https://pixabay.com/videos/id-363873/"
+          },
+          {
+            "pixabay_id": "1623",
+            "page": "https://pixabay.com/videos/id-1623/"
+          },
+          {
+            "pixabay_id": "42305",
+            "page": "https://pixabay.com/videos/id-42305/"
+          }
+        ],
+        "video_ids": [
+          "203260",
+          "130645",
+          "3174",
+          "3188",
+          "1028",
+          "363873",
+          "1623",
+          "42305"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 1,
+            "start": 2.58
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 5.17
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 2,
+            "start": 7.5
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 9.82
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 13.68
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 4,
+            "start": 16.04
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 5,
+            "start": 18.39
+          }
+        ],
+        "duration": 21.69
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-12/p3/01.jpg",
+        "out/2026-11-12/p3/02.jpg",
+        "out/2026-11-12/p3/03.jpg",
+        "out/2026-11-12/p3/04.jpg",
+        "out/2026-11-12/p3/05.jpg",
+        "out/2026-11-12/p3/06.jpg",
+        "out/2026-11-12/p3/07.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7404274",
+        "page": "https://pixabay.com/photos/books-library-reading-education-7404274/",
+        "query": "old leather book with gold coins on wooden table"
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-12/p4/reel.mp4",
+        "out/2026-11-12/p4/frame-01.jpg",
+        "out/2026-11-12/p4/frame-02.jpg",
+        "out/2026-11-12/p4/frame-03.jpg",
+        "out/2026-11-12/p4/frame-04.jpg",
+        "out/2026-11-12/p4/frame-05.jpg",
+        "out/2026-11-12/p4/frame-06.jpg",
+        "out/2026-11-12/p4/frame-07.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "piano-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "engine": "stickman",
+        "duration": 27.16,
+        "scenes": [
+          "think",
+          "desk",
+          "phone",
+          "money",
+          "laptop",
+          "stairs",
+          "face"
+        ],
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-12/p5/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "3353711",
+        "page": "https://pixabay.com/photos/woman-porch-sitting-leisure-casual-3353711/",
+        "query": "young man sitting alone on bench looking at city at dusk"
+      }
+    }
+  ]
+}
