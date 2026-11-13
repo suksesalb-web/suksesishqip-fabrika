@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "rendered_at": 1794551224,
+  "rendered_at": 1794551910,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-13/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "7476823",
-        "page": "https://pixabay.com/photos/boy-volunteer-cute-hard-work-7476823/",
-        "query": "stack of red bricks at construction site"
+        "pixabay_id": "2376325",
+        "page": "https://pixabay.com/photos/mason-brick-work-construction-2376325/",
+        "query": "bricklayer hands laying bricks with trowel"
       }
     },
     {
@@ -59,7 +59,7 @@
           }
         ],
         "engine": "motion",
-        "duration": 27.53,
+        "duration": 27.76,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -121,7 +121,7 @@
           "page": "https://pixabay.com/videos/id-27230/",
           "query": "empty cafe tables on city street"
         },
-        "music": "dark-1.mp3",
+        "music": "dark-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -134,39 +134,39 @@
             "page": "https://pixabay.com/videos/id-32246/"
           },
           {
-            "pixabay_id": "149927",
-            "page": "https://pixabay.com/videos/id-149927/"
+            "pixabay_id": "21118",
+            "page": "https://pixabay.com/videos/id-21118/"
           },
           {
-            "pixabay_id": "327359",
-            "page": "https://pixabay.com/videos/id-327359/"
+            "pixabay_id": "3609",
+            "page": "https://pixabay.com/videos/id-3609/"
           },
           {
-            "pixabay_id": "3742",
-            "page": "https://pixabay.com/videos/id-3742/"
+            "pixabay_id": "330898",
+            "page": "https://pixabay.com/videos/id-330898/"
           },
           {
             "pixabay_id": "45254",
             "page": "https://pixabay.com/videos/id-45254/"
           },
           {
-            "pixabay_id": "24603",
-            "page": "https://pixabay.com/videos/id-24603/"
+            "pixabay_id": "258792",
+            "page": "https://pixabay.com/videos/id-258792/"
           },
           {
-            "pixabay_id": "258799",
-            "page": "https://pixabay.com/videos/id-258799/"
+            "pixabay_id": "27111",
+            "page": "https://pixabay.com/videos/id-27111/"
           }
         ],
         "video_ids": [
           "27230",
           "32246",
-          "149927",
-          "327359",
-          "3742",
+          "21118",
+          "3609",
+          "330898",
           "45254",
-          "24603",
-          "258799"
+          "258792",
+          "27111"
         ],
         "captions": "beats",
         "shots": [
@@ -178,40 +178,40 @@
           {
             "frame": "frame-02.jpg",
             "beat": 1,
-            "start": 2.67
+            "start": 3.31
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 5.35
+            "start": 6.63
           },
           {
             "frame": "frame-04.jpg",
             "beat": 3,
-            "start": 9.33
+            "start": 10.7
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 11.79
+            "start": 12.89
           },
           {
             "frame": "frame-06.jpg",
             "beat": 4,
-            "start": 14.26
+            "start": 15.07
           },
           {
             "frame": "frame-07.jpg",
             "beat": 4,
-            "start": 16.45
+            "start": 17.32
           },
           {
             "frame": "frame-08.jpg",
             "beat": 5,
-            "start": 18.65
+            "start": 19.56
           }
         ],
-        "duration": 22.17
+        "duration": 23.18
       }
     },
     {
@@ -221,9 +221,9 @@
         "out/2026-11-13/p5/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "10345214",
-        "page": "https://pixabay.com/photos/cat-curious-hide-bench-pet-10345214/",
-        "query": "old worker hands resting on wooden table"
+        "pixabay_id": "4222263",
+        "page": "https://pixabay.com/photos/table-candle-decoration-interior-4222263/",
+        "query": "worn work gloves on wooden table"
       }
     }
   ]
