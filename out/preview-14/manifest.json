@@ -1,0 +1,60 @@
+{
+  "date": "preview-14",
+  "rendered_at": 1794562721,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/preview-14/p1/reel.mp4",
+        "out/preview-14/p1/frame-01.jpg",
+        "out/preview-14/p1/frame-02.jpg",
+        "out/preview-14/p1/frame-03.jpg",
+        "out/preview-14/p1/frame-04.jpg",
+        "out/preview-14/p1/frame-05.jpg",
+        "out/preview-14/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "engine": "hype",
+        "duration": 29.53,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.74
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 11.6
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 16.19
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 20.08
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 24.3
+          }
+        ]
+      }
+    }
+  ]
+}
