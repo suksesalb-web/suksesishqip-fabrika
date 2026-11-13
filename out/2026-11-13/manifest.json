@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "rendered_at": 1794551910,
+  "rendered_at": 1794552603,
   "posts": [
     {
       "id": "p1",
@@ -59,7 +59,7 @@
           }
         ],
         "engine": "motion",
-        "duration": 27.76,
+        "duration": 26.44,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -107,8 +107,7 @@
         "out/2026-11-13/p4/frame-04.jpg",
         "out/2026-11-13/p4/frame-05.jpg",
         "out/2026-11-13/p4/frame-06.jpg",
-        "out/2026-11-13/p4/frame-07.jpg",
-        "out/2026-11-13/p4/frame-08.jpg"
+        "out/2026-11-13/p4/frame-07.jpg"
       ],
       "photo": {
         "pixabay_id": "27230",
@@ -121,7 +120,7 @@
           "page": "https://pixabay.com/videos/id-27230/",
           "query": "empty cafe tables on city street"
         },
-        "music": "dark-2.mp3",
+        "music": "dark-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "clips": [
@@ -142,20 +141,16 @@
             "page": "https://pixabay.com/videos/id-3609/"
           },
           {
-            "pixabay_id": "330898",
-            "page": "https://pixabay.com/videos/id-330898/"
+            "pixabay_id": "11453",
+            "page": "https://pixabay.com/videos/id-11453/"
           },
           {
             "pixabay_id": "45254",
             "page": "https://pixabay.com/videos/id-45254/"
           },
           {
-            "pixabay_id": "258792",
-            "page": "https://pixabay.com/videos/id-258792/"
-          },
-          {
-            "pixabay_id": "27111",
-            "page": "https://pixabay.com/videos/id-27111/"
+            "pixabay_id": "73535",
+            "page": "https://pixabay.com/videos/id-73535/"
           }
         ],
         "video_ids": [
@@ -163,10 +158,9 @@
           "32246",
           "21118",
           "3609",
-          "330898",
+          "11453",
           "45254",
-          "258792",
-          "27111"
+          "73535"
         ],
         "captions": "beats",
         "shots": [
@@ -178,40 +172,35 @@
           {
             "frame": "frame-02.jpg",
             "beat": 1,
-            "start": 3.31
+            "start": 2.79
           },
           {
             "frame": "frame-03.jpg",
             "beat": 2,
-            "start": 6.63
+            "start": 5.58
           },
           {
             "frame": "frame-04.jpg",
             "beat": 3,
-            "start": 10.7
+            "start": 9.61
           },
           {
             "frame": "frame-05.jpg",
             "beat": 3,
-            "start": 12.89
+            "start": 11.74
           },
           {
             "frame": "frame-06.jpg",
             "beat": 4,
-            "start": 15.07
+            "start": 13.87
           },
           {
             "frame": "frame-07.jpg",
-            "beat": 4,
-            "start": 17.32
-          },
-          {
-            "frame": "frame-08.jpg",
             "beat": 5,
-            "start": 19.56
+            "start": 17.67
           }
         ],
-        "duration": 23.18
+        "duration": 21.06
       }
     },
     {
