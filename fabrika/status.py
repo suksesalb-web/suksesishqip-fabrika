@@ -50,3 +50,14 @@ if tok:
               "|", (m.get("caption") or "").split("\n")[0][:60], "|", m.get("permalink"))
     if "error" in media:
         print("error:", media["error"].get("message"))
+
+print("== BUFFER SCHEMA (analytics fields)")
+try:
+    d = buffer("{ __schema { types { name fields { name } } } }", {})
+    for t in d["data"]["__schema"]["types"]:
+        names = [f["name"] for f in (t.get("fields") or [])]
+        hit = [n for n in names if any(k in n.lower() for k in ("stat", "metric", "analytic", "insight", "engagement", "view", "impression"))]
+        if t["name"] in ("Post",) or hit:
+            print(t["name"], hit if hit else names[:40])
+except Exception as e:
+    print("schema error:", e)
