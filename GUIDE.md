@@ -35,6 +35,9 @@ The page's core is **interesting side hustles, making money with AI, and how to 
 
 Rotate topics across the week: discipline, habits, money mindset, side hustles that work from Albania, stories of people who built something, Stoic ideas, book lessons. Check `data/topics_log.txt` and don't repeat a topic or quote used in the last 60 days.
 
+## Learnings (read every run)
+`data/learnings.md` holds what our own numbers have taught us so far (written every 3 days by the review). Read it before writing and follow it, inside the rules of this guide. When it says a kind of hook, topic or format wins or loses, act on it.
+
 ## Trend input (read every run)
 `data/trends/<today>.json` is written at 05:30–06:30 Tirana time by the Trend report action: the fastest-growing English short videos of the last 48 hours, ranked by views per hour. `by_search` holds the top 6 per search (read the AI, side-hustle and business searches first); `top` is the overall top 30.
 - Use it to pick **themes and angles** that are hot right now: at least 2 of the 5 posts should build on a theme from the report when one fits the page.
