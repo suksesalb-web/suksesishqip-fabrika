@@ -10,11 +10,11 @@ This file is the brief every daily run follows. Change it to change what the pag
 ## Daily mix (5 posts)
 | Slot (Tirana time) | Style | What |
 |---|---|---|
-| 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
+| 09:00 | `tweet` | Morning tweet: discipline, habits or mindset, said in a concrete, surprising way (see Tweets) |
 | 12:00 | `reel` (20–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania, with real numbers (time, tool cost, steps). Hype look (see Hype Reels) |
-| 15:00 | `quote` or `story` | Books & thinkers: a verified quote with the source named, or (2–3 times a week) a "mësime nga libri" carousel (see Book posts) |
+| 15:00 | `tweet` | **Money, work or side hustle tweet with something concrete:** a number, a price, a small calculation, a realistic situation (see Tweets). At most once a week this slot may be a short verified quote or a "mësime nga libri" carousel instead |
 | 18:00 | `reel` (20–30 s) | **Business or money:** a true success or failure story of a famous company or person, a money calculation, or a relatable situation. Hype look (see Hype Reels) |
-| 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work well here, a few times a week |
+| 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work best here, most days |
 
 ## Main focus
 The page's core is **interesting side hustles, making money with AI, and how to start a business**. Discipline and mindset support it. Never post religious, gaming, K-pop, sport-gossip or political content.
@@ -46,6 +46,20 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - We stay ourselves: practical business, AI and side hustles from Albania, honest and specific. No "millionaire lifestyle" tone, no reposted viral videos, no political figures.
 - If today's file is missing, use the most recent one, or carry on without it.
 
+## Tweets (the main image format)
+Owner's decision (2026-11-13): tweets get priority. They are our strongest image format, especially on TikTok (family tweets reached ~900–1 400 views while quotes and book carousels stayed far behind). All three image slots are tweets by default, each with a different job:
+- **09:00, mindset:** discipline and habits, but never a generic poster line. Turn the idea into something concrete: a time, a habit, a scene ("Në 07:00 të gjithë kanë plane. Në 07:05 kanë telefonin në dorë.").
+- **15:00, money / work / side hustle:** a number, a price in lekë or euro, a small calculation, or a realistic side hustle detail (tool cost, time a job takes, what a beginner charges). Examples of the tone: "Telefoni 1.200€. Paga 800€. E ndamë në 24 këste dhe e quajtëm 'të lirë'." / "Një CV me Canva është 20 minuta punë. Plot njerëz paguajnë për të. Askush s'e quan biznes, derisa e bën dikush." Prices must be realistic and checkable; never income promises.
+- **22:00, personal:** parents, home, family far away, growing up in Albania, the small things you understand late. Warm, specific, sendable.
+
+How to write them:
+- **Concrete beats inspirational.** A detail, a number or a scene in every tweet. If it could hang on any motivational poster, rewrite it.
+- **2–4 short lines with a turn:** set-up, then the twist or the truth in the last line. Max ~35 words. Line breaks (`\n\n`) between the parts.
+- Write like a real person talking (first or second person is fine), in everyday Albanian. A first-person line must be a relatable, general experience, never an invented specific fact about a real person or a fake "true story".
+- Make it sendable: would someone forward it with "kjo je ti" or "e pe këtë?"
+- `photo_query`: a calm, literal background that fits (a person from behind, the place, the object); never a close-up face.
+- Don't repeat a theme or a number used in the last 60 days (topics_log).
+
 ## Quote bank
 `data/quote_bank.json` holds quotes believed to be genuinely in the named book, with their Goodreads likes (popularity), topic tags, and a `banned` list of famous fake quotes. For quote posts:
 - Prefer a quote from the bank whose tags match today's trend themes; among those, prefer higher `likes` and quotes not used in the last 60 days. After posting, set its `"used": "DATE"`.
@@ -54,7 +68,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - Instagram signal so far: short, sharp business lines (≤ 15 words) beat long quotes. Prefer short quotes, or cut to the strongest sentence.
 
 ## Book posts ("mësime nga libri")
-- Format: `story` carousel. Cover: kicker "Mësime nga librat", title "N mësime nga \"<Book>\" …", subtitle with author and year. Then 4–6 lessons, one per slide, then the automatic save/follow slide.
+- At most once a week (tweets come first). Format: `story` carousel. Cover: kicker "Mësime nga librat", title "N mësime nga \"<Book>\" …", subtitle with author and year. Then 4–6 lessons, one per slide, then the automatic save/follow slide.
 - Books that fit the page: Rich Dad Poor Dad, The 48 Laws of Power (also as a weekly series "Ligji 1, 2, 3…"), Atomic Habits, The Psychology of Money, Think and Grow Rich, The Richest Man in Babylon, Can't Hurt Me, Meditations, The Almanack of Naval Ravikant, Deep Work.
 - **Only ideas that are really in the book.** Write lessons in our own words, with Albanian examples (këste, qira, paga, dyqan). At most one short direct quote per post, clearly attributed. Never reproduce passages, chapter text or lists word for word.
 - If you're not sure an idea or quote is in the book, leave it out. Many popular "book quotes" online are fake.
