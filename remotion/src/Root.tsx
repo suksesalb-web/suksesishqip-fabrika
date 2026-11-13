@@ -3,6 +3,7 @@ import {Composition} from 'remotion';
 import {Explainer, ExplainerProps} from './Explainer';
 import {Data, DATA_FRAMES} from './Data';
 import {Story, STORY_FRAMES} from './Story';
+import {Hype, HYPE_FRAMES} from './Hype';
 
 const sample: ExplainerProps = {
   durationInFrames: 300,
@@ -17,6 +18,7 @@ const sample: ExplainerProps = {
 
 export const Root: React.FC = () => (
   <>
+  <Composition id="Hype" component={Hype} width={1080} height={1920} fps={30} durationInFrames={HYPE_FRAMES} />
   <Composition id="Story" component={Story} width={1080} height={1920} fps={30} durationInFrames={STORY_FRAMES} />
   <Composition id="Data" component={Data} width={1080} height={1920} fps={30} durationInFrames={DATA_FRAMES} />
   <Composition
