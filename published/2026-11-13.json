@@ -19,26 +19,6 @@
       "images": 1
     }
   },
-  "p3": {
-    "buffer_id": "6af6b559da25c4db3e9e3c45",
-    "dueAt": "2026-11-13T14:00:00.000Z",
-    "images": 1,
-    "tiktok": {
-      "buffer_id": "6af6b559da25c4db3e9e3c94",
-      "dueAt": "2026-11-13T14:00:00.000Z",
-      "images": 1
-    }
-  },
-  "p4": {
-    "buffer_id": "6af6b55ada25c4db3e9e3cc5",
-    "dueAt": "2026-11-13T17:00:00.000Z",
-    "images": 1,
-    "tiktok": {
-      "buffer_id": "6af6b55ac1a0010a5b03fe29",
-      "dueAt": "2026-11-13T17:00:00.000Z",
-      "images": 1
-    }
-  },
   "p5": {
     "buffer_id": "6af6b55ae1d8eff610a78abd",
     "dueAt": "2026-11-13T21:00:00.000Z",
