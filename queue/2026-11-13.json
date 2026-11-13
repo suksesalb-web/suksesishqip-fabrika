@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-13",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "statement",
+      "time": "09:00",
+      "photo_query": "stack of red bricks at construction site",
+      "trend": "YouTube 2026-11-13: 'When Life Throws Bricks At You' (discipline search, ~6k views/hour) + 'Ego never accepts defeat' (top 30)",
+      "slides": [
+        {
+          "text": "Jeta do të të hedhë tulla.",
+          "highlight": "Ti zgjedh: mur apo themel."
+        }
+      ],
+      "caption": "Një punë që e humbe. Një biznes që s'eci. Një \"jo\" nga klienti i parë.\n\nNjë ditë do t'i shohësh si tullat me të cilat u ndërtove. Por vetëm nëse i mbledh, në vend që të ulesh e t'i qash.\n\nDërgoja dikujt që po kalon një periudhë të rëndë.\n\n#suksesishqip #mendësi #disiplinë #forca"
+    },
+    {
+      "id": "p2",
+      "style": "reel",
+      "engine": "motion",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:uplifting",
+      "video_query": "young man writing resume on laptop at home",
+      "trend": "YouTube 2026-11-13: '4 S-Tier AI Side Hustles You Can Do at Night' (AI side hustle search) + 'Make money online, even as a beginner' (side hustle ideas, ~3.5k views/hour) + 'Anthropic Launches AI Office Tools' (AI tools for business)",
+      "beats": [
+        {
+          "type": "hook",
+          "text": "Shumë të rinj aplikojnë për punë jashtë me një CV të dobët, dhe kjo është mundësia jote.",
+          "say": "<breath> Shumë të rinj aplikojnë për punë jashtë me një CV të dobët, dhe kjo është mundësia jote.",
+          "video_query": "young man filling job application on laptop"
+        },
+        {
+          "type": "list",
+          "title": "Të duhen vetëm:",
+          "items": [
+            "ChatGPT ose Claude",
+            "Canva falas",
+            "Sy për detaje"
+          ],
+          "say": "Të duhen vetëm: ChatGPT ose Claude, Canva, dhe sy për detaje.",
+          "video_query": "woman designing document on laptop screen"
+        },
+        {
+          "type": "steps",
+          "title": "Si fillon:",
+          "items": [
+            "Rregullo CV-në e 3 shokëve",
+            "Kërko një koment",
+            "Posto para dhe pas"
+          ],
+          "say": "Si fillon: rregullo CV-në e tre shokëve, kërko një koment, posto para dhe pas.",
+          "video_query": "friends looking at laptop together at home"
+        },
+        {
+          "type": "number",
+          "value": 40,
+          "from_value": 0,
+          "prefix": "",
+          "suffix": " min",
+          "label": "për një CV të plotë",
+          "say": "Një CV e mirë të merr rreth dyzet minuta.",
+          "video_query": "hands typing on laptop keyboard at night"
+        },
+        {
+          "type": "text",
+          "text": "Nuk shkruan thjesht një CV.",
+          "highlight": "Hap një derë për dikë.",
+          "video_query": "printed resume paper on desk"
+        }
+      ],
+      "caption": "Një side hustle për mbrëmjet: CV dhe letra motivimi me AI.\n\nShumë të rinj aplikojnë për punë në Gjermani, Itali apo Angli me një CV të shkruar keq. Me ChatGPT ose Claude e rregullon tekstin, me Canva i jep një pamje të pastër. Nëse di mirë anglisht ose gjermanisht, ke përparësi.\n\nRregulli i vetëm: AI e shkruan më mirë, por nuk shpik përvojë që s'ekziston. Kontrolloje çdo fjalë.\n\nE ke një shok që po aplikon jashtë? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #ChatGPT #CV"
+    },
+    {
+      "id": "p3",
+      "style": "quote",
+      "time": "15:00",
+      "photo_query": "notebook with daily checklist and coffee on desk morning",
+      "trend": "YouTube 2026-11-13: 'DISCIPLINE BEATS MOTIVATION. EVERY SINGLE TIME.' (discipline search, ~15k views/hour) + 'Motivation vs Discipline vs Obsession'",
+      "slides": [
+        {
+          "quote": "Nuk ngrihesh në nivelin e qëllimeve të tua. Bie në nivelin e sistemeve të tua.",
+          "author": "James Clear",
+          "source": "Atomic Habits (2018)"
+        }
+      ],
+      "caption": "Qëllimin e kanë të gjithë: të kursejnë, të hapin diçka, të mësojnë një gjuhë. Ajo që i ndan është sistemi.\n\nJo \"do kursej më shumë\", por: ditën e rrogës, 5 mijë lekë kalojnë menjëherë në një llogari tjetër. Jo \"do mësoj anglisht\", por: 20 minuta çdo mëngjes, para telefonit.\n\nCili është sistemi yt? Shkruaje në koment.\n\n📖 \"Atomic Habits\", James Clear (2018), përkthim i lirë\n\n#suksesishqip #zakone #disiplinë #sisteme"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:dark",
+      "video_query": "empty cafe tables on city street",
+      "trend": "YouTube 2026-11-13: 'Whats the worst business advice you've heard?' (entrepreneur advice, ~1.7k views/hour) + 'Most Dangerous Advice Entrepreneurs Still Follow'",
+      "beats": [
+        {
+          "text": "Këshilla më e keqe për biznes në Shqipëri: hap një kafe, se kafe pinë të gjithë.",
+          "say": "<breath> Këshilla më e keqe për biznes në Shqipëri: hap një kafe, se kafe pinë të gjithë.",
+          "video_query": "barista pouring espresso in empty cafe"
+        },
+        {
+          "text": "Kështu në një rrugë hapen pesë lokale që shesin të njëjtën gjë.",
+          "video_query": "street with outdoor cafe tables"
+        },
+        {
+          "text": "Dhe luftojnë vetëm me çmimin, derisa njëri mbyll derën.",
+          "video_query": "closed shop with metal shutter down"
+        },
+        {
+          "text": "Para se të hapësh, pyet: çfarë i mungon kësaj lagjeje?",
+          "video_query": "man walking on city street looking at shops"
+        },
+        {
+          "text": "Mos hap atë që ka shumë.",
+          "highlight": "Hap atë që mungon.",
+          "video_query": "shop owner opening door of small store morning"
+        }
+      ],
+      "caption": "Nuk ka asgjë të keqe te kafeja. Problemi është kur e hap vetëm sepse e hapën të gjithë.\n\nPara se të nisësh, ec një javë në lagjen tënde dhe shkruaj: për çfarë njerëzit shkojnë larg? Rrobaqepës, riparime telefonash, ushqim i shëndetshëm, kopsht fëmijësh? Aty është biznesi.\n\nCila është këshilla më e keqe për biznes që ke dëgjuar? Shkruaje në koment.\n\nDërgoja shokut që po mendon të hapë lokal.\n\n#suksesishqip #biznes #sipërmarrje #lagjja"
+    },
+    {
+      "id": "p5",
+      "style": "tweet",
+      "time": "22:00",
+      "photo_query": "old worker hands resting on wooden table",
+      "trend": "Instagram outlier garyvee 'Everyone has their own adversity' (2.9M views) + YouTube 'You can make the difference' (top 30)",
+      "slides": [
+        {
+          "text": "Prindërit tanë s'patën luksin të pyesnin \"a më pëlqen kjo punë?\"\n\nPunuan atë që gjetën, që ne ta kemi sot këtë pyetje."
+        }
+      ],
+      "caption": "Ata zgjodhën sigurinë që ne të mund të zgjedhim ëndrrën.\n\nNëse sot ke mundësi të provosh, të ndërrosh, të nisësh diçka tëndin, ke një pjesë të sakrificës së tyre në duar. Përdore mirë.\n\nDërgoja dikujt që i do prindërit e vet.\n\n#suksesishqip #familja #prindërit #jeta"
+    }
+  ]
+}
