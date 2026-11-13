@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-13",
+  "rendered_at": 1794551224,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-13/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7476823",
+        "page": "https://pixabay.com/photos/boy-volunteer-cute-hard-work-7476823/",
+        "query": "stack of red bricks at construction site"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-13/p2/reel.mp4",
+        "out/2026-11-13/p2/frame-01.jpg",
+        "out/2026-11-13/p2/frame-02.jpg",
+        "out/2026-11-13/p2/frame-03.jpg",
+        "out/2026-11-13/p2/frame-04.jpg",
+        "out/2026-11-13/p2/frame-05.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "uplifting-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [
+          {
+            "beat": 1,
+            "pixabay_id": "283431",
+            "page": "https://pixabay.com/videos/id-283431/"
+          },
+          {
+            "beat": 2,
+            "pixabay_id": "1058",
+            "page": "https://pixabay.com/videos/id-1058/"
+          },
+          {
+            "beat": 3,
+            "pixabay_id": "253997",
+            "page": "https://pixabay.com/videos/id-253997/"
+          },
+          {
+            "beat": 4,
+            "pixabay_id": "180776",
+            "page": "https://pixabay.com/videos/id-180776/"
+          },
+          {
+            "beat": 5,
+            "pixabay_id": "342229",
+            "page": "https://pixabay.com/videos/id-342229/"
+          }
+        ],
+        "engine": "motion",
+        "duration": 27.53,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-13/p3/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "4491416",
+        "page": "https://pixabay.com/photos/write-notebook-pen-hand-paper-4491416/",
+        "query": "notebook with daily checklist and coffee on desk morning"
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-13/p4/reel.mp4",
+        "out/2026-11-13/p4/frame-01.jpg",
+        "out/2026-11-13/p4/frame-02.jpg",
+        "out/2026-11-13/p4/frame-03.jpg",
+        "out/2026-11-13/p4/frame-04.jpg",
+        "out/2026-11-13/p4/frame-05.jpg",
+        "out/2026-11-13/p4/frame-06.jpg",
+        "out/2026-11-13/p4/frame-07.jpg",
+        "out/2026-11-13/p4/frame-08.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "27230",
+        "page": "https://pixabay.com/videos/id-27230/",
+        "query": "empty cafe tables on city street"
+      },
+      "reel": {
+        "video": {
+          "pixabay_id": "27230",
+          "page": "https://pixabay.com/videos/id-27230/",
+          "query": "empty cafe tables on city street"
+        },
+        "music": "dark-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [
+          {
+            "pixabay_id": "27230",
+            "page": "https://pixabay.com/videos/id-27230/"
+          },
+          {
+            "pixabay_id": "32246",
+            "page": "https://pixabay.com/videos/id-32246/"
+          },
+          {
+            "pixabay_id": "149927",
+            "page": "https://pixabay.com/videos/id-149927/"
+          },
+          {
+            "pixabay_id": "327359",
+            "page": "https://pixabay.com/videos/id-327359/"
+          },
+          {
+            "pixabay_id": "3742",
+            "page": "https://pixabay.com/videos/id-3742/"
+          },
+          {
+            "pixabay_id": "45254",
+            "page": "https://pixabay.com/videos/id-45254/"
+          },
+          {
+            "pixabay_id": "24603",
+            "page": "https://pixabay.com/videos/id-24603/"
+          },
+          {
+            "pixabay_id": "258799",
+            "page": "https://pixabay.com/videos/id-258799/"
+          }
+        ],
+        "video_ids": [
+          "27230",
+          "32246",
+          "149927",
+          "327359",
+          "3742",
+          "45254",
+          "24603",
+          "258799"
+        ],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 1,
+            "start": 2.67
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 5.35
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 3,
+            "start": 9.33
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 11.79
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 14.26
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 4,
+            "start": 16.45
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 5,
+            "start": 18.65
+          }
+        ],
+        "duration": 22.17
+      }
+    },
+    {
+      "id": "p5",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-13/p5/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "10345214",
+        "page": "https://pixabay.com/photos/cat-curious-hide-bench-pet-10345214/",
+        "query": "old worker hands resting on wooden table"
+      }
+    }
+  ]
+}
