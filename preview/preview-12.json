@@ -11,20 +11,30 @@
       "video_query": "none",
       "note": "Voice-only test for the new 'story with numbers' Reel look (Kodak). Visuals are rendered separately.",
       "beats": [
-        {"text": "Në 1975, Kodak shpiku kamerën dixhitale dhe e futi në sirtar.",
-         "say": "<breath> Në vitin njëmijë e nëntëqind e shtatëdhjetë e pesë, Kodak shpiku kamerën dixhitale, dhe e futi në sirtar."},
-        {"text": "Fotot kishin vetëm 10 mijë pikselë dhe zgjasnin 23 sekonda secila.",
-         "say": "Fotot e saj kishin vetëm dhjetë mijë pikselë, dhe i duheshin njëzet e tre sekonda secila."},
-        {"text": "Por Kodak fitonte shumicën e parave nga filmi, ndaj zgjodhi ta mbrojë filmin.",
-         "say": "Por Kodak fitonte shumicën e parave nga filmi, ndaj zgjodhi ta mbrojë filmin."},
-        {"text": "Në 2012, Kodak hyri në falimentim.",
-         "say": "Në vitin dymijë e dymbëdhjetë, Kodak hyri në falimentim."},
-        {"text": "Po atë vit, Facebook bleu Instagram-in, me 13 punonjës, për 1 miliard dollarë.",
-         "say": "Po atë vit, Facebook bleu Instagram-in, me trembëdhjetë punonjës, për një miliard dollarë."},
-        {"text": "Kodak nuk humbi nga mungesa e idesë, por nga frika e ndryshimit.",
-         "say": "Kodak nuk humbi nga mungesa e idesë, por nga frika e ndryshimit."},
-        {"text": "Sot kamera dixhitale quhet AI, ti çfarë po bën me të?",
-         "say": "Sot, kamera dixhitale quhet inteligjencë artificiale, ti çfarë po bën me të?"}
+        {
+          "text": "Në 1975, Kodak shpiku kamerën dixhitale dhe e fshehu në sirtar.",
+          "say": "<breath> Në vitin shtatëdhjetë e pesë, Kodak shpiku kamerën dixhitale, dhe e fshehu në sirtar."
+        },
+        {
+          "text": "Paratë i fitonte nga filmi dhe nuk deshi ta rrezikonte.",
+          "say": "Paratë i fitonte nga filmi, dhe nuk deshi ta rrezikonte."
+        },
+        {
+          "text": "Në 2012, Kodak falimentoi.",
+          "say": "Në vitin dymijë e dymbëdhjetë, Kodak falimentoi."
+        },
+        {
+          "text": "Po atë vit, Instagram-i me 13 punonjës u shit për 1 miliard dollarë.",
+          "say": "Po atë vit, Instagram-i, me trembëdhjetë punonjës, u shit për një miliard dollarë."
+        },
+        {
+          "text": "Kodak nuk humbi nga mungesa e idesë, por nga frika.",
+          "say": "Kodak nuk humbi nga mungesa e idesë, por nga frika."
+        },
+        {
+          "text": "Sot kamera dixhitale quhet AI, ti çfarë po bën me të?",
+          "say": "Sot, kamera dixhitale quhet inteligjencë artificiale, ti, çfarë po bën me të?"
+        }
       ],
       "caption": "test"
     }
