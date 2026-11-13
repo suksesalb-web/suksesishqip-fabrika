@@ -1,0 +1,73 @@
+{
+  "date": "preview-13",
+  "rendered_at": 1794531600,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/preview-13/p1/reel.mp4",
+        "out/preview-13/p1/frame-01.jpg",
+        "out/preview-13/p1/frame-02.jpg",
+        "out/preview-13/p1/frame-03.jpg",
+        "out/preview-13/p1/frame-04.jpg",
+        "out/preview-13/p1/frame-05.jpg",
+        "out/preview-13/p1/frame-06.jpg",
+        "out/preview-13/p1/frame-07.jpg",
+        "out/preview-13/p1/frame-08.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": null,
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 1,
+            "start": 3.42
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 6.84
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 2,
+            "start": 9.14
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 11.44
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 4,
+            "start": 15.62
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 5,
+            "start": 19.26
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 6,
+            "start": 23.22
+          }
+        ],
+        "duration": 27.3
+      }
+    }
+  ]
+}
