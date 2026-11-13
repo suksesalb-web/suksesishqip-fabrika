@@ -1,0 +1,36 @@
+name: Instagram account lookup (research)
+
+on:
+  workflow_dispatch:
+    inputs:
+      usernames:
+        description: "Instagram usernames, comma separated"
+        required: true
+
+concurrency:
+  group: fabrika
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Look up accounts
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+        working-directory: fabrika
+        run: python ig_lookup.py "${{ github.event.inputs.usernames }}"
+      - name: Commit
+        run: |
+          git config user.name "fabrika-bot"
+          git config user.email "fabrika-bot@users.noreply.github.com"
+          git add data/instagram
+          git diff --cached --quiet || { git commit -m "Instagram lookup"; git pull --rebase; git push; }
