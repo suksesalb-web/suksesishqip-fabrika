@@ -15,7 +15,7 @@ This file is the brief every daily run follows. Change it to change what the pag
 | 09:00 | `tweet` | Morning tweet: discipline, habits or mindset, said in a concrete, surprising way (see Tweets) |
 | 12:00 | `reel` (20–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania, with real numbers (time, tool cost, steps). Hype look (see Hype Reels) |
 | 15:00 | `tweet` or `story` | **Money, work or side hustle tweet with something concrete:** a number, a price, a small calculation, a realistic situation (see Tweets). **Twice a week a story carousel** instead (see Story carousels). At most once a week a short verified quote or a "mësime nga libri" carousel |
-| 18:00 | `reel` (20–30 s) | **Business or money:** a true success or failure story of a famous company or person, a money calculation, or a relatable situation. Hype look (see Hype Reels) |
+| 18:00 | `reel` (20–30 s) | **Business or money:** a true success or failure story of a famous company or person, a money calculation, or a relatable situation. Hype look (see Hype Reels). 1–2 times a week a two-part story: part 2 as `p6` at 18:05 |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work best here, most days |
 
 ## Main focus
@@ -150,6 +150,15 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
 - A percentage hook gets `"donut": 49` (the number sits inside a ring that fills up).
 - `versus`: two sides facing each other with a red VS badge: `left` and `right` each `{label, sub, figure}`; the right side lands at `at`. Great for before/after, old/new, Nokia vs iPhone, rroga vs kësti.
 - Mix the scene types so every 3–4 seconds something new moves on screen; never two plain text scenes in a row.
+
+**Sound and pace (automatic, approved 2026-11-13).** Every movement has its own sound (pop when a figure or item appears, ticks while numbers and years roll, a cash sound for money, a short riser before a reveal, a drop when something falls), on top of the whoosh and the hit. Riko runs 7% faster on every Reel. The video ends about one second after the last word, so a replay starts quickly.
+
+**Loop endings (approved 2026-11-13).** When it reads naturally, write the last beat so it flows straight back into the hook, so people watch it twice without noticing. Example: hook "Nokia kishte gati gjysmën e smartfonëve në botë." … last beat "Dhe gjithçka nisi në vitin kur…" (then the hook plays again). Rules: the last beat must first work on its own as a strong ending; read the last beat and the hook aloud one after the other: if the join sounds forced, don't force a loop. Never sacrifice the payoff for the loop.
+
+**Two-part stories (approved 2026-11-13), 1–2 times a week in the 18:00 slot.** Only for a story strong enough to carry ~50 s (a gripping success or failure with a real twist). Both parts are published back to back: part 1 at 18:00 (`p4`) and part 2 at 18:05 (`p6`), so someone who sees part 1 goes to the profile and finds part 2 right on top.
+- Part 1: kicker of the hook starts with "Pjesa 1", 5–6 beats, ends at the moment of highest tension (the decision, the "jo", the night before the crash), last beat a `text` with the cliffhanger as `title` and `highlight` "Pjesa 2 në profil". Caption starts with "Pjesa 1/2" and says part 2 is on the profile.
+- Part 2: kicker "Pjesa 2"; its hook must also work for someone who never saw part 1 (one strong line that sums up the setup and promises the payoff), then the twist and the lesson. Caption starts with "Pjesa 2/2".
+- Each part is a full Reel (20–30 s, hype look, figures, voice-sync check). Facts checked as always. Log both parts in topics_log.
 
 **Beat types** (pick what shows the sentence; don't repeat the same type twice in a row):
 - `hook`: `big` (number or short phrase), `kicker`, `sub`, optional `stamp` (e.g. "HA HA HA", "GABIM") that slams in at the word in `at`. Yellow background.

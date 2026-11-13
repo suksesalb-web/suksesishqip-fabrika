@@ -35,6 +35,7 @@ GEMINI_STYLE = ("Speak in standard Albanian, naturally, like a friend telling yo
 HYPE_STYLE = ("Speak in standard Albanian with high energy and excitement, like a storyteller revealing a shocking true story "
               "to a friend: punchy, fast-paced, strong emphasis on the numbers, short dramatic pauses, never monotone, "
               "never like an advert.")
+HYPE_SPEED = 1.07   # Riko on Hype Reels, approved by Mario 2026-11-13
 VOICE_RATE = "+6%"
 GAP = 0.35          # silence between beats (s)
 TAIL = 0.8          # hold after the last beat (s)
@@ -554,6 +555,19 @@ def audio_track(post, beats, starts, total, timings, audio_parts, tmp, info):
                          f"afade=t=in:d=0.3,afade=t=out:st=0.3:d=0.2,volume=0.30,"
                          f"aformat=sample_rates=44100:channel_layouts=stereo,adelay={ms}|{ms}[x{i}]")
             labels.append(f"[x{i}]")
+        SFX = {   # small synthetic sounds (ffmpeg aevalsrc), volume, length
+            "pop": ("0.8*sin(2*PI*(500+2500*t)*t)*exp(-40*t)", 0.35, 0.12),
+            "tick": ("0.6*sin(2*PI*2600*t)*exp(-180*t)", 0.22, 0.03),
+            "drop": ("0.8*sin(2*PI*(900-700*t)*t)*exp(-6*t)", 0.35, 0.45),
+            "cash": ("0.5*(sin(2*PI*2093*t)+sin(2*PI*2637*t))*exp(-9*t)+0.4*sin(2*PI*1568*(t-0.08))*exp(-9*(t-0.08))*gte(t,0.08)", 0.30, 0.5),
+            "riser": ("0.5*sin(2*PI*(200+900*t*t)*t)*(t/0.6)", 0.20, 0.6),
+        }
+        for k, (t_sfx, kind) in enumerate(post.get("_sfx", [])):
+            expr, vol, length = SFX[kind]
+            ms = max(0, int(t_sfx * 1000))
+            parts.append(f"aevalsrc='{expr}':s=44100:d={length},aformat=sample_rates=44100:channel_layouts=stereo,"
+                         f"afade=t=out:st={max(0.0, length - 0.03):.2f}:d=0.03,volume={vol},adelay={ms}|{ms}[s{k}]")
+            labels.append(f"[s{k}]")
         for k, t_hit in enumerate(post.get("_hits", [])):   # a low hit when a key visual lands (hype Reels)
             ms = max(0, int(t_hit * 1000))
             parts.append(f"aevalsrc='0.9*sin(2*PI*(42+70*exp(-7*t))*t)*exp(-5*t)':s=44100:d=0.7,"
@@ -712,7 +726,7 @@ def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_part
     n = len(beats)
     bounds = starts[1:] + [total]
     total_frames = int(round(total * FPS))
-    props_beats, hits = [], []
+    props_beats, hits, sfx = [], [], []
     for i, b in enumerate(beats):
         f0 = int(round(starts[i] * FPS))
         f1 = total_frames if i == n - 1 else int(round(bounds[i] * FPS))
@@ -756,6 +770,32 @@ def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_part
                 k = j + 1
             if ats:
                 pb["item_at"] = ats
+        t0 = starts[i]
+        at_s = (pb["at"] / FPS) if pb.get("at") is not None else None
+        sp = dur
+        typ = pb["type"]
+        if b.get("figure"):   # pop when a figure appears
+            ft = {"hook": sp * 0.5, "text": (at_s or sp * 0.45) + 0.2, "year": (at_s if b.get("stamp") else 1.0) or 1.0}.get(typ)
+            if ft is not None:
+                sfx.append((t0 + ft, "pop" if not (typ == "year" and b.get("stamp")) else "drop"))
+        if typ == "versus":
+            sfx += [(t0 + 0.15, "pop"), (t0 + (at_s if at_s is not None else sp * 0.5), "pop")]
+        for x in pb.get("item_at", []):
+            sfx.append((t0 + x / FPS, "pop"))
+        if typ == "count":
+            c0 = t0 + (at_s if at_s is not None else 4 / FPS)
+            sfx += [(c0 + k * 0.08, "tick") for k in range(12)]
+            if (b.get("prefix") or "").strip() in ("€", "$") or "lek" in (b.get("suffix") or ""):
+                sfx.append((c0 + 0.95, "cash"))
+        if typ == "icons":
+            c0 = t0 + (at_s if at_s is not None else 6 / FPS)
+            sfx += [(c0 + k * 0.1, "tick") for k in range(min(10, int(b.get("n", 10))))]
+        if typ == "year":
+            sfx += [(t0 + 0.1 + k * 0.09, "tick") for k in range(10)]
+        if b.get("figure") == "money" or (typ == "hook" and any(ch in (b.get("big") or "") for ch in "€$")):
+            sfx.append((t0 + (sp * 0.5 if typ != "hook" else 0.05), "cash"))
+        if at_s is not None and typ in ("year", "text", "chat") and at_s > 0.7:   # tension before the reveal
+            sfx.append((max(t0, t0 + at_s - 0.6), "riser"))
         if pb.get("at") is not None and pb["type"] in ("hook", "chat", "year", "text", "bars") and \
                 (pb["type"] != "hook" or b.get("stamp")) and (pb["type"] != "year" or b.get("stamp")):
             hits.append(starts[i] + pb["at"] / FPS)
@@ -774,6 +814,8 @@ def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_part
     post = dict(post)
     post.setdefault("music", "mood:cinematic")
     post["_hits"] = hits
+    post["_sfx"] = sorted(sfx)[:60]
+    info["sfx"] = len(post["_sfx"])
     audio = audio_track(post, beats, starts, total, timings, audio_parts, tmp, info)
     part, out = pdir / "reel.part.mp4", pdir / "reel.mp4"
     run(["ffmpeg", "-y", "-i", str(silent), "-i", str(audio), "-map", "0:v", "-map", "1:a",
@@ -855,6 +897,15 @@ def render_reel(post, pdir, used, offline=False):
                 gem = gemini_per_beat(spoken_all, voice.split(":", 1)[1], style, tmp)
                 info["voice_sync"] = "per-beat"
             info["voice"] = voice
+            speed = float(post.get("voice_speed", HYPE_SPEED if post.get("engine") == "hype" else 1.0))
+            if gem and abs(speed - 1.0) > 0.01:   # Mario: Riko a bit faster keeps people watching
+                fast = []
+                for k, (ap, _) in enumerate(gem):
+                    fp = tmp / f"fast{k}.mp3"
+                    run(["ffmpeg", "-y", "-i", str(ap), "-af", f"atempo={speed:.3f}", "-ar", "44100", "-ac", "2", str(fp)])
+                    fast.append((fp, duration(fp)))
+                gem = fast
+                info["voice_speed"] = speed
         except Exception as e:  # last resort: Anila
             print("Gemini voice failed, using Anila:", e)
             voice = FALLBACK_VOICE
@@ -883,7 +934,7 @@ def render_reel(post, pdir, used, offline=False):
     if post.get("engine") == "stickman":
         return render_stickman(post, pdir, tmp, info, beats, starts, total, timings, audio_parts)
     if post.get("engine") == "hype":
-        return render_hype(post, pdir, tmp, info, beats, starts, round(total + 0.7, 2), timings, audio_parts)
+        return render_hype(post, pdir, tmp, info, beats, starts, round(total + 0.2, 2), timings, audio_parts)
     if post.get("engine") == "motion":
         return render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, audio_parts)
 
