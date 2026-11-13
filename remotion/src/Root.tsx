@@ -1,6 +1,7 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {Explainer, ExplainerProps} from './Explainer';
+import {Data, DATA_FRAMES} from './Data';
 
 const sample: ExplainerProps = {
   durationInFrames: 300,
@@ -14,6 +15,8 @@ const sample: ExplainerProps = {
 };
 
 export const Root: React.FC = () => (
+  <>
+  <Composition id="Data" component={Data} width={1080} height={1920} fps={30} durationInFrames={DATA_FRAMES} />
   <Composition
     id="Explainer"
     component={Explainer}
@@ -24,4 +27,5 @@ export const Root: React.FC = () => (
     defaultProps={sample}
     calculateMetadata={({props}) => ({durationInFrames: props.durationInFrames})}
   />
+  </>
 );
