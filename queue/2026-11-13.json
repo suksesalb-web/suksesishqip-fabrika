@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "statement",
       "time": "09:00",
-      "photo_query": "stack of red bricks at construction site",
+      "photo_query": "bricklayer hands laying bricks with trowel",
       "trend": "YouTube 2026-11-13: 'When Life Throws Bricks At You' (discipline search, ~6k views/hour) + 'Ego never accepts defeat' (top 30)",
       "slides": [
         {
@@ -29,7 +29,8 @@
           "type": "hook",
           "text": "Shumë të rinj aplikojnë për punë jashtë me një CV të dobët, dhe kjo është mundësia jote.",
           "say": "<breath> Shumë të rinj aplikojnë për punë jashtë me një CV të dobët, dhe kjo është mundësia jote.",
-          "video_query": "young man filling job application on laptop"
+          "video_query": "young man filling job application on laptop",
+          "video_id": "283431"
         },
         {
           "type": "list",
@@ -40,7 +41,8 @@
             "Sy për detaje"
           ],
           "say": "Të duhen vetëm: ChatGPT ose Claude, Canva, dhe sy për detaje.",
-          "video_query": "woman designing document on laptop screen"
+          "video_query": "woman designing document on laptop screen",
+          "video_id": "1058"
         },
         {
           "type": "steps",
@@ -51,7 +53,8 @@
             "Posto para dhe pas"
           ],
           "say": "Si fillon: rregullo CV-në e tre shokëve, kërko një koment, posto para dhe pas.",
-          "video_query": "friends looking at laptop together at home"
+          "video_query": "friends looking at laptop together at home",
+          "video_id": "253997"
         },
         {
           "type": "number",
@@ -61,13 +64,15 @@
           "suffix": " min",
           "label": "për një CV të plotë",
           "say": "Një CV e mirë të merr rreth dyzet minuta.",
-          "video_query": "hands typing on laptop keyboard at night"
+          "video_query": "hands typing on laptop keyboard at night",
+          "video_id": "180776"
         },
         {
           "type": "text",
           "text": "Nuk shkruan thjesht një CV.",
           "highlight": "Hap një derë për dikë.",
-          "video_query": "printed resume paper on desk"
+          "video_query": "printed resume paper on desk",
+          "video_id": "342229"
         }
       ],
       "caption": "Një side hustle për mbrëmjet: CV dhe letra motivimi me AI.\n\nShumë të rinj aplikojnë për punë në Gjermani, Itali apo Angli me një CV të shkruar keq. Me ChatGPT ose Claude e rregullon tekstin, me Canva i jep një pamje të pastër. Nëse di mirë anglisht ose gjermanisht, ke përparësi.\n\nRregulli i vetëm: AI e shkruan më mirë, por nuk shpik përvojë që s'ekziston. Kontrolloje çdo fjalë.\n\nE ke një shok që po aplikon jashtë? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #ChatGPT #CV"
@@ -85,7 +90,8 @@
           "source": "Atomic Habits (2018)"
         }
       ],
-      "caption": "Qëllimin e kanë të gjithë: të kursejnë, të hapin diçka, të mësojnë një gjuhë. Ajo që i ndan është sistemi.\n\nJo \"do kursej më shumë\", por: ditën e rrogës, 5 mijë lekë kalojnë menjëherë në një llogari tjetër. Jo \"do mësoj anglisht\", por: 20 minuta çdo mëngjes, para telefonit.\n\nCili është sistemi yt? Shkruaje në koment.\n\n📖 \"Atomic Habits\", James Clear (2018), përkthim i lirë\n\n#suksesishqip #zakone #disiplinë #sisteme"
+      "caption": "Qëllimin e kanë të gjithë: të kursejnë, të hapin diçka, të mësojnë një gjuhë. Ajo që i ndan është sistemi.\n\nJo \"do kursej më shumë\", por: ditën e rrogës, 5 mijë lekë kalojnë menjëherë në një llogari tjetër. Jo \"do mësoj anglisht\", por: 20 minuta çdo mëngjes, para telefonit.\n\nCili është sistemi yt? Shkruaje në koment.\n\n📖 \"Atomic Habits\", James Clear (2018), përkthim i lirë\n\n#suksesishqip #zakone #disiplinë #sisteme",
+      "photo_id": "4491416"
     },
     {
       "id": "p4",
@@ -103,29 +109,39 @@
         },
         {
           "text": "Kështu në një rrugë hapen pesë lokale që shesin të njëjtën gjë.",
-          "video_query": "street with outdoor cafe tables"
+          "video_query": "row of cafes with outdoor tables on european street"
         },
         {
           "text": "Dhe luftojnë vetëm me çmimin, derisa njëri mbyll derën.",
-          "video_query": "closed shop with metal shutter down"
+          "video_query": "shop owner pulling down metal shutter"
         },
         {
           "text": "Para se të hapësh, pyet: çfarë i mungon kësaj lagjeje?",
-          "video_query": "man walking on city street looking at shops"
+          "video_query": "man walking on quiet street past small shops"
         },
         {
           "text": "Mos hap atë që ka shumë.",
           "highlight": "Hap atë që mungon.",
-          "video_query": "shop owner opening door of small store morning"
+          "video_query": "small shop owner unlocking door morning"
         }
       ],
-      "caption": "Nuk ka asgjë të keqe te kafeja. Problemi është kur e hap vetëm sepse e hapën të gjithë.\n\nPara se të nisësh, ec një javë në lagjen tënde dhe shkruaj: për çfarë njerëzit shkojnë larg? Rrobaqepës, riparime telefonash, ushqim i shëndetshëm, kopsht fëmijësh? Aty është biznesi.\n\nCila është këshilla më e keqe për biznes që ke dëgjuar? Shkruaje në koment.\n\nDërgoja shokut që po mendon të hapë lokal.\n\n#suksesishqip #biznes #sipërmarrje #lagjja"
+      "caption": "Nuk ka asgjë të keqe te kafeja. Problemi është kur e hap vetëm sepse e hapën të gjithë.\n\nPara se të nisësh, ec një javë në lagjen tënde dhe shkruaj: për çfarë njerëzit shkojnë larg? Rrobaqepës, riparime telefonash, ushqim i shëndetshëm, kopsht fëmijësh? Aty është biznesi.\n\nCila është këshilla më e keqe për biznes që ke dëgjuar? Shkruaje në koment.\n\nDërgoja shokut që po mendon të hapë lokal.\n\n#suksesishqip #biznes #sipërmarrje #lagjja",
+      "video_ids": [
+        "27230",
+        "32246",
+        "",
+        "",
+        "",
+        "45254",
+        "",
+        ""
+      ]
     },
     {
       "id": "p5",
       "style": "tweet",
       "time": "22:00",
-      "photo_query": "old worker hands resting on wooden table",
+      "photo_query": "worn work gloves on wooden table",
       "trend": "Instagram outlier garyvee 'Everyone has their own adversity' (2.9M views) + YouTube 'You can make the difference' (top 30)",
       "slides": [
         {
