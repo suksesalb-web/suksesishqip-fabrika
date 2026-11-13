@@ -2,6 +2,7 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {Explainer, ExplainerProps} from './Explainer';
 import {Data, DATA_FRAMES} from './Data';
+import {Story, STORY_FRAMES} from './Story';
 
 const sample: ExplainerProps = {
   durationInFrames: 300,
@@ -16,6 +17,7 @@ const sample: ExplainerProps = {
 
 export const Root: React.FC = () => (
   <>
+  <Composition id="Story" component={Story} width={1080} height={1920} fps={30} durationInFrames={STORY_FRAMES} />
   <Composition id="Data" component={Data} width={1080} height={1920} fps={30} durationInFrames={DATA_FRAMES} />
   <Composition
     id="Explainer"
