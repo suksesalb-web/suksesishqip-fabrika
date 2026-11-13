@@ -13,7 +13,8 @@
           "highlight": "Ti zgjedh: mur apo themel."
         }
       ],
-      "caption": "Një punë që e humbe. Një biznes që s'eci. Një \"jo\" nga klienti i parë.\n\nNjë ditë do t'i shohësh si tullat me të cilat u ndërtove. Por vetëm nëse i mbledh, në vend që të ulesh e t'i qash.\n\nDërgoja dikujt që po kalon një periudhë të rëndë.\n\n#suksesishqip #mendësi #disiplinë #forca"
+      "caption": "Një punë që e humbe. Një biznes që s'eci. Një \"jo\" nga klienti i parë.\n\nNjë ditë do t'i shohësh si tullat me të cilat u ndërtove. Por vetëm nëse i mbledh, në vend që të ulesh e t'i qash.\n\nDërgoja dikujt që po kalon një periudhë të rëndë.\n\n#suksesishqip #mendësi #disiplinë #forca",
+      "photo_id": "2376325"
     },
     {
       "id": "p2",
@@ -113,24 +114,24 @@
         },
         {
           "text": "Dhe luftojnë vetëm me çmimin, derisa njëri mbyll derën.",
-          "video_query": "shop owner pulling down metal shutter"
+          "video_query": "closed shop metal shutter on street"
         },
         {
           "text": "Para se të hapësh, pyet: çfarë i mungon kësaj lagjeje?",
-          "video_query": "man walking on quiet street past small shops"
+          "video_query": "man walking on city sidewalk past shop windows"
         },
         {
           "text": "Mos hap atë që ka shumë.",
           "highlight": "Hap atë që mungon.",
-          "video_query": "small shop owner unlocking door morning"
+          "video_query": "shopkeeper arranging products on shelves in small shop"
         }
       ],
       "caption": "Nuk ka asgjë të keqe te kafeja. Problemi është kur e hap vetëm sepse e hapën të gjithë.\n\nPara se të nisësh, ec një javë në lagjen tënde dhe shkruaj: për çfarë njerëzit shkojnë larg? Rrobaqepës, riparime telefonash, ushqim i shëndetshëm, kopsht fëmijësh? Aty është biznesi.\n\nCila është këshilla më e keqe për biznes që ke dëgjuar? Shkruaje në koment.\n\nDërgoja shokut që po mendon të hapë lokal.\n\n#suksesishqip #biznes #sipërmarrje #lagjja",
       "video_ids": [
         "27230",
         "32246",
-        "",
-        "",
+        "21118",
+        "3609",
         "",
         "45254",
         "",
@@ -148,7 +149,8 @@
           "text": "Prindërit tanë s'patën luksin të pyesnin \"a më pëlqen kjo punë?\"\n\nPunuan atë që gjetën, që ne ta kemi sot këtë pyetje."
         }
       ],
-      "caption": "Ata zgjodhën sigurinë që ne të mund të zgjedhim ëndrrën.\n\nNëse sot ke mundësi të provosh, të ndërrosh, të nisësh diçka tëndin, ke një pjesë të sakrificës së tyre në duar. Përdore mirë.\n\nDërgoja dikujt që i do prindërit e vet.\n\n#suksesishqip #familja #prindërit #jeta"
+      "caption": "Ata zgjodhën sigurinë që ne të mund të zgjedhim ëndrrën.\n\nNëse sot ke mundësi të provosh, të ndërrosh, të nisësh diçka tëndin, ke një pjesë të sakrificës së tyre në duar. Përdore mirë.\n\nDërgoja dikujt që i do prindërit e vet.\n\n#suksesishqip #familja #prindërit #jeta",
+      "photo_id": "4222263"
     }
   ]
 }
