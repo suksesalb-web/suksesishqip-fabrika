@@ -1,0 +1,39 @@
+name: Remove scheduled posts from Buffer
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date, e.g. 2026-11-13"
+        required: true
+      ids:
+        description: "Post ids to remove, comma separated, e.g. p3,p4"
+        required: true
+
+concurrency:
+  group: fabrika
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  unpublish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Delete from Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python fabrika/unpublish.py "${{ github.event.inputs.date }}" "${{ github.event.inputs.ids }}"
+      - name: Commit publish log
+        if: always()
+        run: |
+          git config user.name "fabrika-bot"
+          git config user.email "fabrika-bot@users.noreply.github.com"
+          git add published
+          git diff --cached --quiet || { git commit -m "Unpublish ${{ github.event.inputs.ids }} (${{ github.event.inputs.date }})"; git pull --rebase; git push; }

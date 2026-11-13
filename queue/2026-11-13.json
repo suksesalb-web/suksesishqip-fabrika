@@ -14,7 +14,8 @@
         }
       ],
       "caption": "Një punë që e humbe. Një biznes që s'eci. Një \"jo\" nga klienti i parë.\n\nNjë ditë do t'i shohësh si tullat me të cilat u ndërtove. Por vetëm nëse i mbledh, në vend që të ulesh e t'i qash.\n\nDërgoja dikujt që po kalon një periudhë të rëndë.\n\n#suksesishqip #mendësi #disiplinë #forca",
-      "photo_id": "2376325"
+      "photo_id": "2376325",
+      "keep": true
     },
     {
       "id": "p2",
@@ -76,67 +77,92 @@
           "video_id": "342229"
         }
       ],
-      "caption": "Një side hustle për mbrëmjet: CV dhe letra motivimi me AI.\n\nShumë të rinj aplikojnë për punë në Gjermani, Itali apo Angli me një CV të shkruar keq. Me ChatGPT ose Claude e rregullon tekstin, me Canva i jep një pamje të pastër. Nëse di mirë anglisht ose gjermanisht, ke përparësi.\n\nRregulli i vetëm: AI e shkruan më mirë, por nuk shpik përvojë që s'ekziston. Kontrolloje çdo fjalë.\n\nE ke një shok që po aplikon jashtë? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #ChatGPT #CV"
+      "caption": "Një side hustle për mbrëmjet: CV dhe letra motivimi me AI.\n\nShumë të rinj aplikojnë për punë në Gjermani, Itali apo Angli me një CV të shkruar keq. Me ChatGPT ose Claude e rregullon tekstin, me Canva i jep një pamje të pastër. Nëse di mirë anglisht ose gjermanisht, ke përparësi.\n\nRregulli i vetëm: AI e shkruan më mirë, por nuk shpik përvojë që s'ekziston. Kontrolloje çdo fjalë.\n\nE ke një shok që po aplikon jashtë? Dërgoja këtë.\n\n#suksesishqip #sidehustle #AI #ChatGPT #CV",
+      "keep": true
     },
     {
       "id": "p3",
-      "style": "quote",
+      "style": "tweet",
       "time": "15:00",
-      "photo_query": "notebook with daily checklist and coffee on desk morning",
-      "trend": "YouTube 2026-11-13: 'DISCIPLINE BEATS MOTIVATION. EVERY SINGLE TIME.' (discipline search, ~15k views/hour) + 'Motivation vs Discipline vs Obsession'",
+      "photo_query": "smartphone on table next to calculator and bills",
+      "note": "Replaced on 2026-11-13 afternoon: Mario switched to the new system (tweets first).",
       "slides": [
         {
-          "quote": "Nuk ngrihesh në nivelin e qëllimeve të tua. Bie në nivelin e sistemeve të tua.",
-          "author": "James Clear",
-          "source": "Atomic Habits (2018)"
+          "text": "Telefoni: 1.200€. Paga: 800€.\n\nE ndamë në 24 këste dhe e quajtëm \"të lirë\".\n\nKur paguam këstin e fundit, telefoni vlente gjysmën."
         }
       ],
-      "caption": "Qëllimin e kanë të gjithë: të kursejnë, të hapin diçka, të mësojnë një gjuhë. Ajo që i ndan është sistemi.\n\nJo \"do kursej më shumë\", por: ditën e rrogës, 5 mijë lekë kalojnë menjëherë në një llogari tjetër. Jo \"do mësoj anglisht\", por: 20 minuta çdo mëngjes, para telefonit.\n\nCili është sistemi yt? Shkruaje në koment.\n\n📖 \"Atomic Habits\", James Clear (2018), përkthim i lirë\n\n#suksesishqip #zakone #disiplinë #sisteme",
-      "photo_id": "4491416"
+      "caption": "Kësti i vogël e fsheh çmimin e madh.\n\nPara se të blesh me këste, pyet veten: sa do të vlejë kjo kur të paguaj këstin e fundit?\n\nDërgoja dikujt që po mendon për telefonin e ri.\n\n#suksesishqip #para #këste #financa"
     },
     {
       "id": "p4",
       "style": "reel",
+      "engine": "hype",
       "time": "18:00",
       "voice": "gemini:Riko",
-      "music": "mood:dark",
-      "video_query": "empty cafe tables on city street",
-      "trend": "YouTube 2026-11-13: 'Whats the worst business advice you've heard?' (entrepreneur advice, ~1.7k views/hour) + 'Most Dangerous Advice Entrepreneurs Still Follow'",
+      "music": "mood:cinematic",
+      "note": "Replaced on 2026-11-13 afternoon with the new Hype look.",
       "beats": [
         {
-          "text": "Këshilla më e keqe për biznes në Shqipëri: hap një kafe, se kafe pinë të gjithë.",
-          "say": "<breath> Këshilla më e keqe për biznes në Shqipëri: hap një kafe, se kafe pinë të gjithë.",
-          "video_query": "barista pouring espresso in empty cafe"
+          "type": "hook",
+          "kicker": "Nokia në 2007",
+          "big": "49%",
+          "sub": "e smartfonëve në botë",
+          "text": "Në 2007, gati gjysma e smartfonëve në botë ishin Nokia.",
+          "say": "Në vitin dymijë e shtatë, gati gjysma e smartfonëve në botë, ishin Nokia!"
         },
         {
-          "text": "Kështu në një rrugë hapen pesë lokale që shesin të njëjtën gjë.",
-          "video_query": "row of cafes with outdoor tables on european street"
+          "type": "icons",
+          "kicker": "Po atë vit",
+          "title": "iPhone",
+          "icon": "phone",
+          "n": 1,
+          "label": "Pa asnjë tastierë",
+          "at": "iPhone-i",
+          "text": "Po atë vit doli një telefon pa asnjë tastierë: iPhone-i i parë."
         },
         {
-          "text": "Dhe luftojnë vetëm me çmimin, derisa njëri mbyll derën.",
-          "video_query": "closed shop metal shutter on street"
+          "type": "checks",
+          "kicker": "Nokia zgjodhi",
+          "rows": [
+            {
+              "label": "Tastierat",
+              "ok": true
+            },
+            {
+              "label": "Ekranin me prekje",
+              "ok": false
+            }
+          ],
+          "text": "Nokia mbeti te tastierat, ndërsa bota kaloi te ekrani me prekje."
         },
         {
-          "text": "Para se të hapësh, pyet: çfarë i mungon kësaj lagjeje?",
-          "video_query": "man walking on city sidewalk past shop windows"
+          "type": "year",
+          "kicker": "6 vjet më vonë",
+          "from_year": 2007,
+          "to_year": 2013,
+          "stamp": "U shit",
+          "at": "shiti",
+          "text": "Gjashtë vjet më vonë, Nokia ia shiti biznesin e telefonave Microsoft-it."
         },
         {
-          "text": "Mos hap atë që ka shumë.",
-          "highlight": "Hap atë që mungon.",
-          "video_query": "shopkeeper arranging products on shelves in small shop"
+          "type": "count",
+          "kicker": "Çmimi",
+          "value": 5440000000,
+          "prefix": "€",
+          "label": "Një pjesë e vogël e vlerës së dikurshme",
+          "at": "5,4",
+          "text": "Për 5,4 miliardë euro, një pjesë e vogël e asaj që vlente dikur.",
+          "say": "Për pesë miliardë e katërqind milionë euro, një pjesë e vogël e asaj që vlente dikur."
+        },
+        {
+          "type": "text",
+          "title": "Nokia ishte gjigante",
+          "highlight": "Gjigantët bien kur s'ndryshojnë.",
+          "at": "gjigantët",
+          "text": "Nokia ishte gjigante, por gjigantët bien kur nuk ndryshojnë."
         }
       ],
-      "caption": "Nuk ka asgjë të keqe te kafeja. Problemi është kur e hap vetëm sepse e hapën të gjithë.\n\nPara se të nisësh, ec një javë në lagjen tënde dhe shkruaj: për çfarë njerëzit shkojnë larg? Rrobaqepës, riparime telefonash, ushqim i shëndetshëm, kopsht fëmijësh? Aty është biznesi.\n\nCila është këshilla më e keqe për biznes që ke dëgjuar? Shkruaje në koment.\n\nDërgoja shokut që po mendon të hapë lokal.\n\n#suksesishqip #biznes #sipërmarrje #lagjja",
-      "video_ids": [
-        "27230",
-        "32246",
-        "21118",
-        "3609",
-        "",
-        "45254",
-        "",
-        ""
-      ]
+      "caption": "Në 2007 kishte gati gjysmën e tregut të smartfonëve. Në 2013 ia shiti telefonat Microsoft-it.\n\nNokia nuk u mund nga një firmë më e madhe. U mund nga një ide e re që nuk e mori seriozisht.\n\nPo ti, te cilat \"tastiera\" po ngel? Shkruaje në koment.\n\n#suksesishqip #biznes #histori #sukses"
     },
     {
       "id": "p5",
@@ -150,7 +176,8 @@
         }
       ],
       "caption": "Ata zgjodhën sigurinë që ne të mund të zgjedhim ëndrrën.\n\nNëse sot ke mundësi të provosh, të ndërrosh, të nisësh diçka tëndin, ke një pjesë të sakrificës së tyre në duar. Përdore mirë.\n\nDërgoja dikujt që i do prindërit e vet.\n\n#suksesishqip #familja #prindërit #jeta",
-      "photo_id": "4222263"
+      "photo_id": "4222263",
+      "keep": true
     }
   ]
 }

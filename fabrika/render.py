@@ -289,7 +289,13 @@ def main(path, offline=False):
     outdir.mkdir(parents=True, exist_ok=True)
     used = set(USED.read_text().split()) if USED.exists() else set()
     manifest = {"date": date, "rendered_at": int(time.time()), "posts": []}
+    old_path = outdir / "manifest.json"
+    old = {e["id"]: e for e in json.loads(old_path.read_text(encoding="utf-8"))["posts"]} if old_path.exists() else {}
     for p in q["posts"]:
+        if p.get("keep") and old.get(p["id"], {}).get("status") == "rendered":  # already published: leave as is
+            manifest["posts"].append(old[p["id"]])
+            print(p["id"], "kept")
+            continue
         entry = {"id": p["id"], "status": "rendered", "files": [], "photo": None}
         if p.get("style") == "reel":
             try:
