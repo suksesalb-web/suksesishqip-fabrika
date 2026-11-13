@@ -123,9 +123,9 @@ const Hook: React.FC<{b: HBeat}> = ({b}) => {
   return <AbsoluteFill style={{transform: `translateX(${shakeAt(f, at)}px)`}}>
     <Kicker text={b.kicker} color={c} />
     <div style={{position: 'absolute', top: 360, left: 50, right: 50, textAlign: 'center', fontFamily: mono ? 'SukMono' : 'SukInter',
-      fontWeight: 800, fontSize: mono ? fit(big, 150, 1500) : tsize(big, 130), lineHeight: 1.0, color: c,
+      fontWeight: 800, fontSize: mono ? fit(big, 300, 1500) : tsize(big, 130), lineHeight: 1.0, color: c,
       textTransform: mono ? 'none' : 'uppercase', transform: `scale(${hit})`}}>{big}</div>
-    {b.sub && <T top={big.length > 10 && !mono ? 720 : 640} size={62} color={c} delay={Math.round(b.speech * 0.35)}>{b.sub}</T>}
+    {b.sub && <T top={big.length > 10 && !mono ? 720 : mono && big.length <= 5 ? 720 : 640} size={62} color={c} delay={Math.round(b.speech * 0.35)}>{b.sub}</T>}
     {b.stamp && [0, 1].map((i) => <T key={i} top={800 + i * 140} size={90} color={a} delay={at + i * 5} slam
       style={{rotate: `${i ? 5 : -7}deg`}}><span style={{border: `8px solid ${a}`, borderRadius: 14, padding: '0 24px'}}>{b.stamp}</span></T>)}
   </AbsoluteFill>;
@@ -153,7 +153,7 @@ const Icons: React.FC<{b: HBeat}> = ({b}) => {
   const N = Math.max(1, Math.min(40, b.n || 20));
   const at = b.at ?? 6;
   const shown = Math.floor(interpolate(f, [at, at + Math.min(42, 4 + N)], [0, N], clamp));
-  const size = N <= 6 ? 150 : N <= 15 ? 110 : 80;
+  const size = N === 1 ? 320 : N <= 6 ? 150 : N <= 15 ? 110 : 80;
   return <AbsoluteFill>
     <Kicker text={b.kicker} color={a} />
     {b.title && <T top={320} size={fit(b.title, 110, 1520)} color={c} slam>{b.title}</T>}

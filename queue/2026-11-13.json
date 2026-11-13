@@ -91,7 +91,9 @@
           "text": "Telefoni: 1.200€. Paga: 800€.\n\nE ndamë në 24 këste dhe e quajtëm \"të lirë\".\n\nKur paguam këstin e fundit, telefoni vlente gjysmën."
         }
       ],
-      "caption": "Kësti i vogël e fsheh çmimin e madh.\n\nPara se të blesh me këste, pyet veten: sa do të vlejë kjo kur të paguaj këstin e fundit?\n\nDërgoja dikujt që po mendon për telefonin e ri.\n\n#suksesishqip #para #këste #financa"
+      "caption": "Kësti i vogël e fsheh çmimin e madh.\n\nPara se të blesh me këste, pyet veten: sa do të vlejë kjo kur të paguaj këstin e fundit?\n\nDërgoja dikujt që po mendon për telefonin e ri.\n\n#suksesishqip #para #këste #financa",
+      "photo_id": "8544672",
+      "keep": true
     },
     {
       "id": "p4",
@@ -107,8 +109,8 @@
           "kicker": "Nokia në 2007",
           "big": "49%",
           "sub": "e smartfonëve në botë",
-          "text": "Në 2007, gati gjysma e smartfonëve në botë ishin Nokia.",
-          "say": "Në vitin dymijë e shtatë, gati gjysma e smartfonëve në botë, ishin Nokia!"
+          "text": "Në 2007, gati gjysma e smartfonëve ishin Nokia.",
+          "say": "Në dymijë e shtatë, gati gjysma e smartfonëve ishin Nokia!"
         },
         {
           "type": "icons",
@@ -118,7 +120,7 @@
           "n": 1,
           "label": "Pa asnjë tastierë",
           "at": "iPhone-i",
-          "text": "Po atë vit doli një telefon pa asnjë tastierë: iPhone-i i parë."
+          "text": "Po atë vit doli iPhone-i, pa asnjë tastierë."
         },
         {
           "type": "checks",
@@ -129,11 +131,11 @@
               "ok": true
             },
             {
-              "label": "Ekranin me prekje",
+              "label": "Ekrani me prekje",
               "ok": false
             }
           ],
-          "text": "Nokia mbeti te tastierat, ndërsa bota kaloi te ekrani me prekje."
+          "text": "Nokia mbeti te tastierat, bota kaloi te ekrani."
         },
         {
           "type": "year",
@@ -142,24 +144,15 @@
           "to_year": 2013,
           "stamp": "U shit",
           "at": "shiti",
-          "text": "Gjashtë vjet më vonë, Nokia ia shiti biznesin e telefonave Microsoft-it."
-        },
-        {
-          "type": "count",
-          "kicker": "Çmimi",
-          "value": 5440000000,
-          "prefix": "€",
-          "label": "Një pjesë e vogël e vlerës së dikurshme",
-          "at": "5,4",
-          "text": "Për 5,4 miliardë euro, një pjesë e vogël e asaj që vlente dikur.",
-          "say": "Për pesë miliardë e katërqind milionë euro, një pjesë e vogël e asaj që vlente dikur."
+          "text": "Në 2013, Nokia ia shiti telefonat Microsoft-it.",
+          "say": "Në dymijë e trembëdhjetë, Nokia ia shiti telefonat Microsoft-it."
         },
         {
           "type": "text",
           "title": "Nokia ishte gjigante",
-          "highlight": "Gjigantët bien kur s'ndryshojnë.",
-          "at": "gjigantët",
-          "text": "Nokia ishte gjigante, por gjigantët bien kur nuk ndryshojnë."
+          "highlight": "Bien kur s'ndryshojnë.",
+          "at": "bien",
+          "text": "Edhe gjigantët bien, kur nuk ndryshojnë."
         }
       ],
       "caption": "Në 2007 kishte gati gjysmën e tregut të smartfonëve. Në 2013 ia shiti telefonat Microsoft-it.\n\nNokia nuk u mund nga një firmë më e madhe. U mund nga një ide e re që nuk e mori seriozisht.\n\nPo ti, te cilat \"tastiera\" po ngel? Shkruaje në koment.\n\n#suksesishqip #biznes #histori #sukses"
