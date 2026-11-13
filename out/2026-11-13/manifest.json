@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "rendered_at": 1794552603,
+  "rendered_at": 1794570991,
   "posts": [
     {
       "id": "p1",
@@ -91,9 +91,9 @@
         "out/2026-11-13/p3/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "4491416",
-        "page": "https://pixabay.com/photos/write-notebook-pen-hand-paper-4491416/",
-        "query": "notebook with daily checklist and coffee on desk morning"
+        "pixabay_id": "8544672",
+        "page": "https://pixabay.com/photos/sunset-phone-capture-view-scenery-8544672/",
+        "query": "smartphone on table next to calculator and bills"
       }
     },
     {
@@ -106,63 +106,16 @@
         "out/2026-11-13/p4/frame-03.jpg",
         "out/2026-11-13/p4/frame-04.jpg",
         "out/2026-11-13/p4/frame-05.jpg",
-        "out/2026-11-13/p4/frame-06.jpg",
-        "out/2026-11-13/p4/frame-07.jpg"
+        "out/2026-11-13/p4/frame-06.jpg"
       ],
-      "photo": {
-        "pixabay_id": "27230",
-        "page": "https://pixabay.com/videos/id-27230/",
-        "query": "empty cafe tables on city street"
-      },
+      "photo": null,
       "reel": {
-        "video": {
-          "pixabay_id": "27230",
-          "page": "https://pixabay.com/videos/id-27230/",
-          "query": "empty cafe tables on city street"
-        },
-        "music": "dark-1.mp3",
+        "video": null,
+        "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
-        "clips": [
-          {
-            "pixabay_id": "27230",
-            "page": "https://pixabay.com/videos/id-27230/"
-          },
-          {
-            "pixabay_id": "32246",
-            "page": "https://pixabay.com/videos/id-32246/"
-          },
-          {
-            "pixabay_id": "21118",
-            "page": "https://pixabay.com/videos/id-21118/"
-          },
-          {
-            "pixabay_id": "3609",
-            "page": "https://pixabay.com/videos/id-3609/"
-          },
-          {
-            "pixabay_id": "11453",
-            "page": "https://pixabay.com/videos/id-11453/"
-          },
-          {
-            "pixabay_id": "45254",
-            "page": "https://pixabay.com/videos/id-45254/"
-          },
-          {
-            "pixabay_id": "73535",
-            "page": "https://pixabay.com/videos/id-73535/"
-          }
-        ],
-        "video_ids": [
-          "27230",
-          "32246",
-          "21118",
-          "3609",
-          "11453",
-          "45254",
-          "73535"
-        ],
-        "captions": "beats",
+        "engine": "hype",
+        "duration": 38.46,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -171,36 +124,30 @@
           },
           {
             "frame": "frame-02.jpg",
-            "beat": 1,
-            "start": 2.79
+            "beat": 2,
+            "start": 5.83
           },
           {
             "frame": "frame-03.jpg",
-            "beat": 2,
-            "start": 5.58
+            "beat": 3,
+            "start": 11.08
           },
           {
             "frame": "frame-04.jpg",
-            "beat": 3,
-            "start": 9.61
+            "beat": 4,
+            "start": 16.61
           },
           {
             "frame": "frame-05.jpg",
-            "beat": 3,
-            "start": 11.74
+            "beat": 5,
+            "start": 22.64
           },
           {
             "frame": "frame-06.jpg",
-            "beat": 4,
-            "start": 13.87
-          },
-          {
-            "frame": "frame-07.jpg",
-            "beat": 5,
-            "start": 17.67
+            "beat": 6,
+            "start": 29.76
           }
-        ],
-        "duration": 21.06
+        ]
       }
     },
     {
