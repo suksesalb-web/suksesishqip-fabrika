@@ -14,7 +14,7 @@ This file is the brief every daily run follows. Change it to change what the pag
 |---|---|---|
 | 09:00 | `tweet` | Morning tweet: discipline, habits or mindset, said in a concrete, surprising way (see Tweets) |
 | 12:00 | `reel` (20–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania, with real numbers (time, tool cost, steps). Hype look (see Hype Reels) |
-| 15:00 | `tweet` | **Money, work or side hustle tweet with something concrete:** a number, a price, a small calculation, a realistic situation (see Tweets). At most once a week this slot may be a short verified quote or a "mësime nga libri" carousel instead |
+| 15:00 | `tweet` or `story` | **Money, work or side hustle tweet with something concrete:** a number, a price, a small calculation, a realistic situation (see Tweets). **Twice a week a story carousel** instead (see Story carousels). At most once a week a short verified quote or a "mësime nga libri" carousel |
 | 18:00 | `reel` (20–30 s) | **Business or money:** a true success or failure story of a famous company or person, a money calculation, or a relatable situation. Hype look (see Hype Reels) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work best here, most days |
 
@@ -28,6 +28,7 @@ The page's core is **interesting side hustles, making money with AI, and how to 
 - AI side hustles must name real tools (ChatGPT, Claude, Canva, CapCut, ElevenLabs etc.) and be realistic for a beginner in Albania.
 
 ## Writing for reach (views, saves, sends)
+- **Everything needs a hook (Mario, 2026-11-13).** The first line of a tweet, the first frame of a Reel, the cover of a carousel: each must make the person stop and want the next part. A bit clickbaity is fine, fake is never fine.
 - **Carousels are the engine.** They get saved and re-shown in feed. Each slide must make the reader want the next one: open a loop on the cover, pay it off at the end.
 - **Cover hook = the whole game.** Specific beats vague: "Në 1914, Ford dyfishoi pagat" beats "Një histori frymëzuese". Use numbers, names, contrast, a surprising claim that's true.
 - **Write to be sent.** The strongest signal for reaching non-followers is people sending a post in DMs. Ask: would someone send this to a friend with "kjo je ti" or "lexoje këtë"?
@@ -64,6 +65,14 @@ How to write them:
 - Make it sendable: would someone forward it with "kjo je ti" or "e pe këtë?"
 - `photo_query`: a calm, literal background that fits (a person from behind, the place, the object); never a close-up face.
 - Don't repeat a theme or a number used in the last 60 days (topics_log).
+
+## Story carousels (`"style": "story"`, twice a week at 15:00)
+Approved by Mario on 2026-11-13 after the competitor analysis: in our niche, story carousels about real people are the format that most often blows up (e.g. Entrepreneur's founder stories). Ours: a true success or failure story of a known person or company, told so the reader can't stop swiping.
+- **The cover is a clickbait-style hook, but true.** A name or a "who" + a surprising number, age, year or contrast, and an open loop: the cover raises a question it does not answer. Example: title "Në 1994 la një punë shumë të paguar në Wall Street për të shitur libra në një garazh", subtitle "Shefi i tha: mendoje edhe 48 orë." (Bezos). The cover never says "rrëshqit", "swipe", "vazhdo" or "lexo deri në fund": the hook itself must pull the reader to the next slide.
+- **Every slide ends with a reason to see the next one:** a half-revealed fact, a "por…" twist, a number that doesn't add up yet, a question the next slide answers. Reveal the story step by step and keep the biggest surprise for the last story slide.
+- **5–7 story slides** (`title` 1–4 words + `body` max ~35 words), then the last one: the lesson for us, in Albanian context (rroga, biznesi i vogël, side hustle). The "Ruaje" slide is added automatically.
+- Facts, names, years and numbers must be checked; when unsure, leave it out. Our own words, never copied from another page. Don't repeat a person or company used in the last 60 days (topics_log), including in Reels.
+- `photo_query`: the place, an object or a silhouette that fits the story (no real people's faces). Caption: 2–4 lines and the usual hashtags.
 
 ## Quote bank
 `data/quote_bank.json` holds quotes believed to be genuinely in the named book, with their Goodreads likes (popularity), topic tags, and a `banned` list of famous fake quotes. For quote posts:

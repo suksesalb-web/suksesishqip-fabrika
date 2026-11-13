@@ -4,6 +4,11 @@ Written by the 3-day review (and by hand when Mario decides something). The dail
 before writing posts and follows it, inside the rules of GUIDE.md. Newest entries on top. Each entry:
 what the numbers showed, why we think so, and the concrete change for the next posts.
 
+## 2026-11-13 (competitor analysis, decided with Mario)
+**Evidence.** In the 6 daily Instagram reports, carousels were ~50% of the watched pages' outlier posts and have the highest median score; Entrepreneur's founder-story carousels (a name + an age or number on the cover) repeatedly beat their usual reach. Our own carousels were book lessons and flopped.
+**Change.** Story carousels twice a week at 15:00 (see GUIDE "Story carousels"), with a true clickbait-style cover and a cliffhanger on every slide; no "swipe" label on covers. Everything needs a hook.
+**Watch next.** Story carousels vs tweets at 15:00 (reach, saves, shares on Instagram; views on TikTok photo carousels).
+
 ## 2026-11-13 (first review, data 8–12 Nov, by hand with Mario)
 **Numbers.** Instagram (reach, median): Reels ~115, tweets ~45 (one reached 423), quotes ~16,
 carousels ~15, statements ~10. TikTok (views, from Mario's screenshot): the money Reel "300 lekë në ditë"

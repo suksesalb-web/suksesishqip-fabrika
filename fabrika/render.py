@@ -230,7 +230,7 @@ def s_cover(photo, s):
     y = draw_lines(d, lines, f, PAD, y, step, WHITE) + 40
     if sub_lines:
         draw_lines(d, sub_lines, sf, PAD, y, sstep, SOFT)
-    footer(d, "swipe")
+    footer(d, "swipe" if s.get("swipe_hint") else None)  # Mario: the hook pulls to the next slide, not a "swipe" label
     return img
 
 
