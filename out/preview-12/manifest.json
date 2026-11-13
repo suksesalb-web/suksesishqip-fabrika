@@ -1,0 +1,109 @@
+{
+  "date": "preview-12",
+  "rendered_at": 1794530584,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/preview-12/p1/reel.mp4",
+        "out/preview-12/p1/frame-01.jpg",
+        "out/preview-12/p1/frame-02.jpg",
+        "out/preview-12/p1/frame-03.jpg",
+        "out/preview-12/p1/frame-04.jpg",
+        "out/preview-12/p1/frame-05.jpg",
+        "out/preview-12/p1/frame-06.jpg",
+        "out/preview-12/p1/frame-07.jpg",
+        "out/preview-12/p1/frame-08.jpg",
+        "out/preview-12/p1/frame-09.jpg",
+        "out/preview-12/p1/frame-10.jpg",
+        "out/preview-12/p1/frame-11.jpg",
+        "out/preview-12/p1/frame-12.jpg",
+        "out/preview-12/p1/frame-13.jpg",
+        "out/preview-12/p1/frame-14.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": null,
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "clips": [],
+        "captions": "beats",
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 1,
+            "start": 2.87
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 2,
+            "start": 5.73
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 2,
+            "start": 9.65
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 3,
+            "start": 13.56
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 3,
+            "start": 16.54
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 4,
+            "start": 19.53
+          },
+          {
+            "frame": "frame-08.jpg",
+            "beat": 4,
+            "start": 21.65
+          },
+          {
+            "frame": "frame-09.jpg",
+            "beat": 5,
+            "start": 23.76
+          },
+          {
+            "frame": "frame-10.jpg",
+            "beat": 5,
+            "start": 27.24
+          },
+          {
+            "frame": "frame-11.jpg",
+            "beat": 6,
+            "start": 30.72
+          },
+          {
+            "frame": "frame-12.jpg",
+            "beat": 6,
+            "start": 33.18
+          },
+          {
+            "frame": "frame-13.jpg",
+            "beat": 7,
+            "start": 35.65
+          },
+          {
+            "frame": "frame-14.jpg",
+            "beat": 7,
+            "start": 38.83
+          }
+        ],
+        "duration": 42.02
+      }
+    }
+  ]
+}
