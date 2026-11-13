@@ -11,9 +11,9 @@ This file is the brief every daily run follows. Change it to change what the pag
 | Slot (Tirana time) | Style | What |
 |---|---|---|
 | 09:00 | `statement` or `tweet` | One sharp morning idea on discipline or mindset |
-| 12:00 | `reel` (12–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania. 2–3 times a week as an animated Reel (see Animated Reels) |
+| 12:00 | `reel` (20–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania, with real numbers (time, tool cost, steps). Hype look (see Hype Reels) |
 | 15:00 | `quote` or `story` | Books & thinkers: a verified quote with the source named, or (2–3 times a week) a "mësime nga libri" carousel (see Book posts) |
-| 18:00 | `reel` (12–25 s) | **Business or money:** a sharp money/business truth, or how a real person built something (mini-story). 2–3 times a week as a Stickman Reel (see Stickman Reels) |
+| 18:00 | `reel` (20–30 s) | **Business or money:** a true success or failure story of a famous company or person, a money calculation, or a relatable situation. Hype look (see Hype Reels) |
 | 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work well here, a few times a week |
 
 ## Main focus
@@ -91,8 +91,52 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 ```
 `tweet` posts use `"slides": [{"text": "..."}]`.
 
-## Reels (`"style": "reel"`)
-Three looks, all approved by the owner: **footage Reels** (real clips, a cut on every beat, zoom, whoosh), **animated Reels** (`"engine": "motion"`, see below) and **Stickman Reels** (`"engine": "stickman"`, see below). The slot table gives defaults, but you have freedom: pick whichever look serves the idea best (footage for stories, mindset and money truths; animation for tools, steps, numbers and comparisons), and vary within it (music mood, beat types, pacing) so the feed doesn't feel repetitive.
+## Hype Reels (`"engine": "hype"`): the look for EVERY Reel
+Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yellow, white and hard red, bold uppercase text, a hard cut with a zoom punch on every beat, karaoke captions timed on Riko's voice, a low hit when the key visual lands. Riko speaks with energy (an excited storyteller style is set automatically). Our own look: never copy another page's design.
+```json
+{"id": "p4", "style": "reel", "engine": "hype", "time": "18:00", "voice": "gemini:Riko", "music": "mood:cinematic",
+ "beats": [
+  {"type": "hook", "kicker": "Netflix ishte në shitje", "big": "$50.000.000", "sub": "vetëm 50 milionë", "stamp": "HA HA HA", "at": "qeshi",
+   "text": "Netflix-i kushtonte vetëm 50 milionë dollarë, dhe Blockbuster-i qeshi me të.",
+   "say": "Netflix-i kushtonte vetëm pesëdhjetë milionë dollarë, dhe Blockbuster-i qeshi me të!"},
+  {"type": "icons", "kicker": "Viti 2000", "title": "Blockbuster", "icon": "shop", "n": 40, "label": "Mijëra dyqane", "at": "kishte",
+   "text": "Ishte viti 2000 dhe Blockbuster-i kishte mijëra dyqane filmash.", "say": "Ishte viti dymijë, dhe Blockbuster-i kishte mijëra dyqane filmash."},
+  {"type": "chat", "kicker": "Shefi i Blockbuster-it:", "reply": "JO.", "alarm": true, "at": "jo",
+   "text": "Shefi i tyre mezi e mbajti të qeshurën dhe tha jo.", "say": "Shefi i tyre mezi e mbajti të qeshurën, dhe tha: jo!"},
+  {"type": "year", "kicker": "10 vjet më vonë", "from_year": 2000, "to_year": 2010, "stamp": "Falimentoi", "at": "falimentoi",
+   "text": "Dhjetë vjet më vonë, Blockbuster-i falimentoi."},
+  {"type": "bars", "kicker": "Netflix sot", "left": {"label": "$50 milionë", "sub": "2000"}, "right": {"label": "Qindra miliarda $", "sub": "sot"}, "at": "qindra",
+   "text": "Netflix-i sot vlen qindra miliarda dollarë."},
+  {"type": "text", "title": "Ideja që sot duket qesharake", "highlight": "mund të jetë Netflix-i i nesërm.", "at": "mund",
+   "text": "Ideja që sot duket qesharake mund të jetë Netflix-i i nesërm."}],
+ "caption": "..."}
+```
+**What makes a strong Hype Reel**
+- **The hook is everything.** Beat 1 is a shocking, specific, true line with a number or a contrast, max ~12 words, and its `big` is the first frame (it is the cover on TikTok): a number (`$50.000.000`, `109.500 lekë`) or 1–4 words. Never a generic opener.
+- Three kinds of Reel, mix them through the week: **stories** (success or failure of a famous company or person: Netflix/Blockbuster, Kodak, Nokia, IKEA, Ray Kroc…, every fact checked, names and years right), **numbers** (a money calculation from Albanian life: këste, kafe, qira, telefon, rroga), and **situations** (a scene people recognise: a chat with the boss, mum, the bank; "POV: merr rrogën më 1"). Side hustle and AI Reels use numbers too: time, tool cost, number of steps, price of one job. Never income promises.
+- **5–7 beats, 20–30 s**, one sentence per beat (no full stop in the middle), ~55–70 spoken words. Write to be heard: punchy, with a turn at the end (the lesson, or a question to the viewer).
+- `text` is the caption shown word by word (digits are fine); `say` is what Riko reads when the text has numbers, years or symbols (write them in words). Use `!` where the line should land with energy.
+
+**Beat types** (pick what shows the sentence; don't repeat the same type twice in a row):
+- `hook`: `big` (number or short phrase), `kicker`, `sub`, optional `stamp` (e.g. "HA HA HA", "GABIM") that slams in at the word in `at`. Yellow background.
+- `count`: `value` counts up when `at` is said; `prefix`/`suffix` (€, $, " lekë", "/muaj"), `label`, `kicker`.
+- `icons`: grid of `n` icons (max 40) filling in from `at`; `icon` = shop, person, coin, house, car, phone, laptop, bag, clock; `title`, `label`.
+- `chat`: a speech bubble with typing dots, then `reply` slams in at `at` ("JO.", "Mund të rrish pak më vonë sot?"); `alarm: true` turns the screen red and shakes it.
+- `year`: flip-clock from `from_year` to `to_year`; optional `stamp` (screen turns red) at `at`.
+- `bars`: a tiny bar vs a giant bar (`left`/`right` each with `label`, `sub`) for before/now contrasts.
+- `list`: `title` + up to 3–4 numbered `items` (max ~4 words each), each appearing when its first word is said (start each item with a word that is in `text`).
+- `checks`: up to 3 `rows` `{label, ok}` with ✓ / ✕ (e.g. Ideja ✓, Frika ✕).
+- `text`: the payoff, `title` + `highlight` (red, slams in at `at`); last beat shows @suksesishqip.
+- Optional on any beat: `bg` ("yellow", "black", "red"), `keys` (caption words shown in yellow; default: words with digits). `at` is a word from that beat's `text` (the visual lands when Riko says it).
+- `music`: `mood:cinematic` (default) or `mood:dark`. No `video_query`: this look has no footage.
+
+**Review** (one `frame-NN.jpg` per beat, near its end): the big text and captions fit and aren't cut off, the visual matches the sentence, numbers and names are right, the first frame works as a cover. The voice/caption sync check applies as for every Reel: beat changes are the hard cuts (`reel.shots[].start` in the manifest), each must sit in a speech pause, and the last word must be complete before the video ends.
+
+## Older Reel looks (retired, only as a technical fallback)
+If a Hype Reel keeps failing for a technical reason, it may be rewritten as a footage Reel (below). Animated and Stickman Reels are no longer used.
+
+## Footage Reels (`"style": "reel"` without engine)
+Before 2026-11-13 there were three looks: **footage Reels** (real clips, a cut on every beat, zoom, whoosh), **animated Reels** (`"engine": "motion"`, see below) and **Stickman Reels** (`"engine": "stickman"`, see below). The slot table gives defaults, but you have freedom: pick whichever look serves the idea best (footage for stories, mindset and money truths; animation for tools, steps, numbers and comparisons), and vary within it (music mood, beat types, pacing) so the feed doesn't feel repetitive.
 ```json
 {"id": "p2", "style": "reel", "time": "12:00",
  "video_query": "man driving car at night city lights",

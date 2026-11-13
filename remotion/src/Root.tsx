@@ -4,6 +4,7 @@ import {Explainer, ExplainerProps} from './Explainer';
 import {Data, DATA_FRAMES} from './Data';
 import {Story, STORY_FRAMES} from './Story';
 import {Hype, HYPE_FRAMES} from './Hype';
+import {HypeReel, HypeReelProps, HYPE_SAMPLE} from './HypeReel';
 
 const sample: ExplainerProps = {
   durationInFrames: 300,
@@ -18,6 +19,16 @@ const sample: ExplainerProps = {
 
 export const Root: React.FC = () => (
   <>
+  <Composition
+    id="HypeReel"
+    component={HypeReel}
+    width={1080}
+    height={1920}
+    fps={30}
+    durationInFrames={HYPE_SAMPLE.durationInFrames}
+    defaultProps={HYPE_SAMPLE as HypeReelProps}
+    calculateMetadata={({props}) => ({durationInFrames: props.durationInFrames})}
+  />
   <Composition id="Hype" component={Hype} width={1080} height={1920} fps={30} durationInFrames={HYPE_FRAMES} />
   <Composition id="Story" component={Story} width={1080} height={1920} fps={30} durationInFrames={STORY_FRAMES} />
   <Composition id="Data" component={Data} width={1080} height={1920} fps={30} durationInFrames={DATA_FRAMES} />

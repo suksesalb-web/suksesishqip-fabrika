@@ -32,6 +32,9 @@ FALLBACK_VOICE = "sq-AL-AnilaNeural"
 GEMINI_MODEL = "gemini-3.8-flash-tts"
 GEMINI_STYLE = ("Speak in standard Albanian, naturally, like a friend telling you something true over coffee: "
                 "calm, convincing, short natural pauses, never like an advert.")
+HYPE_STYLE = ("Speak in standard Albanian with high energy and excitement, like a storyteller revealing a shocking true story "
+              "to a friend: punchy, fast-paced, strong emphasis on the numbers, short dramatic pauses, never monotone, "
+              "never like an advert.")
 VOICE_RATE = "+6%"
 GAP = 0.35          # silence between beats (s)
 TAIL = 0.8          # hold after the last beat (s)
@@ -551,6 +554,11 @@ def audio_track(post, beats, starts, total, timings, audio_parts, tmp, info):
                          f"afade=t=in:d=0.3,afade=t=out:st=0.3:d=0.2,volume=0.30,"
                          f"aformat=sample_rates=44100:channel_layouts=stereo,adelay={ms}|{ms}[x{i}]")
             labels.append(f"[x{i}]")
+        for k, t_hit in enumerate(post.get("_hits", [])):   # a low hit when a key visual lands (hype Reels)
+            ms = max(0, int(t_hit * 1000))
+            parts.append(f"aevalsrc='0.9*sin(2*PI*(42+70*exp(-7*t))*t)*exp(-5*t)':s=44100:d=0.7,"
+                         f"aformat=sample_rates=44100:channel_layouts=stereo,volume=0.55,adelay={ms}|{ms}[h{k}]")
+            labels.append(f"[h{k}]")
         if labels and post.get("sfx", True):
             sv = tmp / "voice_sfx.wav"
             run(["ffmpeg", "-y", "-i", str(voice_wav), "-filter_complex",
@@ -566,7 +574,7 @@ def audio_track(post, beats, starts, total, timings, audio_parts, tmp, info):
         vol = "0.10" if real else "0.7"
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
              f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
-             f"[0:a]loudnorm=I=-16:TP=-2,asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[md];"
+             f"[0:a]loudnorm=I=-16:TP=-2,aresample=44100,asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[md];"
              f"[vo][md]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
              "-map", "[out]", "-t", str(total), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
     else:
@@ -652,6 +660,137 @@ def render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, au
     return files, info
 
 
+# ---------- hype engine (Remotion, high-contrast story look) ----------
+
+def _norm_word(w):
+    return "".join(ch for ch in w.lower() if ch.isalnum())
+
+
+def speech_segments(path, dur):
+    """Speech stretches inside one beat's voice clip (the pauses split it into phrases)."""
+    import re
+    p = subprocess.run(["ffmpeg", "-i", str(path), "-af", "silencedetect=noise=-35dB:d=0.12", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    ss = [float(x) for x in re.findall(r"silence_start: ([0-9.]+)", p.stderr)]
+    se = [float(x) for x in re.findall(r"silence_end: ([0-9.]+)", p.stderr)]
+    segs, t = [], 0.0
+    for a, b in zip(ss, se):
+        if a > t + 0.05:
+            segs.append((t, a))
+        t = b
+    if dur > t + 0.05:
+        segs.append((t, dur))
+    return segs or [(0.0, dur)]
+
+
+def word_times(text, segs, dur):
+    """Start time (s) of every caption word: phrases (split at punctuation) mapped onto the voice's speech stretches."""
+    import re
+    words = text.split()
+    phrases, cur = [], []
+    for w in words:
+        cur.append(w)
+        if re.search(r"[,.;:!?…]$", w):
+            phrases.append(cur)
+            cur = []
+    if cur:
+        phrases.append(cur)
+    spans = segs if len(segs) == len(phrases) else [(segs[0][0], segs[-1][1])]
+    groups = phrases if len(segs) == len(phrases) else [words]
+    out = []
+    for (a, b), g in zip(spans, groups):
+        L = [max(1, len(_norm_word(w))) for w in g]
+        tot, acc = sum(L), 0
+        for w, l in zip(g, L):
+            out.append(a + (b - a) * acc / tot)
+            acc += l
+    return out
+
+
+def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_parts):
+    """Story Reel in the high-contrast look: one scene per beat, visuals and captions timed on the voice."""
+    n = len(beats)
+    bounds = starts[1:] + [total]
+    total_frames = int(round(total * FPS))
+    props_beats, hits = [], []
+    for i, b in enumerate(beats):
+        f0 = int(round(starts[i] * FPS))
+        f1 = total_frames if i == n - 1 else int(round(bounds[i] * FPS))
+        text = b.get("text", "")
+        words = text.split()
+        path, dur = audio_parts[i]
+        if path:
+            segs = speech_segments(path, dur)
+        else:
+            dur = (bounds[i] - starts[i]) * 0.8
+            segs = [(0.0, dur)]
+        wt = word_times(text, segs, dur)
+        word_at = [max(0, int(round(t * FPS)) - 2) for t in wt]
+
+        def find(token, after=0):
+            key = _norm_word(str(token).split()[0]) if str(token).split() else ""
+            for j in range(after, len(words)):
+                if key and _norm_word(words[j]).startswith(key[:6]):
+                    return j
+            return None
+
+        pb = {k: v for k, v in b.items() if k not in ("say", "video_query", "video_id", "at", "scene")}
+        pb.update({"type": b.get("type", "hook" if i == 0 else "text"), "from": f0, "dur": max(1, f1 - f0),
+                   "speech": int(round(dur * FPS)), "text": text, "word_at": word_at})
+        if "keys" not in pb:
+            pb["keys"] = [w for w in words if any(ch.isdigit() for ch in w)]
+        trig = b.get("at") or (b.get("highlight") if pb["type"] == "text" else None) or (b.get("reply") if pb["type"] == "chat" else None)
+        if trig:
+            j = find(trig)
+            if j is not None:
+                pb["at"] = word_at[j]
+        if pb["type"] in ("list", "checks"):
+            labels = b.get("items") or [r.get("label", "") for r in b.get("rows", [])]
+            ats, k = [], 0
+            for it in labels:
+                j = find(it, k)
+                if j is None:
+                    ats = []
+                    break
+                ats.append(word_at[j])
+                k = j + 1
+            if ats:
+                pb["item_at"] = ats
+        if pb.get("at") is not None and pb["type"] in ("hook", "chat", "year", "text", "bars") and \
+                (pb["type"] != "hook" or b.get("stamp")) and (pb["type"] != "year" or b.get("stamp")):
+            hits.append(starts[i] + pb["at"] / FPS)
+        props_beats.append(pb)
+    props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats}
+    pf = tmp / "props.json"
+    pf.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
+    silent = tmp / "hype.mp4"
+    cmd = ["npx", "remotion", "render", "src/index.ts", "HypeReel", str(silent), f"--props={pf}",
+           "--codec=h264", "--crf=20", "--muted"]
+    if os.environ.get("REMOTION_BROWSER"):
+        cmd.append(f"--browser-executable={os.environ['REMOTION_BROWSER']}")
+    p = subprocess.run(cmd, cwd=REMOTION, capture_output=True, text=True)
+    if p.returncode != 0:
+        raise RuntimeError("remotion failed: " + (p.stderr or p.stdout)[-1500:])
+    post = dict(post)
+    post.setdefault("music", "mood:cinematic")
+    post["_hits"] = hits
+    audio = audio_track(post, beats, starts, total, timings, audio_parts, tmp, info)
+    part, out = pdir / "reel.part.mp4", pdir / "reel.mp4"
+    run(["ffmpeg", "-y", "-i", str(silent), "-i", str(audio), "-map", "0:v", "-map", "1:a",
+         "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-af", "apad", "-t", f"{total:.2f}", "-movflags", "+faststart", str(part)])
+    part.rename(out)
+    files = [out]
+    for i in range(n):  # review: each beat near its end, when everything in it is on screen
+        ts = starts[i] + 0.85 * (bounds[i] - starts[i])
+        fp = pdir / f"frame-{i + 1:02d}.jpg"
+        run(["ffmpeg", "-y", "-ss", f"{ts:.2f}", "-i", str(out), "-frames:v", "1", "-q:v", "3", str(fp)])
+        files.append(fp)
+    shutil.rmtree(tmp, ignore_errors=True)
+    info.update({"engine": "hype", "duration": total,
+                 "shots": [{"frame": f"frame-{i + 1:02d}.jpg", "beat": i + 1, "start": round(starts[i], 2)} for i in range(n)]})
+    return files, info
+
+
 # ---------- stickman engine ----------
 
 def render_stickman(post, pdir, tmp, info, beats, starts, total, timings, audio_parts):
@@ -702,17 +841,18 @@ def render_reel(post, pdir, used, offline=False):
         spoken_all = [b.get("say") or " ".join(x for x in (b.get("text", ""), b.get("highlight", "")) if x)
                       for b in beats]
     gem = None
+    style = post.get("voice_style") or (HYPE_STYLE if post.get("engine") == "hype" else GEMINI_STYLE)
     if voice.startswith("gemini:") and not offline:
         try:
             wav = tmp / "narration.wav"
-            gemini_tts("\n\n".join(spoken_all), voice.split(":", 1)[1], post.get("voice_style", GEMINI_STYLE), wav)
+            gemini_tts("\n\n".join(spoken_all), voice.split(":", 1)[1], style, wav)
             try:
                 gem = split_on_pauses(wav, spoken_all, tmp)
                 info["voice_sync"] = "split"
             except RuntimeError as e:  # cut not trustworthy: voice each beat on its own (always in sync)
                 print("Narration split rejected, voicing each beat separately:", e)
                 info["voice_split_rejected"] = str(e)[:200]
-                gem = gemini_per_beat(spoken_all, voice.split(":", 1)[1], post.get("voice_style", GEMINI_STYLE), tmp)
+                gem = gemini_per_beat(spoken_all, voice.split(":", 1)[1], style, tmp)
                 info["voice_sync"] = "per-beat"
             info["voice"] = voice
         except Exception as e:  # last resort: Anila
@@ -742,6 +882,8 @@ def render_reel(post, pdir, used, offline=False):
 
     if post.get("engine") == "stickman":
         return render_stickman(post, pdir, tmp, info, beats, starts, total, timings, audio_parts)
+    if post.get("engine") == "hype":
+        return render_hype(post, pdir, tmp, info, beats, starts, round(total + 0.7, 2), timings, audio_parts)
     if post.get("engine") == "motion":
         return render_motion(post, pdir, tmp, info, beats, starts, ends, total, timings, audio_parts)
 
@@ -855,7 +997,7 @@ def render_reel(post, pdir, used, offline=False):
         vol = "0.10" if real else "0.7"
         run(["ffmpeg", "-y", "-i", str(voice_wav), "-stream_loop", "-1", "-i", str(track), "-filter_complex",
              f"[1:a]volume={vol},afade=t=in:d=0.6,afade=t=out:st={max(0, total - 1.2)}:d=1.2[m];"
-             f"[0:a]loudnorm=I=-16:TP=-2,asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[md];"
+             f"[0:a]loudnorm=I=-16:TP=-2,aresample=44100,asplit=2[vo][sc];[m][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[md];"
              f"[vo][md]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
              "-map", "[out]", "-t", str(total), "-c:a", "aac", "-b:a", "160k", str(final_audio)])
     else:

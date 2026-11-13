@@ -1,0 +1,79 @@
+{
+  "date": "preview-14",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "beats": [
+        {
+          "text": "Netflix-i kushtonte vetëm 50 milionë dollarë, dhe Blockbuster-i qeshi me të.",
+          "say": "Netflix-i kushtonte vetëm pesëdhjetë milionë dollarë, dhe Blockbuster-i qeshi me të!",
+          "type": "hook",
+          "kicker": "Netflix ishte në shitje",
+          "big": "$50.000.000",
+          "sub": "vetëm 50 milionë",
+          "stamp": "HA HA HA",
+          "at": "qeshi"
+        },
+        {
+          "text": "Ishte viti 2000 dhe Blockbuster-i kishte mijëra dyqane filmash.",
+          "say": "Ishte viti dymijë, dhe Blockbuster-i kishte mijëra dyqane filmash.",
+          "type": "icons",
+          "kicker": "Viti 2000",
+          "title": "Blockbuster",
+          "icon": "shop",
+          "n": 40,
+          "label": "Mijëra dyqane",
+          "at": "kishte"
+        },
+        {
+          "text": "Shefi i tyre mezi e mbajti të qeshurën dhe tha jo.",
+          "say": "Shefi i tyre mezi e mbajti të qeshurën, dhe tha: jo!",
+          "type": "chat",
+          "kicker": "Shefi i Blockbuster-it:",
+          "reply": "JO.",
+          "alarm": true,
+          "at": "jo"
+        },
+        {
+          "text": "Dhjetë vjet më vonë, Blockbuster-i falimentoi.",
+          "say": "Dhjetë vjet më vonë, Blockbuster-i falimentoi.",
+          "type": "year",
+          "kicker": "10 vjet më vonë",
+          "from_year": 2000,
+          "to_year": 2010,
+          "stamp": "Falimentoi",
+          "at": "falimentoi"
+        },
+        {
+          "text": "Netflix-i sot vlen qindra miliarda dollarë.",
+          "say": "Netflix-i sot vlen qindra miliarda dollarë!",
+          "type": "bars",
+          "kicker": "Netflix sot",
+          "left": {
+            "label": "$50 milionë",
+            "sub": "2000"
+          },
+          "right": {
+            "label": "Qindra miliarda $",
+            "sub": "sot"
+          },
+          "at": "qindra"
+        },
+        {
+          "text": "Ideja që sot duket qesharake mund të jetë Netflix-i i nesërm.",
+          "say": "Ideja që sot duket qesharake, mund të jetë Netflix-i i nesërm.",
+          "type": "text",
+          "title": "Ideja që sot duket qesharake",
+          "highlight": "mund të jetë Netflix-i i nesërm.",
+          "at": "mund"
+        }
+      ],
+      "caption": "test",
+      "engine": "hype"
+    }
+  ]
+}
