@@ -2,6 +2,8 @@
 
 This file is the brief every daily run follows. Change it to change what the page posts.
 
+**Mario's decision (2026-11-13):** the reviews (every 3 days) change this guide and `data/learnings.md` themselves, without asking him, as long as every change is based on evidence (our numbers, a clear pattern, or a solid outside signal) written down in `data/learnings.md`. The hard rules, Riko's voice and the quality/voice-sync checks stay fixed.
+
 ## The page
 - Albanian-language Instagram page about discipline, mindset, lessons from great thinkers and successful people, and honest side-hustle ideas.
 - Voice: direct, warm, grounded. Like a smart older friend, not a guru. Short sentences.
