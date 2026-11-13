@@ -131,11 +131,11 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
    "text": "Ishte viti 2000 dhe Blockbuster-i kishte mijëra dyqane filmash.", "say": "Ishte viti dymijë, dhe Blockbuster-i kishte mijëra dyqane filmash."},
   {"type": "chat", "kicker": "Shefi i Blockbuster-it:", "reply": "JO.", "alarm": true, "at": "jo",
    "text": "Shefi i tyre mezi e mbajti të qeshurën dhe tha jo.", "say": "Shefi i tyre mezi e mbajti të qeshurën, dhe tha: jo!"},
-  {"type": "year", "kicker": "10 vjet më vonë", "from_year": 2000, "to_year": 2010, "stamp": "Falimentoi", "at": "falimentoi",
+  {"type": "year", "kicker": "10 vjet më vonë", "from_year": 2000, "to_year": 2010, "stamp": "Falimentoi", "at": "falimentoi", "figure": "store",
    "text": "Dhjetë vjet më vonë, Blockbuster-i falimentoi."},
   {"type": "bars", "kicker": "Netflix sot", "left": {"label": "$50 milionë", "sub": "2000"}, "right": {"label": "Qindra miliarda $", "sub": "sot"}, "at": "qindra",
    "text": "Netflix-i sot vlen qindra miliarda dollarë."},
-  {"type": "text", "title": "Ideja që sot duket qesharake", "highlight": "mund të jetë Netflix-i i nesërm.", "at": "mund",
+  {"type": "text", "title": "Ideja që sot duket qesharake", "highlight": "mund të jetë Netflix-i i nesërm.", "at": "mund", "figure": "bulb",
    "text": "Ideja që sot duket qesharake mund të jetë Netflix-i i nesërm."}],
  "caption": "..."}
 ```
@@ -144,6 +144,12 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
 - Three kinds of Reel, mix them through the week: **stories** (success or failure of a famous company or person: Netflix/Blockbuster, Kodak, Nokia, IKEA, Ray Kroc…, every fact checked, names and years right), **numbers** (a money calculation from Albanian life: këste, kafe, qira, telefon, rroga), and **situations** (a scene people recognise: a chat with the boss, mum, the bank; "POV: merr rrogën më 1"). Side hustle and AI Reels use numbers too: time, tool cost, number of steps, price of one job. Never income promises.
 - **5–7 beats, 20–30 s**, one sentence per beat (no full stop in the middle), ~55–70 spoken words. Write to be heard: punchy, with a turn at the end (the lesson, or a question to the viewer).
 - `text` is the caption shown word by word (digits are fine); `say` is what Riko reads when the text has numbers, years or symbols (write them in words). Use `!` where the line should land with energy.
+
+**Illustrations (Mario approved on 2026-11-13: every Reel looks like this).** Reels have no photos, so the scenes are carried by bold drawn figures, a moving background and a progress bar at the top (both automatic). Put real effort into every scene so it is as attractive as possible:
+- Give most beats a `figure` that shows the sentence: keypad, smartphone, crown, chart_down, chart_up, money, rocket, bulb, trophy, robot (AI), laptop, store, piggy (saving), clock, people, house, car. On `hook` it sits under the number, on `text` under the payoff, on `year` with a `stamp` it falls when the stamp lands (e.g. a crown falling at "falimentoi"), on `checks` each row can have its own `figure`.
+- A percentage hook gets `"donut": 49` (the number sits inside a ring that fills up).
+- `versus`: two sides facing each other with a red VS badge: `left` and `right` each `{label, sub, figure}`; the right side lands at `at`. Great for before/after, old/new, Nokia vs iPhone, rroga vs kësti.
+- Mix the scene types so every 3–4 seconds something new moves on screen; never two plain text scenes in a row.
 
 **Beat types** (pick what shows the sentence; don't repeat the same type twice in a row):
 - `hook`: `big` (number or short phrase), `kicker`, `sub`, optional `stamp` (e.g. "HA HA HA", "GABIM") that slams in at the word in `at`. Yellow background.
