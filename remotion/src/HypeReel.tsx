@@ -152,7 +152,7 @@ const Icons: React.FC<{b: HBeat}> = ({b}) => {
   const bg = bgOf(b), c = ink(bg), a = accent(bg);
   const N = Math.max(1, Math.min(40, b.n || 20));
   const at = b.at ?? 6;
-  const shown = Math.floor(interpolate(f, [at, at + Math.min(70, 4 + N * 2)], [0, N], clamp));
+  const shown = Math.floor(interpolate(f, [at, at + Math.min(42, 4 + N)], [0, N], clamp));
   const size = N <= 6 ? 150 : N <= 15 ? 110 : 80;
   return <AbsoluteFill>
     <Kicker text={b.kicker} color={a} />
