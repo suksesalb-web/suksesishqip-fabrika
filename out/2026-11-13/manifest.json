@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "rendered_at": 1794570991,
+  "rendered_at": 1794571154,
   "posts": [
     {
       "id": "p1",
@@ -105,8 +105,7 @@
         "out/2026-11-13/p4/frame-02.jpg",
         "out/2026-11-13/p4/frame-03.jpg",
         "out/2026-11-13/p4/frame-04.jpg",
-        "out/2026-11-13/p4/frame-05.jpg",
-        "out/2026-11-13/p4/frame-06.jpg"
+        "out/2026-11-13/p4/frame-05.jpg"
       ],
       "photo": null,
       "reel": {
@@ -115,7 +114,7 @@
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "engine": "hype",
-        "duration": 38.46,
+        "duration": 21.46,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -125,27 +124,22 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.83
+            "start": 4.29
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 11.08
+            "start": 8.18
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 16.61
+            "start": 11.94
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 22.64
-          },
-          {
-            "frame": "frame-06.jpg",
-            "beat": 6,
-            "start": 29.76
+            "start": 15.93
           }
         ]
       }
