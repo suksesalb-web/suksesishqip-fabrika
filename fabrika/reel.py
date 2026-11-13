@@ -760,7 +760,7 @@ def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_part
                 (pb["type"] != "hook" or b.get("stamp")) and (pb["type"] != "year" or b.get("stamp")):
             hits.append(starts[i] + pb["at"] / FPS)
         props_beats.append(pb)
-    props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats}
+    props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats, "rich": bool(post.get("rich"))}
     pf = tmp / "props.json"
     pf.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
     silent = tmp / "hype.mp4"

@@ -1,6 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {createContext, useContext, useEffect, useState} from 'react';
 import {AbsoluteFill, Sequence, continueRender, delayRender, interpolate, spring, staticFile,
   useCurrentFrame, useVideoConfig, Easing, random} from 'remotion';
+import {Figure, Backdrop as BackdropAll, Donut} from './Figures';
+const Rich = createContext(false);
+const Backdrop: React.FC<{bg: string}> = ({bg}) => (useContext(Rich) ? <BackdropAll bg={bg} /> : null);
 
 // Daily Reel look ("engine": "hype"): pure black, electric yellow, white, hard red.
 // Bold uppercase, hard cuts with a zoom punch, karaoke captions timed on Riko's voice.
@@ -14,7 +17,8 @@ const W = 1080;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
 export type HBeat = {
-  type: 'hook' | 'count' | 'icons' | 'chat' | 'year' | 'bars' | 'list' | 'checks' | 'text';
+  type: 'hook' | 'count' | 'icons' | 'chat' | 'year' | 'bars' | 'list' | 'checks' | 'text' | 'versus';
+  figure?: string; donut?: number;                                  // illustrations (see Figures.tsx)
   from: number; dur: number; speech: number;      // speech = frames until the voice ends in this beat
   text: string; word_at: number[]; keys?: string[];
   at?: number; item_at?: number[];
@@ -25,12 +29,12 @@ export type HBeat = {
   icon?: string; n?: number; title?: string;                        // icons
   reply?: string; alarm?: boolean;                                  // chat
   from_year?: number; to_year?: number;                             // year (+ stamp)
-  left?: {label: string; sub?: string}; right?: {label: string; sub?: string};  // bars
+  left?: {label: string; sub?: string; figure?: string}; right?: {label: string; sub?: string; figure?: string};  // bars, versus
   items?: string[];                                                 // list
-  rows?: {label: string; ok: boolean}[];                            // checks
+  rows?: {label: string; ok: boolean; figure?: string}[];                            // checks
   highlight?: string;                                               // text
 };
-export type HypeReelProps = {durationInFrames: number; handle: string; beats: HBeat[]};
+export type HypeReelProps = {durationInFrames: number; handle: string; beats: HBeat[]; rich?: boolean};  // rich: moving backdrop + progress bar
 
 const FONTS: [string, string, string][] = [
   ['SukInter', 'fonts/i800.ttf', '800'], ['SukInter', 'fonts/i700.ttf', '700'], ['SukMono', 'fonts/mono700.ttf', '700'],
@@ -72,8 +76,8 @@ const T: React.FC<{children: React.ReactNode; top: number; size: number; color: 
     textTransform: mono ? 'none' : 'uppercase', letterSpacing: mono ? -2 : -1, ...style}}>{children}</div>;
 };
 
-const Kicker: React.FC<{text?: string; color: string}> = ({text, color}) =>
-  text ? <T top={240} size={46} color={color} style={{letterSpacing: 8}}>{text}</T> : null;
+const Kicker: React.FC<{text?: string; color: string; now?: boolean}> = ({text, color, now}) =>
+  text ? <T top={240} size={46} color={color} delay={now ? -20 : 0} style={{letterSpacing: 8}}>{text}</T> : null;
 
 const Caption: React.FC<{b: HBeat}> = ({b}) => {
   const f = useCurrentFrame();
@@ -120,8 +124,19 @@ const Hook: React.FC<{b: HBeat}> = ({b}) => {
   const mono = big.replace(/\s/g, '').length > 0 && (big.match(/[\d.,€$%]/g) || []).length / big.replace(/\s/g, '').length >= 0.6;
   const hit = interpolate(f, [0, 7], [1.2, 1], {...clamp, easing: Easing.out(Easing.back(2))});
   const at = b.at ?? Math.round(b.speech * 0.6);
+  if (b.donut != null) {   // number inside a ring that fills to the percentage
+    return <AbsoluteFill style={{transform: `translateX(${shakeAt(f, at)}px)`}}>
+      <Kicker text={b.kicker} color={c} now />
+      <Donut pct={b.donut} cx={540} cy={600} r={250} c={c} a={a} delay={-12} />
+      <div style={{position: 'absolute', top: 480, left: 0, right: 0, textAlign: 'center', fontFamily: 'SukInter', fontWeight: 800,
+        fontSize: fit(big, 230, 1000), lineHeight: 1.0, color: c, transform: `scale(${hit})`}}>{big}</div>
+      {b.sub && <T top={910} size={58} color={c} delay={Math.round(b.speech * 0.35)}>{b.sub}</T>}
+      {b.figure && <Figure name={b.figure} size={210} top={1010} left={800} delay={Math.round(b.speech * 0.5)} c={c} a={a} bg={bg} />}
+    </AbsoluteFill>;
+  }
   return <AbsoluteFill style={{transform: `translateX(${shakeAt(f, at)}px)`}}>
-    <Kicker text={b.kicker} color={c} />
+    <Kicker text={b.kicker} color={c} now />
+    {b.figure && !b.stamp && <Figure name={b.figure} size={300} top={860} delay={Math.round(b.speech * 0.5)} c={c} a={a} bg={bg} />}
     <div style={{position: 'absolute', top: 360, left: 50, right: 50, textAlign: 'center', fontFamily: mono ? 'SukMono' : 'SukInter',
       fontWeight: 800, fontSize: mono ? fit(big, 300, 1500) : tsize(big, 130), lineHeight: 1.0, color: c,
       textTransform: mono ? 'none' : 'uppercase', transform: `scale(${hit})`}}>{big}</div>
@@ -173,6 +188,7 @@ const Chat: React.FC<{b: HBeat}> = ({b}) => {
   const reply = b.reply || '';
   const pop = useIn(3);
   return <AbsoluteFill style={{background: bg, transform: `translateX(${b.alarm ? shakeAt(f, at, 12, 40) : 0}px)`}}>
+    <Backdrop bg={bg} />
     <Kicker text={b.kicker} color={bg === BLACK ? YEL : BLACK} />
     <div style={{position: 'absolute', top: 420, left: 120, right: 120, minHeight: 420, borderRadius: 60, background: WHITE,
       transform: `scale(${pop})`, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 40}}>
@@ -196,7 +212,10 @@ const Year: React.FC<{b: HBeat}> = ({b}) => {
   const hit = !!b.stamp && f >= at;
   const bg = hit ? RED : bgOf(b);
   return <AbsoluteFill style={{background: bg, transform: `translate(${b.stamp ? shakeAt(f, at, 12, 44) : 0}px, 0)`}}>
+    <Backdrop bg={bg} />
     <Kicker text={b.kicker} color={hit ? BLACK : YEL} />
+    {b.figure && <Figure name={b.figure} size={240} top={880} delay={b.stamp ? at : 30} mode={b.stamp ? 'fall' : 'pop'} idle={!b.stamp}
+      c={hit ? BLACK : WHITE} a={YEL} bg={bg} />}
     <div style={{position: 'absolute', top: 360, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 14}}>
       {String(year).split('').map((d, i) => <div key={i} style={{width: 150, height: 210, borderRadius: 16, background: hit ? BLACK : '#161616',
         display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'SukInter', fontWeight: 800, fontSize: 170,
@@ -251,16 +270,18 @@ const Checks: React.FC<{b: HBeat}> = ({b}) => {
   const rows = (b.rows || []).slice(0, 3);
   return <AbsoluteFill>
     <Kicker text={b.kicker} color={a} />
-    <div style={{position: 'absolute', top: 460, left: 170, right: 100, display: 'flex', flexDirection: 'column', gap: 60}}>
-      {rows.map((r, i) => <CheckRow key={i} label={r.label} ok={r.ok} at={(b.item_at || [])[i] ?? 6 + i * 25} c={c} a={a} />)}
+    <div style={{position: 'absolute', top: 400, left: 90, right: 60, display: 'flex', flexDirection: 'column', gap: 50}}>
+      {rows.map((r, i) => <CheckRow key={i} label={r.label} ok={r.ok} figure={r.figure} bg={bg} at={(b.item_at || [])[i] ?? 6 + i * 25} c={c} a={a} />)}
     </div>
   </AbsoluteFill>;
 };
-const CheckRow: React.FC<{label: string; ok: boolean; at: number; c: string; a: string}> = ({label, ok, at, c, a}) => {
+const CheckRow: React.FC<{label: string; ok: boolean; at: number; c: string; a: string; figure?: string; bg: string}> = ({label, ok, at, c, a, figure, bg}) => {
   const p = useIn(at, 9);
   const col = ok ? a : RED;
-  return <div style={{display: 'flex', alignItems: 'center', gap: 34, opacity: p, transform: `scale(${interpolate(p, [0, 1], [1.4, 1])})`,
+  return <div style={{display: 'flex', alignItems: 'center', gap: 30, opacity: p, transform: `scale(${interpolate(p, [0, 1], [1.4, 1])})`,
     transformOrigin: 'left center'}}>
+    {figure && <div style={{position: 'relative', width: 200, height: 200, flexShrink: 0, opacity: ok ? 1 : 0.55}}>
+      <Figure name={figure} size={200} top={0} left={0} delay={at} c={c} a={ok ? a : RED} bg={bg} idle={ok} /></div>}
     <div style={{width: 130, height: 130, borderRadius: 65, background: col, display: 'flex', alignItems: 'center', justifyContent: 'center',
       fontFamily: 'SukInter', fontWeight: 800, fontSize: 80, color: col === YEL ? BLACK : WHITE}}>{ok ? '✓' : '✕'}</div>
     <div style={{fontFamily: 'SukInter', fontWeight: 800, fontSize: fit(label, 100, 1100), color: ok ? c : RED, textTransform: 'uppercase'}}>{label}</div>
@@ -276,31 +297,61 @@ const Text: React.FC<{b: HBeat; handle: string; last: boolean}> = ({b, handle, l
     <Kicker text={b.kicker} color={c} />
     {title && <T top={330} size={tsize(title, 84)} color={c} delay={2}>{title}</T>}
     {hl && <T top={title ? 600 : 450} size={tsize(hl, 120)} color={a} delay={at} slam>{hl}</T>}
-    {last && <T top={1060} size={40} color={c} delay={at + 20} style={{textTransform: 'none', letterSpacing: 2}}>{handle}</T>}
+    {b.figure && <Figure name={b.figure} size={260} top={920} delay={at + 6} c={c} a={a} bg={bg} />}
+    {last && <T top={b.figure ? 1190 : 1060} size={40} color={c} delay={at + 20} style={{textTransform: 'none', letterSpacing: 2}}>{handle}</T>}
   </AbsoluteFill>;
 };
 
-const Scene: React.FC<{b: HBeat; handle: string; last: boolean}> = ({b, handle, last}) => {
+const Versus: React.FC<{b: HBeat}> = ({b}) => {
+  const f = useCurrentFrame();
+  const bg = bgOf(b), c = ink(bg), a = accent(bg);
+  const at = b.at ?? Math.round(b.speech * 0.5);
+  const vs = useIn(at - 4, 8);
+  const side = (s: {label: string; sub?: string; figure?: string} | undefined, x: number, d: number, col: string, dim: boolean) => s && <>
+    <Figure name={s.figure || 'coin'} size={370} top={410} left={x - 20} delay={d} c={c} a={col} bg={bg} />
+    <div style={{position: 'absolute', top: 800, left: x - 40, width: 410, textAlign: 'center', fontFamily: 'SukInter', fontWeight: 800,
+      fontSize: fit(s.label, 76, 760), color: col, opacity: f >= d ? 1 : 0, textTransform: 'uppercase'}}>{s.label}</div>
+    {s.sub && <div style={{position: 'absolute', top: 900, left: x - 40, width: 410, textAlign: 'center', fontFamily: 'SukInter', fontWeight: 700,
+      fontSize: 38, color: GREY, opacity: f >= d + 6 ? 1 : 0, textTransform: 'uppercase'}}>{s.sub}</div>}
+    
+  </>;
+  return <AbsoluteFill>
+    <Kicker text={b.kicker} color={a} />
+    {side(b.left, 90, 4, WHITE === c ? '#9a9a9a' : GREY, true)}
+    {side(b.right, 660, at, a, false)}
+    <div style={{position: 'absolute', top: 545, left: 450, width: 180, height: 180, borderRadius: 90, background: RED, display: 'flex',
+      alignItems: 'center', justifyContent: 'center', fontFamily: 'SukInter', fontWeight: 800, fontSize: 80, color: WHITE,
+      transform: `scale(${vs}) rotate(${(1 - vs) * -90}deg)`, boxShadow: '0 10px 0 rgba(0,0,0,0.35)'}}>VS</div>
+  </AbsoluteFill>;
+};
+
+const Scene: React.FC<{b: HBeat; handle: string; last: boolean; rich?: boolean}> = ({b, handle, last, rich}) => {
   const f = useCurrentFrame();
   const z = interpolate(f, [0, 8], [1.12, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   const flash = interpolate(f, [0, 3], [0.6, 0], clamp);
   const first = b.from === 0;   // the first frame is the cover: crisp, no flash
   const body = {hook: <Hook b={b} />, count: <Count b={b} />, icons: <Icons b={b} />, chat: <Chat b={b} />, year: <Year b={b} />,
-    bars: <Bars b={b} />, list: <List b={b} />, checks: <Checks b={b} />, text: <Text b={b} handle={handle} last={last} />}[b.type]
+    bars: <Bars b={b} />, list: <List b={b} />, checks: <Checks b={b} />, text: <Text b={b} handle={handle} last={last} />,
+    versus: <Versus b={b} />}[b.type]
     || <Text b={b} handle={handle} last={last} />;
   return <AbsoluteFill style={{background: bgOf(b), transform: first ? undefined : `scale(${z})`}}>
+    <Backdrop bg={bgOf(b)} />
     {body}
     <Caption b={b} />
     {!first && <AbsoluteFill style={{background: WHITE, opacity: flash}} />}
   </AbsoluteFill>;
 };
 
-export const HypeReel: React.FC<HypeReelProps> = ({beats, handle}) => {
+export const HypeReel: React.FC<HypeReelProps> = ({beats, handle, durationInFrames, rich}) => {
   useFonts();
-  return <AbsoluteFill style={{background: BLACK}}>
+  const f = useCurrentFrame();
+  const cur = beats.find((b) => f >= b.from && f < b.from + b.dur) || beats[0];
+  const bar = bgOf(cur) === YEL ? BLACK : YEL;
+  return <Rich.Provider value={!!rich}><AbsoluteFill style={{background: BLACK}}>
     {beats.map((b, i) => <Sequence key={i} from={b.from} durationInFrames={b.dur}>
-      <Scene b={b} handle={handle} last={i === beats.length - 1} /></Sequence>)}
-  </AbsoluteFill>;
+      <Scene b={b} handle={handle} last={i === beats.length - 1} rich={rich} /></Sequence>)}
+    {rich && <div style={{position: 'absolute', top: 0, left: 0, height: 12, width: `${(100 * f) / Math.max(1, durationInFrames)}%`, background: bar}} />}
+  </AbsoluteFill></Rich.Provider>;
 };
 
 export const HYPE_SAMPLE: HypeReelProps = {
