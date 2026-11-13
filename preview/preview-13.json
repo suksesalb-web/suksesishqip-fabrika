@@ -1,0 +1,31 @@
+{
+  "date": "preview-13",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "voice_style": "Speak in standard Albanian with high energy and excitement, like a storyteller revealing a shocking true story to a friend: punchy, fast-paced, strong emphasis on the numbers, short dramatic pauses, never monotone, never like an advert.",
+      "music": "none",
+      "sfx": false,
+      "video_query": "none",
+      "note": "Voice-only test for the 'story with numbers' Reel look (Blockbuster vs Netflix). Visuals rendered separately.",
+      "beats": [
+        {"text": "Netflix-i kushtonte vetëm 50 milionë dollarë, dhe Blockbuster-i qeshi me të.",
+         "say": "Netflix-i kushtonte vetëm pesëdhjetë milionë dollarë, dhe Blockbuster-i qeshi me të!"},
+        {"text": "Ishte viti 2000 dhe Blockbuster-i kishte mijëra dyqane filmash.",
+         "say": "Ishte viti dymijë, dhe Blockbuster-i kishte mijëra dyqane filmash."},
+        {"text": "Shefi i tyre mezi e mbajti të qeshurën dhe tha jo.",
+         "say": "Shefi i tyre mezi e mbajti të qeshurën, dhe tha: jo!"},
+        {"text": "Dhjetë vjet më vonë, Blockbuster-i falimentoi.",
+         "say": "Dhjetë vjet më vonë, Blockbuster-i falimentoi."},
+        {"text": "Netflix-i sot vlen qindra miliarda dollarë.",
+         "say": "Netflix-i sot vlen qindra miliarda dollarë!"},
+        {"text": "Ideja që sot duket qesharake mund të jetë Netflix-i i nesërm.",
+         "say": "Ideja që sot duket qesharake, mund të jetë Netflix-i i nesërm."}
+      ],
+      "caption": "test"
+    }
+  ]
+}
