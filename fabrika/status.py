@@ -51,13 +51,26 @@ if tok:
     if "error" in media:
         print("error:", media["error"].get("message"))
 
-print("== BUFFER SCHEMA (analytics fields)")
+print("== BUFFER POST METRICS")
+def tdesc(name):
+    d = buffer("query($n: String!) { __type(name: $n) { name kind fields { name type { name kind ofType { name kind ofType { name kind ofType { name kind } } } } } } }", {"n": name})
+    return d["data"]["__type"]
+def base(t):
+    while t.get("ofType"):
+        t = t["ofType"]
+    return t
 try:
-    d = buffer("{ __schema { types { name fields { name } } } }", {})
-    for t in d["data"]["__schema"]["types"]:
-        names = [f["name"] for f in (t.get("fields") or [])]
-        hit = [n for n in names if any(k in n.lower() for k in ("stat", "metric", "analytic", "insight", "engagement", "view", "impression"))]
-        if t["name"] in ("Post",) or hit:
-            print(t["name"], hit if hit else names[:40])
+    post_t = tdesc("Post")
+    mf = next(f for f in post_t["fields"] if f["name"] == "metrics")
+    mt = base(mf["type"])
+    print("Post.metrics ->", mt)
+    mtd = tdesc(mt["name"])
+    print(mt["name"], [(f["name"], base(f["type"])["name"]) for f in (mtd["fields"] or [])])
+    sel = " ".join(f["name"] if base(f["type"])["kind"] in ("SCALAR", "ENUM") else f["name"] + " { __typename }" for f in (mtd["fields"] or []))
+    for pid, rec in sorted(pub.items()):
+        for svc, ent in (("instagram", rec), ("tiktok", rec.get("tiktok") or {})):
+            if ent.get("buffer_id"):
+                d = buffer("query($id: PostId!) { post(input: {id: $id}) { metrics { " + sel + " } metricsUpdatedAt } }", {"id": ent["buffer_id"]})
+                print(pid, svc, json.dumps(d, ensure_ascii=False)[:600])
 except Exception as e:
-    print("schema error:", e)
+    print("metrics error:", e)
