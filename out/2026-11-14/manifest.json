@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "rendered_at": 1794638419,
+  "rendered_at": 1794639240,
   "posts": [
     {
       "id": "p1",
@@ -17,7 +17,7 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "sq-AL-AnilaNeural",
         "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
         "sfx": 18,
@@ -65,9 +65,9 @@
         "out/2026-11-14/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "7607379",
-        "page": "https://pixabay.com/photos/business-corporate-professional-7607379/",
-        "query": "graphic designer drawing on tablet at desk"
+        "pixabay_id": "1576792",
+        "page": "https://pixabay.com/photos/back-to-school-colored-pencils-1576792/",
+        "query": "pencil sketches on paper on wooden desk"
       }
     },
     {
