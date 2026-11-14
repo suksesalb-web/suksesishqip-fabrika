@@ -36,6 +36,8 @@ HYPE_STYLE = ("Speak in standard Albanian with high energy and excitement, like 
               "to a friend: punchy, fast-paced, strong emphasis on the numbers, short dramatic pauses, never monotone, "
               "never like an advert.")
 HYPE_SPEED = 1.07   # Riko on Hype Reels, approved by Mario 2026-11-13
+HYPE_LOOK = "classic"   # default look for Hype Reels: "classic" (black/yellow/red) or "grafit" (graphite/mint, see BRAND.md);
+                        # a post can override it with "look": "grafit"
 VOICE_RATE = "+6%"
 GAP = 0.35          # silence between beats (s)
 TAIL = 0.8          # hold after the last beat (s)
@@ -800,7 +802,8 @@ def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_part
                 (pb["type"] != "hook" or b.get("stamp")) and (pb["type"] != "year" or b.get("stamp")):
             hits.append(starts[i] + pb["at"] / FPS)
         props_beats.append(pb)
-    props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats, "rich": bool(post.get("rich", True))}
+    look = post.get("look", HYPE_LOOK)
+    props = {"durationInFrames": total_frames, "handle": HANDLE, "beats": props_beats, "rich": bool(post.get("rich", True)), "look": look}
     pf = tmp / "props.json"
     pf.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
     silent = tmp / "hype.mp4"
@@ -828,7 +831,7 @@ def render_hype(post, pdir, tmp, info, beats, starts, total, timings, audio_part
         run(["ffmpeg", "-y", "-ss", f"{ts:.2f}", "-i", str(out), "-frames:v", "1", "-q:v", "3", str(fp)])
         files.append(fp)
     shutil.rmtree(tmp, ignore_errors=True)
-    info.update({"engine": "hype", "duration": total,
+    info.update({"engine": "hype", "look": look, "duration": total,
                  "shots": [{"frame": f"frame-{i + 1:02d}.jpg", "beat": i + 1, "start": round(starts[i], 2)} for i in range(n)]})
     return files, info
 

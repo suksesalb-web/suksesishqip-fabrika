@@ -1,0 +1,77 @@
+{
+  "date": "preview-15",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "look": "grafit",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Test of the Grafit + mint look (BRAND.md), 2026-11-14. Preview only, not for publishing.",
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Qiraja jote në 10 vjet",
+          "big": "42.000 €",
+          "sub": "350 € në muaj",
+          "figure": "house",
+          "text": "Nëse paguan 350 euro qira në muaj, në 10 vjet ke dhënë 42.000 euro.",
+          "say": "Nëse paguan treqind e pesëdhjetë euro qira në muaj, në dhjetë vjet ke dhënë dyzet e dy mijë euro!"
+        },
+        {
+          "type": "count",
+          "kicker": "12 muaj",
+          "value": 4200,
+          "suffix": " €",
+          "label": "në një vit",
+          "at": "4.200",
+          "text": "Në një vit janë 4.200 euro.",
+          "say": "Në një vit janë katër mijë e dyqind euro."
+        },
+        {
+          "type": "year",
+          "kicker": "10 vjet",
+          "from_year": 2026,
+          "to_year": 2036,
+          "figure": "clock",
+          "text": "Vitet kalojnë shpejt, dhe qiraja nuk ndalet asnjëherë."
+        },
+        {
+          "type": "bars",
+          "kicker": "E njëjta pagesë",
+          "left": {
+            "label": "350 €",
+            "sub": "1 muaj"
+          },
+          "right": {
+            "label": "42.000 €",
+            "sub": "10 vjet"
+          },
+          "at": "shumë",
+          "text": "Një pagesë e vogël çdo muaj bëhet një shumë e madhe!"
+        },
+        {
+          "type": "list",
+          "title": "Para se të firmosësh:",
+          "items": [
+            "Negocio çmimin",
+            "Pyet për kontratë",
+            "Llogarit totalin"
+          ],
+          "text": "Negocio çmimin, pyet për kontratë afatgjatë dhe llogarit gjithmonë totalin."
+        },
+        {
+          "type": "text",
+          "title": "Qiraja nuk është para e humbur,",
+          "highlight": "por duhet ta dish numrin.",
+          "at": "por",
+          "figure": "bulb",
+          "text": "Qiraja nuk është para e humbur, por duhet ta dish numrin!"
+        }
+      ],
+      "caption": "test"
+    }
+  ]
+}

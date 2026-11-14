@@ -4,6 +4,8 @@ import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig, Easi
 // Flat, bold illustrations for Hype Reels (no photos needed). All drawn on a 200x200 grid.
 // c = main colour, a = accent, bg = background colour (used for cut-outs).
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
+// Look settings shared with HypeReel.tsx (set once per render by applyLook there).
+export const LOOK = {grafit: false, base: '#000000', figShadow: 'drop-shadow(0 14px 0 rgba(0,0,0,0.25))'};
 
 type P = {c: string; a: string; bg: string; t: number};   // t = 0..1 draw progress (for charts)
 
@@ -126,7 +128,7 @@ export const Figure: React.FC<{name: string; size: number; top: number; left?: n
     transform = `translateY(${d * 260}px) rotate(${d * 38}deg) scale(${1 - d * 0.15})`;
   }
   return <svg width={size} height={size} viewBox="0 0 200 200" style={{position: 'absolute', top, left: left ?? (1080 - size) / 2,
-    transform, opacity: mode === 'fall' ? interpolate(f, [delay + 8, delay + 16], [1, 0], clamp) : Math.min(1, p * 2), overflow: 'visible', filter: 'drop-shadow(0 14px 0 rgba(0,0,0,0.25))'}}>
+    transform, opacity: mode === 'fall' ? interpolate(f, [delay + 8, delay + 16], [1, 0], clamp) : Math.min(1, p * 2), overflow: 'visible', filter: LOOK.figShadow}}>
     {draw({c, a, bg, t})}
   </svg>;
 };
@@ -134,8 +136,16 @@ export const Figure: React.FC<{name: string; size: number; top: number; left?: n
 // Moving background texture: drifting dots (dark) or stripes (yellow/red), plus a soft vignette.
 export const Backdrop: React.FC<{bg: string}> = ({bg}) => {
   const f = useCurrentFrame();
-  const dark = bg === '#000000';
+  const dark = bg === LOOK.base;
   const off = (f * 1.2) % 60;
+  if (LOOK.grafit) {   // neutral graphite: faint drifting dots, a soft light from above (coral on alarm scenes), deep vignette
+    return <AbsoluteFill>
+      <AbsoluteFill style={{backgroundImage: 'radial-gradient(rgba(244,241,234,0.06) 2px, transparent 2.5px)', backgroundSize: '60px 60px',
+        backgroundPosition: `${off}px ${off}px`}} />
+      <AbsoluteFill style={{background: `radial-gradient(ellipse at 50% 30%, ${dark ? 'rgba(244,241,234,0.055)' : 'rgba(255,90,79,0.22)'} 0%, transparent 62%)`}} />
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 40%, transparent 50%, rgba(0,0,0,0.42) 100%)'}} />
+    </AbsoluteFill>;
+  }
   return <AbsoluteFill>
     {dark
       ? <AbsoluteFill style={{backgroundImage: 'radial-gradient(rgba(255,230,0,0.13) 2px, transparent 2.5px)', backgroundSize: '60px 60px',

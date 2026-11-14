@@ -139,6 +139,8 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
    "text": "Ideja që sot duket qesharake mund të jetë Netflix-i i nesërm."}],
  "caption": "..."}
 ```
+**New look in test (2026-11-14): Grafit + mint.** Mario found the black/yellow look dated and picked a neutral graphite background with a mint accent, soft shadows and a glow on the one key element (full rules in `BRAND.md`; how a Reel is built beat by beat in `STYLE_GUIDE.md`; read both before writing a Reel). A post gets it with `"look": "grafit"`. Until Mario approves the test Reel (`preview/preview-15.json`), daily Reels keep the classic look below; after approval, set `HYPE_LOOK = "grafit"` in `fabrika/reel.py` and update this section. In the grafit look `bg` "yellow" renders on graphite and `bg` "red" / alarms as a dark coral-tinted scene.
+
 **What makes a strong Hype Reel**
 - **The hook is everything.** Beat 1 is a shocking, specific, true line with a number or a contrast, max ~12 words, and its `big` is the first frame (it is the cover on TikTok): a number (`$50.000.000`, `109.500 lekë`) or 1–4 words. Never a generic opener.
 - Three kinds of Reel, mix them through the week: **stories** (success or failure of a famous company or person: Netflix/Blockbuster, Kodak, Nokia, IKEA, Ray Kroc…, every fact checked, names and years right), **numbers** (a money calculation from Albanian life: këste, kafe, qira, telefon, rroga), and **situations** (a scene people recognise: a chat with the boss, mum, the bank; "POV: merr rrogën më 1"). Side hustle and AI Reels use numbers too: time, tool cost, number of steps, price of one job. Never income promises.
