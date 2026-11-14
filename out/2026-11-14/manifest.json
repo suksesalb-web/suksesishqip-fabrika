@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "rendered_at": 1794637764,
+  "rendered_at": 1794638419,
   "posts": [
     {
       "id": "p1",
@@ -12,8 +12,75 @@
         "out/2026-11-14/p1/frame-03.jpg",
         "out/2026-11-14/p1/frame-04.jpg",
         "out/2026-11-14/p1/frame-05.jpg",
-        "out/2026-11-14/p1/frame-06.jpg",
-        "out/2026-11-14/p1/frame-07.jpg"
+        "out/2026-11-14/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
+        "sfx": 18,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 29.08,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.58
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.06
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.04
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 18.97
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 23.01
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-14/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7607379",
+        "page": "https://pixabay.com/photos/business-corporate-professional-7607379/",
+        "query": "graphic designer drawing on tablet at desk"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-14/p3/reel.mp4",
+        "out/2026-11-14/p3/frame-01.jpg",
+        "out/2026-11-14/p3/frame-02.jpg",
+        "out/2026-11-14/p3/frame-03.jpg",
+        "out/2026-11-14/p3/frame-04.jpg",
+        "out/2026-11-14/p3/frame-05.jpg",
+        "out/2026-11-14/p3/frame-06.jpg"
       ],
       "photo": null,
       "reel": {
@@ -22,10 +89,10 @@
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
-        "sfx": 30,
+        "sfx": 32,
         "engine": "hype",
         "look": "grafit",
-        "duration": 38.3,
+        "duration": 29.05,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -40,102 +107,22 @@
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 12.68
+            "start": 11.4
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 17.99
+            "start": 14.91
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 22.32
+            "start": 19.77
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 26.98
-          },
-          {
-            "frame": "frame-07.jpg",
-            "beat": 7,
-            "start": 31.4
-          }
-        ]
-      }
-    },
-    {
-      "id": "p2",
-      "status": "rendered",
-      "files": [
-        "out/2026-11-14/p2/01.jpg"
-      ],
-      "photo": {
-        "pixabay_id": "563800",
-        "page": "https://pixabay.com/photos/coffee-milk-coffee-beans-563800/",
-        "query": "laptop on desk with sketches and coffee cup"
-      }
-    },
-    {
-      "id": "p3",
-      "status": "rendered",
-      "files": [
-        "out/2026-11-14/p3/reel.mp4",
-        "out/2026-11-14/p3/frame-01.jpg",
-        "out/2026-11-14/p3/frame-02.jpg",
-        "out/2026-11-14/p3/frame-03.jpg",
-        "out/2026-11-14/p3/frame-04.jpg",
-        "out/2026-11-14/p3/frame-05.jpg",
-        "out/2026-11-14/p3/frame-06.jpg",
-        "out/2026-11-14/p3/frame-07.jpg"
-      ],
-      "photo": null,
-      "reel": {
-        "video": null,
-        "music": "cinematic-1.mp3",
-        "voice": "gemini:Riko",
-        "voice_sync": "split",
-        "voice_speed": 1.07,
-        "sfx": 35,
-        "engine": "hype",
-        "look": "grafit",
-        "duration": 35.47,
-        "shots": [
-          {
-            "frame": "frame-01.jpg",
-            "beat": 1,
-            "start": 0.0
-          },
-          {
-            "frame": "frame-02.jpg",
-            "beat": 2,
-            "start": 6.52
-          },
-          {
-            "frame": "frame-03.jpg",
-            "beat": 3,
-            "start": 11.49
-          },
-          {
-            "frame": "frame-04.jpg",
-            "beat": 4,
-            "start": 16.5
-          },
-          {
-            "frame": "frame-05.jpg",
-            "beat": 5,
-            "start": 20.51
-          },
-          {
-            "frame": "frame-06.jpg",
-            "beat": 6,
-            "start": 25.67
-          },
-          {
-            "frame": "frame-07.jpg",
-            "beat": 7,
-            "start": 30.6
+            "start": 23.69
           }
         ]
       }
@@ -161,7 +148,7 @@
         "sfx": 19,
         "engine": "hype",
         "look": "grafit",
-        "duration": 39.4,
+        "duration": 31.62,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -171,27 +158,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 7.12
+            "start": 5.89
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 13.78
+            "start": 11.16
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 20.54
+            "start": 16.05
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 24.58
+            "start": 19.16
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 30.93
+            "start": 24.86
           }
         ]
       }
