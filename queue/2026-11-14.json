@@ -81,7 +81,7 @@
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "graphic designer drawing on tablet at desk",
+      "photo_query": "pencil sketches on paper on wooden desk",
       "note": "Work tweet. Trend: 'don't do unlimited free test work' (freelancing tips) and 'worst business advice'.",
       "slides": [
         {
@@ -173,7 +173,8 @@
           "say": "Ditën e rrogës, kalo dymbëdhjetë mijë lekë në një llogari tjetër, para çdo pagese!"
         }
       ],
-      "caption": "Rreth gjysma e të punësuarve në Shqipëri marrin më pak se 60.000 lekë neto në muaj. Me një rrogë të tillë, rregulli 50/30/20 duket kështu:\n\n50% nevojat: 30.000 lekë\n30% dëshirat: 18.000 lekë\n20% për ty: 12.000 lekë\n\nNëse qiraja të merr më shumë, shkurto dëshirat, jo kursimin. Edhe 10% është fillim.\n\nRuaje dhe llogarit numrin tënd në koment.\n\n#suksesishqip #para #rroga #kursime"
+      "caption": "Rreth gjysma e të punësuarve në Shqipëri marrin më pak se 60.000 lekë neto në muaj. Me një rrogë të tillë, rregulli 50/30/20 duket kështu:\n\n50% nevojat: 30.000 lekë\n30% dëshirat: 18.000 lekë\n20% për ty: 12.000 lekë\n\nNëse qiraja të merr më shumë, shkurto dëshirat, jo kursimin. Edhe 10% është fillim.\n\nRuaje dhe llogarit numrin tënd në koment.\n\n#suksesishqip #para #rroga #kursime",
+      "keep": true
     },
     {
       "id": "p4",
