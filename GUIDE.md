@@ -4,19 +4,24 @@ This file is the brief every daily run follows. Change it to change what the pag
 
 **Mario's decision (2026-11-13):** the reviews (every 3 days) change this guide and `data/learnings.md` themselves, without asking him, as long as every change is based on evidence (our numbers, a clear pattern, or a solid outside signal) written down in `data/learnings.md`. The hard rules, Riko's voice and the quality/voice-sync checks stay fixed.
 
+**Mario's decision (2026-11-14):** fewer posts, each one worked properly. The page looked good and stopped the scroll, but people did not like or share because the posts gave them nothing to use. So the day is now **3 very good Reels and 1 tweet**, and every post follows the "Added value" rules below. The added-value rules stay fixed like the hard rules.
+
 ## The page
 - Albanian-language Instagram page about discipline, mindset, lessons from great thinkers and successful people, and honest side-hustle ideas.
 - Voice: direct, warm, grounded. Like a smart older friend, not a guru. Short sentences.
 - Standard Albanian (gjuha standarde) with correct ë and ç everywhere. No English words where an Albanian one exists.
 
-## Daily mix (5 posts)
-| Slot (Tirana time) | Style | What |
-|---|---|---|
-| 09:00 | `tweet` | Morning tweet: discipline, habits or mindset, said in a concrete, surprising way (see Tweets) |
-| 12:00 | `reel` (20–30 s) | **AI or side hustle:** one concrete thing a person can do with AI tools or a skill, from Albania, with real numbers (time, tool cost, steps). Hype look (see Hype Reels) |
-| 15:00 | `tweet` or `story` | **Money, work or side hustle tweet with something concrete:** a number, a price, a small calculation, a realistic situation (see Tweets). **Twice a week a story carousel** instead (see Story carousels). At most once a week a short verified quote or a "mësime nga libri" carousel |
-| 18:00 | `reel` (20–30 s) | **Business or money:** a true success or failure story of a famous company or person, a money calculation, or a relatable situation. Hype look (see Hype Reels). 1–2 times a week a two-part story: part 2 as `p6` at 18:05 |
-| 22:00 | `tweet` | A reflective, personal-sounding thought people send to a friend. Family and home themes (parents, Sunday at home, family far away) work best here, most days |
+## Daily mix (4 posts: 3 Reels + 1 tweet)
+Fewer posts so each Reel gets real research and care (Mario, 2026-11-14). Quality and added value come before quantity.
+
+| Slot (Tirana time) | Id | Style | What |
+|---|---|---|---|
+| 12:00 | `p1` | `reel` (20–30 s) | **AI or side hustle, step by step:** one job a person can start from Albania: the tool by name, the 3 steps, the cost to start, the time it takes, what one job is priced at here. Or a ready-made prompt or message the viewer can copy |
+| 15:00 | `p2` | `tweet` | The one tweet of the day (see Tweets). Alternate: a money / work tweet with a concrete number, and a personal / family tweet |
+| 18:00 | `p3` | `reel` (20–30 s) | **Money, with the way out:** a calculation from Albanian life plus the rule for what to do about it, or a common money mistake plus the fix |
+| 21:00 | `p4` | `reel` (20–30 s) | **Business:** a true success or failure story of a known company or person that ends in something the viewer can do, or another step-by-step. On a two-part-story day (1–2 times a week) part 1 is `p3` at 18:00 and part 2 is `p4` at 18:05, and there is no 21:00 Reel |
+
+All Reels use the Hype look (see Hype Reels) and the Added value rules. Story carousels, quotes, book posts and the 09:00 and 22:00 tweets are not in the mix now.
 
 ## Main focus
 The page's core is **interesting side hustles, making money with AI, and how to start a business**. Discipline and mindset support it. Never post religious, gaming, K-pop, sport-gossip or political content.
@@ -26,6 +31,19 @@ The page's core is **interesting side hustles, making money with AI, and how to 
 - But every post must **deliver** on its hook with real, specific steps or facts. If the slides can't back up the cover, rewrite the cover.
 - No promised earnings ("fito 1000€ në javë"), no "pa punë", no "pasivisht", no app/crypto schemes. Say what the work is, what tools it needs, and how someone gets their first client.
 - AI side hustles must name real tools (ChatGPT, Claude, Canva, CapCut, ElevenLabs etc.) and be realistic for a beginner in Albania.
+
+## Added value (Mario, 2026-11-14: fixed rules)
+A post that only looks good gets watched and forgotten. Every Reel and tweet must leave the viewer with something.
+- **One thing they can use today.** Every post gives one concrete thing: a tool by name, an exact step, a ready sentence or prompt, or a threshold with a number. Before a post goes out ask: "would someone save this?" If not, it is not ready: rewrite it or pick another idea.
+- **The ending is an action, not a moral.** Reel structure: hook → the number or the proof → the method in 2–3 steps → last beat: what to do today. Never end on a general truth ("duhet ta dish numrin", "gjithçka nis nga ti"). A story Reel ends on what the viewer can do with the lesson, concretely.
+- **Formats that carry value** (use these for the Reels):
+  - *Side hustle step by step:* one job, the tool, the 3 steps, the cost to start, the price of one job in Albania.
+  - *Ready prompt or message:* the exact ChatGPT/Claude prompt, or the message word for word for a client or a boss.
+  - *The calculation plus the rule:* the viewer's own number (qira, këste, kafe, rroga) and one simple rule for what to do with it.
+  - *The mistake that costs you:* a common money or work mistake and the fix.
+- **Specific to Albania, and checked.** Real Albanian prices, wages and platforms, each checked with a web search on the day; put the links in the post's `"sources"` list in the queue file. If a number can't be checked, leave it out or say "rreth". This is what translated pages don't have.
+- **Still no income promises.** Give costs, time and the price of one job, never "fito X në muaj".
+- **Work each Reel properly:** research first, then the script, then the scenes. Three Reels done well beat five done fast.
 
 ## Writing for reach (views, saves, sends)
 - **Everything needs a hook (Mario, 2026-11-13).** The first line of a tweet, the first frame of a Reel, the cover of a carousel: each must make the person stop and want the next part. A bit clickbaity is fine, fake is never fine.
@@ -43,7 +61,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 
 ## Trend input (read every run)
 `data/trends/<today>.json` is written at 05:30–06:30 Tirana time by the Trend report action: the fastest-growing English short videos of the last 48 hours, ranked by views per hour. `by_search` holds the top 6 per search (read the AI, side-hustle and business searches first); `top` is the overall top 30.
-- Use it to pick **themes and angles** that are hot right now: at least 2 of the 5 posts should build on a theme from the report when one fits the page.
+- Use it to pick **themes and angles** that are hot right now: at least 1 of the 4 posts should build on a theme from the report when one fits the page.
 - Look for the idea behind a hit ("looking rich makes you look poor", "discipline vs motivation"), then write our own post about it, in Albanian, with Albanian context.
 - **Never copy** titles, scripts or wording, and never present someone else's video as ours.
 - Ignore entries that are off-niche, clickbait without substance, religious or political, or unsuitable for the page.
@@ -53,6 +71,8 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - If today's file is missing, use the most recent one, or carry on without it.
 
 ## Tweets (the main image format)
+**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`): alternate the money / work kind and the personal kind below; the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
+
 Owner's decision (2026-11-13): tweets get priority. They are our strongest image format, especially on TikTok (family tweets reached ~900–1 400 views while quotes and book carousels stayed far behind). All three image slots are tweets by default, each with a different job:
 - **09:00, mindset:** discipline and habits, but never a generic poster line. Turn the idea into something concrete: a time, a habit, a scene ("Në 07:00 të gjithë kanë plane. Në 07:05 kanë telefonin në dorë.").
 - **15:00, money / work / side hustle:** a number, a price in lekë or euro, a small calculation, or a realistic side hustle detail (tool cost, time a job takes, what a beginner charges). Examples of the tone: "Telefoni 1.200€. Paga 800€. E ndamë në 24 këste dhe e quajtëm 'të lirë'." / "Një CV me Canva është 20 minuta punë. Plot njerëz paguajnë për të. Askush s'e quan biznes, derisa e bën dikush." Prices must be realistic and checkable; never income promises.
@@ -66,7 +86,7 @@ How to write them:
 - `photo_query`: a calm, literal background that fits (a person from behind, the place, the object); never a close-up face.
 - Don't repeat a theme or a number used in the last 60 days (topics_log).
 
-## Story carousels (`"style": "story"`, twice a week at 15:00)
+## Story carousels (`"style": "story"`): paused since 2026-11-14, not in the daily mix
 Approved by Mario on 2026-11-13 after the competitor analysis: in our niche, story carousels about real people are the format that most often blows up (e.g. Entrepreneur's founder stories). Ours: a true success or failure story of a known person or company, told so the reader can't stop swiping.
 - **The cover is a clickbait-style hook, but true.** A name or a "who" + a surprising number, age, year or contrast, and an open loop: the cover raises a question it does not answer. Example: title "Në 1994 la një punë shumë të paguar në Wall Street për të shitur libra në një garazh", subtitle "Shefi i tha: mendoje edhe 48 orë." (Bezos). The cover never says "rrëshqit", "swipe", "vazhdo" or "lexo deri në fund": the hook itself must pull the reader to the next slide.
 - **Every slide ends with a reason to see the next one:** a half-revealed fact, a "por…" twist, a number that doesn't add up yet, a question the next slide answers. Reveal the story step by step and keep the biggest surprise for the last story slide.
@@ -142,6 +162,7 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
 **Look (Mario approved the test Reel on 2026-11-14): Grafit + mint.** This replaces the black/yellow/red description above. Every Reel renders on a neutral graphite background with warm off-white text, a mint accent, coral for failure moments, soft shadows and a glow on the one key element. Full rules in `BRAND.md`; how a Reel is built beat by beat in `STYLE_GUIDE.md`; read both before writing a Reel. Nothing to set in the queue (it is the default; `"look": "classic"` brings the old look back). `bg` "yellow" now renders on graphite and `bg` "red" / alarms as a dark coral-tinted scene, so do not rely on a coloured background to carry a beat.
 
 **What makes a strong Hype Reel**
+- **Value first (see Added value).** The viewer must leave with one thing to use; the last beat is an action for today. A `list` beat is the natural place for the 2–3 steps.
 - **The hook is everything.** Beat 1 is a shocking, specific, true line with a number or a contrast, max ~12 words, and its `big` is the first frame (it is the cover on TikTok): a number (`$50.000.000`, `109.500 lekë`) or 1–4 words. Never a generic opener.
 - Three kinds of Reel, mix them through the week: **stories** (success or failure of a famous company or person: Netflix/Blockbuster, Kodak, Nokia, IKEA, Ray Kroc…, every fact checked, names and years right), **numbers** (a money calculation from Albanian life: këste, kafe, qira, telefon, rroga), and **situations** (a scene people recognise: a chat with the boss, mum, the bank; "POV: merr rrogën më 1"). Side hustle and AI Reels use numbers too: time, tool cost, number of steps, price of one job. Never income promises.
 - **5–7 beats, 20–30 s**, one sentence per beat (no full stop in the middle), ~55–70 spoken words. Write to be heard: punchy, with a turn at the end (the lesson, or a question to the viewer).
@@ -157,7 +178,7 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
 
 **Loop endings (approved 2026-11-13).** When it reads naturally, write the last beat so it flows straight back into the hook, so people watch it twice without noticing. Example: hook "Nokia kishte gati gjysmën e smartfonëve në botë." … last beat "Dhe gjithçka nisi në vitin kur…" (then the hook plays again). Rules: the last beat must first work on its own as a strong ending; read the last beat and the hook aloud one after the other: if the join sounds forced, don't force a loop. Never sacrifice the payoff for the loop.
 
-**Two-part stories (approved 2026-11-13), 1–2 times a week in the 18:00 slot.** Only for a story strong enough to carry ~50 s (a gripping success or failure with a real twist). Both parts are published back to back: part 1 at 18:00 (`p4`) and part 2 at 18:05 (`p6`), so someone who sees part 1 goes to the profile and finds part 2 right on top.
+**Two-part stories (approved 2026-11-13), 1–2 times a week in the 18:00 slot (ids from 2026-11-14: part 1 = `p3` at 18:00, part 2 = `p4` at 18:05, replacing the 21:00 Reel).** Only for a story strong enough to carry ~50 s (a gripping success or failure with a real twist). Both parts are published back to back: part 1 at 18:00 (`p4`) and part 2 at 18:05 (`p6`), so someone who sees part 1 goes to the profile and finds part 2 right on top.
 - Part 1: kicker of the hook starts with "Pjesa 1", 5–6 beats, ends at the moment of highest tension (the decision, the "jo", the night before the crash), last beat a `text` with the cliffhanger as `title` and `highlight` "Pjesa 2 në profil". Caption starts with "Pjesa 1/2" and says part 2 is on the profile.
 - Part 2: kicker "Pjesa 2"; its hook must also work for someone who never saw part 1 (one strong line that sums up the setup and promises the payoff), then the twist and the lesson. Caption starts with "Pjesa 2/2".
 - Each part is a full Reel (20–30 s, hype look, figures, voice-sync check). Facts checked as always. Log both parts in topics_log.
@@ -239,7 +260,7 @@ A third look, approved by the owner: a minimalist white line-art stickman on a d
 - Review: one `frame-NN.jpg` per beat. Check the caption fits (max 3 lines), the red word is the right one, and the scene matches the sentence.
 
 ## Buffer free plan
-Max 10 scheduled posts per channel at a time. Schedule only the current day (5 posts), never days ahead.
+Max 10 scheduled posts per channel at a time. Schedule only the current day (4 posts), never days ahead.
 
 ## Quality gate (every run)
 1. `python fabrika/spellcheck.py queue/<date>.json` must pass. Add real proper names to `fabrika/dict/allowlist.txt`, never a misspelling.

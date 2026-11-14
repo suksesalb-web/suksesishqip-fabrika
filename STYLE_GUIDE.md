@@ -17,9 +17,9 @@ Format: 9:16, 1080x1920, 30 fps. Length 20 to 30 s, 5 to 7 beats, one sentence p
 | Beat | Time | Job |
 |---|---|---|
 | Hook | 0 to 2 s | Stop the scroll. Number or relatable situation. Text on screen from frame 1. |
-| Stakes | 2 to 6 s | Why this matters to the viewer. |
-| Story | 6 s to end minus 6 s | 3 to 5 beats. Each one changes something on screen. |
-| Payoff | last 4 to 6 s | The number, the lesson, or the twist. |
+| Proof | 2 to 6 s | The number or the fact that makes it real for the viewer. |
+| Method | 6 s to end minus 6 s | The 2 to 3 steps, or the story told so each beat changes something on screen. |
+| Action | last 4 to 6 s | What the viewer does today. Never a general moral (GUIDE.md, Added value). |
 | Loop | last 1 s | Last line leads back into the hook. Only if it sounds natural; otherwise end clean. |
 
 Two-part stories: only for gripping ones. Part 1 ends on the open question. Both parts post back to back.
