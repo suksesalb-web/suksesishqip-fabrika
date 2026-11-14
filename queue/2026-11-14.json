@@ -18,10 +18,9 @@
           "type": "hook",
           "kicker": "Side hustle pa kapital",
           "big": "0 €",
-          "sub": "kushton profili në Google Maps",
+          "sub": "profili në Google Maps",
           "figure": "smartphone",
-          "text": "Profili i një lokali në Google Maps kushton 0 euro, por shumë pronarë s'kanë kohë ta rregullojnë!",
-          "say": "Profili i një lokali në Google Maps kushton zero euro, por shumë pronarë s'kanë kohë ta rregullojnë!"
+          "text": "Profili i një lokali në Google Maps është falas, por shumë pronarë s'kanë kohë për të!"
         },
         {
           "type": "icons",
@@ -31,56 +30,58 @@
           "n": 12,
           "label": "Pa foto, pa orar",
           "at": "shëno",
-          "text": "Kërko kafe ose berber në hartë, dhe shëno ata që s'kanë as foto, as orar."
+          "text": "Kërko kafe ose berber në hartë, dhe shëno ata pa foto."
         },
         {
           "type": "list",
           "title": "Hapi 2:",
-          "items": ["Bën fotot", "ChatGPT: përshkrimi", "Përgjigjesh vlerësimeve"],
-          "text": "Bën fotot, ChatGPT shkruan përshkrimin, dhe ti përgjigjesh çdo vlerësimi."
+          "items": [
+            "Bën fotot",
+            "ChatGPT: përshkrimi",
+            "Përgjigjesh vlerësimeve"
+          ],
+          "text": "Bën fotot, ChatGPT shkruan përshkrimin, ti u përgjigjesh vlerësimeve."
         },
         {
           "type": "checks",
           "kicker": "Kush bën çfarë",
           "rows": [
-            {"label": "Ti: fotot, teksti", "ok": true, "figure": "laptop"},
-            {"label": "Pronari: verifikimi", "ok": true, "figure": "store"}
+            {
+              "label": "Ti: fotot, teksti",
+              "ok": true,
+              "figure": "laptop"
+            },
+            {
+              "label": "Pronari: verifikimi",
+              "ok": true,
+              "figure": "store"
+            }
           ],
-          "text": "Verifikimin e bën pronari me telefonin e vet, ti vetëm i tregon hapat."
-        },
-        {
-          "type": "count",
-          "kicker": "Koha",
-          "value": 1,
-          "prefix": "~",
-          "suffix": " orë",
-          "label": "për një lokal",
-          "at": "orë",
-          "text": "E gjithë puna zgjat rreth një orë për lokal, me laptop ose me telefon."
+          "text": "Verifikimin e bën pronari, ti i tregon hapat."
         },
         {
           "type": "chat",
           "kicker": "Thuaji pronarit:",
           "reply": "Ju kërkojnë dhe s'ju gjejnë.",
           "at": "kërkojnë",
-          "text": "Thuaji pronarit kështu: klientët ju kërkojnë në hartë, dhe s'ju gjejnë."
+          "text": "Thuaji: klientët ju kërkojnë në hartë, dhe s'ju gjejnë."
         },
         {
           "type": "text",
-          "title": "Sot, jo nesër:",
+          "title": "Detyra e sotme:",
           "highlight": "Gjej 3 lokale pa foto.",
           "at": "tre",
           "figure": "store",
-          "text": "Sot gjej tre lokale pa foto, dhe nesër shko t'ua tregosh!"
+          "text": "Sot gjej tre lokale pa foto!"
         }
       ],
-      "caption": "Një side hustle që nis me 0 € dhe një telefon: profili i lokaleve në Google Maps.\n\n1. Kërko në hartë kafe, berberë, dyqane të lagjes dhe shëno ata pa foto e pa orar.\n2. Bëj fotot, lër ChatGPT të shkruajë përshkrimin, përgjigju vlerësimeve.\n3. Verifikimin e bën pronari me telefonin e vet: ti i tregon hapat.\n\nÇmimin vendose pasi të bësh 2–3 të parët dhe të dish sa kohë të merr.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #ai #biznes"
+      "caption": "Një side hustle që nis me 0 € dhe një telefon: profili i lokaleve në Google Maps.\n\n1. Kërko në hartë kafe, berberë, dyqane të lagjes dhe shëno ata pa foto e pa orar.\n2. Bëj fotot, lër ChatGPT të shkruajë përshkrimin, përgjigju vlerësimeve.\n3. Verifikimin e bën pronari me telefonin e vet: ti i tregon hapat.\n\nKoha: rreth një orë për lokal.\n\nÇmimin vendose pasi të bësh 2–3 të parët dhe të dish sa kohë të merr.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #ai #biznes"
     },
     {
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "laptop on desk with sketches and coffee cup",
+      "photo_query": "graphic designer drawing on tablet at desk",
       "note": "Work tweet. Trend: 'don't do unlimited free test work' (freelancing tips) and 'worst business advice'.",
       "slides": [
         {
@@ -118,32 +119,39 @@
           "suffix": " lekë",
           "label": "qira, fatura, ushqim",
           "at": "30.000",
-          "text": "Gjysma, 30.000 lekë, shkon për qiranë, faturat dhe ushqimin.",
-          "say": "Gjysma, tridhjetë mijë lekë, shkon për qiranë, faturat dhe ushqimin."
+          "text": "Gjysma, 30.000 lekë, për qiranë, faturat dhe ushqimin.",
+          "say": "Gjysma, tridhjetë mijë lekë, për qiranë, faturat dhe ushqimin."
         },
         {
           "type": "versus",
-          "left": {"label": "18.000 lekë", "sub": "30% dëshirat", "figure": "smartphone"},
-          "right": {"label": "12.000 lekë", "sub": "20% për ty", "figure": "piggy"},
+          "left": {
+            "label": "18.000",
+            "sub": "30% dëshirat",
+            "figure": "smartphone"
+          },
+          "right": {
+            "label": "12.000",
+            "sub": "20% për ty",
+            "figure": "piggy"
+          },
           "at": "12.000",
-          "text": "18.000 lekë për daljet dhe dëshirat, 12.000 lekë për veten tënde.",
-          "say": "Tetëmbëdhjetë mijë lekë për daljet dhe dëshirat, dymbëdhjetë mijë lekë për veten tënde."
+          "text": "18.000 për daljet, 12.000 për veten tënde.",
+          "say": "Tetëmbëdhjetë mijë për daljet, dymbëdhjetë mijë për veten tënde."
         },
         {
           "type": "checks",
           "kicker": "Qiraja të merr më shumë?",
           "rows": [
-            {"label": "Ul daljet", "ok": true},
-            {"label": "Ul kursimin", "ok": false}
+            {
+              "label": "Ul daljet",
+              "ok": true
+            },
+            {
+              "label": "Ul kursimin",
+              "ok": false
+            }
           ],
-          "text": "Nëse qiraja të merr më shumë, ul daljet, jo kursimin."
-        },
-        {
-          "type": "list",
-          "title": "Ditën e rrogës:",
-          "items": ["Hap llogari të dytë", "Kalo 12.000 lekë", "Mos i prek"],
-          "text": "Hap një llogari të dytë, kalo 12.000 lekë ditën e rrogës, dhe mos i prek!",
-          "say": "Hap një llogari të dytë, kalo dymbëdhjetë mijë lekë ditën e rrogës, dhe mos i prek!"
+          "text": "Nëse qiraja merr më shumë, ul daljet, jo kursimin."
         },
         {
           "type": "count",
@@ -152,16 +160,17 @@
           "suffix": " lekë",
           "label": "të kursyera",
           "at": "144.000",
-          "text": "Pas një viti ke 144.000 lekë që më parë thjesht zhdukeshin.",
-          "say": "Pas një viti ke njëqind e dyzet e katër mijë lekë, që më parë thjesht zhdukeshin."
+          "text": "Në një vit, ke 144.000 lekë mënjanë.",
+          "say": "Në një vit, ke njëqind e dyzet e katër mijë lekë mënjanë."
         },
         {
           "type": "text",
-          "title": "Sot, jo muajin tjetër:",
-          "highlight": "Hap llogarinë e dytë.",
-          "at": "hap",
+          "title": "Ditën e rrogës:",
+          "highlight": "Kalo 12.000 lekë mënjanë.",
+          "at": "kalo",
           "figure": "piggy",
-          "text": "Sot, jo muajin tjetër, hap llogarinë e dytë!"
+          "text": "Ditën e rrogës, kalo 12.000 lekë në një llogari tjetër, para çdo pagese!",
+          "say": "Ditën e rrogës, kalo dymbëdhjetë mijë lekë në një llogari tjetër, para çdo pagese!"
         }
       ],
       "caption": "Rreth gjysma e të punësuarve në Shqipëri marrin më pak se 60.000 lekë neto në muaj. Me një rrogë të tillë, rregulli 50/30/20 duket kështu:\n\n50% nevojat: 30.000 lekë\n30% dëshirat: 18.000 lekë\n20% për ty: 12.000 lekë\n\nNëse qiraja të merr më shumë, shkurto dëshirat, jo kursimin. Edhe 10% është fillim.\n\nRuaje dhe llogarit numrin tënd në koment.\n\n#suksesishqip #para #rroga #kursime"
@@ -185,8 +194,8 @@
           "big": "5.126",
           "sub": "prototipa që dështuan",
           "figure": "chart_down",
-          "text": "James Dyson bëri 5.126 prototipa që dështuan, para se njëri të funksiononte!",
-          "say": "James Dyson bëri pesë mijë e njëqind e njëzet e gjashtë prototipa që dështuan, para se njëri të funksiononte!"
+          "text": "James Dyson bëri 5.126 prototipa fshese që dështuan!",
+          "say": "James Dyson bëri pesë mijë e njëqind e njëzet e gjashtë prototipa fshese që dështuan!"
         },
         {
           "type": "icons",
@@ -196,19 +205,28 @@
           "n": 4,
           "label": "Një model pas tjetrit",
           "at": "katër",
-          "text": "Nisi në vitin 1978, dhe provoi për katër vjet, një model pas tjetrit.",
-          "say": "Nisi në vitin një mijë e nëntëqind e shtatëdhjetë e tetë, dhe provoi për katër vjet, një model pas tjetrit."
+          "text": "Nisi në 1978, dhe provoi katër vjet rresht.",
+          "say": "Nisi në një mijë e nëntëqind e shtatëdhjetë e tetë, dhe provoi katër vjet rresht."
         },
         {
           "type": "checks",
           "kicker": "Prova pas prove",
           "rows": [
-            {"label": "Prototipi 1", "ok": false},
-            {"label": "Prototipi 2.000", "ok": false},
-            {"label": "Prototipi 5.127", "ok": true}
+            {
+              "label": "Prototipi 1",
+              "ok": false
+            },
+            {
+              "label": "Prototipi 2.000",
+              "ok": false
+            },
+            {
+              "label": "Prototipi 5.127",
+              "ok": true
+            }
           ],
-          "text": "Çdo herë mësonte diçka, derisa prototipi 5.127 më në fund funksionoi!",
-          "say": "Çdo herë mësonte diçka, derisa prototipi pesë mijë e njëqind e njëzet e shtatë më në fund funksionoi!"
+          "text": "Prototipi 5.127 më në fund funksionoi!",
+          "say": "Prototipi pesë mijë e njëqind e njëzet e shtatë më në fund funksionoi!"
         },
         {
           "type": "chat",
@@ -216,7 +234,7 @@
           "reply": "JO.",
           "alarm": true,
           "at": "jo",
-          "text": "Por të gjithë prodhuesit e mëdhenj të fshesave i thanë jo."
+          "text": "Por prodhuesit e mëdhenj i thanë jo."
         },
         {
           "type": "year",
@@ -224,16 +242,16 @@
           "from_year": 1978,
           "to_year": 1993,
           "figure": "trophy",
-          "text": "Kështu e bëri vetë, dhe në 1993 doli fshesa e parë me emrin Dyson.",
-          "say": "Kështu e bëri vetë, dhe në një mijë e nëntëqind e nëntëdhjetë e tre doli fshesa e parë me emrin Dyson."
+          "text": "E nxori vetë, dhe në 1993 doli fshesa e parë Dyson.",
+          "say": "E nxori vetë, dhe në një mijë e nëntëqind e nëntëdhjetë e tre doli fshesa e parë Dyson."
         },
         {
           "type": "text",
           "title": "Prova jote e fundit dështoi?",
-          "highlight": "Ndrysho një gjë, provo sot.",
+          "highlight": "Ndrysho një gjë.",
           "at": "ndrysho",
           "figure": "bulb",
-          "text": "Shkruaj pse dështoi prova jote e fundit, ndrysho vetëm një gjë, dhe provo sot!"
+          "text": "Shkruaj pse dështoi, ndrysho vetëm një gjë, dhe provo sot!"
         }
       ],
       "caption": "5.127 prototipa. 5.126 dështuan. Nga ideja në 1978 deri te fshesa e parë Dyson në 1993, dhe të gjithë prodhuesit e mëdhenj i thanë jo.\n\nMësimi që mund ta përdorësh sot: pas çdo prove që s'ecën, shkruaj pse s'eci dhe ndrysho vetëm një gjë te prova tjetër.\n\nDërgoja dikujt që sapo dështoi në diçka.\n\n#suksesishqip #biznes #histori #dështimi"
