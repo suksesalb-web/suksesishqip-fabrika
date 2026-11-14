@@ -36,8 +36,8 @@ HYPE_STYLE = ("Speak in standard Albanian with high energy and excitement, like 
               "to a friend: punchy, fast-paced, strong emphasis on the numbers, short dramatic pauses, never monotone, "
               "never like an advert.")
 HYPE_SPEED = 1.07   # Riko on Hype Reels, approved by Mario 2026-11-13
-HYPE_LOOK = "classic"   # default look for Hype Reels: "classic" (black/yellow/red) or "grafit" (graphite/mint, see BRAND.md);
-                        # a post can override it with "look": "grafit"
+HYPE_LOOK = "grafit"   # default look for Hype Reels, approved by Mario 2026-11-14: "grafit" (graphite/mint, see BRAND.md);
+                       # "classic" (black/yellow/red) is still available with "look": "classic"
 VOICE_RATE = "+6%"
 GAP = 0.35          # silence between beats (s)
 TAIL = 0.8          # hold after the last beat (s)
