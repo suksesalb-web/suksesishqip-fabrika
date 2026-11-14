@@ -1,0 +1,775 @@
+{
+  "date": "2026-11-14",
+  "our_account": {
+    "username": "suksesishqip",
+    "followers": 16
+  },
+  "outliers": [
+    {
+      "account": "ryanholiday",
+      "followers": 1321950,
+      "format": "reel",
+      "age_days": 3.3,
+      "likes": 8488,
+      "comments": 78,
+      "views": 436835,
+      "score": 459.05,
+      "caption_start": "Tomorrow’s the day! I’m doing a live discussion with officiallymcconaughey in Bastrop,Tx. ",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfk0iCIB-ID/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12259228,
+      "format": "reel",
+      "age_days": 1.6,
+      "likes": 215987,
+      "comments": 5531,
+      "views": 3634973,
+      "score": 293.85,
+      "caption_start": "Everyone has their own adversity … some are bigger than others … but I deeply admire eveyone who continues to persevere in the face of adver",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/DfpMAP7x4i7/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1321950,
+      "format": "carousel",
+      "age_days": 2.3,
+      "likes": 4902,
+      "comments": 63,
+      "views": null,
+      "score": 267.95,
+      "caption_start": "Not former, still learning from the goat.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfnesiJAQCu/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1321950,
+      "format": "reel",
+      "age_days": 1.5,
+      "likes": 4272,
+      "comments": 30,
+      "views": 201771,
+      "score": 229.58,
+      "caption_start": "Don’t miss my dailystoic live speaking tour coming to Nashville in less than TWO WEEKS!",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/DfpdtcMAolt/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5230171,
+      "format": "reel",
+      "age_days": 1.5,
+      "likes": 18089,
+      "comments": 381,
+      "views": 515131,
+      "score": 187.63,
+      "caption_start": "Comment “TEAMS” to join the waitlist for $100M Sales Teams masterclass. Everything you need to scale from your first guy to a $100M+ sales o",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfpk7PcTfsK/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1321950,
+      "format": "reel",
+      "age_days": 1.4,
+      "likes": 2886,
+      "comments": 49,
+      "views": 116092,
+      "score": 159.63,
+      "caption_start": "One of my favorite people stopped by the paintedporchbookshop and had to give him some books to take home.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfpw7KFth-1/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5230171,
+      "format": "reel",
+      "age_days": 1.3,
+      "likes": 9830,
+      "comments": 232,
+      "views": 407426,
+      "score": 102.69,
+      "caption_start": "Comment “MAP” to get a free personalized Scaling Roadmap.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/DfqJOLWI5p0/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12259228,
+      "format": "reel",
+      "age_days": 1.4,
+      "likes": 61730,
+      "comments": 61,
+      "views": 2527478,
+      "score": 78.22,
+      "caption_start": "Once you get to a place where you love “doing” more than “getting there”, you’ve won 🙂",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfpys9JgA2k/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12259228,
+      "format": "carousel",
+      "age_days": 2.2,
+      "likes": 58617,
+      "comments": 618,
+      "views": null,
+      "score": 76.4,
+      "caption_start": "Life is how you see 👀 it ….. ",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Dfn4j8QjIUN/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5230171,
+      "format": "carousel",
+      "age_days": 1.1,
+      "likes": 4619,
+      "comments": 248,
+      "views": null,
+      "score": 52.32,
+      "caption_start": "Comment “TEAM” to join the waitlist for my $100M Sales Teams masterclass. It’s my big thing for the year. Just in time for the holidays. It ",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfqorqhCEDy/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5230171,
+      "format": "reel",
+      "age_days": 0.3,
+      "likes": 3332,
+      "comments": 330,
+      "views": 128443,
+      "score": 42.17,
+      "caption_start": "Comment “SALES” to join the waitlist for $100M Sales Teams masterclass. Everything you need to scale from your first guy to a $100M+ sales o",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfsi_bnhENS/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12259228,
+      "format": "carousel",
+      "age_days": 1.2,
+      "likes": 23352,
+      "comments": 2583,
+      "views": null,
+      "score": 39.29,
+      "caption_start": "Reminders on your phone tend to work.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfqP1v1jNqR/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4644171,
+      "format": "carousel",
+      "age_days": 4.5,
+      "likes": 9325,
+      "comments": 121,
+      "views": null,
+      "score": 9.8,
+      "caption_start": "Brian Troupe was 15 when he set up an ice cream stand at the end of a pier and sold nothing.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Dfh2OjmleTB/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4644171,
+      "format": "carousel",
+      "age_days": 6.5,
+      "likes": 5056,
+      "comments": 299,
+      "views": null,
+      "score": 6.02,
+      "caption_start": "Caitlin Crosby was on tour as a singer-songwriter when she started engraving old keys with words like HOPE and STRENGTH and asking people to",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfcsmMcF5xV/"
+    },
+    {
+      "account": "sahilbloom",
+      "followers": 1032074,
+      "format": "image",
+      "age_days": 4.2,
+      "likes": 30965,
+      "comments": 116,
+      "views": null,
+      "score": 4.71,
+      "caption_start": "I’m convinced that 99% of success is just the ability to stay in the game. Do you agree?",
+      "hashtags": [
+        "growth",
+        "mindset",
+        "progress",
+        "relationships"
+      ],
+      "url": "https://www.instagram.com/p/Dfik-rvTfuJ/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3829885,
+      "format": "reel",
+      "age_days": 4.1,
+      "likes": 5806,
+      "comments": 66,
+      "views": 224895,
+      "score": 4.29,
+      "caption_start": "Turbulence is proof you left the runway.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfi_5PSTwZl/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3829885,
+      "format": "image",
+      "age_days": 6.6,
+      "likes": 5443,
+      "comments": 41,
+      "views": null,
+      "score": 3.98,
+      "caption_start": "The business was always the test.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfcdDMeDO1k/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4644171,
+      "format": "carousel",
+      "age_days": 1.5,
+      "likes": 3530,
+      "comments": 130,
+      "views": null,
+      "score": 3.96,
+      "caption_start": "Rachel Mansfield couldn’t find a snack for her three kids that was organic, high in protein and actually tasty, so she started making cracke",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Dfpro3WH52o/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4644171,
+      "format": "image",
+      "age_days": 4.7,
+      "likes": 3672,
+      "comments": 31,
+      "views": null,
+      "score": 3.81,
+      "caption_start": "What makes you do better?",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfhZmI_mq1v/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3829885,
+      "format": "image",
+      "age_days": 1.6,
+      "likes": 3720,
+      "comments": 65,
+      "views": null,
+      "score": 2.8,
+      "caption_start": "The business grew only as fast as you did.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfpU-0MDCqy/"
+    },
+    {
+      "account": "sahilbloom",
+      "followers": 1032074,
+      "format": "image",
+      "age_days": 3.3,
+      "likes": 16746,
+      "comments": 59,
+      "views": null,
+      "score": 2.54,
+      "caption_start": "Send this to the person who always hypes up your wins!",
+      "hashtags": [
+        "growth",
+        "kindness",
+        "love",
+        "relationships"
+      ],
+      "url": "https://www.instagram.com/p/Dfk6aJLzW_d/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 52199,
+      "format": "reel",
+      "age_days": 1.4,
+      "likes": 1102,
+      "comments": 25,
+      "views": 44609,
+      "score": 2.5,
+      "caption_start": "Një gjest që të le pa fjalë! Njerëz me zemër të madhe dhe kulturë! I moshuari i gërvishti makinën dhe u përpoq që ta shlyente gabimin me pat",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/reel/Dfps_BsJuk3/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 52199,
+      "format": "carousel",
+      "age_days": 6.3,
+      "likes": 1106,
+      "comments": 9,
+      "views": null,
+      "score": 2.4,
+      "caption_start": "Gjërat qe meshkujt i mësojnë shumë vonë në jetë!",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/p/DfdI1kSCmXa/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 52199,
+      "format": "reel",
+      "age_days": 1.6,
+      "likes": 971,
+      "comments": 30,
+      "views": 18616,
+      "score": 2.25,
+      "caption_start": "😢🫀",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/reel/DfpX_R2qOzk/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3829885,
+      "format": "carousel",
+      "age_days": 1.0,
+      "likes": 2993,
+      "comments": 41,
+      "views": null,
+      "score": 2.23,
+      "caption_start": "Start small. But start.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Dfq8Cg0Eyru/"
+    },
+    {
+      "account": "dailystoic",
+      "followers": 3449887,
+      "format": "carousel",
+      "age_days": 5.7,
+      "likes": 5632,
+      "comments": 7,
+      "views": null,
+      "score": 1.95,
+      "caption_start": "Get Stoic wisdom delivered daily at dailystoic.com/email",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Dfe1V02lhF8/"
+    },
+    {
+      "account": "dailystoic",
+      "followers": 3449887,
+      "format": "carousel",
+      "age_days": 3.6,
+      "likes": 4703,
+      "comments": 27,
+      "views": null,
+      "score": 1.65,
+      "caption_start": "Get Stoic wisdom delivered daily at dailystoic.com/email",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfkFYotFiVZ/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 52199,
+      "format": "carousel",
+      "age_days": 2.5,
+      "likes": 630,
+      "comments": 45,
+      "views": null,
+      "score": 1.62,
+      "caption_start": "Kurse Para tani!",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/p/Dfm-wPNihsa/"
+    }
+  ],
+  "formats": {
+    "reel": {
+      "posts": 133,
+      "median_score": 0.74,
+      "share_of_outliers": 0.39
+    },
+    "carousel": {
+      "posts": 82,
+      "median_score": 1.17,
+      "share_of_outliers": 0.43
+    },
+    "image": {
+      "posts": 114,
+      "median_score": 1.17,
+      "share_of_outliers": 0.18
+    },
+    "video": {
+      "posts": 1,
+      "median_score": 3.07,
+      "share_of_outliers": 0.0
+    }
+  },
+  "hashtags_on_outliers": [
+    {
+      "tag": "albania",
+      "count": 4
+    },
+    {
+      "tag": "durres",
+      "count": 4
+    },
+    {
+      "tag": "shqiperia",
+      "count": 4
+    },
+    {
+      "tag": "tirana",
+      "count": 4
+    },
+    {
+      "tag": "growth",
+      "count": 2
+    },
+    {
+      "tag": "relationships",
+      "count": 2
+    },
+    {
+      "tag": "mindset",
+      "count": 1
+    },
+    {
+      "tag": "progress",
+      "count": 1
+    },
+    {
+      "tag": "kindness",
+      "count": 1
+    },
+    {
+      "tag": "love",
+      "count": 1
+    }
+  ],
+  "own_posts": [
+    {
+      "format": "image",
+      "posted": "2026-11-13T21:01:21+0000",
+      "likes": 3,
+      "comments": 0,
+      "caption_start": "Ata zgjodhën sigurinë që ne të mund të zgjedhim ëndrrën.",
+      "url": "https://www.instagram.com/p/DfsjHF2miuN/",
+      "reach": 9,
+      "saved": 0,
+      "shares": 2,
+      "views": 21,
+      "total_interactions": 5
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-13T17:03:27+0000",
+      "likes": 2,
+      "comments": 0,
+      "caption_start": "Në 2007 kishte gati gjysmën e tregut të smartfonëve. Në 2013 ia shiti telefonat Microsoft-it.",
+      "url": "https://www.instagram.com/reel/DfsHwejgnFg/",
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "views": 12,
+      "total_interactions": 2
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-13T14:01:01+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Kësti i vogël e fsheh çmimin e madh.",
+      "url": "https://www.instagram.com/p/Dfry-0HFjnR/",
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "views": 11,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-13T11:01:37+0000",
+      "likes": 2,
+      "comments": 0,
+      "caption_start": "Një side hustle për mbrëmjet: CV dhe letra motivimi me AI.",
+      "url": "https://www.instagram.com/reel/DfreZu6AWGA/",
+      "reach": 30,
+      "saved": 0,
+      "shares": 0,
+      "views": 33,
+      "total_interactions": 2
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-13T08:00:19+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Një punë që e humbe. Një biznes që s'eci. Një \"jo\" nga klienti i parë.",
+      "url": "https://www.instagram.com/p/DfrJtxwnKi5/",
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "views": 11,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-12T21:02:08+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Shtëpia, makina, dasma, puna e mirë, të gjitha \"deri në 30\". Kush e vendosi këtë orar?",
+      "url": "https://www.instagram.com/p/Dfp-UZxo8-o/",
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "views": 13,
+      "total_interactions": 1
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-12T17:03:03+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Kapitali i parë shpesh nuk janë paratë. Është një aftësi dhe një klient.",
+      "url": "https://www.instagram.com/reel/Dfpi-u4Dyca/",
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "views": 8,
+      "total_interactions": 1
+    },
+    {
+      "format": "carousel",
+      "posted": "2026-11-12T14:01:57+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Një libër i vitit 1926, me tregime nga Babilonia e lashtë. Mësimet e tij vlejnë ende për çdo pagë në Shqipëri.",
+      "url": "https://www.instagram.com/p/DfpORIxkeIL/",
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "views": 28,
+      "total_interactions": 1
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-12T11:02:00+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Shumë biznese të reja nuk mbyllen sepse punuan keq. Mbyllen sepse askush s'e donte atë që shitën.",
+      "url": "https://www.instagram.com/reel/Dfo5mXCiSXF/",
+      "reach": 114,
+      "saved": 2,
+      "shares": 0,
+      "views": 140,
+      "total_interactions": 3
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-12T08:00:39+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Talentin nuk e zgjodhe. Punën e zgjedh çdo ditë.",
+      "url": "https://www.instagram.com/p/Dfok9Pzlhmm/",
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "views": 12,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-11T21:02:13+0000",
+      "likes": 2,
+      "comments": 0,
+      "caption_start": "Disa baballarë nuk e thonë dot me fjalë. E thonë te të tjerët, kur ti s'je aty.",
+      "url": "https://www.instagram.com/p/DfnZiMDG6mn/",
+      "reach": 18,
+      "saved": 0,
+      "shares": 0,
+      "views": 34,
+      "total_interactions": 2
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-11T17:04:28+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "300 lekë në ditë duken asgjë. 300 × 365 = 109 500 lekë në vit.",
+      "url": "https://www.instagram.com/reel/Dfm-XlljNbL/",
+      "reach": 99,
+      "saved": 0,
+      "shares": 0,
+      "views": 112,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-11T14:01:55+0000",
+      "likes": 5,
+      "comments": 1,
+      "caption_start": "Ai që s'ka provuar kurrë, nuk ka dështuar kurrë. Por as nuk ka fituar.",
+      "url": "https://www.instagram.com/p/Dfmpd3IFIKc/",
+      "reach": 27,
+      "saved": 0,
+      "shares": 0,
+      "views": 61,
+      "total_interactions": 6
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-11T11:01:26+0000",
+      "likes": 4,
+      "comments": 0,
+      "caption_start": "Një side hustle që e ke në gojë çdo ditë: gjuha jote.",
+      "url": "https://www.instagram.com/reel/DfmUz8_j2KO/",
+      "reach": 132,
+      "saved": 1,
+      "shares": 0,
+      "views": 160,
+      "total_interactions": 5
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-11T08:00:34+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Rezultatin e sheh e gjithë bota. Punën që e solli, vetëm ti.",
+      "url": "https://www.instagram.com/p/DfmAJWpFZCf/",
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "views": 18,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-10T21:02:07+0000",
+      "likes": 4,
+      "comments": 0,
+      "caption_start": "Disa prindër nuk dinë ta thonë \"të dua\". E thonë me një pjatë gjellë.",
+      "url": "https://www.instagram.com/p/Dfk0wVyj03c/",
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "views": 23,
+      "total_interactions": 4
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-10T17:03:25+0000",
+      "likes": 3,
+      "comments": 0,
+      "caption_start": "Ta lësh punën me inat është e lehtë. Ta lësh me plan kërkon durim.",
+      "url": "https://www.instagram.com/reel/DfkZcO9lFp2/",
+      "reach": 118,
+      "saved": 0,
+      "shares": 2,
+      "views": 147,
+      "total_interactions": 5
+    },
+    {
+      "format": "carousel",
+      "posted": "2026-11-10T14:03:04+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Ky libër nuk të mëson si të bëhesh i pasur shpejt. Të mëson si sillemi me paratë.",
+      "url": "https://www.instagram.com/p/DfkEvWUFul5/",
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "views": 44,
+      "total_interactions": 1
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-10T11:01:42+0000",
+      "likes": 4,
+      "comments": 0,
+      "caption_start": "Një punë anash që kërkon vetëm telefon, ChatGPT dhe pak durim.",
+      "url": "https://www.instagram.com/reel/Dfjv_2tCKX-/",
+      "reach": 120,
+      "saved": 0,
+      "shares": 7,
+      "views": 141,
+      "total_interactions": 11
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-10T08:00:36+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Planet tregojnë çfarë do. Zakonet tregojnë kush je.",
+      "url": "https://www.instagram.com/p/DfjbVCIHAtU/",
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "views": 19,
+      "total_interactions": 0
+    }
+  ],
+  "watchlist": [
+    {
+      "username": "hormozi",
+      "followers": 5230171
+    },
+    {
+      "username": "sahilbloom",
+      "followers": 1032074
+    },
+    {
+      "username": "noahkagan",
+      "followers": 249929
+    },
+    {
+      "username": "foundr",
+      "followers": 3829885
+    },
+    {
+      "username": "entrepreneur",
+      "followers": 4644171
+    },
+    {
+      "username": "garyvee",
+      "followers": 12259228
+    },
+    {
+      "username": "jamesclear",
+      "followers": 1867593
+    },
+    {
+      "username": "dailystoic",
+      "followers": 3449887
+    },
+    {
+      "username": "ryanholiday",
+      "followers": 1321950
+    },
+    {
+      "username": "thegoodquote",
+      "followers": 22527284
+    },
+    {
+      "username": "millionaire_albania",
+      "followers": 52199
+    }
+  ]
+}
