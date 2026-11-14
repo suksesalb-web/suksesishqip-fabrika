@@ -146,7 +146,7 @@ const Hook: React.FC<{b: HBeat}> = ({b}) => {
   const big = b.big || '';
   const mono = big.replace(/\s/g, '').length > 0 && (big.match(/[\d.,€$%]/g) || []).length / big.replace(/\s/g, '').length >= 0.6;
   const bigSize = mono ? fit(big, 300, 1500) : tsize(big, 130);
-  const room = mono ? 1030 / Math.max(1, big.length * 0.6 * bigSize) : 1.2;   // the cover (frame 0) must not be cut off by the zoom punch
+  const room = mono ? 960 / Math.max(1, big.length * 0.6 * bigSize) : 1.2;   // the cover (frame 0) must not be cut off by the zoom punch
   const hit = Math.min(Math.max(1, room), interpolate(f, [0, 7], [1.2, 1], {...clamp, easing: Easing.out(Easing.back(2))}));
   const at = b.at ?? Math.round(b.speech * 0.6);
   if (b.donut != null) {   // number inside a ring that fills to the percentage
