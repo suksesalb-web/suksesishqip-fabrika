@@ -80,13 +80,14 @@
           "text": "Sot bëj menunë e kafenesë tënde, dhe tregoja pronarit!"
         }
       ],
-      "caption": "Vjet hynë në Shqipëri 12,5 milionë të huaj (INSTAT). Plot kafene e restorante kanë ende menu vetëm shqip.\n\nSide hustle me 0 € kapital:\n1. Fotografo menunë e lokalit.\n2. Jepja ChatGPT-së me këtë prompt: \"Përkthe këtë menu në anglisht dhe italisht. Mbaj çmimet siç janë dhe shpjego me një fjali çdo gatim tradicional.\"\n3. Hidhe në Canva, bëje të lexueshme dhe shto një kod QR (Canva ka mjet falas për QR).\n\nKontrollo çdo çmim dhe çdo emër me pronarin: AI-ja gabon.\nKoha: rreth dy orë për menu. Çmimin vendose pasi të bësh 2–3 të parat.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #ai #turizmi"
+      "caption": "Vjet hynë në Shqipëri 12,5 milionë të huaj (INSTAT). Plot kafene e restorante kanë ende menu vetëm shqip.\n\nSide hustle me 0 € kapital:\n1. Fotografo menunë e lokalit.\n2. Jepja ChatGPT-së me këtë prompt: \"Përkthe këtë menu në anglisht dhe italisht. Mbaj çmimet siç janë dhe shpjego me një fjali çdo gatim tradicional.\"\n3. Hidhe në Canva, bëje të lexueshme dhe shto një kod QR (Canva ka mjet falas për QR).\n\nKontrollo çdo çmim dhe çdo emër me pronarin: AI-ja gabon.\nKoha: rreth dy orë për menu. Çmimin vendose pasi të bësh 2–3 të parat.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #ai #turizmi",
+      "keep": true
     },
     {
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "vintage car parked on old street",
+      "photo_query": "old family car parked in front of house",
       "note": "Personal/family tweet (yesterday was money/work).",
       "slides": [
         {
@@ -169,7 +170,8 @@
           "text": "Sot numëro sa para mban në shtëpi, dhe vendos sa duhet të rrinë aty!"
         }
       ],
-      "caption": "Inflacioni në Shqipëri ishte 3,4% në tetor 2026. Kjo do të thotë që 500.000 lekë në sirtar blejnë çdo vit më pak: rreth 17.000 lekë më pak në një vit.\n\nRregulli i thjeshtë:\n• Në shtëpi: vetëm shpenzimet e një muaji.\n• Rezerva për emergjenca: në llogari bankare, jo nën dyshek.\n• Pjesa tjetër: pyet bankën për interesin e një depozite njëvjeçare dhe krahasoje me inflacionin.\n\nKjo nuk është këshillë investimi, është matematika e sirtarit.\n\nRuaje dhe dërgoja dikujt që i mban paratë në shtëpi.\n\n#suksesishqip #para #kursime #inflacioni"
+      "caption": "Inflacioni në Shqipëri ishte 3,4% në tetor 2026. Kjo do të thotë që 500.000 lekë në sirtar blejnë çdo vit më pak: rreth 17.000 lekë më pak në një vit.\n\nRregulli i thjeshtë:\n• Në shtëpi: vetëm shpenzimet e një muaji.\n• Rezerva për emergjenca: në llogari bankare, jo nën dyshek.\n• Pjesa tjetër: pyet bankën për interesin e një depozite njëvjeçare dhe krahasoje me inflacionin.\n\nKjo nuk është këshillë investimi, është matematika e sirtarit.\n\nRuaje dhe dërgoja dikujt që i mban paratë në shtëpi.\n\n#suksesishqip #para #kursime #inflacioni",
+      "keep": true
     },
     {
       "id": "p4",
@@ -200,7 +202,7 @@
           "highlight": "të prera me gërshërë",
           "at": "gërshërë",
           "figure": "bulb",
-          "text": "Prototipi i parë ishte një palë çorape najloni, të prera me gërshërë!"
+          "text": "Prototipi i parë ishte një palë çorape, të prera me gërshërë!"
         },
         {
           "type": "chat",
