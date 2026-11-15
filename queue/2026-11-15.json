@@ -19,8 +19,8 @@
           "big": "12,5 milionë",
           "sub": "të huaj hynë në Shqipëri vjet",
           "figure": "people",
-          "text": "12,5 milionë të huaj hynë në Shqipëri vjet, por plot lokale kanë menu vetëm shqip!",
-          "say": "Dymbëdhjetë milionë e gjysmë të huaj hynë në Shqipëri vjet, por plot lokale kanë menu vetëm shqip!"
+          "text": "12,5 milionë të huaj hynë vjet, por plot lokale kanë menu vetëm shqip!",
+          "say": "Dymbëdhjetë milionë e gjysmë të huaj hynë vjet, por plot lokale kanë menu vetëm shqip!"
         },
         {
           "type": "list",
@@ -37,7 +37,7 @@
           "kicker": "Prompti që kopjon:",
           "reply": "Përkthe në anglisht dhe italisht",
           "at": "përkthe",
-          "text": "Shkruaj: përkthe këtë menu në anglisht dhe italisht, dhe shpjego çdo gatim shqiptar."
+          "text": "Shkruaj: përkthe këtë menu në anglisht dhe italisht!"
         },
         {
           "type": "checks",
@@ -69,7 +69,7 @@
           "n": 2,
           "label": "bashkë me kontrollin",
           "at": "kontrollo",
-          "text": "Rreth dy orë punë, dhe kontrollo çdo çmim me pronarin, se AI-ja gabon."
+          "text": "Rreth dy orë punë, por kontrollo çdo çmim me pronarin!"
         },
         {
           "type": "text",
@@ -77,7 +77,7 @@
           "highlight": "Bëj një menu provë.",
           "at": "bëj",
           "figure": "store",
-          "text": "Sot bëj menunë e kafenesë ku shkon, dhe tregoja pronarit!"
+          "text": "Sot bëj menunë e kafenesë tënde, dhe tregoja pronarit!"
         }
       ],
       "caption": "Vjet hynë në Shqipëri 12,5 milionë të huaj (INSTAT). Plot kafene e restorante kanë ende menu vetëm shqip.\n\nSide hustle me 0 € kapital:\n1. Fotografo menunë e lokalit.\n2. Jepja ChatGPT-së me këtë prompt: \"Përkthe këtë menu në anglisht dhe italisht. Mbaj çmimet siç janë dhe shpjego me një fjali çdo gatim tradicional.\"\n3. Hidhe në Canva, bëje të lexueshme dhe shto një kod QR (Canva ka mjet falas për QR).\n\nKontrollo çdo çmim dhe çdo emër me pronarin: AI-ja gabon.\nKoha: rreth dy orë për menu. Çmimin vendose pasi të bësh 2–3 të parat.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #ai #turizmi"
@@ -86,7 +86,7 @@
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "old car parked on quiet village street",
+      "photo_query": "vintage car parked on old street",
       "note": "Personal/family tweet (yesterday was money/work).",
       "slides": [
         {
@@ -120,18 +120,18 @@
         {
           "type": "versus",
           "left": {
-            "label": "100 lekë",
-            "sub": "tetor 2025",
+            "label": "100",
+            "sub": "lekë, tetor 2025",
             "figure": "money"
           },
           "right": {
-            "label": "103,4 lekë",
-            "sub": "tetor 2026",
+            "label": "103,4",
+            "sub": "lekë, tetor 2026",
             "figure": "money"
           },
           "at": "larta",
-          "text": "Në tetor, çmimet ishin 3,4% më të larta se një vit më parë.",
-          "say": "Në tetor, çmimet ishin tre pikë katër për qind më të larta se një vit më parë."
+          "text": "Në tetor, çmimet ishin 3,4% më të larta se vjet.",
+          "say": "Në tetor, çmimet ishin tre pikë katër për qind më të larta se vjet."
         },
         {
           "type": "count",
@@ -140,8 +140,8 @@
           "suffix": " lekë",
           "label": "vlerë e humbur",
           "at": "77.000",
-          "text": "Nëse kjo vazhdon, në pesë vjet humbasin rreth 77.000 lekë!",
-          "say": "Nëse kjo vazhdon, në pesë vjet humbasin rreth shtatëdhjetë e shtatë mijë lekë!"
+          "text": "Në pesë vjet, rreth 77.000 lekë!",
+          "say": "Në pesë vjet, rreth shtatëdhjetë e shtatë mijë lekë!"
         },
         {
           "type": "list",
@@ -151,15 +151,14 @@
             "Rezervën: në llogari",
             "Pjesën tjetër: krahaso"
           ],
-          "text": "Në shtëpi mbaj vetëm një muaj shpenzime, rezervën në llogari, pjesën tjetër krahasoje me inflacionin."
+          "text": "Në shtëpi mbaj një muaj shpenzime, rezervën në llogari, pjesën tjetër krahasoje."
         },
         {
           "type": "chat",
           "kicker": "Pyet bankën:",
-          "reply": "Sa interes jep në një vit?",
+          "reply": "Sa interes jep?",
           "at": "sa",
-          "text": "Pyet bankën sa interes jep një depozitë njëvjeçare, dhe krahasoje me 3,4%.",
-          "say": "Pyet bankën sa interes jep një depozitë njëvjeçare, dhe krahasoje me tre pikë katër për qind."
+          "text": "Pyet bankën sa interes jep depozita njëvjeçare!"
         },
         {
           "type": "text",
@@ -219,7 +218,7 @@
           "n": 3,
           "label": "tri vajzat e tij",
           "at": "vajzat",
-          "text": "Pas dy javësh e thirri një prodhues, sepse tri vajzat e tij e pëlqyen idenë!"
+          "text": "Pas dy javësh e thirri një prodhues: tri vajzat e tij e pëlqyen idenë!"
         },
         {
           "type": "year",
@@ -227,16 +226,16 @@
           "from_year": 2000,
           "to_year": 2012,
           "figure": "trophy",
-          "text": "Në 2012, Forbes e quajti miliarderen më të re në botë që e ndërtoi vetë pasurinë.",
-          "say": "Në dymijë e dymbëdhjetë, Forbes e quajti miliarderen më të re në botë që e ndërtoi vetë pasurinë."
+          "text": "Në 2012, Forbes e quajti miliarderen më të re që e ndërtoi vetë pasurinë.",
+          "say": "Në dymijë e dymbëdhjetë, Forbes e quajti miliarderen më të re që e ndërtoi vetë pasurinë."
         },
         {
           "type": "text",
           "title": "Ke një ide?",
-          "highlight": "Bëj provën më të lirë sot.",
+          "highlight": "Provo sot.",
           "at": "provën",
           "figure": "rocket",
-          "text": "Bëj sot provën më të lirë të idesë tënde, me atë që ke në shtëpi!"
+          "text": "Bëj sot provën më të lirë, me atë që ke në shtëpi!"
         }
       ],
       "caption": "Sara Blakely shiste fakse derë më derë. Me 5.000 dollarë kursime dhe një palë çorape të prera me gërshërë nisi idenë e saj. Fabrikat i thanë jo, derisa një prodhues e thirri pasi tri vajzat e tij e pëlqyen idenë. Në 2012 ishte në kopertinën e Forbes.\n\nMësimi për sot: prova e parë s'ka nevojë për fabrikë. Bëje me atë që ke në shtëpi dhe tregoja dikujt që do ta përdorte.\n\nDërgoja dikujt që e ka një ide në sirtar.\n\n#suksesishqip #biznes #histori #ide"
