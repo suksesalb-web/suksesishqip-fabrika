@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-15",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "AI side hustle step by step. Trend: 'I Asked Claude to Find Me Businesses That Already Make Money' (sell to businesses that already earn: tourist cafes).",
+      "sources": [
+        "https://euronews.al/en/year-round-tourism-12-4-million-foreign-visitors-to-albania-in-2025-up-7/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Side hustle me AI",
+          "big": "12,5 milionë",
+          "sub": "të huaj hynë në Shqipëri vjet",
+          "figure": "people",
+          "text": "12,5 milionë të huaj hynë në Shqipëri vjet, por plot lokale kanë menu vetëm shqip!",
+          "say": "Dymbëdhjetë milionë e gjysmë të huaj hynë në Shqipëri vjet, por plot lokale kanë menu vetëm shqip!"
+        },
+        {
+          "type": "list",
+          "title": "3 hapat:",
+          "items": [
+            "Fotografo menunë",
+            "ChatGPT: përkthe",
+            "Canva: menu + QR"
+          ],
+          "text": "Fotografo menunë, ChatGPT e përkthen, Canva e bën bukur me kod QR."
+        },
+        {
+          "type": "chat",
+          "kicker": "Prompti që kopjon:",
+          "reply": "Përkthe në anglisht dhe italisht",
+          "at": "përkthe",
+          "text": "Shkruaj: përkthe këtë menu në anglisht dhe italisht, dhe shpjego çdo gatim shqiptar."
+        },
+        {
+          "type": "checks",
+          "kicker": "Kostoja për ty",
+          "rows": [
+            {
+              "label": "ChatGPT: falas",
+              "ok": true,
+              "figure": "robot"
+            },
+            {
+              "label": "Canva: falas",
+              "ok": true,
+              "figure": "laptop"
+            },
+            {
+              "label": "Printimin: lokali",
+              "ok": true,
+              "figure": "store"
+            }
+          ],
+          "text": "ChatGPT dhe Canva kanë version falas, printimin e paguan lokali."
+        },
+        {
+          "type": "icons",
+          "kicker": "Koha",
+          "title": "Rreth 2 orë",
+          "icon": "clock",
+          "n": 2,
+          "label": "bashkë me kontrollin",
+          "at": "kontrollo",
+          "text": "Rreth dy orë punë, dhe kontrollo çdo çmim me pronarin, se AI-ja gabon."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Bëj një menu provë.",
+          "at": "bëj",
+          "figure": "store",
+          "text": "Sot bëj menunë e kafenesë ku shkon, dhe tregoja pronarit!"
+        }
+      ],
+      "caption": "Vjet hynë në Shqipëri 12,5 milionë të huaj (INSTAT). Plot kafene e restorante kanë ende menu vetëm shqip.\n\nSide hustle me 0 € kapital:\n1. Fotografo menunë e lokalit.\n2. Jepja ChatGPT-së me këtë prompt: \"Përkthe këtë menu në anglisht dhe italisht. Mbaj çmimet siç janë dhe shpjego me një fjali çdo gatim tradicional.\"\n3. Hidhe në Canva, bëje të lexueshme dhe shto një kod QR (Canva ka mjet falas për QR).\n\nKontrollo çdo çmim dhe çdo emër me pronarin: AI-ja gabon.\nKoha: rreth dy orë për menu. Çmimin vendose pasi të bësh 2–3 të parat.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #ai #turizmi"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "old car parked on quiet village street",
+      "note": "Personal/family tweet (yesterday was money/work).",
+      "slides": [
+        {
+          "text": "Babai e mbajti të njëjtën makinë 20 vjet.\n\nUnë mendoja që s'i interesonte.\n\nMë vonë e kuptova: çdo vit që s'e ndërroi, ishte një vit shkollë për mua."
+        }
+      ],
+      "caption": "Ata nuk blinin për vete, që ne të kishim më shumë.\n\nSot merre në telefon dhe pyete: \"Çfarë deshe ta blije, dhe s'e bleve për ne?\"\n\nDërgoja dikujt që e ka pasur babanë kështu.\n\n#suksesishqip #babai #familja #prindërit"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Numbers Reel: calculation + rule. Trend: 'Is Saving Money Making You Poorer?' (money mindset search). Learnings: personal money math wins.",
+      "sources": [
+        "https://tradingeconomics.com/albania/inflation-cpi/news/599565",
+        "https://www.instat.gov.al/en/themes/prices/consumer-price-index/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "500.000 lekë në sirtar",
+          "big": "-17.000 lekë",
+          "sub": "vlerë e humbur në një vit",
+          "figure": "money",
+          "text": "500.000 lekë në sirtar humbasin rreth 17.000 lekë vlerë në një vit!",
+          "say": "Pesëqind mijë lekë në sirtar humbasin rreth shtatëmbëdhjetë mijë lekë vlerë në një vit!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "100 lekë",
+            "sub": "tetor 2025",
+            "figure": "money"
+          },
+          "right": {
+            "label": "103,4 lekë",
+            "sub": "tetor 2026",
+            "figure": "money"
+          },
+          "at": "larta",
+          "text": "Në tetor, çmimet ishin 3,4% më të larta se një vit më parë.",
+          "say": "Në tetor, çmimet ishin tre pikë katër për qind më të larta se një vit më parë."
+        },
+        {
+          "type": "count",
+          "kicker": "Në 5 vjet",
+          "value": 77000,
+          "suffix": " lekë",
+          "label": "vlerë e humbur",
+          "at": "77.000",
+          "text": "Nëse kjo vazhdon, në pesë vjet humbasin rreth 77.000 lekë!",
+          "say": "Nëse kjo vazhdon, në pesë vjet humbasin rreth shtatëdhjetë e shtatë mijë lekë!"
+        },
+        {
+          "type": "list",
+          "title": "Rregulli:",
+          "items": [
+            "Shtëpi: 1 muaj",
+            "Rezervën: në llogari",
+            "Pjesën tjetër: krahaso"
+          ],
+          "text": "Në shtëpi mbaj vetëm një muaj shpenzime, rezervën në llogari, pjesën tjetër krahasoje me inflacionin."
+        },
+        {
+          "type": "chat",
+          "kicker": "Pyet bankën:",
+          "reply": "Sa interes jep në një vit?",
+          "at": "sa",
+          "text": "Pyet bankën sa interes jep një depozitë njëvjeçare, dhe krahasoje me 3,4%.",
+          "say": "Pyet bankën sa interes jep një depozitë njëvjeçare, dhe krahasoje me tre pikë katër për qind."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Numëro paratë në sirtar.",
+          "at": "numëro",
+          "figure": "piggy",
+          "text": "Sot numëro sa para mban në shtëpi, dhe vendos sa duhet të rrinë aty!"
+        }
+      ],
+      "caption": "Inflacioni në Shqipëri ishte 3,4% në tetor 2026. Kjo do të thotë që 500.000 lekë në sirtar blejnë çdo vit më pak: rreth 17.000 lekë më pak në një vit.\n\nRregulli i thjeshtë:\n• Në shtëpi: vetëm shpenzimet e një muaji.\n• Rezerva për emergjenca: në llogari bankare, jo nën dyshek.\n• Pjesa tjetër: pyet bankën për interesin e një depozite njëvjeçare dhe krahasoje me inflacionin.\n\nKjo nuk është këshillë investimi, është matematika e sirtarit.\n\nRuaje dhe dërgoja dikujt që i mban paratë në shtëpi.\n\n#suksesishqip #para #kursime #inflacioni"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Story Reel. Trend: 'Never judge the beginning' (discipline search) and home-started small businesses (small business ideas search).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sara_Blakely",
+        "https://247wallst.com/investing/2024/08/29/this-woman-turned-her-5000-of-savings-into-a-fashion-empire/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Sara Blakely",
+          "big": "5.000 $",
+          "sub": "të gjitha kursimet e saj",
+          "figure": "piggy",
+          "text": "Me 5.000 dollarë kursime, një shitëse faksesh ndërtoi një biznes miliardësh!",
+          "say": "Me pesë mijë dollarë kursime, një shitëse faksesh ndërtoi një biznes miliardësh!"
+        },
+        {
+          "type": "text",
+          "kicker": "Prototipi i parë",
+          "title": "Çorape najloni",
+          "highlight": "të prera me gërshërë",
+          "at": "gërshërë",
+          "figure": "bulb",
+          "text": "Prototipi i parë ishte një palë çorape najloni, të prera me gërshërë!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Fabrikat në Karolinën e Veriut:",
+          "reply": "JO.",
+          "alarm": true,
+          "at": "jo",
+          "text": "Shkoi te fabrikat e çorapeve, dhe të gjitha i thanë jo."
+        },
+        {
+          "type": "icons",
+          "kicker": "Pas dy javësh",
+          "title": "Një telefonatë",
+          "icon": "person",
+          "n": 3,
+          "label": "tri vajzat e tij",
+          "at": "vajzat",
+          "text": "Pas dy javësh e thirri një prodhues, sepse tri vajzat e tij e pëlqyen idenë!"
+        },
+        {
+          "type": "year",
+          "kicker": "Nga zero",
+          "from_year": 2000,
+          "to_year": 2012,
+          "figure": "trophy",
+          "text": "Në 2012, Forbes e quajti miliarderen më të re në botë që e ndërtoi vetë pasurinë.",
+          "say": "Në dymijë e dymbëdhjetë, Forbes e quajti miliarderen më të re në botë që e ndërtoi vetë pasurinë."
+        },
+        {
+          "type": "text",
+          "title": "Ke një ide?",
+          "highlight": "Bëj provën më të lirë sot.",
+          "at": "provën",
+          "figure": "rocket",
+          "text": "Bëj sot provën më të lirë të idesë tënde, me atë që ke në shtëpi!"
+        }
+      ],
+      "caption": "Sara Blakely shiste fakse derë më derë. Me 5.000 dollarë kursime dhe një palë çorape të prera me gërshërë nisi idenë e saj. Fabrikat i thanë jo, derisa një prodhues e thirri pasi tri vajzat e tij e pëlqyen idenë. Në 2012 ishte në kopertinën e Forbes.\n\nMësimi për sot: prova e parë s'ka nevojë për fabrikë. Bëje me atë që ke në shtëpi dhe tregoja dikujt që do ta përdorte.\n\nDërgoja dikujt që e ka një ide në sirtar.\n\n#suksesishqip #biznes #histori #ide"
+    }
+  ]
+}
