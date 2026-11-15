@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "rendered_at": 1794724520,
+  "rendered_at": 1794724827,
   "posts": [
     {
       "id": "p1",
@@ -66,9 +66,9 @@
         "out/2026-11-15/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "2677839",
-        "page": "https://pixabay.com/photos/car-street-vintage-road-2677839/",
-        "query": "vintage car parked on old street"
+        "pixabay_id": "6002642",
+        "page": "https://pixabay.com/photos/family-walk-beach-holding-hands-6002642/",
+        "query": "old family car parked in front of house"
       }
     },
     {
@@ -143,14 +143,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
-        "sfx": 20,
+        "sfx": 21,
         "engine": "hype",
         "look": "grafit",
-        "duration": 33.35,
+        "duration": 32.12,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -160,27 +160,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 6.01
+            "start": 6.53
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 16.01
+            "start": 12.12
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 19.13
+            "start": 16.57
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 22.24
+            "start": 21.49
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 28.49
+            "start": 27.36
           }
         ]
       }
