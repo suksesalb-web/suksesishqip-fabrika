@@ -14,14 +14,25 @@ This file is the brief every daily run follows. Change it to change what the pag
 ## Daily mix (4 posts: 3 Reels + 1 tweet)
 Fewer posts so each Reel gets real research and care (Mario, 2026-11-14). Quality and added value come before quantity.
 
+**Changed on 2026-11-15 after the full TikTok + Instagram analysis (Mario asked for it; evidence in `data/learnings.md`):** every big post so far was the viewer's own money in a number from Albanian life. Side hustles that open with a business's problem and stories of foreign companies never left the usual level. So two Reels a day are now "money math", the side hustle Reel opens from the viewer's side, and the foreign company story is down to once a week.
+
 | Slot (Tirana time) | Id | Style | What |
 |---|---|---|---|
-| 12:00 | `p1` | `reel` (20–30 s) | **AI or side hustle, step by step:** one job a person can start from Albania: the tool by name, the 3 steps, the cost to start, the time it takes, what one job is priced at here. Or a ready-made prompt or message the viewer can copy |
-| 15:00 | `p2` | `tweet` | The one tweet of the day (see Tweets). Alternate: a money / work tweet with a concrete number, and a personal / family tweet |
-| 18:00 | `p3` | `reel` (20–30 s) | **Money, with the way out:** a calculation from Albanian life plus the rule for what to do about it, or a common money mistake plus the fix |
-| 21:00 | `p4` | `reel` (20–30 s) | **Business:** a true success or failure story of a known company or person that ends in something the viewer can do, or another step-by-step. On a two-part-story day (1–2 times a week) part 1 is `p3` at 18:00 and part 2 is `p4` at 18:05, and there is no 21:00 Reel |
+| 12:00 | `p1` | `reel` (20–30 s) | **AI or side hustle, opened from the viewer's money:** the hook is the viewer's situation with a number (rroga, the gap at the end of the month, a free evening), never the client's problem or a statistic. Then one job a person can start from Albania: the tool by name, the 3 steps, the cost to start, the time it takes. Or a ready-made prompt or message the viewer can copy |
+| 15:00 | `p2` | `tweet` | The one tweet of the day (see Tweets). **Money / work with a concrete number on 5 days a week**, personal / family on 2 days |
+| 18:00 | `p3` | `reel` (20–30 s) | **Money math, with the way out:** a calculation from the viewer's own life (rroga, qira, këste, kafe, fatura, telefon) plus the rule for what to do about it. This is the format that wins: it gets our best idea of the day |
+| 21:00 | `p4` | `reel` (20–30 s) | **A second money Reel of a different kind:** a common money or work mistake plus the fix, or a situation (the boss, the bank, the landlord, payday) with the exact sentence or step to use. At most **once a week** a true success or failure story instead, and only when its hook is a number the viewer feels in their own life. On a two-part-story day part 1 is `p3` at 18:00 and part 2 is `p4` at 18:05, and there is no 21:00 Reel |
 
 All Reels use the Hype look (see Hype Reels) and the Added value rules. Story carousels, quotes, book posts and the 09:00 and 22:00 tweets are not in the mix now.
+
+## The hook test (2026-11-15, from our numbers: applies to every Reel and money tweet)
+Before a post goes into the queue, its first line must pass all three:
+1. **It is about the viewer, not about someone else.** "Nëse rroga prej 60.000 lekësh të mbaron më 20…" (30 975 views) passes. "12,5 milionë të huaj hynë vjet…", "James Dyson bëri 5.126 prototipa…", "Profili i një lokali në Google Maps është falas…" (all 200–250 views) fail: they are about tourists, a stranger, a cafe owner.
+2. **It has a number the viewer already has in their head:** their rroga, qira, kësti, the price of a coffee or a phone, in lekë or euro. A statistic or a foreign company's figure is not such a number.
+3. **It names a pain or a contradiction in that number** ("të mbaron më 20", "paga 800€, telefoni 1.200€", "300 lekë në ditë = mbi 100 mijë në vit").
+If a line fails, rewrite it or pick another idea. A side hustle Reel passes by opening with the viewer's gap ("Rroga mbaron më 20 dhe mbrëmjet i ke të lira?"), then the job.
+
+**Build series on winners.** When a post goes several times above the usual level (see `data/metrics/latest.md`), come back to it within the week with a new angle, never a copy: the same rule for another rroga (40.000, 80.000, 100.000 lekë), the next step ("ku shkojnë 12.000 lekët e kursyera"), the same math for another expense. One follow-up per winner per week at most.
 
 ## Main focus
 The page's core is **interesting side hustles, making money with AI, and how to start a business**. Discipline and mindset support it. Never post religious, gaming, K-pop, sport-gossip or political content.
@@ -57,6 +68,8 @@ A post that only looks good gets watched and forgotten. Every Reel and tweet mus
 Rotate topics across the week: discipline, habits, money mindset, side hustles that work from Albania, stories of people who built something, Stoic ideas, book lessons. Check `data/topics_log.txt` and don't repeat a topic or quote used in the last 60 days.
 
 ## Learnings (read every run)
+`data/metrics/latest.md` is rewritten every morning from Buffer's numbers for both TikTok and Instagram: the winners, the weakest posts of the last days and the usual level per format. Read it first: TikTok is where almost all our views are, so it decides what we write (Instagram's `own_posts` alone misses it).
+
 `data/learnings.md` holds what our own numbers have taught us so far (written every 3 days by the review). Read it before writing and follow it, inside the rules of this guide. When it says a kind of hook, topic or format wins or loses, act on it.
 
 ## Trend input (read every run)
@@ -71,7 +84,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - If today's file is missing, use the most recent one, or carry on without it.
 
 ## Tweets (the main image format)
-**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`): alternate the money / work kind and the personal kind below; the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
+**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`): money / work with a concrete number on 5 days a week and the personal kind on 2 days (from 2026-11-15: money tweets reached 4 600–10 700 TikTok views, family tweets 900–1 400); the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
 
 Owner's decision (2026-11-13): tweets get priority. They are our strongest image format, especially on TikTok (family tweets reached ~900–1 400 views while quotes and book carousels stayed far behind). All three image slots are tweets by default, each with a different job:
 - **09:00, mindset:** discipline and habits, but never a generic poster line. Turn the idea into something concrete: a time, a habit, a scene ("Në 07:00 të gjithë kanë plane. Në 07:05 kanë telefonin në dorë.").
