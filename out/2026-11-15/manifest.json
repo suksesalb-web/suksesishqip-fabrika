@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-15",
+  "rendered_at": 1794724169,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-15/p1/reel.mp4",
+        "out/2026-11-15/p1/frame-01.jpg",
+        "out/2026-11-15/p1/frame-02.jpg",
+        "out/2026-11-15/p1/frame-03.jpg",
+        "out/2026-11-15/p1/frame-04.jpg",
+        "out/2026-11-15/p1/frame-05.jpg",
+        "out/2026-11-15/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 11,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 33.44,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.73
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 11.94
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 17.71
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 23.66
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 27.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-15/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "2900559",
+        "page": "https://pixabay.com/photos/palma-de-mallorca-alley-buildings-2900559/",
+        "query": "old car parked on quiet village street"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-15/p3/reel.mp4",
+        "out/2026-11-15/p3/frame-01.jpg",
+        "out/2026-11-15/p3/frame-02.jpg",
+        "out/2026-11-15/p3/frame-03.jpg",
+        "out/2026-11-15/p3/frame-04.jpg",
+        "out/2026-11-15/p3/frame-05.jpg",
+        "out/2026-11-15/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 21,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 34.76,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.55
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.8
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.9
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 22.24
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 27.73
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-15/p4/reel.mp4",
+        "out/2026-11-15/p4/frame-01.jpg",
+        "out/2026-11-15/p4/frame-02.jpg",
+        "out/2026-11-15/p4/frame-03.jpg",
+        "out/2026-11-15/p4/frame-04.jpg",
+        "out/2026-11-15/p4/frame-05.jpg",
+        "out/2026-11-15/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 20,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 35.32,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.6
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 11.6
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 17.2
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 22.84
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 29.3
+          }
+        ]
+      }
+    }
+  ]
+}
