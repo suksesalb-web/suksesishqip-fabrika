@@ -1,0 +1,20 @@
+# YouTube channels the trend report watches for research material (one handle per line, without @).
+# For each: the best videos of the last 30 days, the start of the description and the top comments
+# (what their viewers ask). Used by the weekly research run: take the idea, never the wording.
+# A handle that is not found shows up under "channel_errors" in data/trends/<date>.json.
+
+# personal finance, explained concretely
+CalebHammer
+humphreytalks
+YourRichBFF
+ramitsethi
+NischaShah
+thefinancialdiet
+GrahamStephan
+
+# side hustles and small business with real numbers
+AlexHormozi
+CodieSanchezCT
+MyFirstMillionPod
+AliAbdaal
+SideHustleNation

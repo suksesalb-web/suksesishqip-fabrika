@@ -63,6 +63,52 @@ def get(path, **params):
     return r.json()
 
 
+def watched_channels(now):
+    """Best videos of the last 30 days from the quality channels in data/youtube_watchlist.txt,
+    with the start of the description and the top comments (what their viewers ask).
+    This is research material for the weekly content run, not a trend ranking."""
+    wl = ROOT / "data" / "youtube_watchlist.txt"
+    if not wl.exists():
+        return [], []
+    handles = [l.strip().lstrip("@") for l in wl.read_text(encoding="utf-8").splitlines()
+               if l.strip() and not l.strip().startswith("#")]
+    since = now - timedelta(days=30)
+    out, errors = [], []
+    for h in handles:
+        try:
+            ch = get("channels", part="contentDetails,snippet", forHandle="@" + h).get("items", [])
+            if not ch:
+                errors.append(f"{h}: channel not found")
+                continue
+            uploads = ch[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+            items = get("playlistItems", part="contentDetails", playlistId=uploads, maxResults=30).get("items", [])
+            ids = [it["contentDetails"]["videoId"] for it in items]
+            vids = []
+            if ids:
+                for it in get("videos", part="snippet,statistics", id=",".join(ids)).get("items", []):
+                    sn, st = it["snippet"], it.get("statistics", {})
+                    if datetime.fromisoformat(sn["publishedAt"].replace("Z", "+00:00")) < since:
+                        continue
+                    vids.append({"id": it["id"], "title": sn["title"], "published": sn["publishedAt"][:10],
+                                 "views": int(st.get("viewCount", 0)), "comments": int(st.get("commentCount", 0)),
+                                 "description": " ".join(sn.get("description", "").split())[:500],
+                                 "url": f"https://www.youtube.com/watch?v={it['id']}"})
+            vids.sort(key=lambda v: v["views"], reverse=True)
+            for v in vids[:2]:      # what the audience of the two best videos says and asks
+                try:
+                    th = get("commentThreads", part="snippet", videoId=v["id"], order="relevance",
+                             maxResults=8, textFormat="plainText").get("items", [])
+                    v["top_comments"] = [" ".join(t["snippet"]["topLevelComment"]["snippet"]["textDisplay"].split())[:240]
+                                         for t in th]
+                except Exception as e:      # comments can be turned off
+                    v["top_comments"] = []
+            out.append({"channel": ch[0]["snippet"]["title"], "handle": h,
+                        "videos": [{k: x for k, x in v.items() if k != "id"} for v in vids[:5]]})
+        except Exception as e:
+            errors.append(f"{h}: {str(e)[:120]}")
+    return out, errors
+
+
 def main():
     now = datetime.now(timezone.utc)
     since = (now - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -107,8 +153,13 @@ def main():
     date = now.astimezone(ZoneInfo("Europe/Tirane")).strftime("%Y-%m-%d")
     out = ROOT / "data" / "trends" / f"{date}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        channels, channel_errors = watched_channels(now)
+    except Exception as e:          # never lose the trend report over the channel watch
+        channels, channel_errors = [], [str(e)[:200]]
     out.write_text(json.dumps({"date": date, "source": "youtube", "window_hours": 48,
-                               "searches": SEARCHES, "by_search": by_query, "top": rows[:30]},
+                               "searches": SEARCHES, "by_search": by_query, "top": rows[:30],
+                               "channels": channels, "channel_errors": channel_errors},
                               ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{len(rows)} videos, top: {rows[0]['title'] if rows else '-'}")
 
