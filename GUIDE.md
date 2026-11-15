@@ -6,10 +6,27 @@ This file is the brief every daily run follows. Change it to change what the pag
 
 **Mario's decision (2026-11-14):** fewer posts, each one worked properly. The page looked good and stopped the scroll, but people did not like or share because the posts gave them nothing to use. So the day is now **3 very good Reels and 1 tweet**, and every post follows the "Added value" rules below. The added-value rules stay fixed like the hard rules.
 
+**Mario's decision (2026-11-15):** the look and the voice are very good, the content was weak: it had no real added value. From now on the content is researched and written **once a week** in one extensive research run, from real source material, and the daily run publishes it. See "Weekly research and drafts" below: the daily run starts there.
+
 ## The page
 - Albanian-language Instagram page about discipline, mindset, lessons from great thinkers and successful people, and honest side-hustle ideas.
 - Voice: direct, warm, grounded. Like a smart older friend, not a guru. Short sentences.
 - Standard Albanian (gjuha standarde) with correct ë and ç everywhere. No English words where an Albanian one exists.
+
+## Weekly research and drafts (Mario, 2026-11-15: read this first, every run)
+**How the week works.** Every Sunday the weekly research run ("Suksesi Shqip: kërkim dhe përmbajtje javore") reads our numbers and a week of YouTube and Instagram intelligence, researches the sources in `data/sources.md`, and writes:
+- `data/research/<monday>.md`: the research bank of the week, 30 or more **source items**. Each one: the link, what the real case, method or question is, the one concrete thing a viewer can use, and how it becomes Albanian (which lekë number, which local platform, what was checked).
+- `drafts/<date>.json` for Monday to Sunday: the day's posts in the normal queue format, following the Daily mix, the hook test and the Added value rules. Every post has `"source_item"` (the link or the viewer's question it is built on) next to `"sources"`.
+
+**No post without a source item.** A post starts from something real: a documented case with numbers, a method from a named source, a real price list, or a viewer's question (`data/audience/questions.md`, which beats every other source). An idea with only a statistic attached is not enough: that is what made the content thin.
+
+**What the daily run does with a draft.** If `drafts/<today>.json` exists, it is today's content: copy it to `queue/<today>.json` and run the usual pipeline (spellcheck, render, review, sync check, publish). Before copying:
+1. Read `data/metrics/latest.md` and today's trend files. You may replace **at most one** post: with a follow-up to a post of ours that just went several times above the usual level, or with a strong current trend. The replacement also needs a source item (take one from the research bank).
+2. Re-check any number in the draft that can change within a week (a rate, a price, "this month").
+3. Improve wording where the hook test or the Added value test fails; do not thin out the content.
+If there is no draft for today (the weekly run failed or the week ran out), write the day's posts yourself from the newest `data/research/*.md` and the sources in `data/sources.md`, with the same rule: no post without a source item.
+
+**Never push anything under `queue/` for a future date** (it would render and confuse the day), and Buffer still gets only the current day's posts.
 
 ## Daily mix (4 posts: 3 Reels + 1 tweet)
 Fewer posts so each Reel gets real research and care (Mario, 2026-11-14). Quality and added value come before quantity.
