@@ -1,0 +1,1100 @@
+[
+ {
+  "date": "2026-11-08",
+  "id": "p1",
+  "time": "09:00",
+  "style": "statement",
+  "engine": null,
+  "first_line": "Egoja do të ketë të drejtë.",
+  "instagram": {
+   "reactions": 9,
+   "comments": 0,
+   "engagementRate": 72.22,
+   "views": 60,
+   "shares": 4,
+   "saves": 0,
+   "follows": 0,
+   "reach": 18
+  }
+ },
+ {
+  "date": "2026-11-08",
+  "id": "p3",
+  "time": "15:00",
+  "style": "quote",
+  "engine": null,
+  "first_line": "Njerëzit nuk i shqetësojnë ngjarjet, por mendimet që kanë për to.",
+  "instagram": {
+   "reactions": 9,
+   "comments": 0,
+   "engagementRate": 87.5,
+   "views": 30,
+   "shares": 4,
+   "saves": 0,
+   "follows": 0,
+   "reach": 16
+  }
+ },
+ {
+  "date": "2026-11-08",
+  "id": "p4",
+  "time": "18:00",
+  "style": "story",
+  "engine": null,
+  "first_line": "Muri bosh i kafenesë tënde është një dyqan që s'e ke hapur ende.",
+  "instagram": {
+   "reactions": 12,
+   "comments": 0,
+   "engagementRate": 90.91,
+   "views": 47,
+   "shares": 7,
+   "saves": 0,
+   "follows": 0,
+   "reach": 22
+  },
+  "tiktok": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 15.38,
+   "views": 13,
+   "shares": 1,
+   "reach": 4,
+   "totalTimeWatched": 1.03,
+   "averageTimeWatched": 5.19
+  }
+ },
+ {
+  "date": "2026-11-08",
+  "id": "p2",
+  "time": "13:45",
+  "style": "story",
+  "engine": null,
+  "first_line": "Lokali poshtë shtëpisë tënde ka nevojë për video. Nuk di si t'i bëjë.",
+  "instagram": {
+   "reactions": 11,
+   "comments": 0,
+   "engagementRate": 94.44,
+   "views": 64,
+   "shares": 6,
+   "saves": 0,
+   "follows": 0,
+   "reach": 18
+  }
+ },
+ {
+  "date": "2026-11-08",
+  "id": "p5",
+  "time": "22:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Një ditë do të të marrë malli për gjërat që sot të bezdisin.\n\nMamaja që pyet \"ke ngrënë?\". Zhurma në shtëpi të dielën. T",
+  "instagram": {
+   "reactions": 7,
+   "comments": 0,
+   "engagementRate": 20.43,
+   "views": 171,
+   "shares": 8,
+   "saves": 1,
+   "follows": 0,
+   "reach": 93
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 12.5,
+   "views": 16,
+   "shares": 0,
+   "reach": 2,
+   "totalTimeWatched": 1.4,
+   "averageTimeWatched": 5.26
+  }
+ },
+ {
+  "date": "2026-11-08",
+  "id": "r1",
+  "time": "20:30",
+  "style": "reel",
+  "engine": null,
+  "first_line": "Ai që duket më i pasur në lagje, shpesh ka më pak para se ti.",
+  "instagram": {
+   "reactions": 10,
+   "comments": 0,
+   "engagementRate": 13.67,
+   "views": 176,
+   "shares": 7,
+   "saves": 0,
+   "totalTimeWatched": 12.66,
+   "averageTimeWatched": 4.87,
+   "reach": 139
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 8.7,
+   "views": 23,
+   "shares": 0,
+   "reach": 11,
+   "totalTimeWatched": 1.35,
+   "averageTimeWatched": 3.55
+  }
+ },
+ {
+  "date": "2026-11-09",
+  "id": "p1",
+  "time": "09:00",
+  "style": "statement",
+  "engine": null,
+  "first_line": "Motivimi zgjat sa një kafe.",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 15.38,
+   "views": 36,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 13
+  },
+  "tiktok": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 12.5,
+   "views": 8,
+   "shares": 0,
+   "reach": 2,
+   "totalTimeWatched": 0.38,
+   "averageTimeWatched": 2.95
+  }
+ },
+ {
+  "date": "2026-11-09",
+  "id": "p2",
+  "time": "12:00",
+  "style": "reel",
+  "engine": "motion",
+  "first_line": "Shumë dyqane në Instagram humbasin klientë nga fotot e këqija.",
+  "instagram": {
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 90.91,
+   "views": 31,
+   "shares": 5,
+   "saves": 0,
+   "totalTimeWatched": 5.16,
+   "averageTimeWatched": 14.74,
+   "reach": 11
+  },
+  "tiktok": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 8.33,
+   "views": 12,
+   "shares": 0,
+   "reach": 3,
+   "totalTimeWatched": 1.05,
+   "averageTimeWatched": 5.31
+  }
+ },
+ {
+  "date": "2026-11-09",
+  "id": "p3",
+  "time": "15:00",
+  "style": "quote",
+  "engine": null,
+  "first_line": "Nëse jeton sipas mendimit të të tjerëve, nuk do të jesh kurrë i pasur.",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 20,
+   "views": 23,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 10
+  },
+  "tiktok": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 9,
+   "shares": 0,
+   "reach": 3,
+   "totalTimeWatched": 0.72,
+   "averageTimeWatched": 4.83
+  }
+ },
+ {
+  "date": "2026-11-09",
+  "id": "p4",
+  "time": "18:00",
+  "style": "reel",
+  "engine": null,
+  "first_line": "Shumë biznese të vogla nuk mbyllen nga mungesa e klientëve.",
+  "instagram": {},
+  "tiktok": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 7.69,
+   "views": 13,
+   "shares": 0,
+   "reach": 4,
+   "totalTimeWatched": 0.93,
+   "averageTimeWatched": 5.16
+  }
+ },
+ {
+  "date": "2026-11-09",
+  "id": "p5",
+  "time": "22:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Kur nxitoj, zakonisht e bëj dy herë.\n\nNjë herë shpejt. Një herë si duhet.\n\nTani po mësoj ta bëj si duhet që herën e parë",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 0.47,
+   "views": 536,
+   "shares": 1,
+   "saves": 0,
+   "follows": 0,
+   "reach": 423
+  },
+  "tiktok": {
+   "reactions": 15,
+   "comments": 0,
+   "engagementRate": 2.65,
+   "views": 604,
+   "shares": 1,
+   "reach": 594,
+   "totalTimeWatched": 57.82,
+   "averageTimeWatched": 5.12
+  }
+ },
+ {
+  "date": "2026-11-09",
+  "id": "p6",
+  "time": "18:00",
+  "style": "reel",
+  "engine": null,
+  "first_line": "Shumë biznese të vogla nuk mbyllen nga mungesa e klientëve.",
+  "instagram": {
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 30.77,
+   "views": 23,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 2.28,
+   "averageTimeWatched": 8.56,
+   "reach": 13
+  },
+  "tiktok": {
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 40,
+   "views": 10,
+   "shares": 0,
+   "reach": 3,
+   "totalTimeWatched": 2.92,
+   "averageTimeWatched": 17.57
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "id": "p1",
+  "time": "09:00",
+  "style": "statement",
+  "engine": null,
+  "first_line": "Nuk je ai që thua se do të bëhesh.",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 19,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 10
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 1.96,
+   "views": 102,
+   "shares": 0,
+   "reach": 93,
+   "totalTimeWatched": 7.93,
+   "averageTimeWatched": 4.41
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "id": "p2",
+  "time": "12:00",
+  "style": "reel",
+  "engine": null,
+  "first_line": "Një mesazh pa përgjigje është një klient që shkon te tjetri.",
+  "instagram": {
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 9.17,
+   "views": 141,
+   "shares": 7,
+   "saves": 0,
+   "totalTimeWatched": 10.28,
+   "averageTimeWatched": 4.86,
+   "reach": 120
+  },
+  "tiktok": {
+   "reactions": 14,
+   "comments": 0,
+   "engagementRate": 5.33,
+   "views": 319,
+   "shares": 3,
+   "reach": 293,
+   "totalTimeWatched": 23.53,
+   "averageTimeWatched": 4.05
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "id": "p3",
+  "time": "15:00",
+  "style": "story",
+  "engine": null,
+  "first_line": "5 mësime nga \"The Psychology of Money\"",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 8.33,
+   "views": 45,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 12
+  },
+  "tiktok": {
+   "reactions": 6,
+   "comments": 0,
+   "engagementRate": 1.47,
+   "views": 408,
+   "shares": 0,
+   "reach": 379,
+   "totalTimeWatched": 82.4,
+   "averageTimeWatched": 11.09
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "id": "p4",
+  "time": "18:00",
+  "style": "reel",
+  "engine": "stickman",
+  "first_line": "Tetë orë në një punë që s'të pëlqen.",
+  "instagram": {
+   "reactions": 3,
+   "comments": 0,
+   "engagementRate": 4.24,
+   "views": 147,
+   "shares": 2,
+   "saves": 0,
+   "totalTimeWatched": 15.28,
+   "averageTimeWatched": 7.64,
+   "reach": 118
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 7.69,
+   "views": 26,
+   "shares": 0,
+   "reach": 10,
+   "totalTimeWatched": 3.17,
+   "averageTimeWatched": 7.04
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "id": "p5",
+  "time": "22:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Mamaja rrallë më pyeste si shkon puna.\n\nMë pyeste gjithmonë: \"A ke ngrënë?\"\n\nVonë e kuptova që ishte e njëjta pyetje.",
+  "instagram": {
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 36.36,
+   "views": 23,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 11
+  },
+  "tiktok": {
+   "reactions": 17,
+   "comments": 0,
+   "engagementRate": 1.81,
+   "views": 937,
+   "shares": 0,
+   "reach": 924,
+   "totalTimeWatched": 108.92,
+   "averageTimeWatched": 5.96
+  }
+ },
+ {
+  "date": "2026-11-11",
+  "id": "p1",
+  "time": "09:00",
+  "style": "statement",
+  "engine": null,
+  "first_line": "Të gjithë e shohin podiumin.",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 18,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 9
+  },
+  "tiktok": {
+   "reactions": 3,
+   "comments": 0,
+   "engagementRate": 0.72,
+   "views": 416,
+   "shares": 0,
+   "reach": 403,
+   "totalTimeWatched": 29.7,
+   "averageTimeWatched": 3.88
+  }
+ },
+ {
+  "date": "2026-11-11",
+  "id": "p2",
+  "time": "12:00",
+  "style": "reel",
+  "engine": "motion",
+  "first_line": "Mijëra fëmijë shqiptarë jashtë vendit nuk dinë të shkruajnë shqip.",
+  "instagram": {
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 3.79,
+   "views": 160,
+   "shares": 0,
+   "saves": 1,
+   "totalTimeWatched": 15.6,
+   "averageTimeWatched": 7.14,
+   "reach": 132
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 0.92,
+   "views": 218,
+   "shares": 0,
+   "reach": 204,
+   "totalTimeWatched": 19.67,
+   "averageTimeWatched": 4.29
+  }
+ },
+ {
+  "date": "2026-11-11",
+  "id": "p3",
+  "time": "15:00",
+  "style": "quote",
+  "engine": null,
+  "first_line": "Fituesit nuk kanë frikë të humbasin. Humbësit kanë. Dështimi është pjesë e rrugës drejt suksesit.",
+  "instagram": {
+   "reactions": 5,
+   "comments": 1,
+   "engagementRate": 22.22,
+   "views": 61,
+   "shares": 0,
+   "saves": 0,
+   "follows": 1,
+   "reach": 27
+  },
+  "tiktok": {
+   "reactions": 6,
+   "comments": 0,
+   "engagementRate": 2.05,
+   "views": 293,
+   "shares": 0,
+   "reach": 266,
+   "totalTimeWatched": 23.28,
+   "averageTimeWatched": 4.45
+  }
+ },
+ {
+  "date": "2026-11-11",
+  "id": "p4",
+  "time": "18:00",
+  "style": "reel",
+  "engine": null,
+  "first_line": "300 lekë në ditë janë mbi 100 mijë lekë në vit.",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 112,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 5.07,
+   "averageTimeWatched": 3.04,
+   "reach": 99
+  },
+  "tiktok": {
+   "reactions": 92,
+   "comments": 3,
+   "engagementRate": 2.28,
+   "views": 5700,
+   "shares": 35,
+   "reach": 5007,
+   "totalTimeWatched": 1047.83,
+   "averageTimeWatched": 9.42
+  }
+ },
+ {
+  "date": "2026-11-11",
+  "id": "p5",
+  "time": "22:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Babai s'ma tha kurrë \"jam krenar për ty\".\n\nPor e mora vesh nga komshiu, që e kishte dëgjuar njëqind herë.",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 11.11,
+   "views": 34,
+   "shares": 0,
+   "saves": 0,
+   "follows": 1,
+   "reach": 18
+  },
+  "tiktok": {
+   "reactions": 32,
+   "comments": 0,
+   "engagementRate": 2.34,
+   "views": 1413,
+   "shares": 1,
+   "reach": 1386,
+   "totalTimeWatched": 115.63,
+   "averageTimeWatched": 4.15
+  }
+ },
+ {
+  "date": "2026-11-12",
+  "id": "p1",
+  "time": "09:00",
+  "style": "statement",
+  "engine": null,
+  "first_line": "Talenti të hap derën.",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 12,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 7
+  },
+  "tiktok": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 0.25,
+   "views": 402,
+   "shares": 0,
+   "reach": 380,
+   "totalTimeWatched": 45.47,
+   "averageTimeWatched": 5.94
+  }
+ },
+ {
+  "date": "2026-11-12",
+  "id": "p2",
+  "time": "12:00",
+  "style": "reel",
+  "engine": null,
+  "first_line": "Para se të shpenzosh një lek, lëre ChatGPT-në të ta kritikojë idenë.",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 2.61,
+   "views": 144,
+   "shares": 0,
+   "saves": 2,
+   "totalTimeWatched": 14.22,
+   "averageTimeWatched": 6.88,
+   "reach": 115
+  },
+  "tiktok": {
+   "reactions": 6,
+   "comments": 0,
+   "engagementRate": 1.83,
+   "views": 383,
+   "shares": 1,
+   "reach": 209,
+   "totalTimeWatched": 34.65,
+   "averageTimeWatched": 5.15
+  }
+ },
+ {
+  "date": "2026-11-12",
+  "id": "p3",
+  "time": "15:00",
+  "style": "story",
+  "engine": null,
+  "first_line": "5 mësime nga \"The Richest Man in Babylon\"",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 9.09,
+   "views": 30,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 11
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 0.86,
+   "views": 232,
+   "shares": 0,
+   "reach": 168,
+   "totalTimeWatched": 19.95,
+   "averageTimeWatched": 5.03
+  }
+ },
+ {
+  "date": "2026-11-12",
+  "id": "p4",
+  "time": "18:00",
+  "style": "reel",
+  "engine": "stickman",
+  "first_line": "Thua që do të fillosh kur të kesh pesë mijë euro.",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 12.5,
+   "views": 9,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 0.66,
+   "averageTimeWatched": 4.93,
+   "reach": 8
+  },
+  "tiktok": {
+   "reactions": 7,
+   "comments": 0,
+   "engagementRate": 2.04,
+   "views": 343,
+   "shares": 0,
+   "reach": 174,
+   "totalTimeWatched": 38.42,
+   "averageTimeWatched": 6.37
+  }
+ },
+ {
+  "date": "2026-11-12",
+  "id": "p5",
+  "time": "22:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Një pjesë e madhe e ankthit tonë nuk vjen nga jeta që kemi.\n\nVjen nga jeta që \"duhej\" ta kishim deri tani.\n\nNuk je vonë.",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 11.11,
+   "views": 13,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 9
+  },
+  "tiktok": {
+   "reactions": 14,
+   "comments": 0,
+   "engagementRate": 2.11,
+   "views": 663,
+   "shares": 0,
+   "reach": 478,
+   "totalTimeWatched": 58.28,
+   "averageTimeWatched": 4.53
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "p1",
+  "time": "09:00",
+  "style": "statement",
+  "engine": null,
+  "first_line": "Jeta do të të hedhë tulla.",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 15,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 8
+  },
+  "tiktok": {
+   "reactions": 5,
+   "comments": 0,
+   "engagementRate": 1.85,
+   "views": 271,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 21.05,
+   "averageTimeWatched": 4.54
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "p2",
+  "time": "12:00",
+  "style": "reel",
+  "engine": "motion",
+  "first_line": "Shumë të rinj aplikojnë për punë jashtë me një CV të dobët, dhe kjo është mundësia jote.",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 5.56,
+   "views": 42,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 2.63,
+   "averageTimeWatched": 4.26,
+   "reach": 36
+  },
+  "tiktok": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 193,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 12.22,
+   "averageTimeWatched": 4.79
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "p5",
+  "time": "22:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Prindërit tanë s'patën luksin të pyesnin \"a më pëlqen kjo punë?\"\n\nPunuan atë që gjetën, që ne ta kemi sot këtë pyetje.",
+  "instagram": {
+   "reactions": 3,
+   "comments": 0,
+   "engagementRate": 38.46,
+   "views": 30,
+   "shares": 2,
+   "saves": 0,
+   "follows": 0,
+   "reach": 13
+  },
+  "tiktok": {
+   "reactions": 31,
+   "comments": 0,
+   "engagementRate": 2.4,
+   "views": 1373,
+   "shares": 2,
+   "reach": 0,
+   "totalTimeWatched": 114.55,
+   "averageTimeWatched": 4.32
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "p3",
+  "time": "15:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Telefoni: 1.200€. Paga: 800€.\n\nE ndamë në 24 këste dhe e quajtëm \"të lirë\".\n\nKur paguam këstin e fundit, telefoni vlente",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 15,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 8
+  },
+  "tiktok": {
+   "reactions": 96,
+   "comments": 0,
+   "engagementRate": 1.18,
+   "views": 10743,
+   "shares": 31,
+   "reach": 0,
+   "totalTimeWatched": 1053.68,
+   "averageTimeWatched": 5.8
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "p4",
+  "time": "18:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "Në 2007, gati gjysma e smartfonëve ishin Nokia.",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 9.09,
+   "views": 23,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 1.21,
+   "averageTimeWatched": 3.03,
+   "reach": 22
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 0.89,
+   "views": 225,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 18.12,
+   "averageTimeWatched": 4.33
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "id": "p1",
+  "time": "12:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "Profili i një lokali në Google Maps është falas, por shumë pronarë s'kanë kohë për të!",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 5,
+   "views": 49,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 3.09,
+   "averageTimeWatched": 4.53,
+   "reach": 40
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 0.9,
+   "views": 221,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 20.1,
+   "averageTimeWatched": 5.13
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "id": "p2",
+  "time": "15:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Klienti: \"Bëna një logo falas, si provë. Nëse na pëlqen, punojmë bashkë.\"\n\nTre \"prova\" më vonë, ke punuar një javë falas",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 25,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 9
+  },
+  "tiktok": {
+   "reactions": 29,
+   "comments": 1,
+   "engagementRate": 0.69,
+   "views": 4625,
+   "shares": 2,
+   "reach": 0,
+   "totalTimeWatched": 542.3,
+   "averageTimeWatched": 6.3
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "id": "p3",
+  "time": "18:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "Nëse rroga prej 60.000 lekësh të mbaron më 20, provo rregullin 50, 30, 20!",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 7.96,
+   "views": 139,
+   "shares": 6,
+   "saves": 1,
+   "totalTimeWatched": 15.19,
+   "averageTimeWatched": 8.07,
+   "reach": 113
+  },
+  "tiktok": {
+   "reactions": 503,
+   "comments": 12,
+   "engagementRate": 2.39,
+   "views": 30975,
+   "shares": 224,
+   "reach": 0,
+   "totalTimeWatched": 6382.85,
+   "averageTimeWatched": 11.68
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "id": "p4",
+  "time": "21:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "James Dyson bëri 5.126 prototipa fshese që dështuan!",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 23,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 1.54,
+   "averageTimeWatched": 5.13,
+   "reach": 17
+  },
+  "tiktok": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 0.98,
+   "views": 205,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 12.97,
+   "averageTimeWatched": 3.52
+  }
+ },
+ {
+  "date": "2026-11-15",
+  "id": "p1",
+  "time": "12:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "12,5 milionë të huaj hynë vjet, por plot lokale kanë menu vetëm shqip!",
+  "instagram": {
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 2.56,
+   "views": 89,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 5.88,
+   "averageTimeWatched": 4.52,
+   "reach": 78
+  },
+  "tiktok": {
+   "reactions": 8,
+   "comments": 0,
+   "engagementRate": 3.27,
+   "views": 245,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 17.77,
+   "averageTimeWatched": 4.46
+  }
+ },
+ {
+  "date": "2026-11-15",
+  "id": "p2",
+  "time": "15:00",
+  "style": "tweet",
+  "engine": null,
+  "first_line": "Babai e mbajti të njëjtën makinë 20 vjet.\n\nUnë mendoja që s'i interesonte.\n\nMë vonë e kuptova: çdo vit që s'e ndërroi, i",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 14,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 8
+  },
+  "tiktok": {
+   "reactions": 5,
+   "comments": 0,
+   "engagementRate": 2.37,
+   "views": 211,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 12.68,
+   "averageTimeWatched": 4.45
+  }
+ },
+ {
+  "date": "2026-11-15",
+  "id": "p3",
+  "time": "18:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "500.000 lekë në sirtar humbasin rreth 17.000 lekë vlerë në një vit!",
+  "instagram": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 8.33,
+   "views": 18,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 0.82,
+   "averageTimeWatched": 4.09,
+   "reach": 12
+  },
+  "tiktok": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
+ },
+ {
+  "date": "2026-11-15",
+  "id": "p4",
+  "time": "21:00",
+  "style": "reel",
+  "engine": "hype",
+  "first_line": "Me 5.000 dollarë kursime, një shitëse faksesh ndërtoi një biznes miliardësh!",
+  "instagram": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 15,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 0.87,
+   "averageTimeWatched": 4.37,
+   "reach": 12
+  },
+  "tiktok": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
+ }
+]
