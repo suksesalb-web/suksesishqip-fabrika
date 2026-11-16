@@ -18,8 +18,8 @@
         {
           "type": "hook",
           "kicker": "Side hustle",
-          "big": "2.500 → 12.000 lekë",
-          "sub": "një komodinë e vjetër, e lyer",
+          "big": "12.000 lekë",
+          "sub": "nga një komodinë 2.500 lekësh",
           "figure": "money",
           "text": "Rroga mbaron më 20, por një komodinë e vjetër prej 2.500 lekësh u shit 12.000 brenda dy orësh!",
           "say": "Rroga mbaron më njëzet, por një komodinë e vjetër prej dy mijë e pesëqind lekësh u shit dymbëdhjetë mijë brenda dy orësh!"
@@ -257,7 +257,7 @@
         {
           "type": "text",
           "title": "Detyra e sotme:",
-          "highlight": "Hap e-Albania.",
+          "highlight": "Shiko kontributet.",
           "at": "shiko",
           "figure": "smartphone",
           "text": "Sot hape e-Albania, dhe shiko sa kontribute të janë paguar!"
