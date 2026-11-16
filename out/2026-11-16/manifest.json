@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-16",
+  "rendered_at": 1794810453,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-16/p1/reel.mp4",
+        "out/2026-11-16/p1/frame-01.jpg",
+        "out/2026-11-16/p1/frame-02.jpg",
+        "out/2026-11-16/p1/frame-03.jpg",
+        "out/2026-11-16/p1/frame-04.jpg",
+        "out/2026-11-16/p1/frame-05.jpg",
+        "out/2026-11-16/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 19,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 30.85,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 7.41
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 12.44
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 17.73
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 21.64
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 25.43
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-16/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "4820225",
+        "page": "https://pixabay.com/photos/girl-street-walk-person-mono-4820225/",
+        "query": "crowd of people walking city street from behind"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-16/p3/reel.mp4",
+        "out/2026-11-16/p3/frame-01.jpg",
+        "out/2026-11-16/p3/frame-02.jpg",
+        "out/2026-11-16/p3/frame-03.jpg",
+        "out/2026-11-16/p3/frame-04.jpg",
+        "out/2026-11-16/p3/frame-05.jpg",
+        "out/2026-11-16/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 23,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 27.68,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.07
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.06
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 12.59
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 16.24
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 21.42
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-16/p4/reel.mp4",
+        "out/2026-11-16/p4/frame-01.jpg",
+        "out/2026-11-16/p4/frame-02.jpg",
+        "out/2026-11-16/p4/frame-03.jpg",
+        "out/2026-11-16/p4/frame-04.jpg",
+        "out/2026-11-16/p4/frame-05.jpg",
+        "out/2026-11-16/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 17,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 30.36,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.09
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.52
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 16.1
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 20.99
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 25.26
+          }
+        ]
+      }
+    }
+  ]
+}
