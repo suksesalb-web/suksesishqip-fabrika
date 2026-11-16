@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-16",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Side hustle i hapur nga paraja e shikuesit (rroga mbaron më 20: hook-u i fituesit 30.975). Rast real me numra: Ryan Cron. Shikuesi merr: rregullin e blerjes (dru masiv, jo mbi 50 $) dhe 3 hapat e rishitjes në MerrJep.",
+      "source_item": "https://www.sidehustlenation.com/flipping-furniture/",
+      "sources": [
+        "https://www.sidehustlenation.com/flipping-furniture/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Side hustle",
+          "big": "30 $ → 150 $",
+          "sub": "një komodinë e vjetër, e lyer",
+          "figure": "money",
+          "text": "Rroga mbaron më 20, por një komodinë 30 dollarëshe u shit 150 brenda dy orësh!",
+          "say": "Rroga mbaron më njëzet, por një komodinë tridhjetë dollarëshe u shit njëqind e pesëdhjetë brenda dy orësh!"
+        },
+        {
+          "type": "count",
+          "kicker": "Rregulli i Ryan Cron",
+          "value": 50,
+          "suffix": " $",
+          "label": "çmimi më i lartë i blerjes",
+          "at": "50",
+          "text": "Rregulli i tij: kurrë mbi 50 dollarë për një copë.",
+          "say": "Rregulli i tij: kurrë mbi pesëdhjetë dollarë për një copë."
+        },
+        {
+          "type": "list",
+          "title": "3 hapat:",
+          "items": [
+            "Gjej dru masiv",
+            "Lyeje tri duar",
+            "Shkruaj përmasat"
+          ],
+          "text": "Gjej dru masiv në MerrJep, lyeje me tri duar bojë, shkruaj përmasat në njoftim."
+        },
+        {
+          "type": "checks",
+          "kicker": "Çfarë blen",
+          "rows": [
+            {
+              "label": "Dru masiv",
+              "ok": true
+            },
+            {
+              "label": "Melaminë",
+              "ok": false
+            },
+            {
+              "label": "Antika",
+              "ok": false
+            }
+          ],
+          "text": "Shmang melaminën, antikat dhe copat me shumë zbukurime."
+        },
+        {
+          "type": "bars",
+          "kicker": "Kujdes",
+          "left": {
+            "label": "30 $",
+            "sub": "blerja"
+          },
+          "right": {
+            "label": "150 $",
+            "sub": "shitja"
+          },
+          "at": "fitim",
+          "text": "Diferenca s'është e gjitha fitim: hiq bojën dhe orët e tua!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej një komodinë.",
+          "at": "kërko",
+          "figure": "house",
+          "text": "Sot kërko në MerrJep një komodinë druri që e jep dikush lirë!"
+        }
+      ],
+      "caption": "Ryan Cron (SHBA) e nisi me një komodinë: e bleu rreth 30 dollarë, e leu, e nxori në shitje rreth 150 dhe iku brenda dy orësh.\n\nRregullat e tij:\n• Kurrë mbi 50 dollarë për një copë.\n• Vetëm dru masiv. Jo melaminë, jo antika, jo copa me shumë zbukurime.\n• Rreth 3 duar bojë, një orë tharje mes tyre.\n• Në njoftim shkruaj gjithmonë përmasat.\n\nDiferenca nuk është e gjitha fitim: hiq bojën, mjetet dhe orët e tua. Çmimet janë të tijat, në Amerikë; këtu provoje me një copë para se të blesh të dytën.\n\nRuaje dhe dërgoja dikujt që ka duar të arta.\n\n#suksesishqip #sidehustle #merrjep #mobilie"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "crowd of people walking city street from behind",
+      "note": "Tweet para/punë me numër (INSTAT). Shikuesi merr: mos e krahaso rrogën me mesataren 90.119, por me medianen: gjysma marrin nën 60.000 në dorë.",
+      "source_item": "https://www.balkanweb.com/paga-mesatare-rritet-por-gjysma-e-te-punesuarve-ne-vend-marrin-me-pak-se-60-mije-leke-neto-ne-muaj/",
+      "sources": [
+        "https://www.balkanweb.com/paga-mesatare-rritet-por-gjysma-e-te-punesuarve-ne-vend-marrin-me-pak-se-60-mije-leke-neto-ne-muaj/",
+        "https://www.instat.gov.al/media/nxshgser/statistikat-e-pagave-t1-2026.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Paga mesatare në Shqipëri: 90.119 lekë bruto.\n\nPor gjysma e të punësuarve marrin në dorë më pak se 60.000.\n\nNëse ndihesh \"nën mesatare\", nuk je vetëm. Je shumica."
+        }
+      ],
+      "caption": "Mesatarja e ngrenë lart pagat e mëdha (financa: 157 mijë lekë). Numri i saktë për t'u krahasuar është mediana: 74.010 lekë bruto, rreth 60.000 në dorë (INSTAT, tremujori i parë 2026).\n\nKrahasoje rrogën tënde me këtë numër, jo me mesataren.\n\nDërgoja dikujt që mendon se vetëm ai merr pak.\n\n#suksesishqip #rroga #paga #para"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Vazhdimi i vetëm i javës për fituesin 50/30/20 (30.975 shikime): e njëjta rregull për një rrogë tjetër + hapi tjetër nga Ramit Sethi. Shikuesi merr: ndarjen 40.000/24.000/16.000 dhe urdhrin automatik ditën e rrogës.",
+      "source_item": "data/metrics/latest.md: reel 2026-11-14 \"rregulli 50/30/20\" + https://www.iwillteachyoutoberich.com/conscious-spending-basics/",
+      "sources": [
+        "https://www.iwillteachyoutoberich.com/conscious-spending-basics/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rregulli 50/30/20, pjesa 2",
+          "big": "80.000 lekë",
+          "sub": "dhe prapë zero kursime?",
+          "figure": "money",
+          "text": "Merr 80.000 lekë në dorë, dhe në fund të muajit prapë s'ke kursime?",
+          "say": "Merr tetëdhjetë mijë lekë në dorë, dhe në fund të muajit prapë s'ke kursime?"
+        },
+        {
+          "type": "list",
+          "title": "50 / 30 / 20:",
+          "items": [
+            "40.000 nevoja",
+            "24.000 dëshira",
+            "16.000 kursime"
+          ],
+          "text": "40.000 për nevojat, 24.000 për dëshirat, 16.000 për kursime.",
+          "say": "Dyzet mijë për nevojat, njëzet e katër mijë për dëshirat, gjashtëmbëdhjetë mijë për kursime."
+        },
+        {
+          "type": "count",
+          "kicker": "16.000 × 12",
+          "value": 192000,
+          "suffix": " lekë",
+          "label": "në një vit",
+          "at": "192.000",
+          "text": "Në një vit bëhen 192.000 lekë!",
+          "say": "Në një vit bëhen njëqind e nëntëdhjetë e dy mijë lekë!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Gabimi:",
+          "reply": "Kursej çfarë mbetet",
+          "alarm": true,
+          "at": "mbetet",
+          "text": "Gabimi është të kursesh atë që mbetet, sepse s'mbetet kurrë."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Më 30",
+            "sub": "çfarë mbeti",
+            "figure": "piggy"
+          },
+          "right": {
+            "label": "Më 1",
+            "sub": "automatikisht",
+            "figure": "money"
+          },
+          "at": "automatike",
+          "text": "Zgjidhja: pagesë automatike ditën e rrogës, para se t'i prekësh paratë."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Urdhër i përhershëm.",
+          "at": "vendos",
+          "figure": "smartphone",
+          "text": "Sot hap aplikacionin e bankës, dhe vendos një urdhër të përhershëm për ditën e rrogës!"
+        }
+      ],
+      "caption": "E pe rregullin 50/30/20 me rrogë 60.000? Ja me 80.000 lekë në dorë:\n• 40.000 nevojat (qira, ushqim, fatura)\n• 24.000 dëshirat\n• 16.000 kursime = 192.000 lekë në vit\n\nPse s'del? Sepse kursejmë \"çfarë mbetet\". Ramit Sethi e zgjidh ndryshe: paratë ndahen vetë ditën e rrogës. Në aplikacionin e bankës vendos një urdhër të përhershëm drejt një llogarie të dytë, me datën e rrogës.\n\nNëse 20% s'del, nise me 5%. Rëndësi ka që të ikë vetë.\n\nRuaje për ditën e rrogës.\n\n#suksesishqip #rroga #kursime #503020"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Gabim + zgjidhje nga jeta shqiptare (paga e nëndeklaruar). Tema e javës: \"paycheck\" i zbërthyer rresht pas rreshti. Shikuesi merr: ku e kontrollon në e-Albania sa kontribute i paguhen dhe çfarë të pyesë në financë.",
+      "source_item": "https://shqiptarja.com/lajm/raporti-1-ne-6-punetore-e-ka-pagen-te-nendeklaruar-inspektorati-i-punes-vjet-cdo-subjekt-i-kontrolluar-kishte-5-punonjes-informal",
+      "sources": [
+        "https://shqiptarja.com/lajm/raporti-1-ne-6-punetore-e-ka-pagen-te-nendeklaruar-inspektorati-i-punes-vjet-cdo-subjekt-i-kontrolluar-kishte-5-punonjes-informal",
+        "https://shqiptarja.com/lajm/karcanaj-vertetimet-e-kontributeve-mbi-20-vite-kohe-te-kursyera-per-te-punesuarit-dhe-vetepunesuarit",
+        "https://shqiptarja.com/lajm/qeveria-merr-vendimin-nga-janari-paga-minimale-rritet-ne-50-mije-leke"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Kontrolloje sot",
+          "big": "70.000 ≠ 50.000",
+          "sub": "në dorë / në letra",
+          "figure": "money",
+          "text": "Merr 70.000 lekë në dorë, por në letra mund të figurosh me 50.000!",
+          "say": "Merr shtatëdhjetë mijë lekë në dorë, por në letra mund të figurosh me pesëdhjetë mijë!"
+        },
+        {
+          "type": "icons",
+          "kicker": "Inspektorati i Punës, 2023",
+          "title": "1 në 6",
+          "icon": "person",
+          "n": 6,
+          "label": "me pagë të nëndeklaruar",
+          "at": "gjashtë",
+          "text": "Në 2023, rreth një në gjashtë punonjës doli me pagë të nëndeklaruar.",
+          "say": "Në dymijë e njëzet e tre, rreth një në gjashtë punonjës doli me pagë të nëndeklaruar."
+        },
+        {
+          "type": "checks",
+          "kicker": "Llogariten mbi letrat",
+          "rows": [
+            {
+              "label": "Pensioni",
+              "ok": false
+            },
+            {
+              "label": "Leja e lindjes",
+              "ok": false
+            },
+            {
+              "label": "Kredia në bankë",
+              "ok": false
+            }
+          ],
+          "text": "Pensioni, leja e lindjes dhe kredia llogariten mbi letrat, jo mbi zarfin."
+        },
+        {
+          "type": "list",
+          "title": "Në e-Albania:",
+          "items": [
+            "Hyr në llogari",
+            "Kërko: kontributet",
+            "Shkarko vërtetimin"
+          ],
+          "text": "Hyr në e-Albania, kërko fjalën kontributet, shkarko vërtetimin."
+        },
+        {
+          "type": "chat",
+          "kicker": "Pyet financën:",
+          "reply": "Me sa jam i deklaruar?",
+          "at": "deklaruar",
+          "text": "Nëse shifrat s'përputhen, pyet financën: me sa jam i deklaruar?"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Hap e-Albania.",
+          "at": "shiko",
+          "figure": "smartphone",
+          "text": "Sot hape e-Albania, dhe shiko sa kontribute të janë paguar!"
+        }
+      ],
+      "caption": "Shumë veta marrin një pjesë të rrogës me bankë dhe pjesën tjetër në dorë. Inspektorati i Punës gjeti në 2023 rreth 1 në 6 punonjës me pagë të nëndeklaruar.\n\nPse të intereson: pensioni, leja e lindjes, pagesa e papunësisë dhe kredia në bankë llogariten mbi pagën e deklaruar, jo mbi zarfin.\n\nSi e kontrollon:\n1. Hyr në e-Albania.\n2. Kërko \"kontributet\" dhe shkarko vërtetimin e pagesës së kontributeve.\n3. Krahasoje me atë që merr. Për pagën minimale 50.000 lekë, pjesa jote e kontributeve është 5.600 lekë në muaj.\n\nNëse s'përputhet, pyet financën: \"Me sa jam i deklaruar?\"\n\nDërgoja dikujt që paguhet \"gjysmë me bankë\".\n\n#suksesishqip #rroga #sigurime #pension"
+    }
+  ]
+}

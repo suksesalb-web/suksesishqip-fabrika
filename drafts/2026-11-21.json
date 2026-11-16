@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-21",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Side hustle i hapur nga rroga dhe e shtuna e lirë e shikuesit. Rast real me çfarë dështoi (fletushka, reklama, derë më derë: 0). Shikuesi merr: mënyrën e klientëve të parë (3 të njohur, foto para/pas, vlerësim në Google). Çmim lavazhi në Shqipëri s'u verifikua: jepen çmimet e tij në dollarë.",
+      "source_item": "https://www.sidehustlenation.com/mobile-detailing/",
+      "sources": [
+        "https://www.sidehustlenation.com/mobile-detailing/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Side hustle: larje makinash te klienti",
+          "big": "30 $",
+          "sub": "puna e parë, 2 orë",
+          "figure": "car",
+          "text": "E shtuna bosh dhe rroga 60.000 lekë: Josh e nisi me një punë 30 dollarëshe!",
+          "say": "E shtuna bosh dhe rroga gjashtëdhjetë mijë lekë: Xhosh e nisi me një punë tridhjetë dollarëshe!"
+        },
+        {
+          "type": "list",
+          "title": "Pajisja, 400–600 $:",
+          "items": [
+            "Pompë me bateri",
+            "Aspirator",
+            "Makinë për tapiceri"
+          ],
+          "text": "Pompë me bateri, aspirator, makinë për tapiceri."
+        },
+        {
+          "type": "checks",
+          "kicker": "Sollën 0 klientë",
+          "rows": [
+            {
+              "label": "Fletushkat",
+              "ok": false
+            },
+            {
+              "label": "Reklama",
+              "ok": false
+            },
+            {
+              "label": "Derë më derë",
+              "ok": false
+            }
+          ],
+          "text": "Fletushkat, reklama dhe trokitja derë më derë sollën zero klientë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Çfarë funksionoi:",
+          "reply": "Mamaja u shkroi të njohurve",
+          "at": "mamaja",
+          "text": "Klientët e parë ia solli mamaja, që u shkroi të njohurve."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "30 $",
+            "sub": "puna e parë",
+            "figure": "car"
+          },
+          "right": {
+            "label": "140 $",
+            "sub": "sot, larje e plotë",
+            "figure": "car"
+          },
+          "at": "140",
+          "text": "Çmimin e parë e vuri shumë ulët: sot kërkon 140.",
+          "say": "Çmimin e parë e vuri shumë ulët: sot kërkon njëqind e dyzet."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej 3 makinat e para.",
+          "at": "ofroju",
+          "figure": "car",
+          "text": "Sot ofroju tre të njohurve një larje me ulje, në këmbim të fotove para dhe pas!"
+        }
+      ],
+      "caption": "Josh Belk (SHBA) lan makina te shtëpia ose puna e klientit.\n\n• Pajisja: 400–600 dollarë (pompë me bateri, aspirator, makinë për larjen e tapicerisë).\n• Punët e para: 30 dollarë për një larje të plotë që i merrte rreth 2 orë. Sot kërkon 140.\n• Çfarë nuk solli asnjë klient: fletushkat, trokitja derë më derë, një reklamë 50 dollarë.\n• Çfarë solli: mamaja u shkroi të njohurve, dhe klientët e parë i dhanë foto para/pas dhe vlerësime.\n\nSi e provon pa blerë asgjë: laj makinën tënde dhe të dy të njohurve, bëj foto para dhe pas, kërko një vlerësim në Google. Çmimet janë të tijat, në Amerikë: tëndin vendose pasi të matësh kohën.\n\nDërgoja dikujt që e mban makinën pasqyrë.\n\n#suksesishqip #sidehustle #makina #punë"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "apartment buildings balconies city evening",
+      "note": "Tweet para me numër (qiraja, Monitor qershor 2026). Tema e javës: banesa që ha rrogën. Hap Reel-in e orës 18:00. Shikuesi merr: dy numra për t'i treguar kujtdo që i thotë \"s'di të kursesh\".",
+      "source_item": "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/",
+      "sources": [
+        "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/"
+      ],
+      "slides": [
+        {
+          "text": "Qiraja mesatare e një apartamenti në Tiranë: 721 euro.\n\nPaga mesatare bruto: rreth 930 euro.\n\nNuk je ti që s'di të kursesh. Është llogaria që s'del."
+        }
+      ],
+      "caption": "Të dhënat e agjencive imobiliare për vitin 2026: qiraja mesatare merr 77% të pagës mesatare bruto. Kufiri i shëndetshëm është 30% e të ardhurave.\n\nSot në orën 18:00: si ta gjesh përqindjen tënde dhe çfarë të bësh kur del mbi 40%.\n\nDërgoja dikujt që jeton me qira në Tiranë.\n\n#suksesishqip #qira #qiraja #rroga"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Llogari + rregull me qiranë e shikuesit (tema e javës: banesa që ha rrogën; Ramit \"feel trapped\"). Çmimet e zonave nga Monitor 2026. Shikuesi merr: pragun 30% dhe 3 lëvizjet kur del mbi 40%. Fjalia për pronarin është e jona.",
+      "source_item": "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/",
+      "sources": [
+        "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/",
+        "https://www.balkanweb.com/nuk-ndalet-rritja-e-qirave-ne-disa-zona-cmimet-per-vitin-2026-shtrenjtohen-deri-ne-25/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Qira 400 €, rrogë 700 €",
+          "big": "57%",
+          "donut": 57,
+          "sub": "e rrogës ikën për qira",
+          "text": "Qira 400 euro me rrogë 700 euro: 57% e rrogës ikën para se të hash bukë!",
+          "say": "Qira katërqind euro me rrogë shtatëqind euro: pesëdhjetë e shtatë për qind e rrogës ikën para se të hash bukë!"
+        },
+        {
+          "type": "count",
+          "kicker": "Rregulli",
+          "value": 30,
+          "suffix": "%",
+          "label": "kufiri për qiranë",
+          "at": "30%",
+          "text": "Rregulli: qiraja jo më shumë se 30% e të ardhurave.",
+          "say": "Rregulli: qiraja jo më shumë se tridhjetë për qind e të ardhurave."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "600–900 €",
+            "sub": "1+1 afër qendrës",
+            "figure": "house"
+          },
+          "right": {
+            "label": "380–400 €",
+            "sub": "1+1 në Fresk",
+            "figure": "house"
+          },
+          "at": "400",
+          "text": "Afër qendrës një 1+1 shkon 600 deri 900 euro, në Fresk rreth 400.",
+          "say": "Afër qendrës një një plus një shkon gjashtëqind deri nëntëqind euro, në Fresk rreth katërqind."
+        },
+        {
+          "type": "list",
+          "title": "Mbi 40%?",
+          "items": [
+            "Ndaje qiranë",
+            "Ndrysho zonën",
+            "Negocio rinovimin"
+          ],
+          "text": "Ndaje qiranë, ndrysho zonën, negocio rinovimin."
+        },
+        {
+          "type": "chat",
+          "kicker": "Thuaji pronarit:",
+          "reply": "Firmos 2 vjet, me këtë çmim",
+          "at": "vjet",
+          "text": "Thuaji pronarit: firmos edhe dy vjet, por me të njëjtin çmim!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej përqindjen tënde.",
+          "at": "pjesëto",
+          "figure": "keypad",
+          "text": "Sot pjesëto qiranë me rrogën, dhe shkruaje përqindjen në koment!"
+        }
+      ],
+      "caption": "Gjej përqindjen tënde: qiraja ÷ të ardhurat e shtëpisë në dorë.\n\n• Deri 30%: je mirë.\n• 30–40%: e ngushtë.\n• Mbi 40%: çdo e papritur të lë pa lekë.\n\nNë Tiranë (të dhëna agjencish, 2026): 1+1 afër qendrës 600–900 euro, në periferi 400–500, në Fresk 380–400.\n\nKur del mbi 40%:\n1. Ndaje qiranë me një person tjetër.\n2. Shiko një zonë më larg qendrës.\n3. Kur të rinovosh kontratën, ofro kohë në këmbim të çmimit: \"Firmos edhe dy vjet, por me të njëjtin çmim.\" Pronari fiton sigurinë që s'i mbetet shtëpia bosh.\n\nShkruaje përqindjen tënde në koment.\n\n#suksesishqip #qira #qiraja #buxheti"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Gabim + zgjidhje, ndjek fituesin \"telefoni 1.200 €, 24 këste\" (10.743) me kënd të ri: jo një këst, por shuma e tyre. Tema: \"buy now pay later\" që mblidhet (Caleb Hammer). Numri i iute-s është i vetë kompanisë. Rregulli \"një e treta e rrogës\" është i yni. Shikuesi merr: listën e kësteve dhe pragun.",
+      "source_item": "https://shqiptarja.com/lajm/black-friday-dhe-nentori-i-rekordeve-ne-iute",
+      "sources": [
+        "https://shqiptarja.com/lajm/black-friday-dhe-nentori-i-rekordeve-ne-iute",
+        "https://www.raiffeisen.al/en/individuals/products/loans/rsf/rsf-neptun-promo.html"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Këste pa interes",
+          "big": "0%",
+          "sub": "por jo zero kosto",
+          "figure": "smartphone",
+          "text": "Telefoni me 4 këste, televizori me 24, dhe rroga 60.000: sa të mbetet?",
+          "say": "Telefoni me katër këste, televizori me njëzet e katër, dhe rroga gjashtëdhjetë mijë: sa të mbetet?"
+        },
+        {
+          "type": "count",
+          "kicker": "Nëntor 2025, një kompani",
+          "value": 6000,
+          "label": "blerës me 4 këste 0%",
+          "at": "6.000",
+          "text": "Nëntorin e kaluar, mbi 6.000 veta blenë kështu te një kompani e vetme.",
+          "say": "Nëntorin e kaluar, mbi gjashtë mijë veta blenë kështu te një kompani e vetme."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "80.000",
+            "sub": "çmimi",
+            "figure": "smartphone"
+          },
+          "right": {
+            "label": "4 × 20.000",
+            "sub": "katër rroga rresht",
+            "figure": "money"
+          },
+          "at": "20.000",
+          "text": "80.000 lekë janë 20.000 nga katër rroga rresht.",
+          "say": "Tetëdhjetë mijë lekë janë njëzet mijë nga katër rroga rresht."
+        },
+        {
+          "type": "chat",
+          "kicker": "Gabimi:",
+          "reply": "Kësti i dytë, i tretë, i katërt",
+          "alarm": true,
+          "at": "mblidhen",
+          "text": "Gabimi s'është një këst, janë këstet që mblidhen pa i numëruar."
+        },
+        {
+          "type": "list",
+          "title": "Rregulli:",
+          "items": [
+            "Shkruaji të gjitha",
+            "Mblidhi",
+            "Ndalo te një e treta"
+          ],
+          "text": "Shkruaji të gjitha, mblidhi, ndalo kur kalojnë një të tretën e rrogës."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Mblidh këstet.",
+          "at": "mblidh",
+          "figure": "keypad",
+          "text": "Sot mblidh këstet e dhjetorit, para se të shtosh një tjetër!"
+        }
+      ],
+      "caption": "\"0% interes\" është e vërtetë: disa oferta sot s'kanë as interes, as komision. Kostoja është diku tjetër: kësti del nga rroga e muajve që s'kanë ardhur ende.\n\nNëntorin e kaluar, vetëm një kompani financoi mbi 6.000 blerje me 4 këste 0%. Një blerje 80.000 lekë = 20.000 lekë nga katër rroga rresht, mes tyre edhe ajo e Vitit të Ri.\n\nRregulli ynë i thjeshtë:\n1. Shkruaj të gjitha këstet që ke (telefon, pajisje, kredi).\n2. Mblidhi.\n3. Nëse kalojnë një të tretën e rrogës në dorë, mos shto asnjë tjetër, sado e mirë të jetë oferta.\n\nMe rrogë 60.000 lekë, kufiri është 20.000 lekë këste në muaj.\n\nDërgoja dikujt që po bën listën e Black Friday-t.\n\n#suksesishqip #këste #blackfriday #rroga"
+    }
+  ]
+}

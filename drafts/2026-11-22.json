@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-22",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "AI praktike e hapur nga rroga e shikuesit (2 vjet pa rritje), lidhet me tweet-in e së enjtes për fuqinë blerëse. Metoda: Ramit Sethi (80% e punës para takimit, arritje të matshme). Dy promptet janë tonat dhe duhen provuar një herë para publikimit. Shikuesi merr: dy prompte gati.",
+      "source_item": "https://iwillteachyoutoberich.com/guides/ultimate-guide-to-asking-for-a-raise-and-negotiating-salary",
+      "sources": [
+        "https://iwillteachyoutoberich.com/guides/ultimate-guide-to-asking-for-a-raise-and-negotiating-salary",
+        "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Prompt për rritje rroge",
+          "big": "2 vjet",
+          "sub": "e njëjta rrogë: 60.000 lekë",
+          "figure": "robot",
+          "text": "Dy vjet me të njëjtën rrogë 60.000 lekë, dhe s'di si ta kërkosh rritjen?",
+          "say": "Dy vjet me të njëjtën rrogë gjashtëdhjetë mijë lekë, dhe s'di si ta kërkosh rritjen?"
+        },
+        {
+          "type": "count",
+          "kicker": "Ramit Sethi",
+          "value": 80,
+          "suffix": "%",
+          "label": "e punës: para takimit",
+          "at": "80%",
+          "text": "Ramit Sethi: 80% e punës bëhet para takimit.",
+          "say": "Ramit Sethi: tetëdhjetë për qind e punës bëhet para takimit."
+        },
+        {
+          "type": "list",
+          "title": "Jepi AI-së:",
+          "items": [
+            "Detyrat e tua",
+            "Rezultatet",
+            "Sa kohë ke"
+          ],
+          "text": "Detyrat e tua, rezultatet, sa kohë ke aty."
+        },
+        {
+          "type": "chat",
+          "kicker": "Prompti 1:",
+          "reply": "Ktheji në 3 arritje me numra",
+          "at": "ktheji",
+          "text": "Shkruaj: ktheji këto në tri arritje me numra!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "\"Dua rritje\"",
+            "sub": "kërkesë",
+            "figure": "people"
+          },
+          "right": {
+            "label": "\"Solla këtë\"",
+            "sub": "provë",
+            "figure": "trophy"
+          },
+          "at": "solle",
+          "text": "Shefi s'paguan për vitet, paguan për atë që solle."
+        },
+        {
+          "type": "chat",
+          "kicker": "Prompti 2:",
+          "reply": "Bëhu shefi im i vështirë",
+          "at": "bëhu",
+          "text": "Pastaj: bëhu shefi im i vështirë, dhe më bëj provë!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Shkruaj 3 arritje.",
+          "at": "shkruaj",
+          "figure": "laptop",
+          "text": "Sot shkruaj tri arritjet e tua, edhe pa e caktuar takimin!"
+        }
+      ],
+      "caption": "Dy prompte për ChatGPT ose Claude (versioni falas mjafton):\n\nPrompti 1:\n\"Punoj si [puna] prej [sa kohësh]. Këto janë detyrat e mia dhe çfarë kam bërë këtë vit: [shkruaji]. Ktheji në 3 arritje të shkurtra me numra (para të kursyera, klientë, kohë, gabime më pak). Mos shpik asnjë numër: aty ku mungon, më pyet.\"\n\nPrompti 2:\n\"Tani bëhu shefi im, i zënë dhe i vështirë. Unë kërkoj rritje rroge. Më kundërshto si në jetën reale, një pyetje në çdo përgjigje, dhe në fund më thuaj ku isha i dobët.\"\n\nRamit Sethi: 80% e punës bëhet para se të hysh në zyrë. Shefi s'paguan për vitet që ke aty, paguan për atë që i solle firmës.\n\nRuaje për ditën e takimit.\n\n#suksesishqip #ai #rroga #chatgpt"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "car side mirror traffic evening",
+      "note": "Tweet para me numër (sigurimi i makinës, bonus-malus nga 1 janari 2026). Zëvendësoi draftin për eksperimentin e Codie Sanchez (histori e huaj, pa numër nga jeta e shikuesit). Shikuesi merr: sa lekë i kushton një aksident në sigurimin e vitit tjetër.",
+      "source_item": "https://shqiptarja.com/lajm/sigurimi-i-makines-cmimi-kete-vit-rritet-me-15-per-ata-qe-kane-shkaktuar-deme",
+      "sources": [
+        "https://shqiptarja.com/lajm/sigurimi-i-makines-cmimi-kete-vit-rritet-me-15-per-ata-qe-kane-shkaktuar-deme"
+      ],
+      "slides": [
+        {
+          "text": "Sigurimi i makinës pa asnjë dëm: rreth 15.400 lekë.\n\nMe një aksident vitin e kaluar: 19 deri 27% më shtrenjtë.\n\nNjë frenim me kohë vlen 3.000–4.000 lekë në vit."
+        }
+      ],
+      "caption": "Nga 1 janari 2026 çmimi i sigurimit të detyrueshëm të makinës varet nga dëmet që ke shkaktuar: pa dëme merr ulje, me një dëm paguan 19–27% më shumë se dikush pa dëme, me dy a më shumë 37–42% (llogaritësit e kompanive, janar 2026).\n\nPara se ta rinovosh, kërko çmimin në të paktën dy kompani.\n\nDërgoja shokut që nget shpejt.\n\n#suksesishqip #makina #sigurimi #para"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Llogari + rregull me faturën e shikuesit, e kohës (dimri, ngrohja me korrent). Burimi: tarifat zyrtare të ERE-s për 2026 (701 kWh: 9,5 lekë për gjithë muajin). Shikuesi merr: pragun 700 kWh dhe leximin e sahatit më 20. Diferenca 710 lekë është llogaritje jona, pa TVSH.",
+      "source_item": "https://ere.gov.al/media/files/2025/12/24/Tarifat_dhe_%C3%87mimet_e_energjis%C3%AB_Elektrike_dhe_Gazit_natyror_p%C3%ABr_VITIN_2026.pdf",
+      "sources": [
+        "https://ere.gov.al/media/files/2025/12/24/Tarifat_dhe_%C3%87mimet_e_energjis%C3%AB_Elektrike_dhe_Gazit_natyror_p%C3%ABr_VITIN_2026.pdf",
+        "https://scantv.al/english/lajme/shqiperia/nga-ulja-e-cmimit-te-thatesira-fare-e-shenoi-sektorin-energjetik-i28664"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Fatura e dritave",
+          "big": "+700 lekë",
+          "sub": "për 1 kWh më shumë",
+          "figure": "bulb",
+          "text": "Një kilovat-orë më shumë mund të ta rritë faturën e dritave me mbi 700 lekë!",
+          "say": "Një kilovat-orë më shumë mund të ta rritë faturën e dritave me mbi shtatëqind lekë!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "8,5 lekë",
+            "sub": "deri 700 kWh",
+            "figure": "bulb"
+          },
+          "right": {
+            "label": "9,5 lekë",
+            "sub": "nga 701 kWh",
+            "figure": "bulb"
+          },
+          "at": "9,5",
+          "text": "Deri në 700 kilovat-orë paguan 8,5 lekë, pastaj 9,5.",
+          "say": "Deri në shtatëqind kilovat-orë paguan tetë e gjysmë lekë, pastaj nëntë e gjysmë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Kurthi:",
+          "reply": "9,5 për GJITHË muajin",
+          "alarm": true,
+          "at": "gjithë",
+          "text": "Dhe çmimi i lartë vlen për gjithë muajin, jo vetëm për tepricën!"
+        },
+        {
+          "type": "bars",
+          "kicker": "Pa TVSH",
+          "left": {
+            "label": "5.950",
+            "sub": "700 kWh"
+          },
+          "right": {
+            "label": "6.660",
+            "sub": "701 kWh"
+          },
+          "at": "6.660",
+          "text": "700 bëjnë 5.950 lekë, 701 bëjnë 6.660.",
+          "say": "Shtatëqind bëjnë pesë mijë e nëntëqind e pesëdhjetë lekë, shtatëqind e një bëjnë gjashtë mijë e gjashtëqind e gjashtëdhjetë."
+        },
+        {
+          "type": "list",
+          "title": "Në dimër:",
+          "items": [
+            "Lexo sahatin",
+            "Mat harxhimin",
+            "Ul bojlerin"
+          ],
+          "text": "Lexo sahatin më 20, mat harxhimin, ul bojlerin nëse je afër pragut.",
+          "say": "Lexo sahatin më njëzet, mat harxhimin, ul bojlerin nëse je afër pragut."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Shiko faturën.",
+          "at": "shiko",
+          "figure": "house",
+          "text": "Sot shiko faturën e fundit: sa kilovat-orë harxhove?"
+        }
+      ],
+      "caption": "Çmimi i energjisë për familjet në 2026 (ERE):\n• deri 700 kWh në muaj: 8,5 lekë/kWh\n• nga 701 kWh: 9,5 lekë/kWh për gjithë sasinë e muajit, jo vetëm për tepricën\n\nPra: 700 kWh = 5.950 lekë. 701 kWh = 6.660 lekë. Një kilovat-orë më shumë, rreth 710 lekë më shumë (pa TVSH; me TVSH rreth 850). Llogaritje jona mbi tarifat zyrtare.\n\nNë dimër, me kondicioner dhe bojler, kalohet lehtë.\n\nÇfarë bën:\n1. Shiko në faturën e fundit sa kWh harxhove.\n2. Lexo sahatin rreth datës 20 dhe krahasoje me leximin e fundit.\n3. Nëse je afër 700, ditët e fundit ul bojlerin dhe ngrohjen me korrent.\n\nDërgoja atij që paguan faturat në shtëpi.\n\n#suksesishqip #fatura #dritat #kursime"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Gabim + zgjidhje nga përditshmëria (bankomati i bankës tjetër). Burimi: lista zyrtare e tarifave të një banke (janar 2026). Shikuesi merr: përdor bankomatin e bankës tënde ose paguaj me kartë, dhe pyetjen për bankën. Thuhet \"deri 400 lekë\" dhe \"te një bankë\": bankat ndryshojnë.",
+      "source_item": "https://www.tiranabank.al/media/6968e12884744.pdf",
+      "sources": [
+        "https://www.tiranabank.al/media/6968e12884744.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Bankomati i gabuar",
+          "big": "400 lekë",
+          "sub": "për të tërhequr 5.000",
+          "figure": "money",
+          "text": "Tërheq 5.000 lekë te bankomati i një banke tjetër, dhe paguan deri 400 lekë komision!",
+          "say": "Tërheq pesë mijë lekë te bankomati i një banke tjetër, dhe paguan deri katërqind lekë komision!"
+        },
+        {
+          "type": "count",
+          "kicker": "400 nga 5.000",
+          "value": 8,
+          "suffix": "%",
+          "label": "e parave të tua",
+          "at": "8%",
+          "text": "Janë 8% e parave që tërhoqe!",
+          "say": "Janë tetë për qind e parave që tërhoqe!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Te një bankë shqiptare",
+          "rows": [
+            {
+              "label": "Bankomati yt: 0 lekë",
+              "ok": true
+            },
+            {
+              "label": "Bankë tjetër: min. 400",
+              "ok": false
+            }
+          ],
+          "text": "Te një bankë, tarifa është 2%, por jo më pak se 400 lekë.",
+          "say": "Te një bankë, tarifa është dy për qind, por jo më pak se katërqind lekë."
+        },
+        {
+          "type": "list",
+          "title": "Zgjidhja:",
+          "items": [
+            "Përdor bankomatin tënd",
+            "Paguaj me kartë",
+            "Tërhiq një herë në javë"
+          ],
+          "text": "Përdor bankomatin tënd, paguaj me kartë në dyqan, tërhiq një herë në javë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Pyet bankën tënde:",
+          "reply": "Sa kushton bankomati tjetër?",
+          "at": "kushton",
+          "text": "Çdo bankë ka tarifën e vet, ndaj pyet sa kushton te ti."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej bankomatin tënd.",
+          "at": "gjej",
+          "figure": "smartphone",
+          "text": "Sot gjej në hartë bankomatin më të afërt të bankës tënde!"
+        }
+      ],
+      "caption": "Bankomati më i afërt s'është gjithmonë më i liri.\n\nNë listën e tarifave të një banke shqiptare (janar 2026): tërheqja te bankomatet e veta është falas; te bankomati i një banke tjetër në Shqipëri 2%, por jo më pak se 400 lekë. Pra për 5.000 lekë paguan 400: 8%.\n\nPagesa me kartë në dyqan, brenda vendit, te e njëjta bankë është falas.\n\nÇfarë bën:\n1. Tërhiq vetëm te bankomatet e bankës tënde.\n2. Aty ku ka POS, paguaj me kartë.\n3. Tërhiq një herë në javë, jo nga pak çdo ditë.\n\nBankat ndryshojnë: pyet tënden sa merr për bankomatin e një banke tjetër.\n\nDërgoja dikujt që tërheq lekë ku t'i dalë përpara.\n\n#suksesishqip #banka #komisione #para"
+    }
+  ]
+}

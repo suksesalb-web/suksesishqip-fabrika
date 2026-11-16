@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-18",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Side hustle i hapur nga rroga dhe koha e lirë e shikuesit. Rast real me dështimin brenda (50 dyer, 0 punë), tema \"nis me një shërbim, me 0 produkt\". Shikuesi merr: çmimin për xham dhe postimin në grupin e lagjes në vend të trokitjes.",
+      "source_item": "https://www.sidehustlenation.com/window-washing-side-hustle/",
+      "sources": [
+        "https://www.sidehustlenation.com/window-washing-side-hustle/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Side hustle",
+          "big": "200 $",
+          "sub": "gjithë pajisja për të nisur",
+          "figure": "store",
+          "text": "Me rrogë 50.000 lekë dhe fundjava të lira, shiko këtë punë me pajisje 200 dollarë!",
+          "say": "Me rrogë pesëdhjetë mijë lekë dhe fundjava të lira, shiko këtë punë me pajisje dyqind dollarë!"
+        },
+        {
+          "type": "list",
+          "title": "Larje xhamash:",
+          "items": [
+            "Fshirëse xhamash",
+            "Kovë me detergjent",
+            "Shkallë e huazuar"
+          ],
+          "text": "Fshirëse xhamash, kovë me detergjent, shkallë e huazuar."
+        },
+        {
+          "type": "count",
+          "kicker": "Çfarë dështoi",
+          "value": 50,
+          "label": "dyer, 0 punë",
+          "at": "50",
+          "text": "Studenti Jack trokiti në 50 dyer rresht, dhe s'mori asnjë punë!",
+          "say": "Studenti Xhek trokiti në pesëdhjetë dyer rresht, dhe s'mori asnjë punë!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Çfarë funksionoi:",
+          "reply": "Jam Jack, laj xhama në lagje",
+          "at": "postim",
+          "text": "Funksionoi një postim në grupin e lagjes, ku thjesht u prezantua."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Për orë",
+            "sub": "klienti s'e di faturën",
+            "figure": "clock"
+          },
+          "right": {
+            "label": "Për xham",
+            "sub": "çmim i qartë",
+            "figure": "house"
+          },
+          "at": "xham",
+          "text": "Çmimin e vuri për xham, jo për orë."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Numëro xhamat.",
+          "at": "numëro",
+          "figure": "store",
+          "text": "Sot numëro xhamat e një dyqani në lagje, dhe ofroji një çmim për të gjithë!"
+        }
+      ],
+      "caption": "Jack Leimbach, student në SHBA, nisi të lante xhama me një pajisje rreth 200 dollarë (fshirëse, kovë, detergjent) dhe një shkallë të huazuar.\n\nÇfarë mësoi:\n• Çmim për xham, jo për orë: klienti e di faturën para se të fillosh.\n• Trokitja derë më derë: pas klientit të parë, 50 dyer rresht pa asnjë punë.\n• Funksionoi një postim në grupin e lagjes ku u prezantua me emër dhe tregoi çfarë bën.\n\nKëtu: vitrinat e dyqaneve dhe ballkonet me xham para festave. Çmimin tënd vendose pasi të bësh punën e parë dhe të matësh kohën.\n\nRuaje dhe dërgoja dikujt që kërkon një side hustle.\n\n#suksesishqip #sidehustle #punë #lagjja"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "glass jars on kitchen shelf",
+      "note": "Tweet familjar (1 nga 2 të javës). Ndjek fituesit tanë familjarë (937–1.413 shikime: mamaja \"a ke ngrënë?\", babai dhe komshiu). Temë e re në topics_log. Shikuesi merr: një skenë që e njeh dhe e dërgon me \"kjo është mamaja\".",
+      "source_item": "data/metrics/latest.md: tweet-et familjare 2026-11-10, 11, 13 (937–1.413 shikime në TikTok)",
+      "sources": [],
+      "slides": [
+        {
+          "text": "Mamaja ruan çdo qese, çdo kavanoz, çdo copë spango.\n\nNe e quanim kursim të tepruar.\n\nAjo e quante ndryshe: që askujt në këtë shtëpi të mos i mungojë gjë."
+        }
+      ],
+      "caption": "Ata kursenin pa e ditur fjalën \"buxhet\".\n\nSot pyete mamanë: \"Cila ishte gjëja që s'e hodhe kurrë?\"\n\nDërgoja dikujt që e ka mamanë kështu.\n\n#suksesishqip #mamaja #familja #shtëpia"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Llogari nga jeta e shikuesit + rregull, formati që fiton (si \"300 lekë në ditë\", 5.700). Metoda: Demotivator i Money Saving Expert (çmimi në orë pune). Shikuesi merr: numrin e vet (rroga në dorë ÷ 174) për çdo blerje, para Black Friday.",
+      "source_item": "https://www.moneysavingexpert.com/shopping/demotivator/",
+      "sources": [
+        "https://www.moneysavingexpert.com/shopping/demotivator/",
+        "https://shqiptarja.com/lajm/baret-po-spekulojne-me-ujin-e-shesin-njesoj-ose-me-shtrenjte-se-kafeja-rritja-me-30",
+        "https://shqiptarja.com/lajm/qeveria-merr-vendimin-nga-janari-paga-minimale-rritet-ne-50-mije-leke"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Kafe + ujë",
+          "big": "48 minuta",
+          "sub": "punë, me rrogë 50.000 në dorë",
+          "figure": "clock",
+          "text": "Me rrogë 50.000 lekë në dorë, një kafe me ujë të kushton 48 minuta punë!",
+          "say": "Me rrogë pesëdhjetë mijë lekë në dorë, një kafe me ujë të kushton dyzet e tetë minuta punë!"
+        },
+        {
+          "type": "count",
+          "kicker": "50.000 ÷ 174 orë",
+          "value": 287,
+          "suffix": " lekë",
+          "label": "vlen një orë e jotja",
+          "at": "287",
+          "text": "Pjesëto rrogën me 174 orë, dhe del 287 lekë ora!",
+          "say": "Pjesëto rrogën me njëqind e shtatëdhjetë e katër orë, dhe del dyqind e tetëdhjetë e shtatë lekë ora!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "230 lekë",
+            "sub": "kafe + ujë",
+            "figure": "money"
+          },
+          "right": {
+            "label": "48 min",
+            "sub": "punë",
+            "figure": "clock"
+          },
+          "at": "orë",
+          "text": "Kafja me ujë shkon rreth 230 lekë, gati një orë punë.",
+          "say": "Kafja me ujë shkon rreth dyqind e tridhjetë lekë, gati një orë punë."
+        },
+        {
+          "type": "icons",
+          "kicker": "Atlete 12.000 lekë",
+          "title": "42 orë",
+          "icon": "clock",
+          "n": 40,
+          "label": "më shumë se një javë punë",
+          "at": "42",
+          "text": "Një palë atlete 12.000 lekë janë 42 orë punë!",
+          "say": "Një palë atlete dymbëdhjetë mijë lekë janë dyzet e dy orë punë!"
+        },
+        {
+          "type": "list",
+          "title": "Rregulli:",
+          "items": [
+            "Pjesëto çmimin",
+            "Shiko orët",
+            "Pyet veten"
+          ],
+          "text": "Pjesëto çmimin me orën tënde, shiko orët, pyet veten a i vlen."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej numrin tënd.",
+          "at": "gjej",
+          "figure": "keypad",
+          "text": "Sot gjej numrin tënd, dhe shkruaje në koment!"
+        }
+      ],
+      "caption": "Mos e mat çmimin me lekë. Mate me orë pune.\n\n1. Rroga në dorë ÷ 174 orë = sa vlen një orë e jotja. Me 50.000 lekë: 287 lekë.\n2. Çmimi ÷ ky numër = sa orë pune të kushton.\n\n• Kafe + ujë (rreth 230 lekë): 48 minuta.\n• Një kafe çdo ditë pune: mbi 2 ditë punë në muaj.\n• Atlete 12.000 lekë: 42 orë, më shumë se një javë.\n\nPara çdo blerjeje, sidomos para Black Friday, pyet: a i jap kaq orë për këtë?\n\nShkruaje numrin tënd në koment.\n\n#suksesishqip #rroga #blerje #para"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Gabim + zgjidhje (çmimi i punës së parë). Tema e javës nga kërkimi \"freelancing tips\" dhe fituesi ynë \"logo falas si provë\" (4.625). Rast real: Jack Fleming, 8 orë për 30 $. Shikuesi merr: formulën orë × çmim + materiale dhe rregullin \"shihe punën para çmimit\".",
+      "source_item": "https://www.sidehustlenation.com/how-to-start-a-lawn-care-business/",
+      "sources": [
+        "https://www.sidehustlenation.com/how-to-start-a-lawn-care-business/",
+        "https://www.sidehustlenation.com/mobile-detailing/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Gabimi i punës së parë",
+          "big": "3.000 lekë",
+          "sub": "çmim i thënë pa e parë punën",
+          "figure": "money",
+          "text": "Pranove një punë private për 3.000 lekë, pa e parë fare?",
+          "say": "Pranove një punë private për tre mijë lekë, pa e parë fare?"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "45 min",
+            "sub": "sa mendoi",
+            "figure": "clock"
+          },
+          "right": {
+            "label": "8 orë",
+            "sub": "sa zgjati",
+            "figure": "clock"
+          },
+          "at": "8",
+          "text": "Një djalë amerikan kërkoi 30 dollarë për 45 minuta punë, që zgjati 8 orë!",
+          "say": "Një djalë amerikan kërkoi tridhjetë dollarë për dyzet e pesë minuta punë, që zgjati tetë orë!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Ora e tij doli:",
+          "reply": "2,78 $",
+          "alarm": true,
+          "at": "2,78",
+          "text": "Ora e tij doli 2,78 dollarë!",
+          "say": "Ora e tij doli më pak se tre dollarë!"
+        },
+        {
+          "type": "list",
+          "title": "Para çmimit:",
+          "items": [
+            "Shko shihe",
+            "Numëro orët",
+            "Shto materialet"
+          ],
+          "text": "Shko shihe punën, numëro orët, shto materialet dhe rrugën."
+        },
+        {
+          "type": "checks",
+          "kicker": "Kur e thua çmimin",
+          "rows": [
+            {
+              "label": "Në telefon",
+              "ok": false
+            },
+            {
+              "label": "Pasi e pe punën",
+              "ok": true
+            }
+          ],
+          "text": "Çmimin thuaje pasi ta kesh parë punën, kurrë në telefon."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Shkruaj formulën.",
+          "at": "shkruaj",
+          "figure": "keypad",
+          "text": "Sot shkruaj formulën tënde: orët herë çmimi i orës, plus materialet!"
+        }
+      ],
+      "caption": "Jack Fleming e nisi kositjen e oborreve 13 vjeç. Punën e parë e çmoi 30 dollarë, se mendoi që do t'i merrte 45 minuta. I mori rreth 8 orë: 2,78 dollarë ora.\n\nSi mos ta bësh të njëjtin gabim:\n1. Shihe punën me sy para se të thuash çmim.\n2. Numëro orët (dhe shto 30%, se gjithmonë zgjat më shumë).\n3. Orët × çmimi i orës + materialet + rruga.\n4. Çmimin thuaje pasi e pe, jo në telefon.\n\nShtesa 30% është rregulli ynë i thjeshtë, jo e tija.\n\nDërgoja dikujt që punon lirë.\n\n#suksesishqip #freelance #çmimi #punë"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-17",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "AI praktike e hapur nga paraja e shikuesit (hook-u \"rroga mbaron më 20\" i fituesit). Formati i Caleb Hammer (kanal i vëzhguar, 1,3–2 mln shikime): nxjerrja e bankës rresht pas rreshti. Shikuesi merr: promptin gati dhe 3 hapat. Prompti duhet provuar një herë në ChatGPT para publikimit.",
+      "source_item": "data/trends/2026-11-15.json (channels: Caleb Hammer, Financial Audit) + https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq",
+      "sources": [
+        "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Prompt për ChatGPT",
+          "big": "Ku shkoi rroga?",
+          "sub": "përgjigjja në 2 minuta",
+          "figure": "robot",
+          "text": "Rroga hyri më 1, dhe më 20 s'e di ku shkuan 60.000 lekë?",
+          "say": "Rroga hyri më një, dhe më njëzet s'e di ku shkuan gjashtëdhjetë mijë lekë?"
+        },
+        {
+          "type": "list",
+          "title": "3 hapat:",
+          "items": [
+            "Shkarko nxjerrjen",
+            "Fshi numrin e llogarisë",
+            "Ngarkoje në ChatGPT"
+          ],
+          "text": "Shkarko nxjerrjen e bankës, fshi numrin e llogarisë, ngarkoje në ChatGPT."
+        },
+        {
+          "type": "chat",
+          "kicker": "Prompti:",
+          "reply": "Ndaji shpenzimet në kategori",
+          "at": "ndaji",
+          "text": "Shkruaj: ndaji shpenzimet në kategori, dhe trego tri më të mëdhatë!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Kërkoji edhe:",
+          "rows": [
+            {
+              "label": "Abonimet",
+              "ok": true
+            },
+            {
+              "label": "Pagesat e vogla",
+              "ok": true
+            }
+          ],
+          "text": "Kërkoji edhe abonimet që përsëriten, dhe pagesat e vogla nën 500 lekë.",
+          "say": "Kërkoji edhe abonimet që përsëriten, dhe pagesat e vogla nën pesëqind lekë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Kujdes:",
+          "reply": "AI-ja gabon me numrat",
+          "alarm": true,
+          "at": "gabon",
+          "text": "AI-ja gabon me numrat, ndaj kontrolloje totalin me nxjerrjen!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Provoje me tetorin.",
+          "at": "provoje",
+          "figure": "laptop",
+          "text": "Sot provoje me nxjerrjen e tetorit, dhe shiko cila kategori të habit!"
+        }
+      ],
+      "caption": "Prompti që kopjon (ChatGPT, versioni falas pranon skedarë, me kufi):\n\n\"Kjo është nxjerrja ime bankare e një muaji. Ndaji shpenzimet në kategori (ushqim, qira, fatura, transport, kafe e restorante, abonime, të tjera). Më trego totalin për çdo kategori, tri kategoritë më të mëdha, abonimet që përsëriten dhe të gjitha pagesat nën 500 lekë të mbledhura bashkë. Mos shto asgjë që nuk është në nxjerrje.\"\n\nPara se ta ngarkosh: fshi numrin e llogarisë, emrin dhe adresën.\nPas përgjigjes: kontrollo totalin me nxjerrjen. AI-ja gabon me numrat.\n\nRuaje për ditën kur të thuash \"ku shkoi rroga?\".\n\n#suksesishqip #ai #chatgpt #buxheti"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "laptop on desk with headphones and microphone",
+      "note": "Tweet para/punë me numër (çmime reale në Fiverr, parë më 15 nëntor). Ndjek fituesin \"logo falas si provë\" (4.625): puna freelance. Shikuesi merr: mos hyr aty ku çmimi është 5 dollarë; shiko kategoritë ku çmimi nis më lart.",
+      "source_item": "https://www.fiverr.com/gigs/albanian-translation",
+      "sources": [
+        "https://www.fiverr.com/gigs/albanian-translation"
+      ],
+      "slides": [
+        {
+          "text": "Në Fiverr ka 418 shërbime përkthimi në shqip.\n\nShumica nisin nga 5 dollarë, dhe pothuaj asnjë s'ka vlerësime.\n\nAty ku hyjnë të gjithë, çmimi bie i pari."
+        }
+      ],
+      "caption": "E pamë sot: 418 shërbime përkthimi shqip në Fiverr, 14 nga 19 çmimet e para nisin nga 5 dollarë.\n\nPara se të hapësh një profil, shiko dy gjëra në kategorinë tënde: sa shitës ka dhe nga sa nis çmimi. Për krahasim, regjistrimet me zë në shqip nisin nga 10 deri 60 dollarë.\n\nDërgoja dikujt që po hap profil në Fiverr.\n\n#suksesishqip #freelance #fiverr #punë"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Ideja më e fortë e javës, në formatin që fiton (rroga e shikuesit + kontradiktë + rregull). Tema nga komentet e YouTube: \"njerëzit refuzojnë rritjen se kalojnë fashën\"; në Shqipëri te 50.000 lekë kjo është e vërtetë. Shikuesi merr: pragun 53.000 bruto. Llogaritja është jona mbi rregullin e ligjit: një kontabilist ta konfirmojë një herë.",
+      "source_item": "https://taxsummaries.pwc.com/albania/individual/taxes-on-personal-income",
+      "sources": [
+        "https://taxsummaries.pwc.com/albania/individual/taxes-on-personal-income",
+        "https://tatime.gov.al/wp-content/uploads/2026/09/Ligj-Nr.-29-2023-Per-Tatimin-mbi-te-Ardhurat-i-ndryshuar.pdf",
+        "https://taxsummaries.pwc.com/albania/individual/other-taxes",
+        "https://shqiptarja.com/lajm/qeveria-merr-vendimin-nga-janari-paga-minimale-rritet-ne-50-mije-leke"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rroga 50.000 → 51.000",
+          "big": "-1.192 lekë",
+          "sub": "rritja që ta ul rrogën",
+          "stamp": "GABIM",
+          "at": "ul",
+          "figure": "chart_down",
+          "text": "Rroga bruto 50.000 lekë: një rritje 1.000 lekësh ta ul rrogën në dorë!",
+          "say": "Rroga bruto pesëdhjetë mijë lekë: një rritje një mijë lekësh ta ul rrogën në dorë!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "44.400",
+            "sub": "në dorë me 50.000",
+            "figure": "money"
+          },
+          "right": {
+            "label": "43.208",
+            "sub": "në dorë me 51.000",
+            "figure": "money"
+          },
+          "at": "43.208",
+          "text": "Me 50.000 merr 44.400 në dorë, me 51.000 vetëm 43.208!",
+          "say": "Me pesëdhjetë mijë merr dyzet e katër mijë e katërqind në dorë, me pesëdhjetë e një mijë vetëm dyzet e tre mijë e dyqind!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Pse ndodh",
+          "rows": [
+            {
+              "label": "Deri 50.000: tatim 0",
+              "ok": true
+            },
+            {
+              "label": "Mbi 50.000: 13%",
+              "ok": false
+            }
+          ],
+          "text": "Deri në 50.000 tatimi është zero, mbi të jo.",
+          "say": "Deri në pesëdhjetë mijë tatimi është zero, mbi të jo."
+        },
+        {
+          "type": "count",
+          "kicker": "Pragu yt",
+          "value": 53000,
+          "suffix": " lekë",
+          "label": "bruto: këtu fiton vërtet",
+          "at": "53.000",
+          "text": "Rritja të vlen vetëm nga 53.000 bruto e lart!",
+          "say": "Rritja të vlen vetëm nga pesëdhjetë e tre mijë bruto e lart!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Thuaji shefit:",
+          "reply": "Jo më pak se 53.000",
+          "at": "kaq",
+          "text": "Pra thuaji shefit: jo më pak se kaq!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Shiko fletëpagesën.",
+          "at": "shiko",
+          "figure": "keypad",
+          "text": "Sot shiko fletëpagesën: sa është bruto, dhe sa të vjen në dorë!"
+        }
+      ],
+      "caption": "Paga minimale është 50.000 lekë bruto. Deri aty tatimi mbi pagën është zero. Sapo e kalon, paguan 13% për gjithë pjesën mbi 35.000 lekë.\n\nLlogaritja (kontribute 11,2% + tatim):\n• 50.000 bruto → 44.400 në dorë\n• 51.000 bruto → 43.208 në dorë\n• 52.000 bruto → 43.966 në dorë\n• 53.000 bruto → 44.724 në dorë\n\nPra një rritje nga 50.000 në 51.000 ose 52.000 të lë me më pak para. Nëse të ofrojnë rritje, kërko të paktën 53.000 bruto.\n\nLlogaritje jona me rregullat e vitit 2026. Për rastin tënd pyet financën.\n\nDërgoja dikujt që punon me pagë minimale.\n\n#suksesishqip #rroga #paga #tatimi"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë me fjalinë gati (shoku kërkon borxh). Tema e javës nga YouTube: borxhi që s'i thua dot jo (Ramit, Financial Diet). Shikuesi merr: fjalinë \"50 s'i kam, 10 po\" dhe rregullin: jep vetëm sa mund të humbësh.",
+      "source_item": "https://nbcconnecticut.com/news/business/money-report/how-to-say-no-when-family-and-friends-ask-to-borrow-money-from-a-financial-therapist/3429964",
+      "sources": [
+        "https://nbcconnecticut.com/news/business/money-report/how-to-say-no-when-family-and-friends-ask-to-borrow-money-from-a-financial-therapist/3429964"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Shoku të kërkon borxh",
+          "big": "50.000 lekë",
+          "sub": "rroga jote: 60.000",
+          "figure": "people",
+          "text": "Shoku të kërkon 50.000 lekë borxh, kur rroga jote është 60.000!",
+          "say": "Shoku të kërkon pesëdhjetë mijë lekë borxh, kur rroga jote është gjashtëdhjetë mijë!"
+        },
+        {
+          "type": "icons",
+          "kicker": "Anketë në SHBA, 2024",
+          "title": "Gati 1 në 4",
+          "icon": "person",
+          "n": 4,
+          "label": "borxhi ua prishi marrëdhënien",
+          "at": "katër",
+          "text": "Në një anketë amerikane, gati një në katër tha se borxhi ia prishi shoqërinë."
+        },
+        {
+          "type": "list",
+          "title": "Rregulli:",
+          "items": [
+            "Pyet veten",
+            "Ofro më pak",
+            "Mos u justifiko"
+          ],
+          "text": "Pyet veten sa mund të humbësh, ofro më pak, mos u justifiko gjatë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Fjalia gati:",
+          "reply": "50 s'i kam. 10 t'i jap.",
+          "at": "dhjetë",
+          "text": "Thuaj: pesëdhjetë s'i kam, por dhjetë mijë t'i jap me gjithë qejf!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "\"Jo\" e thatë",
+            "sub": "ftohet shoku",
+            "figure": "people"
+          },
+          "right": {
+            "label": "Shuma jote",
+            "sub": "shpëton të dyja",
+            "figure": "piggy"
+          },
+          "at": "rrogën",
+          "text": "Kështu s'humb as shokun, as rrogën e muajit."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Vendos kufirin tënd.",
+          "at": "vendos",
+          "figure": "piggy",
+          "text": "Sot vendos shumën tënde për borxhe, para se të ta kërkojë dikush!"
+        }
+      ],
+      "caption": "Terapistja financiare Aja Evans këshillon tri gjëra kur dikush të kërkon borxh:\n1. Pyet veten sa mund të japësh pa u lëkundur vetë, edhe sikur të mos kthehet.\n2. Nëse s'e përballon të gjithë shumën, ofro një më të vogël në vend të një \"jo\"-je të thatë.\n3. S'ke pse jep llogari për buxhetin tënd.\n\nFjalia: \"50 mijë s'i kam, por 10 mijë t'i jap me gjithë qejf.\"\n\nNë një anketë amerikane të vitit 2024, gati 1 në 4 veta që dhanë borxh thanë se u prish marrëdhënia.\n\nDërgoja dikujt që s'di të thotë jo.\n\n#suksesishqip #borxh #para #shoqëria"
+    }
+  ]
+}
