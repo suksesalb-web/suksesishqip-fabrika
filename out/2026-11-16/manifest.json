@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "rendered_at": 1794810453,
+  "rendered_at": 1794810771,
   "posts": [
     {
       "id": "p1",
@@ -24,7 +24,7 @@
         "sfx": 19,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.85,
+        "duration": 32.45,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -34,27 +34,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 7.41
+            "start": 7.02
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 12.44
+            "start": 12.5
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 17.73
+            "start": 17.96
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 21.64
+            "start": 22.17
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 25.43
+            "start": 26.75
           }
         ]
       }
@@ -66,8 +66,8 @@
         "out/2026-11-16/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "4820225",
-        "page": "https://pixabay.com/photos/girl-street-walk-person-mono-4820225/",
+        "pixabay_id": "7357492",
+        "page": "https://pixabay.com/photos/girl-woman-crowd-dancer-hip-hop-7357492/",
         "query": "crowd of people walking city street from behind"
       }
     },
@@ -88,12 +88,13 @@
         "video": null,
         "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
-        "voice_sync": "split",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [4] (letters/s [16.3, 10.8, 18.4, 29.6, 12.7, 15.7])",
+        "voice_sync": "per-beat",
         "voice_speed": 1.07,
         "sfx": 23,
         "engine": "hype",
         "look": "grafit",
-        "duration": 27.68,
+        "duration": 28.75,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -103,27 +104,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 4.07
+            "start": 4.05
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 9.06
+            "start": 9.69
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 12.59
+            "start": 13.42
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 16.24
+            "start": 17.08
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 21.42
+            "start": 21.77
           }
         ]
       }
@@ -143,14 +144,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 17,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.36,
+        "duration": 30.54,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -160,27 +161,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.09
+            "start": 4.63
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 10.52
+            "start": 10.65
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 16.1
+            "start": 16.07
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 20.99
+            "start": 20.37
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 25.26
+            "start": 24.59
           }
         ]
       }
