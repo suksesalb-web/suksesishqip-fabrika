@@ -49,6 +49,10 @@ Before a post goes into the queue, its first line must pass all three:
 3. **It names a pain or a contradiction in that number** ("të mbaron më 20", "paga 800€, telefoni 1.200€", "300 lekë në ditë = mbi 100 mijë në vit").
 If a line fails, rewrite it or pick another idea. A side hustle Reel passes by opening with the viewer's gap ("Rroga mbaron më 20 dhe mbrëmjet i ke të lira?"), then the job.
 
+**Added 2026-11-16 (review; evidence in `data/learnings.md`):**
+- **The whole hook stays in the viewer's world, in lekë.** "Rroga mbaron më 20, por një komodinë 30 dollarëshe u shit 150…" is half a pass: the second half is a stranger's result in dollars, the kind of number that sat at 200–250 views (Dyson, Nokia, the Google Maps cafe). Put the result in lekë and in an Albanian setting ("një komodinë e vjetër nga MerrJep, rreth 3.000 lekë, e lyer në një fundjavë…", with the rate checked on the day); the foreign person and their dollars come after the hook, as the proof.
+- **Rotate the viewer's number.** The 60.000 lekë of the winner is one salary, not the page's only number. In one week use the same rroga in at most **2 hooks**, and the same figure (e.g. "paga mesatare 90.119 lekë") in at most **1 post**. Rotate 40.000 / 50.000 / 70.000 / 80.000 / 100.000 lekë, a salary in euro for those working abroad, the qira, the kësti, the fatura. A different number reaches a different viewer and keeps the feed from looking like the same post every day.
+
 **Build series on winners.** When a post goes several times above the usual level (see `data/metrics/latest.md`), come back to it within the week with a new angle, never a copy: the same rule for another rroga (40.000, 80.000, 100.000 lekë), the next step ("ku shkojnë 12.000 lekët e kursyera"), the same math for another expense. One follow-up per winner per week at most.
 
 ## Main focus
@@ -86,6 +90,8 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 
 ## Learnings (read every run)
 `data/metrics/latest.md` is rewritten every morning from Buffer's numbers for both TikTok and Instagram: the winners, the weakest posts of the last days and the usual level per format. Read it first: TikTok is where almost all our views are, so it decides what we write (Instagram's `own_posts` alone misses it).
+
+**Buffer's TikTok numbers arrive late (seen 2026-11-13 to 11-16):** a post can show 0 views in `latest.md` for up to ~36 hours and then jump (the 13 Nov 22:00 tweet went 0 → 1 373; the 15 Nov 18:00 and 21:00 Reels showed 0 the next morning). A 0 on a post under 36 hours old means "not counted yet", never "flop": don't drop an idea or start a follow-up because of it.
 
 `data/learnings.md` holds what our own numbers have taught us so far (written every 3 days by the review). Read it before writing and follow it, inside the rules of this guide. When it says a kind of hook, topic or format wins or loses, act on it.
 

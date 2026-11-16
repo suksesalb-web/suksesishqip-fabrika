@@ -4,6 +4,31 @@ Written by the 3-day review (and by hand when Mario decides something). The dail
 before writing posts and follows it, inside the rules of GUIDE.md. Newest entries on top. Each entry:
 what the numbers showed, why we think so, and the concrete change for the next posts.
 
+## 2026-11-16 (3-day review, Buffer data of 16 Nov 05:48)
+**Numbers.** Almost nothing new to judge since the 15 Nov analysis: Buffer did not refresh TikTok overnight (the 16 Nov file has the same numbers as the 15 Nov 18:09 one).
+TikTok, judgeable posts of 13–15 Nov: best still reel/hype 50/30/20 "rroga 60.000 lekë" 30 975 views, 224 shares, 11,7 s; then tweets "telefoni 1.200€" 10 743 and "logo falas" 4 625.
+Weakest: reel/hype Dyson 205 views, 3,5 s (lowest watch time of all Reels); side hustle "12,5 milionë të huaj… menu" 245 views, 4,5 s, 0 shares (15 Nov, first ~15 h).
+Too new / not counted: 15 Nov 15:00 family tweet "babai, makina 20 vjet" 211 (~15 h), 15 Nov 18:00 inflation Reel and 21:00 Sara Blakely Reel 0 views (Buffer lag, see below).
+Instagram (17 followers): best 50/30/20 Reel 113 reach, 6 shares, 1 save; menu Reel 78; every tweet 8–13 reach, including the TikTok winners (10 743 on TikTok = 8 reach on IG). own_posts works (token fine).
+**Why.**
+- The menu Reel is the 7th side hustle Reel at ~200–380 views and fails hook test points 1–2 exactly as predicted: tourists and cafe owners, a statistic (12,5 milionë), not the viewer. It was written before the hook test existed, so it does not count toward the "5 tries with a viewer-money hook" (those start 16 Nov).
+- Dyson confirms foreign stories: a stranger's number, people leave at 3,5 s.
+- Buffer lag: posts showed 0 at ~10 h and filled in the next day before (13 Nov 22:00 tweet 0 → 1 373, Nokia 0 → 225). So a 0 under ~36 h is not a flop.
+**Checked the week's drafts (16–22 Nov) against the hook test.** 27 of 28 open from the viewer's money: good. Two weak spots:
+(1) side hustle hooks are half viewer, half a foreign stranger in dollars ("komodinë 30 dollarëshe u shit 150" 16 Nov, "pajisje 200 dollarë" 18 Nov, "Josh e nisi me një punë 30 dollarëshe" 21 Nov), the kind of number that has never left ~250;
+(2) the same number again and again: "rroga 60.000" in 6 hooks (17 Nov p1 + p4, 20 Nov p1, 21 Nov p1 + p4, 22 Nov p1) and "90.119 lekë" in two tweets (16 and 19 Nov). GUIDE's own series rule says other salaries; one figure is "my number" for only part of the audience and makes the feed look repetitive. Evidence for (2) is a reasoned risk, not yet our data: small change, watch it.
+**Changes.**
+- GUIDE hook test: the whole hook stays in the viewer's world and in lekë; the foreign person's dollar result comes after the hook as proof (evidence: every foreign-figure hook 200–250 views; every winner a lekë/euro number of the viewer).
+- GUIDE: rotate the viewer's number: same rroga in at most 2 hooks a week, same figure in at most 1 post (evidence above, point 2).
+- GUIDE: a 0 in latest.md for a post under ~36 h is Buffer lag, not a flop (evidence: the jumps listed above).
+- For the daily run this week (wording fixes, allowed by the draft rules; re-run sync check after):
+  17 Nov p2 tweet opens with "Në Fiverr ka 418 shërbime përkthimi": open from the viewer instead (e.g. "Di anglisht dhe mbrëmjet i ke të lira?") and keep the facts.
+  18 Nov p1 and 21 Nov p1: put the dollar amount in the hook in lekë (rate checked that day), the person's name after the hook.
+  20, 21 and 22 Nov p1 and 17 Nov p4: where the Reel's math does not depend on 60.000, use another rroga in the hook (50.000, 70.000, 80.000) so the week has at most 2 hooks with 60.000.
+  19 Nov p2 tweet: 90.119 was used on 16 Nov; open from the viewer's own pay instead ("Rroga jote u rrit që nga 2020? Çmimet u rritën më shumë.") and keep the checked figures in the body.
+- No change to the daily mix or slots: the 15 Nov mix has had no judgeable day yet.
+**Watch next.** The first viewer-money side hustle Reels (16–22 Nov p1): do any leave ~250? (5 tries, then 3 days a week.) 15 Nov inflation Reel and Sara Blakely Reel once Buffer counts them. 50/30/20 follow-ups (17 Nov p1) above 2 000? Money Reel at 21:00 vs 18:00. Family tweet "babai, makina" final number (was it the slot change to 15:00 or just slow counting?). Instagram: any Reel past 300 reach.
+
 ## 2026-11-15 (full analysis of 40 posts on TikTok + Instagram, asked by Mario)
 **Numbers (Buffer, 8–15 Nov).** TikTok usual level: ~270 views per post. Above it, only these:
 reel/hype "rroga 60.000 lekë, rregulli 50/30/20" 30 975 views, 224 shares, 12 comments, 11,7 s watched ·
