@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-17",
+  "rendered_at": 1794897175,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-17/p1/reel.mp4",
+        "out/2026-11-17/p1/frame-01.jpg",
+        "out/2026-11-17/p1/frame-02.jpg",
+        "out/2026-11-17/p1/frame-03.jpg",
+        "out/2026-11-17/p1/frame-04.jpg",
+        "out/2026-11-17/p1/frame-05.jpg",
+        "out/2026-11-17/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 7,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.39,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.28
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 8.99
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.82
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 18.97
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 22.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-17/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "861421",
+        "page": "https://pixabay.com/photos/mixer-headphones-audio-861421/",
+        "query": "laptop on desk with headphones and microphone"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-17/p3/reel.mp4",
+        "out/2026-11-17/p3/frame-01.jpg",
+        "out/2026-11-17/p3/frame-02.jpg",
+        "out/2026-11-17/p3/frame-03.jpg",
+        "out/2026-11-17/p3/frame-04.jpg",
+        "out/2026-11-17/p3/frame-05.jpg",
+        "out/2026-11-17/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 20,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.06,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.05
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 12.41
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 16.1
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 19.57
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 22.35
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-17/p4/reel.mp4",
+        "out/2026-11-17/p4/frame-01.jpg",
+        "out/2026-11-17/p4/frame-02.jpg",
+        "out/2026-11-17/p4/frame-03.jpg",
+        "out/2026-11-17/p4/frame-04.jpg",
+        "out/2026-11-17/p4/frame-05.jpg",
+        "out/2026-11-17/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 12,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 25.8,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.7
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.27
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.93
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 17.52
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 20.38
+          }
+        ]
+      }
+    }
+  ]
+}
