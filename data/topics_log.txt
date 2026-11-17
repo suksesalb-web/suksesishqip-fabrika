@@ -42,3 +42,7 @@
 2026-11-16 tweet: paga mesatare 90.119 bruto vs gjysma marrin nën 60.000 neto, krahaso me medianen
 2026-11-16 reel/hype grafit calculation+rule (numbers): 50/30/20 me 80.000 lekë (40.000/24.000/16.000), 192.000 në vit, urdhër i përhershëm ditën e rrogës
 2026-11-16 reel/hype grafit mistake+fix (situation): paga e nëndeklaruar (1 në 6, Inspektorati 2023), pensioni/leja e lindjes/kredia, vërtetimi i kontributeve në e-Albania
+2026-11-17 reel/hype grafit ready-prompt (AI, numbers): ChatGPT ndan nxjerrjen bankare në kategori (fshi numrin e llogarisë, abonimet, pagesat nën 500 lekë, kontrollo totalin), rroga 60.000 mbaron më 20
+2026-11-17 tweet: Fiverr përkthime shqip ~400 shërbime nga 5 $, regjistrime me zë 10–60 $, zgjidh kategorinë ku hyjnë më pak
+2026-11-17 reel/hype grafit calculation+rule (numbers): kurthi i tatimit te paga minimale, 50.000 → 51.000 bruto = -1.192 lekë neto (44.400 vs 43.208), rritja vlen nga 53.000 bruto, shiko fletëpagesën
+2026-11-17 reel/hype grafit ready-message (situation): shoku kërkon borxh 50.000 me rrogë 70.000, Bankrate 2024 gati 1 në 4, fjalia "50 s'i kam, 10 t'i jap", vendos kufirin për borxhe
