@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "rendered_at": 1794897175,
+  "rendered_at": 1794897554,
   "posts": [
     {
       "id": "p1",
@@ -24,7 +24,7 @@
         "sfx": 7,
         "engine": "hype",
         "look": "grafit",
-        "duration": 28.39,
+        "duration": 28.16,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -34,27 +34,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 4.28
+            "start": 4.83
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 8.99
+            "start": 9.48
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.82
+            "start": 13.96
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 18.97
+            "start": 18.63
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 22.8
+            "start": 22.77
           }
         ]
       }
@@ -66,9 +66,9 @@
         "out/2026-11-17/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "861421",
-        "page": "https://pixabay.com/photos/mixer-headphones-audio-861421/",
-        "query": "laptop on desk with headphones and microphone"
+        "pixabay_id": "3964050",
+        "page": "https://pixabay.com/photos/book-read-book-pages-literature-3964050/",
+        "query": "open dictionary book on wooden desk"
       }
     },
     {
@@ -86,14 +86,15 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
-        "voice_sync": "split",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [5, 6] (letters/s [12.8, 15.1, 11.8, 13.4, 6.8, 24.2])",
+        "voice_sync": "per-beat",
         "voice_speed": 1.07,
         "sfx": 20,
         "engine": "hype",
         "look": "grafit",
-        "duration": 28.06,
+        "duration": 26.18,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -103,27 +104,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.05
+            "start": 4.7
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 12.41
+            "start": 10.35
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 16.1
+            "start": 13.95
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 19.57
+            "start": 16.88
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 22.35
+            "start": 19.77
           }
         ]
       }
@@ -150,7 +151,7 @@
         "sfx": 12,
         "engine": "hype",
         "look": "grafit",
-        "duration": 25.8,
+        "duration": 28.4,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -160,27 +161,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 4.7
+            "start": 4.58
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 9.27
+            "start": 10.1
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.93
+            "start": 13.14
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 17.52
+            "start": 19.1
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 20.38
+            "start": 22.4
           }
         ]
       }
