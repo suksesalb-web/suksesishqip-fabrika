@@ -35,7 +35,7 @@
         {
           "type": "chat",
           "kicker": "Prompti:",
-          "reply": "Ndaji shpenzimet në kategori",
+          "reply": "Ndaji në kategori",
           "at": "ndaji",
           "text": "Shkruaj: ndaji shpenzimet në kategori, dhe trego tri më të mëdhatë!"
         },
@@ -78,7 +78,7 @@
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "laptop on desk with headphones and microphone",
+      "photo_query": "open dictionary book on wooden desk",
       "source_item": "https://www.fiverr.com/gigs/albanian-translation",
       "sources": [
         "https://www.fiverr.com/gigs/albanian-translation"
@@ -111,7 +111,6 @@
           "kicker": "Rroga 50.000 → 51.000",
           "big": "-1.192 lekë",
           "sub": "rritja që ta ul rrogën",
-          "stamp": "GABIM",
           "at": "ul",
           "figure": "chart_down",
           "text": "Rroga bruto 50.000 lekë: një rritje 1.000 lekësh ta ul rrogën në dorë!",
@@ -229,12 +228,12 @@
         {
           "type": "versus",
           "left": {
-            "label": "\"Jo\" e thatë",
+            "label": "JO",
             "sub": "ftohet shoku",
             "figure": "people"
           },
           "right": {
-            "label": "Shuma jote",
+            "label": "10.000",
             "sub": "shpëton të dyja",
             "figure": "piggy"
           },
