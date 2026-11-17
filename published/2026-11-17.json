@@ -1,0 +1,42 @@
+{
+  "p1": {
+    "buffer_id": "6afbf88ef83aaca8f3b5c954",
+    "dueAt": "2026-11-17T11:00:00.000Z",
+    "images": 1,
+    "tiktok": {
+      "buffer_id": "6afbf88f797935b975ea42f0",
+      "dueAt": "2026-11-17T11:00:00.000Z",
+      "images": 1
+    }
+  },
+  "p2": {
+    "buffer_id": "6afbf88f797935b975ea4317",
+    "dueAt": "2026-11-17T14:00:00.000Z",
+    "images": 1,
+    "tiktok": {
+      "buffer_id": "6afbf890f83aaca8f3b5c9ce",
+      "dueAt": "2026-11-17T14:00:00.000Z",
+      "images": 1
+    }
+  },
+  "p3": {
+    "buffer_id": "6afbf890c6d951405b4a5790",
+    "dueAt": "2026-11-17T17:00:00.000Z",
+    "images": 1,
+    "tiktok": {
+      "buffer_id": "6afbf89182a2d4951bed8afe",
+      "dueAt": "2026-11-17T17:00:00.000Z",
+      "images": 1
+    }
+  },
+  "p4": {
+    "buffer_id": "6afbf891c6d951405b4a57c0",
+    "dueAt": "2026-11-17T20:00:00.000Z",
+    "images": 1,
+    "tiktok": {
+      "buffer_id": "6afbf892c6d951405b4a5850",
+      "dueAt": "2026-11-17T20:00:00.000Z",
+      "images": 1
+    }
+  }
+}
