@@ -46,3 +46,7 @@
 2026-11-17 tweet: Fiverr përkthime shqip ~400 shërbime nga 5 $, regjistrime me zë 10–60 $, zgjidh kategorinë ku hyjnë më pak
 2026-11-17 reel/hype grafit calculation+rule (numbers): kurthi i tatimit te paga minimale, 50.000 → 51.000 bruto = -1.192 lekë neto (44.400 vs 43.208), rritja vlen nga 53.000 bruto, shiko fletëpagesën
 2026-11-17 reel/hype grafit ready-message (situation): shoku kërkon borxh 50.000 me rrogë 70.000, Bankrate 2024 gati 1 në 4, fjalia "50 s'i kam, 10 t'i jap", vendos kufirin për borxhe
+2026-11-18 reel/hype grafit step-by-step (side hustle): larje xhamash me pajisje ~16.000 lekë (Jack Leimbach, 200 $), çmim për xham jo për orë, 50 dyer pa punë, postimi në rrjetin e lagjes, numëro xhamat e një dyqani
+2026-11-18 tweet: mamaja ruan çdo qese, kavanoz, spango (që askujt të mos i mungojë gjë)
+2026-11-18 reel/hype grafit calculation+rule (numbers): çmimi në orë pune, 50.000 neto ÷ 174 = 287 lekë/orë, kafe + ujë ~230 lekë = 48 minuta, atlete 12.000 = 42 orë, para Black Friday
+2026-11-18 reel/hype grafit mistake+fix (situation): puna e parë e çmuar pa e parë (Jack Fleming, 30 $, 45 min vs 8 orë), shihe punën, numëro orët, orë × çmim + materiale + rruga
