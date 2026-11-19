@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-19",
+  "rendered_at": 1795070186,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-19/p1/reel.mp4",
+        "out/2026-11-19/p1/frame-01.jpg",
+        "out/2026-11-19/p1/frame-02.jpg",
+        "out/2026-11-19/p1/frame-03.jpg",
+        "out/2026-11-19/p1/frame-04.jpg",
+        "out/2026-11-19/p1/frame-05.jpg",
+        "out/2026-11-19/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 21,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 24.0,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.74
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.13
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.09
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 16.97
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 19.95
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-19/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "2923697",
+        "page": "https://pixabay.com/photos/family-shopping-center-purchase-2923697/",
+        "query": "supermarket shopping cart aisle"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-19/p3/reel.mp4",
+        "out/2026-11-19/p3/frame-01.jpg",
+        "out/2026-11-19/p3/frame-02.jpg",
+        "out/2026-11-19/p3/frame-03.jpg",
+        "out/2026-11-19/p3/frame-04.jpg",
+        "out/2026-11-19/p3/frame-05.jpg",
+        "out/2026-11-19/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 10,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 32.11,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.08
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.45
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.61
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 21.85
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 26.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-19/p4/reel.mp4",
+        "out/2026-11-19/p4/frame-01.jpg",
+        "out/2026-11-19/p4/frame-02.jpg",
+        "out/2026-11-19/p4/frame-03.jpg",
+        "out/2026-11-19/p4/frame-04.jpg",
+        "out/2026-11-19/p4/frame-05.jpg",
+        "out/2026-11-19/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 16,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 29.08,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.4
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 11.97
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 16.81
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 21.47
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 24.65
+          }
+        ]
+      }
+    }
+  ]
+}
