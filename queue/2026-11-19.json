@@ -81,7 +81,7 @@
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "supermarket shopping cart aisle",
+      "photo_query": "supermarket shelves price tags",
       "note": "Tweet para/punë me numër (INSTAT përmes Monitor). Tema e javës: fuqia blerëse dhe inflacioni (Graham Stephan). Lidhet me Reel-in e së dielës për rritjen e rrogës. Shikuesi merr: argumentin me numra për të kërkuar rritje.",
       "source_item": "https://www.balkanweb.com/me-pagen-blen-gjithmone-e-me-pak-fuqia-blerese-bie-me-170-euro-nga-2020-ne-2026/",
       "sources": [
@@ -200,9 +200,9 @@
           "kicker": "Kontrolli i BE-së",
           "title": "3 në 10",
           "icon": "shop",
-          "n": 10,
-          "label": "dyqane në internet me ulje të shfaqura gabim",
-          "at": "gabim",
+          "n": 3,
+          "label": "nga 10 dyqane shfaqnin ulje gabim",
+          "at": "dyqaneve",
           "text": "Në BE, 30% e dyqaneve të kontrolluara në internet i shfaqnin uljet gabim.",
           "say": "Në BE, tridhjetë për qind e dyqaneve të kontrolluara në internet i shfaqnin uljet gabim."
         },
