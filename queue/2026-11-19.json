@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-19",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Para shtesë nga ajo që shikuesi ka në shtëpi, me çmime të kontrolluara në MerrJep më 15 nëntor. Zëvendësoi draftin \"karrige me qira\" (hook pa numër nga jeta e shikuesit). Shikuesi merr: rregullin \"gjysma e çmimit të ri\" dhe 3 hapat e njoftimit.",
+      "source_item": "https://www.sidehustlenation.com/building-a-reselling-business/",
+      "sources": [
+        "https://www.sidehustlenation.com/building-a-reselling-business/",
+        "https://www.merrjep.al/njoftime/shtepi-familje/per-femije/tirane/q-karroca-te-perdorura"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Para nga ballkoni",
+          "big": "10–22 mijë lekë",
+          "sub": "karroca që s'e përdor më",
+          "figure": "money",
+          "text": "Fund muaji pa lekë, dhe në ballkon ke një karrocë që kërkohet deri 22 mijë lekë!",
+          "say": "Fund muaji pa lekë, dhe në ballkon ke një karrocë që kërkohet deri njëzet e dy mijë lekë!"
+        },
+        {
+          "type": "count",
+          "kicker": "MerrJep, Tiranë",
+          "value": 100,
+          "label": "njoftime për karroca të përdorura",
+          "at": "100",
+          "text": "Vetëm në Tiranë ka mbi 100 njoftime për karroca të përdorura.",
+          "say": "Vetëm në Tiranë ka mbi njëqind njoftime për karroca të përdorura.",
+          "suffix": "+"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "100%",
+            "sub": "çmimi i ri",
+            "figure": "store"
+          },
+          "right": {
+            "label": "50%",
+            "sub": "çmimi yt",
+            "figure": "money"
+          },
+          "at": "gjysmës",
+          "text": "Rregulli: sendi i përdorur shitet rreth gjysmës së çmimit të ri."
+        },
+        {
+          "type": "list",
+          "title": "Njoftimi:",
+          "items": [
+            "Fotografo në dritë",
+            "Shkruaj çmimin e ri",
+            "Vendos gjysmën"
+          ],
+          "text": "Fotografo në dritë, shkruaj çmimin e ri, vendos gjysmën."
+        },
+        {
+          "type": "chat",
+          "kicker": "Kujdes:",
+          "reply": "Çmim i vërtetë, jo \"1 lek\"",
+          "at": "vërtetë",
+          "text": "Dhe vër çmim të vërtetë, jo një lek."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Shit një send.",
+          "at": "zgjidh",
+          "figure": "house",
+          "text": "Sot zgjidh një send që s'e përdor, dhe hidhe në MerrJep!"
+        }
+      ],
+      "caption": "Para se të kërkosh një punë të dytë, shiko ballkonin.\n\nNë MerrJep, vetëm në Tiranë, ka mbi 100 njoftime për karroca fëmijësh të përdorura (161 kur i numëruam më 15 nëntor). Setet e zakonshme kërkohen 10.000 deri 22.000 lekë.\n\nRregulli i dy rishitësve amerikanë, Jack dhe Joan Ferrell: një send i përdorur që prodhohet ende shitet rreth gjysmës së çmimit të ri.\n\nNjoftimi:\n1. Foto në dritë natyrale, pa rrëmujë prapa.\n2. Shkruaj sa kushton i ri.\n3. Vendos rreth gjysmën. Çmim të vërtetë, jo \"1 lek\".\n\nKëto janë çmime të kërkuara, jo të shitura: prit pazar.\n\nRuaje dhe dërgoja dikujt me ballkon plot.\n\n#suksesishqip #merrjep #para #shtëpia"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "supermarket shopping cart aisle",
+      "note": "Tweet para/punë me numër (INSTAT përmes Monitor). Tema e javës: fuqia blerëse dhe inflacioni (Graham Stephan). Lidhet me Reel-in e së dielës për rritjen e rrogës. Shikuesi merr: argumentin me numra për të kërkuar rritje.",
+      "source_item": "https://www.balkanweb.com/me-pagen-blen-gjithmone-e-me-pak-fuqia-blerese-bie-me-170-euro-nga-2020-ne-2026/",
+      "sources": [
+        "https://www.balkanweb.com/me-pagen-blen-gjithmone-e-me-pak-fuqia-blerese-bie-me-170-euro-nga-2020-ne-2026/",
+        "https://www.instat.gov.al/media/nxshgser/statistikat-e-pagave-t1-2026.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Rroga jote u rrit që nga 2020? Çmimet u rritën më shpejt.\n\nTe paga mesatare, diferenca sot është 16.297 lekë në muaj: aq blen më pak se sa thotë letra.\n\nNëse rroga s'të ka lëvizur prej dy vjetësh, në fakt ta kanë ulur."
+        }
+      ],
+      "caption": "Sipas INSTAT (tremujori i parë 2026), paga mesatare bruto është 90.119 lekë, por me çmimet e vitit 2020 blen sa 73.822. Diferenca, 16.297 lekë, është më e madhja që nga 2021.\n\nKy është argumenti yt kur të kërkosh rritje: jo \"dua më shumë\", por \"me këtë rrogë blej më pak se para dy vjetësh\". Sot shkruaj sa merrje para dy vjetësh dhe sa merr tani.\n\nDërgoja dikujt që s'ka kërkuar kurrë rritje.\n\n#suksesishqip #rroga #çmimet #inflacioni"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Llogari + rregull me rrogën e shikuesit (bruto/neto në ofertë pune). Tema e javës: taksat që njerëzit s'i kuptojnë. Shikuesi merr: formulën bruto × 0,758 + 3.900 dhe pyetjen \"bruto apo neto?\". Llogaritje jona mbi rregullin e ligjit.",
+      "source_item": "https://taxsummaries.pwc.com/albania/individual/taxes-on-personal-income",
+      "sources": [
+        "https://taxsummaries.pwc.com/albania/individual/taxes-on-personal-income",
+        "https://tatime.gov.al/wp-content/uploads/2026/09/Ligj-Nr.-29-2023-Per-Tatimin-mbi-te-Ardhurat-i-ndryshuar.pdf",
+        "https://taxsummaries.pwc.com/albania/individual/other-taxes"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Bruto apo neto?",
+          "big": "100.000 ≠ 79.700",
+          "sub": "20.300 lekë s'të vijnë në dorë",
+          "figure": "money",
+          "text": "Të ofrojnë rrogë 100.000 lekë, por në dorë të vijnë 79.700!",
+          "say": "Të ofrojnë rrogë njëqind mijë lekë, por në dorë të vijnë shtatëdhjetë e nëntë mijë e shtatëqind!"
+        },
+        {
+          "type": "list",
+          "title": "Ku shkojnë:",
+          "items": [
+            "Sigurime: 11.200",
+            "Tatim: 9.100"
+          ],
+          "text": "Diferenca shkon për sigurime, dhe për tatim mbi pagën."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "80.000",
+            "sub": "bruto",
+            "figure": "money"
+          },
+          "right": {
+            "label": "64.540",
+            "sub": "në dorë",
+            "figure": "money"
+          },
+          "at": "64.540",
+          "text": "Me 80.000 bruto, në dorë merr 64.540.",
+          "say": "Me tetëdhjetë mijë bruto, në dorë merr gjashtëdhjetë e katër mijë e pesëqind e dyzet."
+        },
+        {
+          "type": "text",
+          "kicker": "Formula mbi 60.000",
+          "title": "Bruto × 0,758",
+          "highlight": "+ 3.900 lekë",
+          "at": "plus",
+          "figure": "keypad",
+          "text": "Formula e shpejtë: bruto herë 0,758, plus 3.900 lekë.",
+          "say": "Formula e shpejtë: bruto herë zero presje shtatëqind e pesëdhjetë e tetë, plus tre mijë e nëntëqind lekë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Në çdo ofertë pyet:",
+          "reply": "Bruto apo neto?",
+          "at": "neto",
+          "text": "Në çdo ofertë pune pyet menjëherë: bruto apo neto?"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Llogarit neton.",
+          "at": "llogarit",
+          "figure": "smartphone",
+          "text": "Sot llogarit neton tënde me formulën, dhe krahasoje me fletëpagesën!"
+        }
+      ],
+      "caption": "Kur të thonë një rrogë, pyet: bruto apo neto?\n\nNga bruto ikin kontributet (11,2%) dhe tatimi mbi pagën:\n• 60.000 bruto → 50.030 në dorë\n• 80.000 bruto → 64.540\n• 100.000 bruto → 79.700\n• 150.000 bruto → 117.600\n\nFormula e shpejtë për rroga nga 60.000 deri 150.000 lekë bruto:\nneto = bruto × 0,758 + 3.900\n\nNë intervistë fol gjithmonë për të njëjtin numër me punëdhënësin. 20.000 lekë diferencë në muaj janë 240.000 në vit.\n\nLlogaritje jona me rregullat e vitit 2026.\n\nRuaje për intervistën e radhës.\n\n#suksesishqip #rroga #punë #intervista"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Gabim + zgjidhje, i kohës: Black Friday është më 27 nëntor, pra çmimet duhen shënuar tani. Burimi: kontrolli i BE-së (30% e 314 dyqaneve) + këshilla e Martin Lewis. Shikuesi merr: shkruaj çmimin sot në 3 dyqane. Rregulli i 30 ditëve thuhet vetëm për BE-në: për Shqipërinë s'u verifikua.",
+      "source_item": "https://www.ccpc.ie/news-and-media/news/article/2026/03/26/investigation-by-ec--ccpc-and-european-consumer-authorities-finds-1-in-3-traders-incorrectly-display-discounts-online-during-black-friday-sales",
+      "sources": [
+        "https://www.ccpc.ie/news-and-media/news/article/2026/03/26/investigation-by-ec--ccpc-and-european-consumer-authorities-finds-1-in-3-traders-incorrectly-display-discounts-online-during-black-friday-sales",
+        "https://www.t3.com/news/martin-lewis-shares-his-top-3-shopping-tips-for-winning-the-black-friday-sales"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Black Friday, 27 nëntor",
+          "big": "-40%?",
+          "sub": "ulje nga cili çmim?",
+          "figure": "store",
+          "text": "Gati gjysmë rroge për një televizor me 40% ulje, por ulje nga cili çmim?",
+          "say": "Gati gjysmë rroge për një televizor me dyzet për qind ulje, por ulje nga cili çmim?"
+        },
+        {
+          "type": "icons",
+          "kicker": "Kontrolli i BE-së",
+          "title": "3 në 10",
+          "icon": "shop",
+          "n": 10,
+          "label": "dyqane në internet me ulje të shfaqura gabim",
+          "at": "gabim",
+          "text": "Në BE, 30% e dyqaneve të kontrolluara në internet i shfaqnin uljet gabim.",
+          "say": "Në BE, tridhjetë për qind e dyqaneve të kontrolluara në internet i shfaqnin uljet gabim."
+        },
+        {
+          "type": "bars",
+          "kicker": "Rregulli në BE",
+          "left": {
+            "label": "Çmimi i fryrë",
+            "sub": "javën para"
+          },
+          "right": {
+            "label": "Çmimi real",
+            "sub": "më i ulëti i 30 ditëve"
+          },
+          "at": "ulët",
+          "text": "Në BE, ulja llogaritet nga çmimi më i ulët i 30 ditëve të fundit.",
+          "say": "Në BE, ulja llogaritet nga çmimi më i ulët i tridhjetë ditëve të fundit."
+        },
+        {
+          "type": "list",
+          "title": "Sot, jo më 27:",
+          "items": [
+            "Zgjidh produktin",
+            "Shkruaj çmimin",
+            "Fotografo ekranin"
+          ],
+          "text": "Zgjidh produktin, shkruaj çmimin në tri dyqane, fotografo ekranin."
+        },
+        {
+          "type": "chat",
+          "kicker": "Më 27 pyet veten:",
+          "reply": "A do ta blija pa ulje?",
+          "at": "blija",
+          "text": "Dhe atë ditë pyet: a do ta blija pa ulje?"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Shkruaj çmimet.",
+          "at": "shkruaj",
+          "figure": "smartphone",
+          "text": "Sot shkruaj çmimet, që më 27 ta dish uljen e vërtetë!",
+          "say": "Sot shkruaj çmimet, që më njëzet e shtatë ta dish uljen e vërtetë!"
+        }
+      ],
+      "caption": "Black Friday është më 27 nëntor. Përgatitja bëhet sot.\n\nAutoritetet e konsumatorit në BE kontrolluan 314 dyqane në internet pas Black Friday-t të kaluar: 30% i shfaqnin uljet gabim. Në BE, çmimi \"i vjetër\" duhet të jetë më i ulëti i 30 ditëve të fundit, jo një çmim i fryrë një javë para.\n\nSi mbrohesh (këshilla e Martin Lewis):\n1. Zgjidh sot çfarë të duhet vërtet.\n2. Shkruaj çmimin e sotëm në 2–3 dyqane dhe bëj foto ekranit.\n3. Më 27 krahaso me fotot, jo me etiketën e kuqe.\n4. Pyet veten: a do ta blija edhe pa ulje? Nëse jo, s'po kursen, po harxhon.\n\nRuaje dhe dërgoja dikujt që pret Black Friday-n.\n\n#suksesishqip #blackfriday #blerje #para"
+    }
+  ]
+}
