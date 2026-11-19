@@ -50,3 +50,7 @@
 2026-11-18 tweet: mamaja ruan çdo qese, kavanoz, spango (që askujt të mos i mungojë gjë)
 2026-11-18 reel/hype grafit calculation+rule (numbers): çmimi në orë pune, 50.000 neto ÷ 174 = 287 lekë/orë, kafe + ujë ~230 lekë = 48 minuta, atlete 12.000 = 42 orë, para Black Friday
 2026-11-18 reel/hype grafit mistake+fix (situation): puna e parë e çmuar pa e parë (Jack Fleming, 30 $, 45 min vs 8 orë), shihe punën, numëro orët, orë × çmim + materiale + rruga
+2026-11-19 reel/hype grafit step-by-step (side hustle): shit karrocën e përdorur në MerrJep (mbi 100 njoftime në Tiranë, 10–22 mijë lekë të kërkuara), rregulli gjysma e çmimit të ri (Jack e Joan Ferrell), foto në dritë, shkruaj çmimin e ri, vendos gjysmën, jo "1 lek"
+2026-11-19 tweet: rroga u rrit që nga 2020, çmimet më shpejt, diferenca te paga mesatare 16.297 lekë në muaj (INSTAT T1 2026), argumenti për rritje
+2026-11-19 reel/hype grafit calculation+rule (numbers): bruto vs neto, 100.000 → 79.700, 80.000 → 64.540, formula bruto × 0,758 + 3.900, pyet "bruto apo neto?" në çdo ofertë
+2026-11-19 reel/hype grafit mistake+fix (situation): Black Friday 27 nëntor, ulje nga cili çmim, BE 30% e 314 dyqaneve uljet gabim, rregulli i 30 ditëve, shkruaj çmimet sot në 3 dyqane
