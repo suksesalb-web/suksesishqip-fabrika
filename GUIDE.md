@@ -28,23 +28,27 @@ If there is no draft for today (the weekly run failed or the week ran out), writ
 
 **Never push anything under `queue/` for a future date** (it would render and confuse the day), and Buffer still gets only the current day's posts.
 
-## Daily mix (4 posts: 3 Reels + 1 tweet)
+## Daily mix (4 posts: 3 Reels + 1 tweet; on Mon, Wed and Sat 2 Reels + 2 tweets)
 Fewer posts so each Reel gets real research and care (Mario, 2026-11-14). Quality and added value come before quantity.
+
+**Changed on 2026-11-19 (review; evidence in `data/learnings.md`):** the 12:00 side hustle Reel has never passed 900 TikTok views in 10 tries (801, 900, 486 even with the viewer-money hook), while the side hustle told as a tweet ("Di anglisht dhe mbrëmjet i ke të lira? Në Fiverr…", 17 Nov) is the page's biggest post: 59 511 views, 611 shares. So on **Monday, Wednesday and Saturday** `p1` at 12:00 is a **side hustle tweet** (see Tweets) instead of a Reel; on the other 4 days it stays a Reel. Foreign success/failure stories are paused (3 of 3 at 225–458 views).
 
 **Changed on 2026-11-15 after the full TikTok + Instagram analysis (Mario asked for it; evidence in `data/learnings.md`):** every big post so far was the viewer's own money in a number from Albanian life. Side hustles that open with a business's problem and stories of foreign companies never left the usual level. So two Reels a day are now "money math", the side hustle Reel opens from the viewer's side, and the foreign company story is down to once a week.
 
 | Slot (Tirana time) | Id | Style | What |
 |---|---|---|---|
-| 12:00 | `p1` | `reel` (20–30 s) | **AI or side hustle, opened from the viewer's money:** the hook is the viewer's situation with a number (rroga, the gap at the end of the month, a free evening), never the client's problem or a statistic. Then one job a person can start from Albania: the tool by name, the 3 steps, the cost to start, the time it takes. Or a ready-made prompt or message the viewer can copy |
-| 15:00 | `p2` | `tweet` | The one tweet of the day (see Tweets). **Money / work with a concrete number on 5 days a week**, personal / family on 2 days |
+| 12:00 | `p1` | Mon/Wed/Sat: `tweet`; other days: `reel` (20–30 s) | **Side hustle tweet (Mon/Wed/Sat):** a skill the viewer already has (a language, Canva, writing, the phone camera, Excel) + a real platform + its real prices + one smart first step, in the shape of the 17 Nov winner (see Tweets). **On Reel days, AI or side hustle, opened from the viewer's money:** prefer work done online with a skill the viewer has over jobs that need equipment or a van (windows, furniture, car cleaning sat at 486–801). the hook is the viewer's situation with a number (rroga, the gap at the end of the month, a free evening), never the client's problem or a statistic. Then one job a person can start from Albania: the tool by name, the 3 steps, the cost to start, the time it takes. Or a ready-made prompt or message the viewer can copy |
+| 15:00 | `p2` | `tweet` | The 15:00 tweet (see Tweets). **Money / work with a concrete number on 6 days a week**, personal / family on 1 day (from 2026-11-23; family tweets 594–2 971 views vs money/work tweets 5 289–59 511) |
 | 18:00 | `p3` | `reel` (20–30 s) | **Money math, with the way out:** a calculation from the viewer's own life (rroga, qira, këste, kafe, fatura, telefon) plus the rule for what to do about it. This is the format that wins: it gets our best idea of the day |
-| 21:00 | `p4` | `reel` (20–30 s) | **A second money Reel of a different kind:** a common money or work mistake plus the fix, or a situation (the boss, the bank, the landlord, payday) with the exact sentence or step to use. At most **once a week** a true success or failure story instead, and only when its hook is a number the viewer feels in their own life. On a two-part-story day part 1 is `p3` at 18:00 and part 2 is `p4` at 18:05, and there is no 21:00 Reel |
+| 21:00 | `p4` | `reel` (20–30 s) | **A second money Reel of a different kind:** a common money or work mistake plus the fix, or a situation (the boss, the bank, the landlord, payday) with the exact sentence or step to use. **No success/failure stories of foreign people or companies for now** (paused 2026-11-19: Nokia 225, Dyson 322, Sara Blakely 458 views); two-part stories are paused with them |
+
+On a Mon/Wed/Sat tweet day the two tweets must differ in kind: `p1` is the side hustle, `p2` is money math or work, never two side hustle tweets.
 
 All Reels use the Hype look (see Hype Reels) and the Added value rules. Story carousels, quotes, book posts and the 09:00 and 22:00 tweets are not in the mix now.
 
 ## The hook test (2026-11-15, from our numbers: applies to every Reel and money tweet)
 Before a post goes into the queue, its first line must pass all three:
-1. **It is about the viewer, not about someone else.** "Nëse rroga prej 60.000 lekësh të mbaron më 20…" (30 975 views) passes. "12,5 milionë të huaj hynë vjet…", "James Dyson bëri 5.126 prototipa…", "Profili i një lokali në Google Maps është falas…" (all 200–250 views) fail: they are about tourists, a stranger, a cafe owner.
+1. **It is about the viewer, not about someone else.** "Nëse rroga prej 60.000 lekësh të mbaron më 20…" (48 250 views), "Rroga bruto 50.000 lekë: një rritje 1.000 lekësh ta ul rrogën në dorë!" (19 260) and "Di anglisht dhe mbrëmjet i ke të lira?" (59 511) pass. "12,5 milionë të huaj hynë vjet…", "James Dyson bëri 5.126 prototipa…", "Profili i një lokali në Google Maps është falas…" (all 200–250 views) fail: they are about tourists, a stranger, a cafe owner.
 2. **It has a number the viewer already has in their head:** their rroga, qira, kësti, the price of a coffee or a phone, in lekë or euro. A statistic or a foreign company's figure is not such a number.
 3. **It names a pain or a contradiction in that number** ("të mbaron më 20", "paga 800€, telefoni 1.200€", "300 lekë në ditë = mbi 100 mijë në vit").
 If a line fails, rewrite it or pick another idea. A side hustle Reel passes by opening with the viewer's gap ("Rroga mbaron më 20 dhe mbrëmjet i ke të lira?"), then the job.
@@ -107,7 +111,14 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - If today's file is missing, use the most recent one, or carry on without it.
 
 ## Tweets (the main image format)
-**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`): money / work with a concrete number on 5 days a week and the personal kind on 2 days (from 2026-11-15: money tweets reached 4 600–10 700 TikTok views, family tweets 900–1 400); the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
+**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`): money / work with a concrete number on 6 days a week and the personal kind on 1 day (changed 2026-11-19: money/work tweets 5 289–59 511 TikTok views, the 5 family tweets 594–2 971); the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
+
+**Side hustle tweet, 12:00 on Mon, Wed and Sat (`p1`, from 2026-11-21).** Built like our biggest post (17 Nov, 59 511 views, 611 shares, 13 comments):
+"Di anglisht dhe mbrëmjet i ke të lira?\n\nNë Fiverr, përkthimet në shqip janë rreth 400 shërbime, shumica nga 5 dollarë.\n\nRegjistrimet me zë në shqip nisin nga 10 deri 60. Zgjidh vendin ku hyjnë më pak."
+- Line 1: a question about a **skill the viewer already has** + their free time ("Di italisht…", "Di Canva…", "Ke një telefon me kamerë të mirë…"). It names the person to send it to.
+- Line 2: the real platform and its real numbers, checked that day (how many sellers, the usual starting price). Line 3: one smart move a beginner would not think of (the less crowded category, the price to start with, what to put in the first offer).
+- Never income promises; prices are what clients pay for one job, from the platform itself, with the link in `"sources"`. Caption: when you checked it, the one step to do first, "Dërgoja dikujt që…".
+- One series follow-up of the 17 Nov winner per week (another language, the gig title and first offer, the first review); never the same platform + skill twice in a week.
 
 Owner's decision (2026-11-13): tweets get priority. They are our strongest image format, especially on TikTok (family tweets reached ~900–1 400 views while quotes and book carousels stayed far behind). All three image slots are tweets by default, each with a different job:
 - **09:00, mindset:** discipline and habits, but never a generic poster line. Turn the idea into something concrete: a time, a habit, a scene ("Në 07:00 të gjithë kanë plane. Në 07:05 kanë telefonin në dorë.").
@@ -200,7 +211,7 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
 **What makes a strong Hype Reel**
 - **Value first (see Added value).** The viewer must leave with one thing to use; the last beat is an action for today. A `list` beat is the natural place for the 2–3 steps.
 - **The hook is everything.** Beat 1 is a shocking, specific, true line with a number or a contrast, max ~12 words, and its `big` is the first frame (it is the cover on TikTok): a number (`$50.000.000`, `109.500 lekë`) or 1–4 words. Never a generic opener.
-- Three kinds of Reel, mix them through the week: **stories** (success or failure of a famous company or person: Netflix/Blockbuster, Kodak, Nokia, IKEA, Ray Kroc…, every fact checked, names and years right), **numbers** (a money calculation from Albanian life: këste, kafe, qira, telefon, rroga), and **situations** (a scene people recognise: a chat with the boss, mum, the bank; "POV: merr rrogën më 1"). Side hustle and AI Reels use numbers too: time, tool cost, number of steps, price of one job. Never income promises.
+- Kinds of Reel, mix them through the week: (**stories** of a famous company or person are paused since 2026-11-19, see Daily mix) **numbers** (a money calculation from Albanian life: këste, kafe, qira, telefon, rroga), and **situations** (a scene people recognise: a chat with the boss, mum, the bank; "POV: merr rrogën më 1"). Side hustle and AI Reels use numbers too: time, tool cost, number of steps, price of one job. Never income promises.
 - **5–7 beats, 20–30 s**, one sentence per beat (no full stop in the middle), ~55–70 spoken words. Write to be heard: punchy, with a turn at the end (the lesson, or a question to the viewer).
 - `text` is the caption shown word by word (digits are fine); `say` is what Riko reads when the text has numbers, years or symbols (write them in words). Use `!` where the line should land with energy.
 
@@ -214,7 +225,7 @@ Owner's decision (2026-11-13): all Reels use this look. Pure black, electric yel
 
 **Loop endings (approved 2026-11-13).** When it reads naturally, write the last beat so it flows straight back into the hook, so people watch it twice without noticing. Example: hook "Nokia kishte gati gjysmën e smartfonëve në botë." … last beat "Dhe gjithçka nisi në vitin kur…" (then the hook plays again). Rules: the last beat must first work on its own as a strong ending; read the last beat and the hook aloud one after the other: if the join sounds forced, don't force a loop. Never sacrifice the payoff for the loop.
 
-**Two-part stories (approved 2026-11-13), 1–2 times a week in the 18:00 slot (ids from 2026-11-14: part 1 = `p3` at 18:00, part 2 = `p4` at 18:05, replacing the 21:00 Reel).** Only for a story strong enough to carry ~50 s (a gripping success or failure with a real twist). Both parts are published back to back: part 1 at 18:00 (`p4`) and part 2 at 18:05 (`p6`), so someone who sees part 1 goes to the profile and finds part 2 right on top.
+**Two-part stories (approved 2026-11-13; paused since 2026-11-19 with the foreign stories, kept here for when they come back), 1–2 times a week in the 18:00 slot (ids from 2026-11-14: part 1 = `p3` at 18:00, part 2 = `p4` at 18:05, replacing the 21:00 Reel).** Only for a story strong enough to carry ~50 s (a gripping success or failure with a real twist). Both parts are published back to back: part 1 at 18:00 (`p4`) and part 2 at 18:05 (`p6`), so someone who sees part 1 goes to the profile and finds part 2 right on top.
 - Part 1: kicker of the hook starts with "Pjesa 1", 5–6 beats, ends at the moment of highest tension (the decision, the "jo", the night before the crash), last beat a `text` with the cliffhanger as `title` and `highlight` "Pjesa 2 në profil". Caption starts with "Pjesa 1/2" and says part 2 is on the profile.
 - Part 2: kicker "Pjesa 2"; its hook must also work for someone who never saw part 1 (one strong line that sums up the setup and promises the payoff), then the twist and the lesson. Caption starts with "Pjesa 2/2".
 - Each part is a full Reel (20–30 s, hype look, figures, voice-sync check). Facts checked as always. Log both parts in topics_log.
