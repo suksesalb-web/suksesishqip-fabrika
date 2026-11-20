@@ -76,8 +76,12 @@ def main(path):
             print(pid, "not rendered, skipping")
             continue
         is_reel = post.get("style") == "reel"
-        # Every post goes to Instagram and TikTok (Reels as video, image posts as TikTok photo carousels).
-        targets = ["instagram"] + (["tiktok"] if "tiktok" in chans else [])
+        # Reels go to Instagram and TikTok. Image posts (tweets etc.) go to TikTok only (Mario, 2026-11-20:
+        # tweets hurt the Instagram page); a post can still opt in with "instagram": true.
+        to_ig = is_reel or post.get("instagram") is True
+        targets = (["instagram"] if to_ig else []) + (["tiktok"] if "tiktok" in chans else [])
+        if not targets:
+            print(pid, "image post and no TikTok channel: nothing to publish")
         rec = published.get(pid, {})
         urls = [f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{f}" for f in m["files"]]
         if is_reel:

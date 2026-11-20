@@ -8,6 +8,8 @@ This file is the brief every daily run follows. Change it to change what the pag
 
 **Mario's decision (2026-11-15):** the look and the voice are very good, the content was weak: it had no real added value. From now on the content is researched and written **once a week** in one extensive research run, from real source material, and the daily run publishes it. See "Weekly research and drafts" below: the daily run starts there.
 
+**Mario's decision (2026-11-20):** tweets (and every image post) are **no longer posted on Instagram**: they hurt the page there (4–17 reach, and Mario does not want them on the profile). They go to **TikTok only**, where they are our biggest format; `fabrika/publish.py` does this automatically (a post would need `"instagram": true` to go to Instagram, never set it for a tweet). Instagram gets only the Reels. **Family / personal tweets are stopped completely** (Mario: "për familjen e kështu", same decision): the 15:00 tweet is money / work every day, and the slot the family tweet had is used to try something new (see Tweets). In `published/<date>.json` a tweet has only `tiktok.buffer_id`; that is correct, not a failure.
+
 ## The page
 - Albanian-language Instagram page about discipline, mindset, lessons from great thinkers and successful people, and honest side-hustle ideas.
 - Voice: direct, warm, grounded. Like a smart older friend, not a guru. Short sentences.
@@ -38,7 +40,7 @@ Fewer posts so each Reel gets real research and care (Mario, 2026-11-14). Qualit
 | Slot (Tirana time) | Id | Style | What |
 |---|---|---|---|
 | 12:00 | `p1` | Mon/Wed/Sat: `tweet`; other days: `reel` (20–30 s) | **Side hustle tweet (Mon/Wed/Sat):** a skill the viewer already has (a language, Canva, writing, the phone camera, Excel) + a real platform + its real prices + one smart first step, in the shape of the 17 Nov winner (see Tweets). **On Reel days, AI or side hustle, opened from the viewer's money:** prefer work done online with a skill the viewer has over jobs that need equipment or a van (windows, furniture, car cleaning sat at 486–801). the hook is the viewer's situation with a number (rroga, the gap at the end of the month, a free evening), never the client's problem or a statistic. Then one job a person can start from Albania: the tool by name, the 3 steps, the cost to start, the time it takes. Or a ready-made prompt or message the viewer can copy |
-| 15:00 | `p2` | `tweet` | The 15:00 tweet (see Tweets). **Money / work with a concrete number on 6 days a week**, personal / family on 1 day (from 2026-11-23; family tweets 594–2 971 views vs money/work tweets 5 289–59 511) |
+| 15:00 | `p2` | `tweet` (TikTok only) | The 15:00 tweet (see Tweets). **Money / work with a concrete number every day.** No family / personal tweets (stopped by Mario, 2026-11-20). Once a week (on the day the family tweet used to have) try a new kind instead: a **work situation with the exact sentence to say** (asking for a raise, the boss's late-evening message, the interview salary question), checked against a real source |
 | 18:00 | `p3` | `reel` (20–30 s) | **Money math, with the way out:** a calculation from the viewer's own life (rroga, qira, këste, kafe, fatura, telefon) plus the rule for what to do about it. This is the format that wins: it gets our best idea of the day |
 | 21:00 | `p4` | `reel` (20–30 s) | **A second money Reel of a different kind:** a common money or work mistake plus the fix, or a situation (the boss, the bank, the landlord, payday) with the exact sentence or step to use. **No success/failure stories of foreign people or companies for now** (paused 2026-11-19: Nokia 225, Dyson 322, Sara Blakely 458 views); two-part stories are paused with them |
 
@@ -111,7 +113,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 - If today's file is missing, use the most recent one, or carry on without it.
 
 ## Tweets (the main image format)
-**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`): money / work with a concrete number on 6 days a week and the personal kind on 1 day (changed 2026-11-19: money/work tweets 5 289–59 511 TikTok views, the 5 family tweets 594–2 971); the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
+**From 2026-11-14 there is one tweet a day, at 15:00** (`p2`), plus the 12:00 side hustle tweet on Mon/Wed/Sat. **Tweets are published on TikTok only, never on Instagram, and family / personal tweets are stopped (Mario, 2026-11-20).** The 15:00 tweet is money / work with a concrete number every day, once a week as a work situation with the exact sentence to use; the 09:00 mindset tweet is retired. It follows the Added value rules too: a number, a scene or a line someone can use.
 
 **Side hustle tweet, 12:00 on Mon, Wed and Sat (`p1`, from 2026-11-21).** Built like our biggest post (17 Nov, 59 511 views, 611 shares, 13 comments):
 "Di anglisht dhe mbrëmjet i ke të lira?\n\nNë Fiverr, përkthimet në shqip janë rreth 400 shërbime, shumica nga 5 dollarë.\n\nRegjistrimet me zë në shqip nisin nga 10 deri 60. Zgjidh vendin ku hyjnë më pak."
@@ -123,7 +125,7 @@ Rotate topics across the week: discipline, habits, money mindset, side hustles t
 Owner's decision (2026-11-13): tweets get priority. They are our strongest image format, especially on TikTok (family tweets reached ~900–1 400 views while quotes and book carousels stayed far behind). All three image slots are tweets by default, each with a different job:
 - **09:00, mindset:** discipline and habits, but never a generic poster line. Turn the idea into something concrete: a time, a habit, a scene ("Në 07:00 të gjithë kanë plane. Në 07:05 kanë telefonin në dorë.").
 - **15:00, money / work / side hustle:** a number, a price in lekë or euro, a small calculation, or a realistic side hustle detail (tool cost, time a job takes, what a beginner charges). Examples of the tone: "Telefoni 1.200€. Paga 800€. E ndamë në 24 këste dhe e quajtëm 'të lirë'." / "Një CV me Canva është 20 minuta punë. Plot njerëz paguajnë për të. Askush s'e quan biznes, derisa e bën dikush." Prices must be realistic and checkable; never income promises.
-- **22:00, personal:** parents, home, family far away, growing up in Albania, the small things you understand late. Warm, specific, sendable.
+- ~~22:00, personal~~: stopped (Mario, 2026-11-20). No family / parents / "babai, mamaja" tweets.
 
 How to write them:
 - **Concrete beats inspirational.** A detail, a number or a scene in every tweet. If it could hang on any motivational poster, rewrite it.

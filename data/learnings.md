@@ -4,6 +4,11 @@ Written by the 3-day review (and by hand when Mario decides something). The dail
 before writing posts and follows it, inside the rules of GUIDE.md. Newest entries on top. Each entry:
 what the numbers showed, why we think so, and the concrete change for the next posts.
 
+## 2026-11-20 (Mario's decision, by hand)
+**What.** Mario: tweets must not go to Instagram any more ("na hapën barkun"), and no more family tweets. On Instagram tweets reached only 4–17 accounts each and sat on the profile between the Reels; family tweets were also the weakest tweets on TikTok (594–2 971 vs 5 289–60 271 for money/work).
+**Change.** `publish.py` sends image posts to TikTok only; Instagram gets only Reels. Family / personal tweets stopped: the 15:00 tweet is money / work every day, once a week a new kind (a work situation with the exact sentence to say). Today's family tweet (20 Nov 15:00) had already gone out on both platforms before the decision.
+**Watch next.** Does the Instagram profile (Reels only) get more reach per Reel and new followers? Does the work-situation tweet beat the old family level (~1 500) on TikTok?
+
 ## 2026-11-19 (3-day review, Buffer data of 19 Nov ~05:30, judged: posts up to 17 Nov; 18 Nov still counting)
 **Numbers. TikTok** (usual level now 436 views per post, hype Reels 801, tweets 1 447):
 - Best: 17 Nov 15:00 tweet "Di anglisht dhe mbrëmjet i ke të lira? Në Fiverr…" **59 511 views, 611 shares, 13 comments, 10 s** (biggest post ever, 2 days after posting). Then 50/30/20 Reel (14 Nov) grew to 48 250 / 400 shares; 17 Nov 18:00 "Rroga bruto 50.000 lekë: një rritje 1.000 lekësh ta ul rrogën në dorë!" 19 260 / 71 shares / 12,9 s (best watch time); 16 Nov 18:00 "Merr 80.000 lekë në dorë…" 10 742; 16 Nov 15:00 tweet 90.119 lekë 5 796; 16 Nov 21:00 "70.000 në dorë, 50.000 në letra" 5 225; 17 Nov 21:00 "shoku kërkon 50.000 borxh" 4 723.
