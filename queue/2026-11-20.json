@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-20",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Side hustle i hapur nga shpenzimet e dhjetorit, i kohës: emigrantët vijnë për festa dhe albumet janë në shtëpi. Rast real: Cheryl DiFrank; mjeti falas PhotoScan. Shikuesi merr: mjetin me emër, 3 hapat dhe gabimin e fillestarit. Çmim shqiptar s'ka të verifikuar: thuhet hapur. Ndryshuar në ditë: hook me 40.000 (jo 60.000, sipas learnings 19 Nov), fakte rikontrolluar 20 Nov.",
+      "source_item": "https://www.sidehustlenation.com/photo-organizing-business/",
+      "sources": [
+        "https://www.sidehustlenation.com/photo-organizing-business/",
+        "https://apps.apple.com/de/app/photoscan-by-google-photos/id1165525994",
+        "https://lightroom-tools.com/blog/google-photoscan-still-available-2026"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Side hustle për dhjetor",
+          "big": "40.000 lekë",
+          "sub": "dhe mbrëmjet e lira",
+          "figure": "smartphone",
+          "text": "Rroga 40.000 lekë s'të del për dhjetorin, dhe mbrëmjet i ke të lira?",
+          "say": "Rroga dyzet mijë lekë s'të del për dhjetorin, dhe mbrëmjet i ke të lira?"
+        },
+        {
+          "type": "icons",
+          "kicker": "Ideja",
+          "title": "Albumet e vjetra",
+          "icon": "phone",
+          "n": 12,
+          "label": "nga letra në telefon",
+          "at": "albume",
+          "text": "Çdo familje ka albume të vjetra, dhe shumëkush i do fotot në telefon."
+        },
+        {
+          "type": "list",
+          "title": "3 hapat:",
+          "items": [
+            "Shkarko PhotoScan",
+            "Skano pa shkëlqim",
+            "Dorëzo dosjen"
+          ],
+          "text": "Shkarko PhotoScan nga Google, skano pa shkëlqim, dorëzo dosjen në Google Drive."
+        },
+        {
+          "type": "count",
+          "kicker": "Në SHBA",
+          "value": 1,
+          "suffix": " $",
+          "label": "për foto të skanuar",
+          "at": "dollar",
+          "text": "Në Amerikë, kjo punë paguhet rreth një dollar për foto."
+        },
+        {
+          "type": "chat",
+          "kicker": "Gabimi i fillestarit:",
+          "reply": "Skanon pa i renditur",
+          "alarm": true,
+          "at": "rrëmujë",
+          "text": "Gabimi i fillestarit: skanon pa i renditur, dhe dorëzon një rrëmujë."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Skano një album.",
+          "at": "skano",
+          "figure": "clock",
+          "text": "Sot skano albumin e familjes tënde, dhe mat sa sekonda të merr një foto!"
+        }
+      ],
+      "caption": "Në dhjetor vijnë emigrantët, dhe albumet e fëmijërisë janë te shtëpia e prindërve.\n\nPuna: i kthen fotot e letrës në foto dixhitale, të renditura sipas viteve.\n\n1. Shkarko PhotoScan nga Google (falas): heq shkëlqimin dhe i pret fotot vetë.\n2. Rendit para se të skanosh: sipas vitit ose ngjarjes.\n3. Dorëzo një dosje në Google Drive, me emra të qartë.\n\nSipas Side Hustle Nation (intervista me Cheryl DiFrank, që e bën këtë punë në SHBA), atje skanimi paguhet rreth 1 dollar për foto dhe shumica e klientëve kanë të paktën 500 foto. Për Shqipërinë s'kemi çmim të kontrolluar: skano një album tëndin, mat kohën dhe vendose çmimin nga orët.\n\nDërgoja dikujt që ka durim dhe një telefon të mirë.\n\n#suksesishqip #sidehustle #foto #dhjetor"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "worn work gloves on wooden table",
+      "note": "Tweet familjar (2 nga 2 të javës). Ndjek fituesit tanë familjarë (babai: 1.413 dhe 1.373 shikime). Temë e re në topics_log. Shikuesi merr: një krahasim brezash që e dërgon me \"kështu ishte babai\".",
+      "source_item": "data/metrics/latest.md: tweet-et familjare 2026-11-11 dhe 2026-11-13 (1.413 dhe 1.373 shikime në TikTok)",
+      "sources": [],
+      "slides": [
+        {
+          "text": "Babai kthehej nga puna me duar të çara dhe thoshte: \"S'jam lodhur.\"\n\nUnë kthehem nga zyra dhe them: \"Jam i mbaruar.\"\n\nAi mbante një shtëpi. Unë mbaj një laptop."
+        }
+      ],
+      "caption": "Ata s'e thoshin kurrë fjalën \"u lodha\".\n\nSot, kur ta marrësh në telefon, mos e pyet \"si je\". Pyete: \"Cila ishte puna më e rëndë që ke bërë?\"\n\nDërgoja dikujt që e ka pasur babanë kështu.\n\n#suksesishqip #babai #familja #puna"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Llogari + rregull me këstin e shikuesit (kredi konsumatore). Tema e javës: borxhi (Ramit, Caleb Hammer). Normat janë nga lista e një banke (korrik 2026), llogaritja e këstit është jona. Shikuesi merr: 3 pyetjet për bankën dhe \"3 oferta me shkrim\". Kësti rillogaritur 20 Nov: 11.122 / 11.843 lekë.",
+      "source_item": "https://www.raiffeisen.al/content/dam/rbi/retail/eu/al/individuals/july2026/Kushtet%20e%20Kredise%20Konsumatore%20Korrik%202026%20-%20PRM.pdf.coredownload.inline.pdf",
+      "sources": [
+        "https://www.raiffeisen.al/content/dam/rbi/retail/eu/al/individuals/july2026/Kushtet%20e%20Kredise%20Konsumatore%20Korrik%202026%20-%20PRM.pdf.coredownload.inline.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Kredi 500.000 lekë",
+          "big": "+167.000 lekë",
+          "sub": "interes në 5 vjet, me 12%",
+          "figure": "money",
+          "text": "Merr 500.000 lekë kredi për 5 vjet, dhe kthen rreth 667.000!",
+          "say": "Merr pesëqind mijë lekë kredi për pesë vjet, dhe kthen rreth gjashtëqind e gjashtëdhjetë e shtatë mijë!"
+        },
+        {
+          "type": "count",
+          "kicker": "Me interes 12%",
+          "value": 11100,
+          "suffix": " lekë",
+          "label": "kësti çdo muaj, 60 muaj",
+          "at": "11.100",
+          "text": "Kësti del rreth 11.100 lekë në muaj, me interes 12%.",
+          "say": "Kësti del rreth njëmbëdhjetë mijë e njëqind lekë në muaj, me interes dymbëdhjetë për qind."
+        },
+        {
+          "type": "bars",
+          "kicker": "E njëjta kredi",
+          "left": {
+            "label": "167.000",
+            "sub": "interes me 12%"
+          },
+          "right": {
+            "label": "210.000",
+            "sub": "interes me 14,8%"
+          },
+          "at": "210.000",
+          "text": "Me 14,8%, e njëjta kredi të kushton rreth 210.000 lekë interes.",
+          "say": "Me katërmbëdhjetë presje tetë për qind, e njëjta kredi të kushton rreth dyqind e dhjetë mijë lekë interes."
+        },
+        {
+          "type": "list",
+          "title": "Pyet bankën:",
+          "items": [
+            "Totali që kthej",
+            "Norma efektive",
+            "Mbyllja më herët"
+          ],
+          "text": "Pyet tri gjëra: totali që kthej, norma efektive, mbyllja më herët."
+        },
+        {
+          "type": "chat",
+          "kicker": "Rregulli:",
+          "reply": "3 oferta me shkrim",
+          "at": "tri",
+          "text": "Dhe merr ofertë me shkrim nga tri banka!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej normën tënde.",
+          "at": "gjej",
+          "figure": "keypad",
+          "text": "Sot, nëse ke kredi, gjej në kontratë normën efektive të interesit!"
+        }
+      ],
+      "caption": "Kredia nuk matet me këstin. Matet me totalin që kthen.\n\n500.000 lekë për 5 vjet:\n• me interes 12%: këst rreth 11.100 lekë, kthen rreth 667.000 (167.000 interes)\n• me interes 14,8%: këst rreth 11.800 lekë, rreth 210.000 interes\nPa llogaritur komisionet e bankës.\n\n(Normat 11,6–14,8% janë nga lista e një banke të madhe për kredi konsumatore në lekë; llogaritja e këstit është e jona.)\n\nPara se të firmosësh, pyet me shkrim:\n1. Sa kthej gjithsej?\n2. Sa është norma efektive e interesit (NEI)?\n3. Sa më kushton ta mbyll më herët?\n\nDhe merr ofertë nga tri banka. Kjo s'është këshillë për të marrë ose jo kredi, është matematika e këstit.\n\nRuaje për ditën kur të hysh në bankë.\n\n#suksesishqip #kredi #këste #banka"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë + hap konkret për ata që bëjnë side hustle me dy punëdhënës (audienca jonë kryesore). Burimi: ligji 29/2023 dhe shembujt e deklaratës së statusit. Shikuesi merr: zgjidh një punëdhënës për zbritjen dhe afatin 31 mars. Nuk japim shifër \"sa do paguash\": nenet u lexuan përmes përmbledhjes. Trend: 'One Income Isn't Enough' (trends 20 Nov). 2,2 miliardë lekë = 22 milionë euro, rikontrolluar te Balkanweb.",
+      "source_item": "https://www.balkanweb.com/dje-mbaroi-afati-per-regjistrimin-ne-diva-te-dypunesuarit-paguan-22-milione-euro-tatime-shtese-mbi-pagen-ne-2025-n/",
+      "sources": [
+        "https://www.balkanweb.com/dje-mbaroi-afati-per-regjistrimin-ne-diva-te-dypunesuarit-paguan-22-milione-euro-tatime-shtese-mbi-pagen-ne-2025-n/",
+        "https://politiko.al/english/e-tjera/ligji-i-ri-mbi-te-ardhurat-punonjesit-nenshkruajne-deklaraten-e-statusit-i523957",
+        "https://tatime.gov.al/wp-content/uploads/2026/09/Ligj-Nr.-29-2023-Per-Tatimin-mbi-te-Ardhurat-i-ndryshuar.pdf",
+        "https://kpmg.com/al/en/insights/2023/09/taxation-of-employment-income-in-2024.html",
+        "https://shqiptarja.com/lajm/tatimet-ndryshime-ne-deklaraten-e-statusit-personal-dhe-listepagesen-e-re"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Dy punë?",
+          "big": "6.500 lekë",
+          "sub": "tatim te puna e dytë",
+          "figure": "people",
+          "text": "Dy punë me nga 50.000 lekë: te e dyta të mbahen 6.500 lekë tatim!",
+          "say": "Dy punë me nga pesëdhjetë mijë lekë: te e dyta të mbahen gjashtë mijë e pesëqind lekë tatim!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Puna 1",
+            "sub": "50.000: tatim 0",
+            "figure": "laptop"
+          },
+          "right": {
+            "label": "Puna 2",
+            "sub": "50.000: tatim 6.500",
+            "figure": "store"
+          },
+          "at": "një",
+          "text": "Zbritja nga tatimi zbatohet vetëm te një punëdhënës, që e zgjedh ti."
+        },
+        {
+          "type": "chat",
+          "kicker": "Hapi 1:",
+          "reply": "Deklarata e statusit",
+          "at": "deklaratën",
+          "text": "Firmose deklaratën e statusit te puna me rrogën më të lartë!"
+        },
+        {
+          "type": "text",
+          "kicker": "Hapi 2",
+          "title": "Deklarata vjetore",
+          "highlight": "deri më 31 mars",
+          "at": "31",
+          "figure": "clock",
+          "text": "Me dy punëdhënës, dorëzon deklaratën vjetore deri më 31 mars.",
+          "say": "Me dy punëdhënës, dorëzon deklaratën vjetore deri më tridhjetë e një mars."
+        },
+        {
+          "type": "checks",
+          "kicker": "Aty del:",
+          "rows": [
+            {
+              "label": "Ke për të paguar",
+              "ok": false
+            },
+            {
+              "label": "Ke për të marrë",
+              "ok": true
+            }
+          ],
+          "text": "Aty del nëse ke për të paguar, apo për të marrë."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Pyet financën.",
+          "at": "pyet",
+          "figure": "smartphone",
+          "text": "Sot pyet financën: te cila punë e kam deklaratën e statusit?"
+        }
+      ],
+      "caption": "Bën një punë të dytë me kontratë? Dy gjëra që duhet t'i dish:\n\n1. Zbritja nga tatimi mbi pagën zbatohet vetëm te një punëdhënës. Ti zgjedh cilin, duke firmosur deklaratën e statusit. Te tjetri mbahet 13% që nga leku i parë: për 50.000 lekë, 6.500 lekë në muaj.\n\n2. Kush ka më shumë se një punëdhënës dorëzon deklaratën vjetore të të ardhurave deri më 31 mars të vitit pasardhës. Aty bëhet llogaria e saktë: mund të kesh për të paguar, por edhe për të marrë mbrapsht.\n\nVitin e kaluar, ata me dy punë paguan rreth 2,2 miliardë lekë tatim shtesë me këtë deklaratë.\n\nPër shifrat e tua pyet financën ose një kontabilist.\n\nDërgoja dikujt që punon në dy vende.\n\n#suksesishqip #tatimi #punë #sidehustle"
+    }
+  ]
+}
