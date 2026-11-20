@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-20",
+  "rendered_at": 1795156072,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-20/p1/reel.mp4",
+        "out/2026-11-20/p1/frame-01.jpg",
+        "out/2026-11-20/p1/frame-02.jpg",
+        "out/2026-11-20/p1/frame-03.jpg",
+        "out/2026-11-20/p1/frame-04.jpg",
+        "out/2026-11-20/p1/frame-05.jpg",
+        "out/2026-11-20/p1/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 28,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.1,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.15
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 8.33
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.9
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 17.68
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 21.69
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-20/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "2412918",
+        "page": "https://pixabay.com/photos/work-glove-glove-work-garden-2412918/",
+        "query": "worn work gloves on wooden table"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-20/p3/reel.mp4",
+        "out/2026-11-20/p3/frame-01.jpg",
+        "out/2026-11-20/p3/frame-02.jpg",
+        "out/2026-11-20/p3/frame-03.jpg",
+        "out/2026-11-20/p3/frame-04.jpg",
+        "out/2026-11-20/p3/frame-05.jpg",
+        "out/2026-11-20/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 21,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 33.03,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.2
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 12.13
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 18.38
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 23.52
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 26.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-20/p4/reel.mp4",
+        "out/2026-11-20/p4/frame-01.jpg",
+        "out/2026-11-20/p4/frame-02.jpg",
+        "out/2026-11-20/p4/frame-03.jpg",
+        "out/2026-11-20/p4/frame-04.jpg",
+        "out/2026-11-20/p4/frame-05.jpg",
+        "out/2026-11-20/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 6,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.02,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.74
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.47
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 14.85
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 19.37
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 22.35
+          }
+        ]
+      }
+    }
+  ]
+}
