@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "rendered_at": 1795242777,
+  "rendered_at": 1795243022,
   "posts": [
     {
       "id": "p1",
@@ -9,8 +9,8 @@
         "out/2026-11-21/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "2587598",
-        "page": "https://pixabay.com/photos/table-chair-desk-lamp-room-carpet-2587598/",
+        "pixabay_id": "4222025",
+        "page": "https://pixabay.com/photos/desk-tea-coffee-table-laptop-cup-4222025/",
         "query": "laptop on wooden desk evening lamp notebook"
       }
     },
@@ -21,8 +21,8 @@
         "out/2026-11-21/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "49711",
-        "page": "https://pixabay.com/photos/building-night-lighting-49711/",
+        "pixabay_id": "5838205",
+        "page": "https://pixabay.com/photos/sunset-cancun-buildings-skyscrapers-5838205/",
         "query": "apartment buildings balconies city evening"
       }
     },
@@ -48,7 +48,7 @@
         "sfx": 19,
         "engine": "hype",
         "look": "grafit",
-        "duration": 32.75,
+        "duration": 33.06,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -58,27 +58,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 7.63
+            "start": 7.55
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 11.66
+            "start": 12.3
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 18.48
+            "start": 18.4
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 22.62
+            "start": 23.53
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 26.43
+            "start": 26.82
           }
         ]
       }
@@ -98,14 +98,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
-        "sfx": 20,
+        "sfx": 21,
         "engine": "hype",
         "look": "grafit",
-        "duration": 29.45,
+        "duration": 27.22,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -115,27 +115,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 6.05
+            "start": 4.19
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 10.65
+            "start": 10.63
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 15.32
+            "start": 14.3
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 19.67
+            "start": 17.87
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 24.06
+            "start": 22.05
           }
         ]
       }
