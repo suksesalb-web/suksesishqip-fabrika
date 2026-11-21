@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-21",
+  "rendered_at": 1795242777,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-21/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "2587598",
+        "page": "https://pixabay.com/photos/table-chair-desk-lamp-room-carpet-2587598/",
+        "query": "laptop on wooden desk evening lamp notebook"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-21/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "49711",
+        "page": "https://pixabay.com/photos/building-night-lighting-49711/",
+        "query": "apartment buildings balconies city evening"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-21/p3/reel.mp4",
+        "out/2026-11-21/p3/frame-01.jpg",
+        "out/2026-11-21/p3/frame-02.jpg",
+        "out/2026-11-21/p3/frame-03.jpg",
+        "out/2026-11-21/p3/frame-04.jpg",
+        "out/2026-11-21/p3/frame-05.jpg",
+        "out/2026-11-21/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 19,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 32.75,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 7.63
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 11.66
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 18.48
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 22.62
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 26.43
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-21/p4/reel.mp4",
+        "out/2026-11-21/p4/frame-01.jpg",
+        "out/2026-11-21/p4/frame-02.jpg",
+        "out/2026-11-21/p4/frame-03.jpg",
+        "out/2026-11-21/p4/frame-04.jpg",
+        "out/2026-11-21/p4/frame-05.jpg",
+        "out/2026-11-21/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 20,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 29.45,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.05
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.65
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.32
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 19.67
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 24.06
+          }
+        ]
+      }
+    }
+  ]
+}
