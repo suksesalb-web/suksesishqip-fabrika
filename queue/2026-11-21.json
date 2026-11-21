@@ -74,13 +74,13 @@
         {
           "type": "versus",
           "left": {
-            "label": "600–900 €",
-            "sub": "1+1 afër qendrës",
+            "label": "600–900",
+            "sub": "euro, afër qendrës",
             "figure": "house"
           },
           "right": {
-            "label": "400–500 €",
-            "sub": "1+1 në periferi",
+            "label": "400–500",
+            "sub": "euro, në periferi",
             "figure": "house"
           },
           "at": "periferi",
@@ -155,8 +155,8 @@
             "figure": "smartphone"
           },
           "right": {
-            "label": "4 × 20.000",
-            "sub": "katër rroga rresht",
+            "label": "20.000",
+            "sub": "× 4 rroga rresht",
             "figure": "money"
           },
           "at": "20.000",
@@ -186,7 +186,7 @@
           "title": "Detyra e sotme:",
           "highlight": "Mblidh këstet.",
           "at": "mblidh",
-          "figure": "keypad",
+          "figure": "money",
           "text": "Sot mblidh këstet e dhjetorit, para se të shtosh një tjetër!"
         }
       ],
