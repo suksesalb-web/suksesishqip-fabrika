@@ -1,0 +1,980 @@
+{
+  "date": "2026-11-21",
+  "our_account": {
+    "username": "suksesishqip",
+    "followers": 19
+  },
+  "outliers": [
+    {
+      "account": "garyvee",
+      "followers": 12321084,
+      "format": "reel",
+      "age_days": 0.5,
+      "likes": 696756,
+      "comments": 2280,
+      "views": 13065310,
+      "score": 5454.23,
+      "caption_start": "2008 … watching this back is wild 😂",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df-KaQfg2U6/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12321084,
+      "format": "carousel",
+      "age_days": 1.6,
+      "likes": 44962,
+      "comments": 1268,
+      "views": null,
+      "score": 378.03,
+      "caption_start": "I’m not playing ….. you need to do all of these in the next 42 days …..",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df7QPw_kfaZ/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5260599,
+      "format": "carousel",
+      "age_days": 4.5,
+      "likes": 14925,
+      "comments": 21753,
+      "views": null,
+      "score": 341.21,
+      "caption_start": "Long overdue. $100M Sales Team Training is live! For free. For you. Comment “TEAMS” to get it instantly.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df0AD3MlLaU/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12321084,
+      "format": "carousel",
+      "age_days": 2.2,
+      "likes": 32148,
+      "comments": 218,
+      "views": null,
+      "score": 254.28,
+      "caption_start": "Listen to yourself speak - break it down - understand it - simplify it -",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df5tl8_DkHl/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1323314,
+      "format": "reel",
+      "age_days": 3.3,
+      "likes": 13992,
+      "comments": 331,
+      "views": 1047482,
+      "score": 146.2,
+      "caption_start": "officiallymcconaughey favorite restaurant in Austin. ",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df3D4sTN38Y/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5260599,
+      "format": "reel",
+      "age_days": 2.5,
+      "likes": 27252,
+      "comments": 1543,
+      "views": 912072,
+      "score": 135.66,
+      "caption_start": "Comment “SALES” to get the free $100M Sales Teams Training.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df47unjuoLK/"
+    },
+    {
+      "account": "garyvee",
+      "followers": 12321084,
+      "format": "carousel",
+      "age_days": 0.6,
+      "likes": 14323,
+      "comments": 829,
+      "views": null,
+      "score": 130.31,
+      "caption_start": "Comment “Hussle” to get the link to the conversation🙏",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df9zlJEkcPL/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5260599,
+      "format": "reel",
+      "age_days": 3.5,
+      "likes": 23437,
+      "comments": 1608,
+      "views": 719708,
+      "score": 120.26,
+      "caption_start": "Comment “SALES” to get the free $100M Sales Teams Training.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df2ZGHFTED1/"
+    },
+    {
+      "account": "hormozi",
+      "followers": 5260599,
+      "format": "reel",
+      "age_days": 3.2,
+      "likes": 8827,
+      "comments": 1627,
+      "views": 480022,
+      "score": 58.33,
+      "caption_start": "Comment “MAP” to get your free personalized Scaling Roadmap.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df3SUd3oVhP/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1323314,
+      "format": "reel",
+      "age_days": 5.6,
+      "likes": 4049,
+      "comments": 41,
+      "views": 154808,
+      "score": 40.7,
+      "caption_start": "Watch the full episode on beginagain with davinamccall wherever you get your podcasts",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/DfxAmFphJTd/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1323314,
+      "format": "reel",
+      "age_days": 3.3,
+      "likes": 3724,
+      "comments": 33,
+      "views": 211094,
+      "score": 37.3,
+      "caption_start": "Why officiallymcconaughey is so laid back",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df3FtYnP0Ph/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4643889,
+      "format": "carousel",
+      "age_days": 1.5,
+      "likes": 16856,
+      "comments": 132,
+      "views": null,
+      "score": 34.54,
+      "caption_start": "Hannah Crawford saw that many women and LGBTQ people dreaded hiring male movers after a breakup, so she started renting vans and doing the m",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df7sRvDDz9R/"
+    },
+    {
+      "account": "ryanholiday",
+      "followers": 1323314,
+      "format": "reel",
+      "age_days": 5.4,
+      "likes": 2472,
+      "comments": 24,
+      "views": 98115,
+      "score": 24.82,
+      "caption_start": "Come see the paintedporchbookshop at texasbookfest until 5pm in Downtown Austin.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/DfxkK8xBV3P/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4643889,
+      "format": "carousel",
+      "age_days": 1.3,
+      "likes": 8923,
+      "comments": 148,
+      "views": null,
+      "score": 18.75,
+      "caption_start": "Brandon J. Hurst passed on law school for a $12-an-hour Chick-fil-A job so he could learn the business from the inside.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df8P3VhlWjd/"
+    },
+    {
+      "account": "ramit",
+      "followers": 987079,
+      "format": "carousel",
+      "age_days": 5.3,
+      "likes": 3563,
+      "comments": 31,
+      "views": null,
+      "score": 12.48,
+      "caption_start": "Fun in LA & NYC over the last couple months with nextlevelwardrobe",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Dfx6PejGEWq/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4643889,
+      "format": "carousel",
+      "age_days": 3.6,
+      "likes": 5030,
+      "comments": 378,
+      "views": null,
+      "score": 12.34,
+      "caption_start": "From her kitchen table to a $235 million exit, one hard lesson changed everything for kimperell.",
+      "hashtags": [
+        "entrepreneur",
+        "kimperell",
+        "nobodywinsalone"
+      ],
+      "url": "https://www.instagram.com/p/Df2OVhGG776/"
+    },
+    {
+      "account": "ramit",
+      "followers": 987079,
+      "format": "carousel",
+      "age_days": 0.5,
+      "likes": 2281,
+      "comments": 45,
+      "views": null,
+      "score": 8.25,
+      "caption_start": "I said what I said.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df-K_k2GLqu/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 53735,
+      "format": "image",
+      "age_days": 2.8,
+      "likes": 4451,
+      "comments": 6,
+      "views": null,
+      "score": 7.27,
+      "caption_start": "Shiko gjithçka, mos thuaj asgjë!",
+      "hashtags": [
+        "albania",
+        "durrës",
+        "shqipëria",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/p/Df4Py6dqTEK/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3827496,
+      "format": "image",
+      "age_days": 2.6,
+      "likes": 5477,
+      "comments": 37,
+      "views": null,
+      "score": 6.41,
+      "caption_start": "The best week to build a network is the one where you need nothing from it.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df4xx-Jk2s6/"
+    },
+    {
+      "account": "entrepreneur",
+      "followers": 4643889,
+      "format": "carousel",
+      "age_days": 1.6,
+      "likes": 2885,
+      "comments": 41,
+      "views": null,
+      "score": 6.02,
+      "caption_start": "Boys Lie started as a phrase two heartbroken friends used to turn pain into power.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df7ReEsIWlc/"
+    },
+    {
+      "account": "codiesanchez",
+      "followers": 3447708,
+      "format": "reel",
+      "age_days": 1.5,
+      "likes": 19590,
+      "comments": 1601,
+      "views": 551808,
+      "score": 4.93,
+      "caption_start": "Millions of grown adults have officially stopped going outside. But somebody’s gotta feed them!",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df7hmmCgRwd/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3827496,
+      "format": "image",
+      "age_days": 3.6,
+      "likes": 3859,
+      "comments": 31,
+      "views": null,
+      "score": 4.53,
+      "caption_start": "The room borrows its pulse from whoever is steadiest.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df2M-T8jQSk/"
+    },
+    {
+      "account": "ramit",
+      "followers": 987079,
+      "format": "reel",
+      "age_days": 3.6,
+      "likes": 1024,
+      "comments": 86,
+      "views": 94195,
+      "score": 4.38,
+      "caption_start": "What happens when you’re trying for a baby, but nearly every argument comes back to money?",
+      "hashtags": [
+        "sponsored"
+      ],
+      "url": "https://www.instagram.com/reel/Df2GGWEObCL/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3827496,
+      "format": "image",
+      "age_days": 4.6,
+      "likes": 3641,
+      "comments": 34,
+      "views": null,
+      "score": 4.29,
+      "caption_start": "The market only responds to what exists.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfzoLlUjS_Z/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 53735,
+      "format": "carousel",
+      "age_days": 1.7,
+      "likes": 2486,
+      "comments": 9,
+      "views": null,
+      "score": 4.09,
+      "caption_start": "Mësohuni mos të reagoni si “Gjarpëri”",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/p/Df7FnYnCqR1/"
+    },
+    {
+      "account": "ramit",
+      "followers": 987079,
+      "format": "reel",
+      "age_days": 2.4,
+      "likes": 1167,
+      "comments": 0,
+      "views": 97839,
+      "score": 3.98,
+      "caption_start": "Excuse me, I’ll finish talking on my own show.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df5UI-eu45S/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 53735,
+      "format": "image",
+      "age_days": 5.6,
+      "likes": 2296,
+      "comments": 21,
+      "views": null,
+      "score": 3.84,
+      "caption_start": "🫀",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/p/Dfw-pAvKR8e/"
+    },
+    {
+      "account": "millionaire_albania",
+      "followers": 53735,
+      "format": "carousel",
+      "age_days": 1.8,
+      "likes": 2216,
+      "comments": 20,
+      "views": null,
+      "score": 3.7,
+      "caption_start": "“Të pasurit asnjëherë nuk reklamohen” !",
+      "hashtags": [
+        "albania",
+        "durres",
+        "shqiperia",
+        "tirana"
+      ],
+      "url": "https://www.instagram.com/p/Df6yEU2pRqx/"
+    },
+    {
+      "account": "foundr",
+      "followers": 3827496,
+      "format": "image",
+      "age_days": 1.6,
+      "likes": 2885,
+      "comments": 37,
+      "views": null,
+      "score": 3.44,
+      "caption_start": "The first payment the business asks for is always commitment.",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df7WjVEiFqV/"
+    },
+    {
+      "account": "sahilbloom",
+      "followers": 1032870,
+      "format": "image",
+      "age_days": 1.3,
+      "likes": 17132,
+      "comments": 57,
+      "views": null,
+      "score": 2.51,
+      "caption_start": "Do you agree? Send this to someone who lives by it!",
+      "hashtags": [
+        "children",
+        "kids",
+        "marriage",
+        "relationship"
+      ],
+      "url": "https://www.instagram.com/p/Df8NFgYTwjO/"
+    },
+    {
+      "account": "humphreytalks",
+      "followers": 907650,
+      "format": "reel",
+      "age_days": 2.4,
+      "likes": 2664,
+      "comments": 114,
+      "views": 416549,
+      "score": 2.51,
+      "caption_start": "The Costco executive membership costs $65 more per year than the Gold Star membership. Do you think it is worth it? Let me know in the comme",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Df5Na8EBlhG/"
+    },
+    {
+      "account": "dailystoic",
+      "followers": 3447848,
+      "format": "carousel",
+      "age_days": 4.7,
+      "likes": 7050,
+      "comments": 39,
+      "views": null,
+      "score": 2.39,
+      "caption_start": "Get Stoic wisdom delivered daily at dailystoic.com/email",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/DfzUyTPFo5V/"
+    },
+    {
+      "account": "sahilbloom",
+      "followers": 1032870,
+      "format": "image",
+      "age_days": 5.3,
+      "likes": 16054,
+      "comments": 47,
+      "views": null,
+      "score": 2.35,
+      "caption_start": "Do you agree? Send this to someone if you do!",
+      "hashtags": [
+        "growth",
+        "mindset",
+        "motivation",
+        "relationships"
+      ],
+      "url": "https://www.instagram.com/p/Dfx0WVZTHg4/"
+    },
+    {
+      "account": "dailystoic",
+      "followers": 3447848,
+      "format": "carousel",
+      "age_days": 2.7,
+      "likes": 6760,
+      "comments": 31,
+      "views": null,
+      "score": 2.29,
+      "caption_start": "Sign up for a daily Stoic inspired email at: dailystoic.com/email",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df4mBc2Fq0z/"
+    },
+    {
+      "account": "codiesanchez",
+      "followers": 3447708,
+      "format": "reel",
+      "age_days": 5.6,
+      "likes": 9460,
+      "comments": 152,
+      "views": 294660,
+      "score": 2.01,
+      "caption_start": "Marrying well is the biggest life hack of all. Nobody puts it in a business book, but it’ll shape your wealth more than any stock pick. Choo",
+      "hashtags": [],
+      "url": "https://www.instagram.com/reel/Dfw8kBRS0jV/"
+    },
+    {
+      "account": "thefinancialdiet",
+      "followers": 876498,
+      "format": "reel",
+      "age_days": 3.5,
+      "likes": 3547,
+      "comments": 59,
+      "views": 74926,
+      "score": 1.89,
+      "caption_start": "“Holiday magic” is just code for women’s labor and honestly…it’s time we get a little “mean” and lay down some boundaries and expectations. ",
+      "hashtags": [
+        "boundariesarehealthy",
+        "genderroles",
+        "holidaycheer",
+        "holidays",
+        "mom"
+      ],
+      "url": "https://www.instagram.com/reel/Df2fMYSyRCx/"
+    },
+    {
+      "account": "dailystoic",
+      "followers": 3447848,
+      "format": "carousel",
+      "age_days": 1.7,
+      "likes": 5041,
+      "comments": 31,
+      "views": null,
+      "score": 1.72,
+      "caption_start": "Sign up for a daily Stoic inspired email dailystoic.com/email",
+      "hashtags": [],
+      "url": "https://www.instagram.com/p/Df7N6OCligG/"
+    }
+  ],
+  "formats": {
+    "reel": {
+      "posts": 240,
+      "median_score": 0.79,
+      "share_of_outliers": 0.38
+    },
+    "carousel": {
+      "posts": 114,
+      "median_score": 1.41,
+      "share_of_outliers": 0.41
+    },
+    "image": {
+      "posts": 125,
+      "median_score": 1.24,
+      "share_of_outliers": 0.22
+    },
+    "video": {
+      "posts": 1,
+      "median_score": 44.79,
+      "share_of_outliers": 0.0
+    }
+  },
+  "hashtags_on_outliers": [
+    {
+      "tag": "albania",
+      "count": 4
+    },
+    {
+      "tag": "tirana",
+      "count": 4
+    },
+    {
+      "tag": "durres",
+      "count": 3
+    },
+    {
+      "tag": "shqiperia",
+      "count": 3
+    },
+    {
+      "tag": "entrepreneur",
+      "count": 1
+    },
+    {
+      "tag": "kimperell",
+      "count": 1
+    },
+    {
+      "tag": "nobodywinsalone",
+      "count": 1
+    },
+    {
+      "tag": "durrës",
+      "count": 1
+    },
+    {
+      "tag": "shqipëria",
+      "count": 1
+    },
+    {
+      "tag": "sponsored",
+      "count": 1
+    },
+    {
+      "tag": "children",
+      "count": 1
+    },
+    {
+      "tag": "kids",
+      "count": 1
+    },
+    {
+      "tag": "marriage",
+      "count": 1
+    },
+    {
+      "tag": "relationship",
+      "count": 1
+    },
+    {
+      "tag": "growth",
+      "count": 1
+    },
+    {
+      "tag": "mindset",
+      "count": 1
+    },
+    {
+      "tag": "motivation",
+      "count": 1
+    },
+    {
+      "tag": "relationships",
+      "count": 1
+    },
+    {
+      "tag": "boundariesarehealthy",
+      "count": 1
+    },
+    {
+      "tag": "genderroles",
+      "count": 1
+    },
+    {
+      "tag": "holidaycheer",
+      "count": 1
+    },
+    {
+      "tag": "holidays",
+      "count": 1
+    },
+    {
+      "tag": "mom",
+      "count": 1
+    }
+  ],
+  "own_posts": [
+    {
+      "format": "reel",
+      "posted": "2026-11-20T20:03:11+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Bën një punë të dytë me kontratë? Dy gjëra që duhet t'i dish:",
+      "url": "https://www.instagram.com/reel/Df-d6MfCJVA/",
+      "reach": 137,
+      "saved": 1,
+      "shares": 0,
+      "views": 174,
+      "total_interactions": 2
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-20T17:03:50+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Kredia nuk matet me këstin. Matet me totalin që kthen.",
+      "url": "https://www.instagram.com/reel/Df-JcveCHsw/",
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "views": 11,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-20T14:01:36+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Ata s'e thoshin kurrë fjalën \"u lodha\".",
+      "url": "https://www.instagram.com/p/Df90owbkTa8/",
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "views": 24,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-20T11:02:56+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Në dhjetor vijnë emigrantët, dhe albumet e fëmijërisë janë te shtëpia e prindërve.",
+      "url": "https://www.instagram.com/reel/Df9gG1GiuKh/",
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "views": 18,
+      "total_interactions": 1
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-19T20:03:17+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Black Friday është më 27 nëntor. Përgatitja bëhet sot.",
+      "url": "https://www.instagram.com/reel/Df75JcrERzf/",
+      "reach": 14,
+      "saved": 0,
+      "shares": 0,
+      "views": 20,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-19T17:04:42+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Kur të thonë një rrogë, pyet: bruto apo neto?",
+      "url": "https://www.instagram.com/reel/Df7kqfIiZbS/",
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "views": 13,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-19T14:02:05+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Sipas INSTAT (tremujori i parë 2026), paga mesatare bruto është 90.119 lekë, por me çmimet e vitit 2020 blen sa 73.822. ",
+      "url": "https://www.instagram.com/p/Df7P2yDlvdh/",
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "views": 14,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-19T11:01:42+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Para se të kërkosh një punë të dytë, shiko ballkonin.",
+      "url": "https://www.instagram.com/reel/Df67LeMmWwe/",
+      "reach": 32,
+      "saved": 0,
+      "shares": 0,
+      "views": 39,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-18T20:03:36+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Jack Fleming e nisi kositjen e oborreve 13 vjeç. Punën e parë e çmoi 30 dollarë, se mendoi që do t'i merrte 45 minuta. I",
+      "url": "https://www.instagram.com/reel/Df5UWUEiL1f/",
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "views": 15,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-18T17:04:06+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Mos e mat çmimin me lekë. Mate me orë pune.",
+      "url": "https://www.instagram.com/reel/Df4_3F6mdDO/",
+      "reach": 111,
+      "saved": 0,
+      "shares": 0,
+      "views": 125,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-18T14:02:20+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Ata kursenin pa e ditur fjalën \"buxhet\".",
+      "url": "https://www.instagram.com/p/Df4rDqqliBl/",
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "views": 21,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-18T11:01:47+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Jack Leimbach, një i ri në SHBA, nisi të lante xhama me një set prej 200 dollarësh (rreth 16.000 lekë: fshirëse, kovë, s",
+      "url": "https://www.instagram.com/reel/Df4Wa9jDQ9G/",
+      "reach": 27,
+      "saved": 0,
+      "shares": 0,
+      "views": 37,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-17T20:02:58+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Terapistja financiare Aja Evans këshillon tri gjëra kur dikush të kërkon borxh:",
+      "url": "https://www.instagram.com/reel/Df2vj9Wiglw/",
+      "reach": 127,
+      "saved": 0,
+      "shares": 2,
+      "views": 147,
+      "total_interactions": 3
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-17T17:04:22+0000",
+      "likes": 1,
+      "comments": 0,
+      "caption_start": "Paga minimale është 50.000 lekë bruto. Deri aty tatimi mbi pagën është zero. Sapo e kalon, paguan 13% për gjithë pjesën ",
+      "url": "https://www.instagram.com/reel/Df2bIe9Eu6u/",
+      "reach": 124,
+      "saved": 0,
+      "shares": 2,
+      "views": 166,
+      "total_interactions": 3
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-17T14:01:21+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "E pamë më 15 nëntor: rreth 400 shërbime përkthimi shqip në Fiverr, 14 nga 19 çmimet e para nisin nga 5 dollarë.",
+      "url": "https://www.instagram.com/p/Df2GNv1lhQB/",
+      "reach": 17,
+      "saved": 1,
+      "shares": 1,
+      "views": 38,
+      "total_interactions": 2
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-17T11:02:24+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Prompti që kopjon (ChatGPT, versioni falas pranon skedarë, me kufi):",
+      "url": "https://www.instagram.com/reel/Df1xlacCQkl/",
+      "reach": 36,
+      "saved": 0,
+      "shares": 0,
+      "views": 38,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-16T20:03:30+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Shumë veta marrin një pjesë të rrogës me bankë dhe pjesën tjetër në dorë. Inspektorati i Punës gjeti në 2023 rreth 1 në ",
+      "url": "https://www.instagram.com/reel/Df0KwVBgSsh/",
+      "reach": 113,
+      "saved": 0,
+      "shares": 0,
+      "views": 145,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-16T17:04:50+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "E pe rregullin 50/30/20 me rrogë 60.000? Ja me 80.000 lekë në dorë:",
+      "url": "https://www.instagram.com/reel/Dfz2XUJFbcy/",
+      "reach": 18,
+      "saved": 0,
+      "shares": 0,
+      "views": 27,
+      "total_interactions": 0
+    },
+    {
+      "format": "image",
+      "posted": "2026-11-16T14:01:37+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Mesatarja e ngrenë lart pagat e mëdha (financa: 157 mijë lekë). Numri i saktë për t'u krahasuar është mediana: 74.010 le",
+      "url": "https://www.instagram.com/p/DfzhdTMlTTy/",
+      "reach": 14,
+      "saved": 0,
+      "shares": 0,
+      "views": 29,
+      "total_interactions": 0
+    },
+    {
+      "format": "reel",
+      "posted": "2026-11-16T11:01:58+0000",
+      "likes": 0,
+      "comments": 0,
+      "caption_start": "Ryan Cron (SHBA) e nisi me një komodinë: e bleu rreth 30 dollarë (rreth 2.500 lekë), e leu, e nxori në shitje rreth 150 ",
+      "url": "https://www.instagram.com/reel/DfzMxpPFGPG/",
+      "reach": 14,
+      "saved": 0,
+      "shares": 0,
+      "views": 24,
+      "total_interactions": 0
+    }
+  ],
+  "watchlist": [
+    {
+      "username": "hormozi",
+      "followers": 5260599
+    },
+    {
+      "username": "sahilbloom",
+      "followers": 1032870
+    },
+    {
+      "username": "noahkagan",
+      "followers": 249737
+    },
+    {
+      "username": "foundr",
+      "followers": 3827496
+    },
+    {
+      "username": "entrepreneur",
+      "followers": 4643889
+    },
+    {
+      "username": "garyvee",
+      "followers": 12321084
+    },
+    {
+      "username": "personalfinanceclub",
+      "followers": 694925
+    },
+    {
+      "username": "humphreytalks",
+      "followers": 907650
+    },
+    {
+      "username": "yourrichbff",
+      "error": "Invalid user id"
+    },
+    {
+      "username": "ramit",
+      "followers": 987079
+    },
+    {
+      "username": "thefinancialdiet",
+      "followers": 876498
+    },
+    {
+      "username": "codiesanchez",
+      "followers": 3447708
+    },
+    {
+      "username": "jamesclear",
+      "followers": 1869227
+    },
+    {
+      "username": "dailystoic",
+      "followers": 3447848
+    },
+    {
+      "username": "ryanholiday",
+      "followers": 1323314
+    },
+    {
+      "username": "thegoodquote",
+      "followers": 22508188
+    },
+    {
+      "username": "millionaire_albania",
+      "followers": 53735
+    }
+  ]
+}
