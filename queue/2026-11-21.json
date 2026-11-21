@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-21",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "laptop on wooden desk evening lamp notebook",
+      "note": "Side hustle tweet (e shtunë, Daily mix). Seri e fituesit të 17 Nëntorit me një gjuhë tjetër: italisht. Zëvendëson Reel-in e larjes së makinave në draft (pajisje + dollarë + 60.000, siç tha review i 19 Nëntorit). Kontrolluar në Fiverr më 21.11.2026: gig-et italisht–shqip nisin nga 5 $ (deri 25 $), 4 nga 4 të hapura ishin 'on hold'.",
+      "source_item": "https://www.fiverr.com/gigs/albanian-translation",
+      "sources": [
+        "https://www.fiverr.com/gigs/albanian-translation",
+        "https://www.fiverr.com/ariolalena/translate-from-english-and-italian-to-albanian-and-vice-versa",
+        "https://www.fiverr.com/ericamrizi/translate-albanian-to-english-and-italian",
+        "https://www.fiverr.com/leandrimara/translate-sentences-or-texts-from-albanian-to-italian",
+        "https://www.fiverr.com/rominaguni/translate-english-to-albanian-and-viceversa"
+      ],
+      "slides": [
+        {
+          "text": "Di italisht dhe mbrëmjet i ke të lira?\n\nNë Fiverr, përkthimet italisht–shqip nisin nga 5 dollarë, dhe disa nga këto oferta janë pezulluar.\n\nVendos çiftin në titull: \"italisht në shqip\". Klienti kërkon çiftin, jo gjuhën."
+        }
+      ],
+      "caption": "E kontrolluam sot në Fiverr: shërbimet italisht–shqip nisin nga 5 deri 25 dollarë, zakonisht për 200–500 fjalë. Disa nga ofertat që hapëm ishin të pezulluara, pra pa njeri që merr porosi.\n\nHapi i parë: hap një shërbim me çiftin e gjuhëve në titull, me një shembull të shkurtër përkthimi në përshkrim.\n\nDërgoja dikujt që flet italisht.\n\n#suksesishqip #sidehustle #fiverr #italisht"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "apartment buildings balconies city evening",
+      "note": "Tweet para me numër (qiraja, Monitor qershor 2026). Tema e javës: banesa që ha rrogën. Hap Reel-in e orës 18:00. Shikuesi merr: dy numra për t'i treguar kujtdo që i thotë \"s'di të kursesh\".",
+      "source_item": "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/",
+      "sources": [
+        "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/"
+      ],
+      "slides": [
+        {
+          "text": "Paguan qira në Tiranë dhe s'të mbetet gjë për të kursyer?\n\nQiraja mesatare atje është 721 euro: 77% e pagës mesatare bruto.\n\nKufiri i shëndetshëm është 30%. Pjesëto qiranë me rrogën, para se të fajësosh veten."
+        }
+      ],
+      "caption": "Të dhënat e agjencive imobiliare për vitin 2026: qiraja mesatare e një apartamenti në Tiranë është 721 euro në muaj. Qiraja quhet e përballueshme kur s'kalon 30% të të ardhurave bruto.\n\nSot në orën 18:00: si ta gjesh përqindjen tënde dhe çfarë të bësh kur del mbi 40%.\n\nDërgoja dikujt që jeton me qira në Tiranë.\n\n#suksesishqip #qira #qiraja #rroga"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Llogari + rregull me qiranë e shikuesit (tema e javës: banesa që ha rrogën; Ramit \"feel trapped\"). Çmimet e zonave (2025) nga artikulli i Balkanweb, 12.06.2026; Fresk u hoq se s'u verifikua. Shikuesi merr: pragun 30% dhe 3 lëvizjet kur del mbi 40%. Fjalia për pronarin është e jona.",
+      "source_item": "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/",
+      "sources": [
+        "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Qira 400 €, rrogë 700 €",
+          "big": "57%",
+          "donut": 57,
+          "sub": "e rrogës ikën për qira",
+          "text": "Qira 400 euro me rrogë 700 euro: 57% e rrogës ikën para se të hash bukë!",
+          "say": "Qira katërqind euro me rrogë shtatëqind euro: pesëdhjetë e shtatë për qind e rrogës ikën para se të hash bukë!"
+        },
+        {
+          "type": "count",
+          "kicker": "Rregulli",
+          "value": 30,
+          "suffix": "%",
+          "label": "kufiri për qiranë",
+          "at": "30%",
+          "text": "Rregulli: qiraja jo më shumë se 30% e të ardhurave.",
+          "say": "Rregulli: qiraja jo më shumë se tridhjetë për qind e të ardhurave."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "600–900 €",
+            "sub": "1+1 afër qendrës",
+            "figure": "house"
+          },
+          "right": {
+            "label": "400–500 €",
+            "sub": "1+1 në periferi",
+            "figure": "house"
+          },
+          "at": "periferi",
+          "text": "Afër qendrës një 1+1 shkon 600 deri 900 euro, në periferi 400 deri 500.",
+          "say": "Afër qendrës një një plus një shkon gjashtëqind deri nëntëqind euro, në periferi katërqind deri pesëqind."
+        },
+        {
+          "type": "list",
+          "title": "Mbi 40%?",
+          "items": [
+            "Ndaje qiranë",
+            "Ndrysho zonën",
+            "Negocio rinovimin"
+          ],
+          "text": "Ndaje qiranë, ndrysho zonën, negocio rinovimin."
+        },
+        {
+          "type": "chat",
+          "kicker": "Thuaji pronarit:",
+          "reply": "Firmos 2 vjet, me këtë çmim",
+          "at": "vjet",
+          "text": "Thuaji pronarit: firmos edhe dy vjet, por me të njëjtin çmim!"
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Gjej përqindjen tënde.",
+          "at": "pjesëto",
+          "figure": "keypad",
+          "text": "Sot pjesëto qiranë me rrogën, dhe shkruaje përqindjen në koment!"
+        }
+      ],
+      "caption": "Gjej përqindjen tënde: qiraja ÷ të ardhurat e shtëpisë në dorë.\n\n• Deri 30%: je mirë.\n• 30–40%: e ngushtë.\n• Mbi 40%: çdo e papritur të lë pa lekë.\n\nNë Tiranë (të dhëna tregu, 2025): 1+1 afër qendrës 600–900 euro, në periferi 400–500.\n\nKur del mbi 40%:\n1. Ndaje qiranë me një person tjetër.\n2. Shiko një zonë më larg qendrës.\n3. Kur të rinovosh kontratën, ofro kohë në këmbim të çmimit: \"Firmos edhe dy vjet, por me të njëjtin çmim.\" Pronari fiton sigurinë që s'i mbetet shtëpia bosh.\n\nShkruaje përqindjen tënde në koment.\n\n#suksesishqip #qira #qiraja #buxheti"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Gabim + zgjidhje, ndjek fituesin \"telefoni 1.200 €, 24 këste\" (10.743) me kënd të ri: jo një këst, por shuma e tyre. Tema: \"buy now pay later\" që mblidhet (Caleb Hammer). Numri i iute-s është i vetë kompanisë. Rregulli \"një e treta e rrogës\" është i yni. Shikuesi merr: listën e kësteve dhe pragun. Rroga në hook u ndryshua nga 60.000 në 70.000 (review 19 Nov). Artikulli i iute: 8 Dhjetor 2025, për nëntorin 2025.",
+      "source_item": "https://shqiptarja.com/lajm/black-friday-dhe-nentori-i-rekordeve-ne-iute",
+      "sources": [
+        "https://shqiptarja.com/lajm/black-friday-dhe-nentori-i-rekordeve-ne-iute",
+        "https://www.raiffeisen.al/en/individuals/products/loans/rsf/rsf-neptun-promo.html"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Black Friday me këste",
+          "big": "0%",
+          "sub": "por jo zero kosto",
+          "figure": "smartphone",
+          "text": "Këste me 0% interes, dhe rroga 70.000 lekë: sa të mbetet në janar?",
+          "say": "Këste me zero për qind interes, dhe rroga shtatëdhjetë mijë lekë: sa të mbetet në janar?"
+        },
+        {
+          "type": "count",
+          "kicker": "Nëntor 2025, një kompani",
+          "value": 6000,
+          "label": "blerës me 4 këste 0%",
+          "at": "6.000",
+          "text": "Nëntorin e kaluar, mbi 6.000 veta blenë kështu te një kompani e vetme.",
+          "say": "Nëntorin e kaluar, mbi gjashtë mijë veta blenë kështu te një kompani e vetme."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "80.000",
+            "sub": "çmimi",
+            "figure": "smartphone"
+          },
+          "right": {
+            "label": "4 × 20.000",
+            "sub": "katër rroga rresht",
+            "figure": "money"
+          },
+          "at": "20.000",
+          "text": "80.000 lekë janë 20.000 nga katër rroga rresht.",
+          "say": "Tetëdhjetë mijë lekë janë njëzet mijë nga katër rroga rresht."
+        },
+        {
+          "type": "chat",
+          "kicker": "Gabimi:",
+          "reply": "Kësti i dytë, i tretë, i katërt",
+          "alarm": true,
+          "at": "mblidhen",
+          "text": "Gabimi s'është një këst, janë këstet që mblidhen pa i numëruar."
+        },
+        {
+          "type": "list",
+          "title": "Rregulli:",
+          "items": [
+            "Shkruaji të gjitha",
+            "Mblidhi",
+            "Ndalo te një e treta"
+          ],
+          "text": "Shkruaji të gjitha, mblidhi, ndalo kur kalojnë një të tretën e rrogës."
+        },
+        {
+          "type": "text",
+          "title": "Detyra e sotme:",
+          "highlight": "Mblidh këstet.",
+          "at": "mblidh",
+          "figure": "keypad",
+          "text": "Sot mblidh këstet e dhjetorit, para se të shtosh një tjetër!"
+        }
+      ],
+      "caption": "\"0% interes\" është e vërtetë: disa oferta sot s'kanë as interes, as komision. Kostoja është diku tjetër: kësti del nga rroga e muajve që s'kanë ardhur ende.\n\nNëntorin e kaluar, vetëm një kompani financoi mbi 6.000 blerje me 4 këste 0%. Një blerje 80.000 lekë = 20.000 lekë nga katër rroga rresht, mes tyre edhe ajo e Vitit të Ri.\n\nRregulli ynë i thjeshtë:\n1. Shkruaj të gjitha këstet që ke (telefon, pajisje, kredi).\n2. Mblidhi.\n3. Nëse kalojnë një të tretën e rrogës në dorë, mos shto asnjë tjetër, sado e mirë të jetë oferta.\n\nMe rrogë 70.000 lekë, kufiri është rreth 23.000 lekë këste në muaj.\n\nDërgoja dikujt që po bën listën e Black Friday-t.\n\n#suksesishqip #këste #blackfriday #rroga"
+    }
+  ]
+}
