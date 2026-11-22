@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "rendered_at": 1795328864,
+  "rendered_at": 1795329207,
   "posts": [
     {
       "id": "p1",
@@ -18,14 +18,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 20,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.12,
+        "duration": 28.48,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -35,7 +35,7 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 4.87
+            "start": 4.79
           },
           {
             "frame": "frame-03.jpg",
@@ -45,22 +45,22 @@
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.03
+            "start": 12.52
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 16.61
+            "start": 15.52
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 20.32
+            "start": 19.25
           },
           {
             "frame": "frame-07.jpg",
             "beat": 7,
-            "start": 24.08
+            "start": 22.46
           }
         ]
       }
@@ -72,9 +72,9 @@
         "out/2026-11-22/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "7537223",
-        "page": "https://pixabay.com/photos/calendar-photo-calendar-december-7537223/",
-        "query": "wall calendar december office desk"
+        "pixabay_id": "2583442",
+        "page": "https://pixabay.com/photos/girl-woman-office-work-coffee-2583442/",
+        "query": "notebook and coffee cup on wooden desk by window"
       }
     },
     {
@@ -99,7 +99,7 @@
         "sfx": 8,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.74,
+        "duration": 30.26,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -109,27 +109,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.98
+            "start": 5.09
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 10.65
+            "start": 10.2
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 14.47
+            "start": 13.9
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 20.96
+            "start": 21.01
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 25.99
+            "start": 25.73
           }
         ]
       }
@@ -149,14 +149,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 19,
         "engine": "hype",
         "look": "grafit",
-        "duration": 28.7,
+        "duration": 29.15,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -166,27 +166,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.89
+            "start": 6.78
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 8.96
+            "start": 10.08
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.7
+            "start": 14.61
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 19.17
+            "start": 20.38
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 23.59
+            "start": 23.94
           }
         ]
       }
