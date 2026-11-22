@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-23",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "german dictionary and laptop on desk evening lamp",
+      "note": "Side hustle tweet, i vetmi follow-up i javës për fituesin e 17 nëntorit (Fiverr, 67.387 views): gjuhë tjetër (gjermanisht), numrat nga faqja e Fiverr për përkthyes shqip. Lëvizja e zgjuar: shërbim vetëm për çiftin gjermanisht–shqip, për emigrantët në Gjermani. Shikuesi merr: titullin e shërbimit dhe çmimin për fjalë.",
+      "source_item": "https://www.fiverr.com/hire/albanian-translation",
+      "sources": [
+        "https://www.fiverr.com/hire/albanian-translation",
+        "https://help.fiverr.com/hc/en-us/articles/360010530058-Withdrawing-your-earnings-managing-payout-methods"
+      ],
+      "slides": [
+        {
+          "text": "Di gjermanisht dhe mbrëmjet i ke të lira?\n\nNë Fiverr, faqja e përkthyesve të shqipes ka vetëm 12 profile, me 0,05–0,20 dollarë për fjalë.\n\nShumë prej tyre mbledhin 4–5 gjuhë bashkë. Ti hap një shërbim vetëm \"gjermanisht në shqip\"."
+        }
+      ],
+      "caption": "Kontrolluar më 22 nëntor 2026 te faqja e Fiverr \"Hire Albanian translators\". Një faqe dokumenti ka rreth 300 fjalë: me këto çmime, 15 deri 60 dollarë (llogaritje jona). Fiverr mban 20% të çdo pagese.\n\nHapi i parë: shkruaj titullin e shërbimit me çiftin e gjuhëve, jo me 5 gjuhë.\n\nDërgoja dikujt që di gjermanisht.\n\n#suksesishqip #sidehustle #fiverr #gjermanisht"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "empty office desk with calendar on holiday",
+      "note": "Situatë pune me numër, e kohës: sot është pushim zyrtar (22 nëntori, Dita e Alfabetit, ra të dielën), dhe 30 nëntori e 1 dhjetori janë pushim për 28 e 29 nëntorin. Burimi: Kodi i Punës neni 87 (teksti i konsoliduar 2024). Shikuesi merr: +25% dhe orët e pushimit, plus datat e pushimeve të javës tjetër.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+        "https://www.intesasanpaolobank.al/document/documents/ISPALBANIA/Footer-Documents/Bank-Holidays-2026.pdf",
+        "https://www.bankofalbania.org/Press/2026_Official_Bank_Holiday_Schedule/2022_Official_Bank_Holiday_Schedule.html"
+      ],
+      "slides": [
+        {
+          "text": "Punon sot, edhe pse është festë?\n\nKodi i Punës (neni 87): në festë zyrtare të paguhet të paktën 25% më shumë, plus po aq orë pushim brenda javës.\n\nShëno: edhe 30 nëntori dhe 1 dhjetori janë pushim."
+        }
+      ],
+      "caption": "22 nëntori (Dita e Alfabetit) ra të dielën, ndaj pushimi është sot. 28 dhe 29 nëntori bien në fundjavë: pushimi kalon të hënën 30 nëntor dhe të martën 1 dhjetor (kalendari i festave 2026 i bankave).\n\nNëse punon në një nga këto ditë, pyet me shkrim: \"Si do të ma kompensoni këtë ditë feste?\"\n\nDërgoja kolegut që sot është në punë.\n\n#suksesishqip #puna #rroga #festat"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit me fletëpagesën rresht për rresht (rekomanduar në review 22 Nov). Kontradikta e re për rrogën minimale: firma paguan 58.350, ti merr 44.400. Follow-up i vetëm i fituesit 'tax trap' (17 Nov), me surprizë tjetër. Llogaritje jona mbi normat 2026 (11,2% punonjësi, 16,7% punëdhënësi, tatim 0 deri 50.000). Shikuesi merr: të drejtën për fletëpagesë me shkrim (neni 119) dhe 3 rreshtat që duhet të shohë.",
+      "source_item": "https://shqiptarja.com/lajm/qeveria-merr-vendimin-nga-janari-paga-minimale-rritet-ne-50-mije-leke",
+      "sources": [
+        "https://shqiptarja.com/lajm/qeveria-merr-vendimin-nga-janari-paga-minimale-rritet-ne-50-mije-leke",
+        "https://sherbimekontabiliteti.al/guida/tatimi-mbi-pagen-shkalla-progresive-2025/",
+        "https://taxsummaries.pwc.com/albania/individual/taxes-on-personal-income",
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Paga minimale",
+          "big": "50.000 lekë",
+          "sub": "firma paguan 58.350",
+          "figure": "money",
+          "stamp": "44.400",
+          "at": "44.400",
+          "text": "Rroga 50.000 bruto: firma paguan 58.350, ti merr 44.400!",
+          "say": "Rroga pesëdhjetë mijë bruto: firma paguan pesëdhjetë e tetë mijë e treqind e pesëdhjetë, ti merr dyzet e katër mijë e katërqind!"
+        },
+        {
+          "type": "count",
+          "kicker": "Kontributet e tua",
+          "value": 5600,
+          "suffix": " lekë",
+          "label": "11,2% e rrogës bruto",
+          "at": "5.600",
+          "text": "Ty të mbahen 5.600 lekë kontribute.",
+          "say": "Ty të mbahen pesë mijë e gjashtëqind lekë kontribute."
+        },
+        {
+          "type": "bars",
+          "kicker": "Mbi rrogën tënde",
+          "left": {
+            "label": "44.400",
+            "sub": "në dorë"
+          },
+          "right": {
+            "label": "58.350",
+            "sub": "kostoja e firmës"
+          },
+          "at": "8.350",
+          "text": "Firma shton edhe 8.350 të tjera për ty.",
+          "say": "Firma shton edhe tetë mijë e treqind e pesëdhjetë të tjera për ty."
+        },
+        {
+          "type": "chat",
+          "kicker": "Kodi i Punës, neni 119",
+          "reply": "Llogaritje me shkrim",
+          "at": "shkrim",
+          "figure": "keypad",
+          "text": "Dhe ligji të jep të drejtën e një llogaritjeje me shkrim!"
+        },
+        {
+          "type": "list",
+          "title": "Te fletëpagesa shiko:",
+          "items": [
+            "Bruto",
+            "Kontributet",
+            "Neto"
+          ],
+          "text": "Bruto, kontributet, neto: nëse s'përputhen, pyet!"
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Kërko fletëpagesën",
+          "at": "kërko",
+          "figure": "smartphone",
+          "text": "Sot kërko fletëpagesën e nëntorit, me shkrim!"
+        }
+      ],
+      "caption": "Rroga minimale 2026: 50.000 lekë bruto (nga 1 janari).\n\nPunonjësi: 9,5% sigurime shoqërore + 1,7% shëndetësore = 5.600 lekë. Tatimi: 0 deri në 50.000. Në dorë: 44.400.\nPunëdhënësi shton 15% + 1,7% = 8.350 lekë. Kostoja e plotë: 58.350 (llogaritje jona mbi normat e 2026).\n\nKodi i Punës, neni 119: për çdo pagesë, punëdhënësi të jep me shkrim shumën dhe të gjitha mbajtjet.\n\nRuaje dhe dërgoja kolegut me rrogë minimale.\n\n#suksesishqip #rroga #puna"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë që e takon kushdo që kërkon punë: pyetja 'sa rrogë kërkon?'. Metoda: J.T. O'Donnell te CNBC (interval i bazuar te tregu + arsye + 'a mund ta bëjmë?'). Fjalia në shqip është jona. Shikuesi merr: fjalinë gati dhe detyrën për të gjetur intervalin.",
+      "source_item": "https://www.cnbc.com/2021/02/10/how-to-answer-what-salary-do-you-expect-an-example-script-of-what-to-say.html",
+      "sources": [
+        "https://www.cnbc.com/2021/02/10/how-to-answer-what-salary-do-you-expect-an-example-script-of-what-to-say.html"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Intervista",
+          "big": "Sa kërkon?",
+          "sub": "një numër, apo një interval?",
+          "figure": "people",
+          "stamp": "GABIM",
+          "at": "vetëm",
+          "text": "Të pyesin në intervistë sa rrogë kërkon, dhe ti thua një numër të vetëm?"
+        },
+        {
+          "type": "checks",
+          "kicker": "Sipas J.T. O'Donnell",
+          "rows": [
+            {
+              "label": "Një numër",
+              "ok": false
+            },
+            {
+              "label": "Një interval",
+              "ok": true
+            }
+          ],
+          "text": "Një numër e mbyll bisedën, një interval i lë vend negocimit."
+        },
+        {
+          "type": "chat",
+          "kicker": "Thuaj:",
+          "reply": "65 deri 75 mijë në dorë",
+          "at": "65",
+          "text": "Thuaj: bazuar te tregu, kërkoj 65 deri 75 mijë lekë në dorë.",
+          "say": "Thuaj: bazuar te tregu, kërkoj gjashtëdhjetë e pesë deri shtatëdhjetë e pesë mijë lekë në dorë."
+        },
+        {
+          "type": "list",
+          "title": "Pastaj 2 arsye:",
+          "items": [
+            "Përvoja jote",
+            "Rezultatet me numra"
+          ],
+          "text": "Përvoja jote dhe rezultatet me numra, një fjali secila."
+        },
+        {
+          "type": "chat",
+          "kicker": "Dhe mbyll:",
+          "reply": "A mund ta bëjmë këtë?",
+          "at": "bëjmë",
+          "figure": "trophy",
+          "text": "Dhe mbyll me pyetjen: a mund ta bëjmë këtë?"
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Pyet 3 njerëz",
+          "at": "pyet",
+          "figure": "people",
+          "text": "Sot pyet tre njerëz në të njëjtin pozicion sa marrin, dhe shkruaj intervalin tënd!",
+          "say": "Sot pyet tre njerëz në të njëjtin pozicion sa marrin, dhe shkruaj intervalin tënd!"
+        }
+      ],
+      "caption": "Fjalia, gati për t'u kopjuar:\n\"Bazuar te përvoja ime dhe te tregu, kërkoj [X] deri [Y] lekë në dorë. [Arsyeja 1]. [Arsyeja 2]. A mund ta bëjmë këtë?\"\n\nMetoda: J.T. O'Donnell (CNBC): jep një interval të kërkuar, jo një numër të vetëm, justifikoje me atë që ke bërë, dhe mbyll me pyetje. Thuaj gjithmonë \"në dorë\" ose \"bruto\", që të mos ketë keqkuptim.\n\nDërgoja shokut që ka intervistë këtë javë.\n\n#suksesishqip #puna #intervista #rroga"
+    }
+  ]
+}

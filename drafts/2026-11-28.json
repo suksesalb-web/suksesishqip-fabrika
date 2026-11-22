@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-28",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "laptop on kitchen table with notebook evening",
+      "note": "Side hustle tweet: Upwork (jo Fiverr), për ata që dinë anglisht. Burimet: faqja e ndihmës e Upwork (tarifa 0–15% për kontratë, e dukshme para ofertës; connects 0,15 $; 10 falas në muaj për Basic) dhe njoftimi i Upwork për tërheqjen direkt në bankë lokale në Shqipëri (2020). Shikuesi merr: kostot reale para ofertës së parë dhe rrugën e parave.",
+      "source_item": "https://support.upwork.com/hc/en-us/articles/211062538",
+      "sources": [
+        "https://support.upwork.com/hc/en-us/articles/211062538",
+        "https://www.upwork.com/resources/is-upwork-free",
+        "https://community.upwork.com/t5/Announcements/Expanding-Direct-to-Local-Bank-availability/m-p/719512"
+      ],
+      "slides": [
+        {
+          "text": "Di anglisht dhe po mendon për Upwork?\n\nÇdo ofertë aty kushton pikë (\"connects\"): 10 falas në muaj, pastaj 0,15 dollarë secila. Tarifa e Upwork: 0–15% për kontratë.\n\nE sheh tarifën para ofertës: zgjidh punët ku është më e ulët."
+        }
+      ],
+      "caption": "Kontrolluar më 22 nëntor 2026 te faqet e ndihmës së Upwork. Nga Shqipëria, paratë mund të tërhiqen direkt në një bankë shqiptare (\"Direct to Local Bank\", që nga prilli 2020).\n\nHapi i parë: shkruaj profilin me një aftësi të vetme, jo me pesë.\n\nDërgoja shokut që di anglisht dhe s'po e përdor.\n\n#suksesishqip #sidehustle #upwork #anglisht"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "bank card and calendar on desk end of month",
+      "note": "Situatë pune me datë, e kohës (rroga e nëntorit, 30 nëntori dhe 1 dhjetori pushim): Kodi i Punës neni 116 (paga mujore në fund të çdo muaji, përveç marrëveshjes me shkrim) dhe 118 (përmes bankës). Shikuesi merr: ku ta kërkojë datën në kontratë.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+        "https://www.intesasanpaolobank.al/document/documents/ISPALBANIA/Footer-Documents/Bank-Holidays-2026.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Rroga e nëntorit të vjen më 15 dhjetor?\n\nKodi i Punës (neni 116): paga mujore paguhet në fund të çdo muaji, përveç kur keni rënë dakord ndryshe me shkrim.\n\nHap kontratën sot dhe gjej rreshtin për datën e pagesës."
+        }
+      ],
+      "caption": "Kodi i Punës, neni 116: paga mujore paguhet në fund të çdo muaji, nëse s'është rënë dakord ndryshe me shkrim. Neni 118: paga paguhet përmes bankës. Kujdes: 30 nëntori dhe 1 dhjetori janë ditë pushimi, ndaj banka mund ta kalojë pagesën të mërkurën.\n\nNëse kontrata s'thotë asgjë për datën, pyet me shkrim: \"Cila është data e pagesës së rrogës sipas kontratës?\"\n\nDërgoja kolegut që e pret rrogën çdo muaj në një datë tjetër.\n\n#suksesishqip #rroga #puna #ligji"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit (60.000) dhe dhjetori: limiti ditor nga rroga në rrogë. Metoda: ClearScore / Money Saving Expert (paratë që mbeten ÷ ditët deri te rroga tjetër; qiraja dhe faturat ndahen ditën e rrogës). Kodi i Punës neni 116: rroga në fund të muajit → rroga e dhjetorit më 31 dhjetor. Llogaritje jona: (60.000 − 30.000) ÷ 31 ≈ 970 lekë në ditë. Shikuesi merr: formulën e limitit ditor.",
+      "source_item": "https://www.clearscore.com/learn/managing-money/how-to-make-your-december-pay-cheque-last-longer",
+      "sources": [
+        "https://www.clearscore.com/learn/managing-money/how-to-make-your-december-pay-cheque-last-longer",
+        "https://www.moneysavingexpert.com/news/2010/01/moneysavers-say-no-to-early-christmas-pay/",
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rroga e nëntorit",
+          "big": "31 ditë",
+          "sub": "rroga 60.000 lekë",
+          "figure": "clock",
+          "at": "31",
+          "text": "Rroga 60.000 lekë hyn në fund të nëntorit, dhe duhet të të dalë 31 ditë!",
+          "say": "Rroga gjashtëdhjetë mijë lekë hyn në fund të nëntorit, dhe duhet të të dalë tridhjetë e një ditë!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Dhjetori sjell:",
+          "rows": [
+            {
+              "label": "Dhuratat",
+              "ok": false
+            },
+            {
+              "label": "Festat",
+              "ok": false
+            },
+            {
+              "label": "Faturat e dimrit",
+              "ok": false
+            }
+          ],
+          "text": "Dhuratat, festat, faturat e dimrit: dhjetori ka më shumë shpenzime se zakonisht."
+        },
+        {
+          "type": "count",
+          "kicker": "Qira + fatura: 30.000",
+          "value": 30000,
+          "suffix": " lekë",
+          "label": "të mbeten për 31 ditë",
+          "at": "30.000",
+          "text": "Pa qiranë dhe faturat, të mbeten 30.000.",
+          "say": "Pa qiranë dhe faturat, të mbeten tridhjetë mijë."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "30.000 lekë",
+            "sub": "për muajin",
+            "figure": "money"
+          },
+          "right": {
+            "label": "970 lekë",
+            "sub": "në ditë",
+            "figure": "clock"
+          },
+          "at": "970",
+          "text": "Pjesëtuar me 31 ditë: rreth 970 lekë në ditë.",
+          "say": "Pjesëtuar me tridhjetë e një ditë: rreth nëntëqind e shtatëdhjetë lekë në ditë."
+        },
+        {
+          "type": "list",
+          "title": "Ditën e rrogës:",
+          "items": [
+            "Ndaj qiranë",
+            "Shkruaj limitin",
+            "Kontrollo të dielën"
+          ],
+          "text": "Ndaj qiranë në llogari tjetër, shkruaj limitin, kontrollo të dielën sa të ka mbetur."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Llogarit limitin tënd",
+          "at": "llogarit",
+          "figure": "keypad",
+          "text": "Sot llogarit: paratë që mbeten, pjesëtuar me ditët deri te rroga tjetër!"
+        }
+      ],
+      "caption": "Formula: (rroga − qiraja − faturat) ÷ ditët deri te rroga tjetër = sa mund të shpenzosh në ditë.\nShembulli ynë: (60.000 − 30.000) ÷ 31 ≈ 970 lekë në ditë.\n\nMetoda: ClearScore dhe Money Saving Expert për muajin e dhjetorit: numëro ditët deri te rroga tjetër, ndaje mbetjen me to, dhe paratë e qirasë e faturave ndaji ditën e rrogës. Kodi i Punës, neni 116: paga mujore paguhet në fund të muajit, nëse kontrata s'thotë ndryshe.\n\nRuaje për ditën e rrogës dhe dërgoja shokut që më 20 dhjetor s'ka më lekë.\n\n#suksesishqip #rroga #dhjetori #buxheti"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë që e ka kushdo me rrogë në bankë (neni 118: rroga paguhet përmes bankës): tarifat e llogarisë. Burimet: listat e tarifave të Intesa Sanpaolo (shtator 2026: llogaria 150 + karta 150 lekë në muaj) dhe Tirana Bank (shkurt 2026: 150 në muaj + 1.200 në vit), Raiffeisen (paketë Student 0); ligji 100/2023 (llogaria me shërbime bazike falas për pensionistët, ndihmën ekonomike, papunësinë). Shikuesi merr: pyetjen për bankën dhe telefonatën me prindërit.",
+      "source_item": "https://www.bankofalbania.org/rc/doc/Ligj_100_2023_Per_llogarine_e_pagesave_me_sherbime_bazike_26444.pdf",
+      "sources": [
+        "https://www.intesasanpaolobank.al/document/documents/ISPALBANIA/RETAIL/1.4.04.004---Individual_Terms_Conditions_ALB_-Shtator-2026.pdf",
+        "https://www.tiranabank.al/media/698b1351ed2fd.pdf",
+        "https://www.bankofalbania.org/rc/doc/Ligj_100_2023_Per_llogarine_e_pagesave_me_sherbime_bazike_26444.pdf",
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rroga vjen në bankë",
+          "big": "3.600 lekë",
+          "sub": "në vit, llogaria dhe karta",
+          "figure": "money",
+          "at": "3.600",
+          "text": "Rroga të vjen në bankë, dhe llogaria me kartën mund të të kushtojnë 3.600 lekë në vit!",
+          "say": "Rroga të vjen në bankë, dhe llogaria me kartën mund të të kushtojnë tre mijë e gjashtëqind lekë në vit!"
+        },
+        {
+          "type": "count",
+          "kicker": "Te një bankë",
+          "value": 300,
+          "suffix": " lekë",
+          "label": "150 llogaria + 150 karta, çdo muaj",
+          "at": "300",
+          "text": "Te një bankë, 150 lekë llogaria dhe 150 karta: 300 lekë çdo muaj.",
+          "say": "Te një bankë, njëqind e pesëdhjetë lekë llogaria dhe njëqind e pesëdhjetë karta: treqind lekë çdo muaj."
+        },
+        {
+          "type": "chat",
+          "kicker": "Ligji 100/2023:",
+          "reply": "Falas për pensionistët",
+          "at": "falas",
+          "text": "Për pensionistët, llogaria me shërbime bazike është falas me ligj!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Falas edhe për:",
+          "rows": [
+            {
+              "label": "Ndihmën ekonomike",
+              "ok": true
+            },
+            {
+              "label": "Pagesën e papunësisë",
+              "ok": true
+            }
+          ],
+          "text": "Falas edhe për ata me ndihmë ekonomike ose pagesë papunësie."
+        },
+        {
+          "type": "list",
+          "title": "Pyet bankën:",
+          "items": [
+            "Paketë më të lirë",
+            "Kartë pa tarifë"
+          ],
+          "text": "Pyet: a keni paketë më të lirë, apo kartë pa tarifë?"
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Telefonoji prindërit",
+          "at": "telefonoji",
+          "figure": "smartphone",
+          "text": "Sot telefonoji prindërit pensionistë: a paguajnë ende mirëmbajtje llogarie?"
+        }
+      ],
+      "caption": "Tarifat që kontrolluam (nëntor 2026):\n• Intesa Sanpaolo (shtator 2026): llogaria 150 lekë në muaj, karta debit 150 lekë në muaj.\n• Tirana Bank (shkurt 2026): llogaria 150 lekë në muaj, karta debit 1.200 lekë në vit.\n• Raiffeisen: paketa Student 0 lekë, paketa Relaks për pensionistët 50 lekë.\nBankat e tjera kanë tarifa të tjera: pyet tënden.\n\nLigji 100/2023: llogaria e pagesave me shërbime bazike është falas për pensionistët, për ata që marrin ndihmë ekonomike ose pagesë papunësie, për personat me aftësi të kufizuara dhe disa grupe të tjera. Ajo është në lekë, pa overdraft.\n\nDërgoja vëllait ose motrës, që t'i telefononi prindërve bashkë.\n\n#suksesishqip #banka #kursime #pensionistet"
+    }
+  ]
+}

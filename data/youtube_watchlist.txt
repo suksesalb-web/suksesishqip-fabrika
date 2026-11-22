@@ -5,10 +5,10 @@
 
 # personal finance, explained concretely
 CalebHammer
-humphreytalks
+# humphreytalks: not found by the API (22 Nov 2026). Humphrey Yang's channel id is UCFBpVaKCC0ajGps1vf0AgBg; his @handle could not be confirmed (search showed "@humphrey", vidIQ "@humphrey1"), so it is left out until the script can take a channel id.
 YourRichBFF
 ramitsethi
-NischaShah
+nischa
 thefinancialdiet
 GrahamStephan
 
@@ -17,4 +17,4 @@ AlexHormozi
 CodieSanchezCT
 MyFirstMillionPod
 AliAbdaal
-SideHustleNation
+# SideHustleNation: not found (22 Nov 2026). Nick Loper's channel has no @handle in any source, only youtube.com/c/nickloper; channel id UCzOAAJUiSO2uyu1xyxw__2Q.

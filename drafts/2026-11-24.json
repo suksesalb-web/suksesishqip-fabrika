@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-24",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "laptop with spreadsheet on wooden table at night",
+      "note": "Side hustle tweet me aftësi që shumë njerëz e kanë (Excel). Platforma: Fiverr (2 nga 2 Fiverr-at e javës për tweet-et), numrat nga udhëzuesi i çmimeve i vetë Fiverr-it (gusht 2026). Lëvizja e zgjuar: shmang futjen e të dhënave me 7 dollarë ku janë të gjithë, ofro pastrimin e tabelës. Shikuesi merr: shërbimin më pak të mbushur dhe çmimin e tij.",
+      "source_item": "https://www.fiverr.com/resources/guides/costs/excel-expert",
+      "sources": [
+        "https://www.fiverr.com/resources/guides/costs/excel-expert",
+        "https://help.fiverr.com/hc/en-us/articles/360010530058-Withdrawing-your-earnings-managing-payout-methods"
+      ],
+      "slides": [
+        {
+          "text": "Di Excel më mirë se kolegët?\n\nNë Fiverr, pastrimi i një tabele kushton mesatarisht rreth 59 dollarë. Një model gati, 25 deri 60.\n\nMos nis te futja e të dhënave me 7 dollarë ora, ku hyjnë të gjithë: ofro pastrimin."
+        }
+      ],
+      "caption": "Çmimet: udhëzuesi i Fiverr-it për ekspertët e Excel (gusht 2026), kontrolluar më 22 nëntor. Fiverr mban 20%, dhe paratë lirohen pas 14 ditësh.\n\nHapi i parë: merr një tabelë të çrregullt (emra, data, numra) dhe bëje shembull \"para / pas\".\n\nDërgoja kolegut që të rregullon çdo tabelë.\n\n#suksesishqip #sidehustle #excel #fiverr"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "payslip paper and pen on office desk",
+      "note": "Situatë pune shumë e përhapur (bare, dyqane, call center): gjoba nga rroga. Kodi i Punës neni 122(3): gjobat nga paga ndalohen, përveç kur i lejon kontrata kolektive. Shikuesi merr: fjalinë për të kërkuar shpjegimin me shkrim.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Të mbajtën 2.000 lekë nga rroga se u vonove 10 minuta?\n\nKodi i Punës (neni 122): gjobat që mbahen nga paga ndalohen, përveç kur i parashikon një kontratë kolektive.\n\nPyet me shkrim: \"Për çfarë është kjo zbritje te fletëpagesa?\""
+        }
+      ],
+      "caption": "Kodi i Punës, neni 122, pika 3 (teksti i konsoliduar me ligjin 91/2024). Neni 119: për çdo pagesë të jepet me shkrim llogaritja dhe të gjitha zbritjet.\n\nHapi i parë: krahaso fletëpagesën e këtij muaji me kontratën.\n\nDërgoja shokut që punon në bar dhe i \"presin\" rrogën.\n\n#suksesishqip #puna #rroga #ligji"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit (60.000) dhe një fakt që shumëkush s'e di: ora pas orarit paguhet +25%, e diela/festa +50%, maksimumi 200 orë në vit (Kodi i Punës nenet 90–91). Llogaritje jona: 60.000 ÷ 174 orë = 345 lekë ora. Shikuesi merr: sa vlen ora e tij shtesë dhe shënimi i orëve në telefon.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+        "https://shqiptarja.com/lajm/qeveria-merr-vendimin-nga-janari-paga-minimale-rritet-ne-50-mije-leke"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Orët pas orarit",
+          "big": "+25%",
+          "sub": "rroga 60.000 lekë",
+          "figure": "clock",
+          "stamp": "+25%",
+          "at": "ligji",
+          "text": "Rroga 60.000 lekë dhe rri pas orarit pa pagesë, kur ligji thotë +25%!",
+          "say": "Rroga gjashtëdhjetë mijë lekë dhe rri pas orarit pa pagesë, kur ligji thotë njëzet e pesë për qind më shumë!"
+        },
+        {
+          "type": "count",
+          "kicker": "Ora jote",
+          "value": 345,
+          "suffix": " lekë",
+          "label": "60.000 ÷ 174 orë",
+          "at": "345",
+          "text": "Kjo rrogë bën rreth 345 lekë ora.",
+          "say": "Kjo rrogë bën rreth treqind e dyzet e pesë lekë ora."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "345 lekë",
+            "sub": "ora normale",
+            "figure": "clock"
+          },
+          "right": {
+            "label": "431 lekë",
+            "sub": "ora shtesë",
+            "figure": "money"
+          },
+          "at": "431",
+          "text": "Ora shtesë: të paktën 431 lekë.",
+          "say": "Ora shtesë: të paktën katërqind e tridhjetë e një lekë."
+        },
+        {
+          "type": "icons",
+          "kicker": "Në një muaj",
+          "title": "10 orë shtesë",
+          "icon": "clock",
+          "n": 10,
+          "label": "= 4.310 lekë",
+          "at": "4.310",
+          "text": "Dhjetë orë shtesë bëjnë 4.310 lekë!",
+          "say": "Dhjetë orë shtesë bëjnë katër mijë e treqind e dhjetë lekë!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Kodi i Punës, nenet 90–91",
+          "rows": [
+            {
+              "label": "Të dielën, festën: +50%",
+              "ok": true
+            },
+            {
+              "label": "Mbi 200 orë në vit",
+              "ok": false
+            }
+          ],
+          "text": "Të dielën ose në festë +50%, por mbi 200 orë në vit nuk lejohet.",
+          "say": "Të dielën ose në festë pesëdhjetë për qind, por mbi dyqind orë në vit nuk lejohet."
+        },
+        {
+          "type": "text",
+          "title": "Nga sot:",
+          "highlight": "Shëno çdo orë",
+          "at": "shëno",
+          "figure": "smartphone",
+          "text": "Nga sot shëno në telefon çdo orë pas orarit!"
+        }
+      ],
+      "caption": "Kodi i Punës:\n• Neni 91: ora shtesë paguhet të paktën 25% më shumë. Pushim në vend të pagesës vetëm nëse bie dakord ti, dhe ai pushim duhet të jetë 25% më i gjatë, brenda 2 muajve.\n• Në ditën e pushimit javor ose në festë: të paktën 50% më shumë.\n• Neni 90: jo më shumë se 200 orë shtesë në vit.\n\nLlogaritja (jona): 60.000 lekë bruto ÷ 174 orë në muaj = 345 lekë ora; +25% = 431.\n\nDërgoja kolegut që del gjithmonë i fundit nga zyra.\n\n#suksesishqip #rroga #puna #orari"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë që e takon çdokush me rrogë: dhuratat e dhjetorit. Metoda: Money Saving Expert (kufi për dhuratat, Secret Santa me short falas, 'mos merr borxh për Krishtlindjet'). Llogaritja jonë: 10 dhurata × 2.000 = 20.000 = 40% e 50.000. Shikuesi merr: mesazhin për grupin e familjes dhe mjetin falas të shortit.",
+      "source_item": "https://www.moneysavingexpert.com/shopping/christmas-savings/",
+      "sources": [
+        "https://www.moneysavingexpert.com/shopping/christmas-savings/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Dhuratat e dhjetorit",
+          "big": "20.000",
+          "sub": "40% e rrogës 50.000",
+          "figure": "money",
+          "stamp": "40%",
+          "at": "ikën",
+          "text": "Rroga 50.000 lekë dhe dhjetë dhurata nga 2.000: 40% e rrogës ikën!",
+          "say": "Rroga pesëdhjetë mijë lekë dhe dhjetë dhurata nga dy mijë: dyzet për qind e rrogës ikën!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Money Saving Expert:",
+          "reply": "Mos merr borxh për festat",
+          "alarm": true,
+          "at": "borxh",
+          "text": "Martin Lewis e thotë qartë: mos merr borxh për festat!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "10 dhurata",
+            "sub": "20.000 lekë",
+            "figure": "money"
+          },
+          "right": {
+            "label": "1 dhuratë",
+            "sub": "deri 1.500 lekë",
+            "figure": "piggy"
+          },
+          "at": "1.500",
+          "text": "Me Secret Santa, secili blen një dhuratë të vetme, deri 1.500 lekë.",
+          "say": "Me Secret Santa, secili blen një dhuratë të vetme, deri një mijë e pesëqind lekë."
+        },
+        {
+          "type": "list",
+          "title": "Si e organizon:",
+          "items": [
+            "Shkruaj në grup",
+            "Vendos kufirin",
+            "Hidh shortin"
+          ],
+          "text": "Shkruaj në grup, vendos kufirin, hidh shortin falas."
+        },
+        {
+          "type": "count",
+          "kicker": "Kursen",
+          "value": 18500,
+          "suffix": " lekë",
+          "label": "nga 20.000 te 1.500",
+          "at": "18.500",
+          "text": "Kursen 18.500 lekë!",
+          "say": "Kursen tetëmbëdhjetë mijë e pesëqind lekë!"
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Dërgoje propozimin",
+          "at": "dërgoje",
+          "figure": "smartphone",
+          "text": "Sot dërgoje propozimin në grupin e familjes, para se të nisë blerja!"
+        }
+      ],
+      "caption": "Mesazhi për grupin, gati:\n\"Këtë vit bëjmë Secret Santa? Secili blen një dhuratë për një person, deri 1.500 lekë. Shortin e hedhim falas në Drawnames.\"\n\nIdeja: Money Saving Expert (Martin Lewis) këshillon një kufi për dhuratat, ose marrëveshje pa dhurata të panevojshme, dhe asnjë borxh për festat. Llogaritja me 10 dhurata nga 2.000 lekë është shembull yni.\n\nDërgoja atij që në familje blen gjithmonë më shumë.\n\n#suksesishqip #dhjetori #kursime #dhuratat"
+    }
+  ]
+}

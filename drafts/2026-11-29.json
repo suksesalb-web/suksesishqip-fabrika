@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-29",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Side hustle Reel në formën Fiverr: aftësia Canva + Fiverr + çmime reale (një shitëse nga SHBA: 5 postime për 10 $, 50 vlerësime, me lidhje shablloni Canva) + lëvizja e zgjuar: mos konkurro me çmim, shit shabllon të ndryshueshëm për një nishë (jo menu: u përdor më 15 nëntor). Canva falas mjafton (Pro 110 €/vit). Shikuesi merr: 3 hapat dhe shembujt e sotëm.",
+      "source_item": "https://www.fiverr.com/saracarrera/design-editable-canva-templates-for-instagram-social-media-posts",
+      "sources": [
+        "https://www.fiverr.com/saracarrera/design-editable-canva-templates-for-instagram-social-media-posts",
+        "https://www.canva.com/en_ie/pricing/",
+        "https://help.fiverr.com/hc/en-us/articles/360010530058-Withdrawing-your-earnings-managing-payout-methods"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Di Canva?",
+          "big": "10 $",
+          "sub": "5 postime në Fiverr",
+          "figure": "laptop",
+          "at": "shitet",
+          "text": "Di Canva dhe të dielën e ke të lirë: në Fiverr kjo shitet!"
+        },
+        {
+          "type": "count",
+          "kicker": "Një shitëse në Fiverr",
+          "value": 50,
+          "label": "vlerësime: 5 postime për 10 $",
+          "at": "50",
+          "text": "Një shitëse bën pesë postime për 10 dollarë, dhe ka 50 vlerësime.",
+          "say": "Një shitëse bën pesë postime për dhjetë dollarë, dhe ka pesëdhjetë vlerësime."
+        },
+        {
+          "type": "chat",
+          "kicker": "Por kujdes:",
+          "reply": "2 $ për postim",
+          "alarm": true,
+          "at": "dy",
+          "text": "Kjo del dy dollarë për postim: mos konkurro me çmim!"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Postime",
+            "sub": "i bën ti çdo herë",
+            "figure": "laptop"
+          },
+          "right": {
+            "label": "Shabllon",
+            "sub": "klienti e ndryshon vetë",
+            "figure": "trophy"
+          },
+          "at": "shabllon",
+          "text": "Shit shabllon: klienti e ndryshon vetë në Canva, ti s'e bën dy herë."
+        },
+        {
+          "type": "list",
+          "title": "3 hapat:",
+          "items": [
+            "Canva falas",
+            "Tre shembuj",
+            "Një nishë"
+          ],
+          "text": "Canva falas mjafton, bëj tre shembuj, zgjidh një nishë, për shembull palestrat."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Bëj 3 postime",
+          "at": "postime",
+          "figure": "laptop",
+          "text": "Sot bëj tre postime shembull për një biznes që e njeh!"
+        }
+      ],
+      "caption": "Kontrolluar më 22 nëntor 2026 te faqja e një shërbimi në Fiverr: 5 dizajne me Canva për Instagram/Facebook për 10 dollarë, me lidhjen e shabllonit që klienti ta ndryshojë vetë; 50 vlerësime. Fiverr mban 20%.\n\nCanva falas mjafton për të nisur (Canva Pro: rreth 110 euro në vit).\n\nKjo s'është premtim fitimi: janë çmimet që paguajnë klientët për një punë.\n\nDërgoja shoqes që bën gjithçka me Canva.\n\n#suksesishqip #sidehustle #canva #fiverr"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "espresso cup on cafe table morning",
+      "note": "Para me numër, kontrarian: 'faktori kafe'. Burimet: David Bach (kafja si metaforë) dhe kritika te Marketplace (kostot e mëdha janë qiraja, transporti, borxhet); kafe + ujë 220–240 lekë (Monitor, shkurt 2026); qira periferi Tiranë 400–500 € (qershor 2026). Llogaritje jona: 230 × 30 = 6.900; 400 € × 90 = 36.000. Shikuesi merr: shiko 3 shpenzimet më të mëdha para kafesë.",
+      "source_item": "https://www.marketplace.org/2014/10/10/get-rich-giving-lattes-not-so-fast/",
+      "sources": [
+        "https://www.bethkobliner.com/personal_finance/lattes-expenses-rich-bach/",
+        "https://www.marketplace.org/2014/10/10/get-rich-giving-lattes-not-so-fast/",
+        "https://shqiptarja.com/lajm/baret-po-spekulojne-me-ujin-e-shesin-njesoj-ose-me-shtrenjte-se-kafeja-rritja-me-30",
+        "https://www.balkanweb.com/qiraja-mesatare-arrin-721-euro-ne-muaj-ne-tirane-strehimi-merr-deri-77-te-pages-ja-zonat-me-te-shtrenjta/",
+        "https://www.balkanweb.com/renie-historike-e-euros-monedha-europiane-zbret-nen-90-leke-per-here-te-pare/"
+      ],
+      "slides": [
+        {
+          "text": "Të thonë: \"Lëre kafenë dhe do kursesh.\"\n\nKafe me ujë çdo ditë: rreth 6.900 lekë në muaj. Një qira 400 euro: rreth 36.000.\n\nPara se të heqësh kafenë, shiko 3 shpenzimet më të mëdha të muajit: aty fshihen paratë."
+        }
+      ],
+      "caption": "Kafe me ujë në bar: 220–240 lekë (Monitor, shkurt 2026). Qira 1+1 në periferi të Tiranës: 400–500 euro (qershor 2026). Euroja: rreth 90 lekë. Llogaritjet janë tonat.\n\nEdhe David Bach, që e bëri të famshme \"kafen\", thotë se kafja është vetëm metaforë për shpenzimet e panevojshme; kritikët e tij kujtojnë se shuma të mëdha janë qiraja, transporti dhe borxhet.\n\nHapi i parë: rendit 3 shpenzimet më të mëdha të nëntorit.\n\nDërgoja atij që të numëron kafetë.\n\n#suksesishqip #kursime #kafe #buxheti"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit jashtë (900 € në Itali) dhe paratë për në shtëpi. Burimet: Banka Botërore, kostoja mesatare Itali → Shqipëri 6,3% për 345 € (gusht 2025, para SEPA); Shqipëria në SEPA nga 7 tetor 2025, marrja e një transferte në euro maksimumi 3 € (Delegacioni i BE-së). Llogaritje jona: 300 × 6,3% ≈ 19 € në muaj, ≈ 227 € në vit. Shikuesi merr: IBAN-in e prindërve dhe transfertën SEPA.",
+      "source_item": "https://remittanceprices.worldbank.org/corridor/IT/AL",
+      "sources": [
+        "https://remittanceprices.worldbank.org/corridor/IT/AL",
+        "https://www.eeas.europa.eu/delegations/albania/shqip%C3%ABria-i-bashkohet-sepa-s-d%C3%ABrgimi-i-parave-n%C3%AB-shqip%C3%ABri-dhe-nga-shqip%C3%ABria-sapo-u-b%C3%AB-m%C3%AB-i-lir%C3%AB-dhe_sq",
+        "https://www.intesasanpaolobank.al/document/documents/ISPALBANIA/RETAIL/1.4.04.004---Individual_Terms_Conditions_ALB_-Shtator-2026.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rroga në Itali",
+          "big": "900 €",
+          "sub": "300 € në muaj për në shtëpi",
+          "figure": "money",
+          "at": "300",
+          "text": "Rroga 900 euro në Itali, dhe çdo muaj u dërgon 300 në shtëpi?",
+          "say": "Rroga nëntëqind euro në Itali, dhe çdo muaj u dërgon treqind në shtëpi?"
+        },
+        {
+          "type": "count",
+          "kicker": "Kostoja mesatare 6,3%",
+          "value": 19,
+          "suffix": " €",
+          "label": "çdo muaj, në tarifa",
+          "at": "19",
+          "text": "Me një kosto mesatare prej 6,3%, rreth 19 euro ikin çdo muaj!",
+          "say": "Me një kosto mesatare prej gjashtë pikë tre për qind, rreth nëntëmbëdhjetë euro ikin çdo muaj!"
+        },
+        {
+          "type": "icons",
+          "kicker": "Në një vit",
+          "title": "≈ 227 €",
+          "icon": "coin",
+          "n": 12,
+          "label": "12 dërgesa",
+          "at": "227",
+          "text": "Në një vit, janë rreth 227 euro vetëm tarifa.",
+          "say": "Në një vit, janë rreth dyqind e njëzet e shtatë euro vetëm tarifa."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Agjenci",
+            "sub": "≈ 6,3%",
+            "figure": "store"
+          },
+          "right": {
+            "label": "SEPA",
+            "sub": "deri 3 € për ta marrë",
+            "figure": "house"
+          },
+          "at": "SEPA",
+          "text": "Me transfertë SEPA, banka në Shqipëri s'merr më shumë se 3 euro.",
+          "say": "Me transfertë SEPA, banka në Shqipëri s'merr më shumë se tre euro."
+        },
+        {
+          "type": "list",
+          "title": "Si e bën:",
+          "items": [
+            "Merr IBAN-in",
+            "Shiko tarifën",
+            "Dërgo një herë"
+          ],
+          "text": "Merr IBAN-in e prindërve, shiko tarifën e bankës tënde, dërgo një herë në muaj."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Kërko IBAN-in",
+          "at": "kërko",
+          "figure": "smartphone",
+          "text": "Sot kërkoju prindërve IBAN-in e llogarisë në euro!"
+        }
+      ],
+      "caption": "Banka Botërore (gusht 2025, para SEPA): dërgimi i rreth 345 eurove nga Italia në Shqipëri kushtonte mesatarisht 6,3%; me bankat italiane deri 26–51 euro. Shqipëria hyri në SEPA më 7 tetor 2025: sipas Delegacionit të BE-së, marrja e një transferte në euro kushton jo më shumë se 3 euro (disa banka, si Intesa Sanpaolo, s'marrin asgjë). Tarifën e bankës tënde në Itali kontrolloje vetë.\n\nShembulli me 900 dhe 300 euro është yni.\n\nDërgoja kushëririt në Itali.\n\n#suksesishqip #emigrantet #sepa #euro"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë e zakonshme, e mbrëmjes së së dielës: pagesat që përsëriten. Burimi: anketa C+R Research te CNBC (2022, SHBA, 1.000 veta): 42% kishin harruar një abonim që paguanin; shpenzonin mesatarisht 133 $ në muaj më shumë se ç'mendonin. Rroga 55.000 (shifër e re në javë). Shikuesi merr: kontrollin në aplikacionin e bankës dhe anulimin e një pagese sot.",
+      "source_item": "https://www.cnbc.com/2022/09/06/consumers-underestimate-monthly-subscription-costs-by-at-least-100.html",
+      "sources": [
+        "https://www.cnbc.com/2022/09/06/consumers-underestimate-monthly-subscription-costs-by-at-least-100.html"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Pagesat që harron",
+          "big": "42%",
+          "donut": 42,
+          "sub": "harruan një abonim që paguanin",
+          "figure": "smartphone",
+          "at": "mend",
+          "text": "Rroga 55.000 lekë, dhe çdo muaj ikin pagesa që as s'i mban mend?",
+          "say": "Rroga pesëdhjetë e pesë mijë lekë, dhe çdo muaj ikin pagesa që as s'i mban mend?"
+        },
+        {
+          "type": "count",
+          "kicker": "Një studim në SHBA",
+          "value": 42,
+          "suffix": "%",
+          "label": "kishin harruar një abonim aktiv",
+          "at": "42%",
+          "text": "Në një studim në SHBA, 42% kishin harruar një abonim që e paguanin ende!",
+          "say": "Në një studim në SHBA, dyzet e dy për qind kishin harruar një abonim që e paguanin ende!"
+        },
+        {
+          "type": "bars",
+          "kicker": "Sa mendonin, sa paguanin",
+          "left": {
+            "label": "Mendonin",
+            "sub": "çdo muaj"
+          },
+          "right": {
+            "label": "+133 $",
+            "sub": "në realitet"
+          },
+          "at": "133",
+          "text": "Dhe paguanin rreth 133 dollarë në muaj më shumë se ç'mendonin.",
+          "say": "Dhe paguanin rreth njëqind e tridhjetë e tre dollarë në muaj më shumë se ç'mendonin."
+        },
+        {
+          "type": "list",
+          "title": "Kërko në bankë:",
+          "items": [
+            "Filmat dhe muzika",
+            "Palestra",
+            "Aplikacionet"
+          ],
+          "text": "Filmat dhe muzika, palestra, aplikacionet: ato që paguhen vetë."
+        },
+        {
+          "type": "chat",
+          "kicker": "Për secilën pyet:",
+          "reply": "E përdora këtë muaj?",
+          "at": "përdora",
+          "text": "Për secilën pyet veten: e përdora këtë muaj?"
+        },
+        {
+          "type": "text",
+          "title": "Sonte:",
+          "highlight": "Anulo një",
+          "at": "anulo",
+          "figure": "smartphone",
+          "text": "Sonte hap aplikacionin e bankës dhe anulo një pagesë që s'e përdor!"
+        }
+      ],
+      "caption": "Anketa C+R Research (CNBC, shtator 2022, SHBA, 1.000 veta): 42% kishin harruar një abonim që e paguanin ende; mesatarisht shpenzonin 133 dollarë në muaj më shumë se ç'mendonin; 86% i kishin abonimet me pagesë automatike. Të dhënat janë amerikane: numri yt mund të jetë më i vogël, por kontrolli zgjat 5 minuta.\n\nSi: në aplikacionin e bankës kërko pagesat me kartë që përsëriten çdo muaj në të njëjtën datë.\n\nDërgoja shokut që ka 3 platforma filmash dhe s'shikon asnjë.\n\n#suksesishqip #kursime #abonimet #banka"
+    }
+  ]
+}

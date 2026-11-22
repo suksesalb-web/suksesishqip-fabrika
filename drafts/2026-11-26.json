@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-26",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "laptop with text document and headphones on desk at night",
+      "note": "Side hustle tweet me aftësinë që ka çdo shqiptar: shqipja e shkruar mirë. Burimi: njoftimi aktiv 'Albanian Language Specialist – Freelance AI Trainer' (Invisible / Meridial, në distancë, 6–65 $ në orë sipas përvojës; i hapur më 22 nëntor). Lëvizja e zgjuar: apliko vetëm te faqja e kompanisë, mos paguaj kurrë për t'u punësuar. Shikuesi merr: emrin e punës për ta kërkuar dhe rregullin kundër mashtrimit.",
+      "source_item": "https://job-boards.greenhouse.io/agency/jobs/4786673101",
+      "sources": [
+        "https://job-boards.greenhouse.io/agency/jobs/4786673101",
+        "https://builtin.com/job/shape-future-ai-albanian-talent-hub/6832300"
+      ],
+      "slides": [
+        {
+          "text": "Shkruan shqip pa gabime dhe mbrëmjet i ke të lira?\n\nKompanitë e AI kërkojnë \"Albanian Language Specialist\" nga distanca: një njoftim aktiv paguan 6–65 dollarë ora, sipas përvojës.\n\nApliko vetëm te faqja e kompanisë. Kush të kërkon para për punë, s'është punë."
+        }
+      ],
+      "caption": "Kontrolluar më 22 nëntor 2026: njoftimi \"Albanian Language Specialist – Freelance AI Trainer Project\" (Invisible), në distancë, punë me kontratë. Kërkohet shqip amtare dhe shkrim i mirë. Edhe Welo Data ka një \"Albanian Talent Hub\". Pagesa varet nga përvoja dhe vendi: s'është premtim fitimi.\n\nHapi i parë: kërko në Google \"Albanian Language Specialist AI\" dhe lexo kushtet.\n\nDërgoja shokut që i korrigjon të gjithëve drejtshkrimin.\n\n#suksesishqip #sidehustle #ai #shqip"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "phone on bedside table glowing at night dark room",
+      "note": "Lloji i ri i javës: situatë pune me fjalinë e saktë (mesazhi i shefit në 22:00). Burimi: Eurofound 2023 (Belgjikë, Francë, Itali, Spanjë: mbi 80% marrin mesazhe pune jashtë orarit, gati 9 në 10 u përgjigjen). Ligji shqiptar për 'të drejtën për t'u shkëputur' s'u kontrollua, prandaj s'përmendet. Shikuesi merr: fjalinë me orë, jo me punë.",
+      "source_item": "https://www.mynewsdesk.com/eurofound/news/right-to-disconnect-476196",
+      "sources": [
+        "https://www.mynewsdesk.com/eurofound/news/right-to-disconnect-476196",
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Shefi të shkruan në 22:00: \"Ma dërgo pak raportin.\"\n\nNë katër vende të BE-së, mbi 80% marrin mesazhe pune pas orarit, dhe gati 9 në 10 u përgjigjen.\n\nPërgjigju me një orë, jo me punë: \"E pashë. Ta dërgoj nesër deri në 10:00.\""
+        }
+      ],
+      "caption": "Të dhënat: anketa e Eurofound (nëntor 2023) në katër vende të BE-së. Rreth 45% thanë se kjo u dëmton ekuilibrin punë–jetë.\n\nNëse punon vërtet pas orarit, sipas Kodit të Punës ajo është orë shtesë (neni 91, të paktën +25%).\n\nHapi i parë: sonte vendos orët e heshtjes në grupin e punës.\n\nDërgoja kolegut që i përgjigjet shefit edhe në mesnatë.\n\n#suksesishqip #puna #shefi #orari"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit (80.000) dhe rritja që zhduket. Burimi: Save More Tomorrow (Thaler & Benartzi, 2004): 78% u bashkuan, kursimet nga 3,5% në 13,6% në 40 muaj, duke kursyer nga rritjet e ardhshme. Morgan Housel: hendeku mes egos dhe të ardhurave (në caption). Llogaritje jona: 6.000 rritje → 3.000 kursime → 36.000 në vit. Shikuesi merr: rregullin 'gjysma e rritjes në kursime' dhe vendimin me shkrim sot.",
+      "source_item": "https://www.chicagobooth.edu/research/rustandy/social-impact-research/research-papers/2004/save-more-tomorrow-using-behavioral-economics-to-increase-employee-saving",
+      "sources": [
+        "https://www.chicagobooth.edu/research/rustandy/social-impact-research/research-papers/2004/save-more-tomorrow-using-behavioral-economics-to-increase-employee-saving",
+        "https://collabfund.com/blog/little-rules-about-big-things/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rritja e rrogës",
+          "big": "80.000 → 86.000",
+          "sub": "dhe në fund të muajit, prapë zero?",
+          "figure": "chart_up",
+          "stamp": "ZERO",
+          "at": "zero",
+          "text": "Rroga 80.000 lekë u bë 86.000, dhe në fund të muajit prapë zero?",
+          "say": "Rroga tetëdhjetë mijë lekë u bë tetëdhjetë e gjashtë mijë, dhe në fund të muajit prapë zero?"
+        },
+        {
+          "type": "bars",
+          "kicker": "Studimi Save More Tomorrow",
+          "left": {
+            "label": "3,5%",
+            "sub": "kursenin para"
+          },
+          "right": {
+            "label": "13,6%",
+            "sub": "pas 40 muajsh"
+          },
+          "at": "13,6%",
+          "text": "Në një studim, kursimet u rritën nga 3,5% në 13,6%!",
+          "say": "Në një studim, kursimet u rritën nga tre pikë pesë në trembëdhjetë pikë gjashtë për qind!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Sekreti:",
+          "reply": "Nga rritja e ardhshme",
+          "at": "rritjet",
+          "text": "Sekreti: kursenin nga rritjet e ardhshme, jo nga rroga e sotme."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "3.000 lekë",
+            "sub": "për ty",
+            "figure": "money"
+          },
+          "right": {
+            "label": "3.000 lekë",
+            "sub": "kursime",
+            "figure": "piggy"
+          },
+          "at": "kursime",
+          "text": "Nga 6.000 rritje: 3.000 për ty, 3.000 në kursime.",
+          "say": "Nga gjashtë mijë rritje: tre mijë për ty, tre mijë në kursime."
+        },
+        {
+          "type": "count",
+          "kicker": "Në një vit",
+          "value": 36000,
+          "suffix": " lekë",
+          "label": "pa e ndjerë në xhep",
+          "at": "36.000",
+          "text": "Në një vit: 36.000 lekë, pa e ndjerë fare!",
+          "say": "Në një vit: tridhjetë e gjashtë mijë lekë, pa e ndjerë fare!"
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Gjysma në kursime",
+          "at": "gjysma",
+          "figure": "piggy",
+          "text": "Sot shkruaje në telefon: gjysma e rritjes së ardhshme shkon në kursime!"
+        }
+      ],
+      "caption": "Studimi: Save More Tomorrow (Richard Thaler dhe Shlomo Benartzi, 2004). Punonjësit u zotuan që më parë të kursenin nga rritjet e ardhshme, që rroga në dorë të mos ulej kurrë. 78% u bashkuan dhe kursimet u rritën nga 3,5% në 13,6% brenda 40 muajve.\n\nMorgan Housel: \"Mënyra e vetme për të ndërtuar pasuri është të kesh një hendek mes egos dhe të ardhurave.\" (Collab Fund, 2025; përkthim yni)\n\nLlogaritja me 80.000 dhe 6.000 lekë rritje është shembull yni.\n\nDërgoja shokut që sapo mori rritje.\n\n#suksesishqip #rroga #kursime #rritja"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë e njohur për këdo, në prag të Black Friday (27 nëntor): blerja impulsive. Burimi: 'money mantras' e Martin Lewis (Money Saving Expert): më duhet? e përballoj? kontrollova gjetkë? dhe 'një ulje s'është kursim nëse s'do ta blije'. Kënd i ri nga Reel-et e 19 dhe 21 nëntorit (ulja nga cili çmim, këstet 0%). Shikuesi merr: 3 pyetjet në ekranin e telefonit.",
+      "source_item": "https://www.womanandhome.com/life/money/martin-lewis-questions-before-buying/",
+      "sources": [
+        "https://www.moneysavingexpert.com/shopping/money-mantras/",
+        "https://www.womanandhome.com/life/money/martin-lewis-questions-before-buying/",
+        "https://www.t3.com/news/martin-lewis-shares-his-top-3-shopping-tips-for-winning-the-black-friday-sales"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Nesër: Black Friday",
+          "big": "3 pyetje",
+          "sub": "rroga 70.000 lekë",
+          "figure": "store",
+          "at": "tri",
+          "text": "Rroga 70.000 lekë dhe nesër Black Friday: tri pyetje para çdo blerjeje!",
+          "say": "Rroga shtatëdhjetë mijë lekë dhe nesër Black Friday: tri pyetje para çdo blerjeje!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Martin Lewis pyet:",
+          "reply": "Më duhet vërtet?",
+          "at": "duhet",
+          "text": "E para: më duhet vërtet, apo thjesht më pëlqen?"
+        },
+        {
+          "type": "checks",
+          "kicker": "Pastaj:",
+          "rows": [
+            {
+              "label": "E përballoj?",
+              "ok": true
+            },
+            {
+              "label": "Kontrollova gjetkë?",
+              "ok": true
+            }
+          ],
+          "text": "E dyta, a e përballoj; e treta, e kontrollova në një dyqan tjetër?"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Tri po",
+            "sub": "bleje",
+            "figure": "store"
+          },
+          "right": {
+            "label": "Një jo",
+            "sub": "lëre",
+            "figure": "piggy"
+          },
+          "at": "lëre",
+          "text": "Me tri po, bleje; me një jo të vetme, lëre."
+        },
+        {
+          "type": "chat",
+          "kicker": "Kujdes:",
+          "reply": "Ulja s'është kursim",
+          "alarm": true,
+          "at": "kursim",
+          "text": "Një ulje s'është kursim, nëse s'do ta blije gjithsesi."
+        },
+        {
+          "type": "text",
+          "title": "Sonte:",
+          "highlight": "Vendosi në ekran",
+          "at": "vendosi",
+          "figure": "smartphone",
+          "text": "Sonte shkruaji tri pyetjet dhe vendosi në ekranin e telefonit!"
+        }
+      ],
+      "caption": "Tri pyetjet e Martin Lewis (Money Saving Expert) para çdo blerjeje, kur paratë janë pak:\n1. Më duhet vërtet?\n2. A e përballoj?\n3. E kontrollova nëse gjendet më lirë diku tjetër?\n\nDhe: një ofertë s'është kursim, nëse s'do ta kishe blerë gjithsesi.\n\nRuaje për nesër dhe dërgoja shoqes që e mbush shportën në 00:01.\n\n#suksesishqip #blackfriday #kursime #blerjet"
+    }
+  ]
+}
