@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-22",
+  "rendered_at": 1795328864,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-22/p1/reel.mp4",
+        "out/2026-11-22/p1/frame-01.jpg",
+        "out/2026-11-22/p1/frame-02.jpg",
+        "out/2026-11-22/p1/frame-03.jpg",
+        "out/2026-11-22/p1/frame-04.jpg",
+        "out/2026-11-22/p1/frame-05.jpg",
+        "out/2026-11-22/p1/frame-06.jpg",
+        "out/2026-11-22/p1/frame-07.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 20,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 30.12,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.87
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.16
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.03
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 16.61
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 20.32
+          },
+          {
+            "frame": "frame-07.jpg",
+            "beat": 7,
+            "start": 24.08
+          }
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-22/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "7537223",
+        "page": "https://pixabay.com/photos/calendar-photo-calendar-december-7537223/",
+        "query": "wall calendar december office desk"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-22/p3/reel.mp4",
+        "out/2026-11-22/p3/frame-01.jpg",
+        "out/2026-11-22/p3/frame-02.jpg",
+        "out/2026-11-22/p3/frame-03.jpg",
+        "out/2026-11-22/p3/frame-04.jpg",
+        "out/2026-11-22/p3/frame-05.jpg",
+        "out/2026-11-22/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 8,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 30.74,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.98
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.65
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 14.47
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 20.96
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 25.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-22/p4/reel.mp4",
+        "out/2026-11-22/p4/frame-01.jpg",
+        "out/2026-11-22/p4/frame-02.jpg",
+        "out/2026-11-22/p4/frame-03.jpg",
+        "out/2026-11-22/p4/frame-04.jpg",
+        "out/2026-11-22/p4/frame-05.jpg",
+        "out/2026-11-22/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 19,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.7,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.89
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 8.96
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.7
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 19.17
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 23.59
+          }
+        ]
+      }
+    }
+  ]
+}
