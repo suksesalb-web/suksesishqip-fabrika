@@ -55,12 +55,12 @@
         {
           "type": "versus",
           "left": {
-            "label": "\"Dua rritje\"",
+            "label": "Vitet",
             "sub": "kërkesë",
             "figure": "people"
           },
           "right": {
-            "label": "\"Solla këtë\"",
+            "label": "Arritjet",
             "sub": "provë",
             "figure": "trophy"
           },
@@ -70,7 +70,7 @@
         {
           "type": "chat",
           "kicker": "Prompti 2:",
-          "reply": "Bëhu shefi im i vështirë",
+          "reply": "Bëhu shefi im",
           "at": "bëhu",
           "text": "Pastaj: bëhu shefi im i vështirë, dhe më bëj provë!"
         },
@@ -89,7 +89,7 @@
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "wall calendar december office desk",
+      "photo_query": "notebook and coffee cup on wooden desk by window",
       "note": "Zëvendëson draftin e sigurimit të makinës (grup i ngushtë, sipas review 22 Nov). Situatë pune me rrogën e shikuesit: pushimet vjetore të paguara para fundit të vitit. Shikuesi merr: pyetjen për ditët e mbetura dhe afatin (Kodi i Punës, nenet 92–93).",
       "source_item": "https://imt.tirana.al/wp-content/uploads/2022/02/KODI-I-PUNES.pdf",
       "sources": [
@@ -255,7 +255,7 @@
         {
           "type": "text",
           "title": "Detyra e sotme:",
-          "highlight": "Gjej bankomatin tënd.",
+          "highlight": "Gjej bankomatin.",
           "at": "gjej",
           "figure": "smartphone",
           "text": "Sot gjej në hartë bankomatin më të afërt të bankës tënde!"
