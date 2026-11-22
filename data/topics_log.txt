@@ -62,3 +62,7 @@
 2026-11-21 tweet: qiraja mesatare në Tiranë 721 euro = 77% e pagës mesatare bruto, kufiri 30%, pjesëto qiranë me rrogën
 2026-11-21 reel/hype grafit calculation+rule (numbers): qira 400 € me rrogë 700 € = 57%, rregulli 30%, 1+1 qendër 600–900 vs periferi 400–500 €, mbi 40%: ndaje, ndrysho zonën, "firmos 2 vjet me këtë çmim"
 2026-11-21 reel/hype grafit mistake+fix (numbers, Black Friday): këste 0% (iute nëntor 2025, mbi 6.000 blerës), 80.000 = 4 × 20.000, këstet mblidhen, kufiri një e treta e rrogës (70.000 → ~23.000), mblidh këstet e dhjetorit
+2026-11-22 reel/hype grafit ready-prompt (AI, situation): rritja e rrogës pas 2 vjetësh me 60.000, Ramit Sethi 80% e punës para takimit, prompti 1 "ktheji në 3 arritje me numra", prompti 2 "bëhu shefi im i vështirë", shkruaj 3 arritje sot
+2026-11-22 tweet (work situation): rroga 80.000 dhe pushimet e pamarra, Kodi i Punës të paktën 4 javë pushim të paguar (gati një rrogë), brenda vitit ose deri në fund të marsit, pyet sa ditë të kanë mbetur
+2026-11-22 reel/hype grafit calculation+rule (numbers): fatura e dritave ERE 2026, 700 kWh 8,5 lekë vs 701 kWh 9,5 për gjithë muajin, 5.950 vs 6.660 (+710 ≈ 2,5 orë punë me 50.000), lexo sahatin më 20, ul bojlerin afër pragut
+2026-11-22 reel/hype grafit mistake+fix (numbers): bankomati i bankës tjetër 2% min. 400 lekë (Tirana Bank 2026), 400 nga 5.000 = 8%, bankomati yt falas, paguaj me kartë, tërhiq një herë në javë
