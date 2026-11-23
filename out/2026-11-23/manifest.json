@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "rendered_at": 1795416155,
+  "rendered_at": 1795416565,
   "posts": [
     {
       "id": "p1",
@@ -99,14 +99,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
-        "voice": "sq-AL-AnilaNeural",
-        "voice_split_rejected": "narration split looks out of sync on beat(s) [5] (letters/s [12.7, 11.5, 15.3, 8.8, 27.0, 12.9])",
-        "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
         "sfx": 8,
         "engine": "hype",
         "look": "grafit",
-        "duration": 29.77,
+        "duration": 26.72,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -116,27 +116,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 4.89
+            "start": 4.36
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 9.51
+            "start": 8.83
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 15.71
+            "start": 14.83
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 20.1
+            "start": 18.8
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 23.69
+            "start": 21.78
           }
         ]
       }
