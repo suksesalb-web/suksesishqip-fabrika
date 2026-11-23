@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-23",
+  "rendered_at": 1795415539,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-23/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "3987713",
+        "page": "https://pixabay.com/photos/frame-mockup-poster-wall-template-3987713/",
+        "query": "german dictionary and laptop on desk evening lamp"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-23/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "1850268",
+        "page": "https://pixabay.com/photos/adult-annoyed-blur-burnout-1850268/",
+        "query": "empty office desk with calendar on holiday"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-23/p3/reel.mp4",
+        "out/2026-11-23/p3/frame-01.jpg",
+        "out/2026-11-23/p3/frame-02.jpg",
+        "out/2026-11-23/p3/frame-03.jpg",
+        "out/2026-11-23/p3/frame-04.jpg",
+        "out/2026-11-23/p3/frame-05.jpg",
+        "out/2026-11-23/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [4, 5] (letters/s [11.9, 15.1, 15.2, 7.3, 41.2, 14.1])",
+        "voice_sync": "per-beat",
+        "voice_speed": 1.07,
+        "sfx": 20,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.29,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 7.41
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.85
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 14.08
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 17.95
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 23.1
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-23/p4/reel.mp4",
+        "out/2026-11-23/p4/frame-01.jpg",
+        "out/2026-11-23/p4/frame-02.jpg",
+        "out/2026-11-23/p4/frame-03.jpg",
+        "out/2026-11-23/p4/frame-04.jpg",
+        "out/2026-11-23/p4/frame-05.jpg",
+        "out/2026-11-23/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "sq-AL-AnilaNeural",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [5] (letters/s [11.5, 10.7, 12.4, 9.5, 21.4, 14.8])",
+        "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
+        "sfx": 8,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 29.77,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 4.89
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.51
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.71
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 20.1
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 23.69
+          }
+        ]
+      }
+    }
+  ]
+}
