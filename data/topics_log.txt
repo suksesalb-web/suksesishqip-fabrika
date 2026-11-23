@@ -66,3 +66,7 @@
 2026-11-22 tweet (work situation): rroga 80.000 dhe pushimet e pamarra, Kodi i Punës të paktën 4 javë pushim të paguar (gati një rrogë), brenda vitit ose deri në fund të marsit, pyet sa ditë të kanë mbetur
 2026-11-22 reel/hype grafit calculation+rule (numbers): fatura e dritave ERE 2026, 700 kWh 8,5 lekë vs 701 kWh 9,5 për gjithë muajin, 5.950 vs 6.660 (+710 ≈ 2,5 orë punë me 50.000), lexo sahatin më 20, ul bojlerin afër pragut
 2026-11-22 reel/hype grafit mistake+fix (numbers): bankomati i bankës tjetër 2% min. 400 lekë (Tirana Bank 2026), 400 nga 5.000 = 8%, bankomati yt falas, paguaj me kartë, tërhiq një herë në javë
+2026-11-23 tweet (side hustle): Fiverr përkthyes shqip, 12 profile, 0,05–0,20 $ për fjalë, shumica 4–5 gjuhë, hap shërbim vetëm "gjermanisht në shqip"
+2026-11-23 tweet (work situation): punë në festë (23 nëntor, Dita e Alfabetit), Kodi i Punës neni 87 +25% dhe po aq orë pushim, 30 nëntor e 1 dhjetor pushim
+2026-11-23 reel/hype grafit calculation+rule (numbers): paga minimale 50.000 bruto, firma paguan 58.350, ti merr 44.400, kontributet 5.600 (11,2%), firma +8.350 (16,7%), neni 119 llogaritja e pagës, kontrollo bruto/kontributet/neto
+2026-11-23 reel/hype grafit ready-message (situation): pyetja e rrogës në intervistë, interval jo numër (J.T. O'Donnell, CNBC), "65 deri 75 mijë në dorë" + 2 arsye + "a mund ta bëjmë këtë?", pyet 3 njerëz në të njëjtin pozicion
