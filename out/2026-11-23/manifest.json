@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "rendered_at": 1795415539,
+  "rendered_at": 1795416155,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-23/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "3987713",
-        "page": "https://pixabay.com/photos/frame-mockup-poster-wall-template-3987713/",
-        "query": "german dictionary and laptop on desk evening lamp"
+        "pixabay_id": "791184",
+        "page": "https://pixabay.com/photos/working-place-desk-work-laptop-791184/",
+        "query": "open book and laptop on wooden desk at night"
       }
     },
     {
@@ -21,9 +21,9 @@
         "out/2026-11-23/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "1850268",
-        "page": "https://pixabay.com/photos/adult-annoyed-blur-burnout-1850268/",
-        "query": "empty office desk with calendar on holiday"
+        "pixabay_id": "945348",
+        "page": "https://pixabay.com/photos/office-open-space-office-room-room-945348/",
+        "query": "empty office desk with chair and window"
       }
     },
     {
@@ -99,9 +99,9 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "sq-AL-AnilaNeural",
-        "voice_split_rejected": "narration split looks out of sync on beat(s) [5] (letters/s [11.5, 10.7, 12.4, 9.5, 21.4, 14.8])",
+        "voice_split_rejected": "narration split looks out of sync on beat(s) [5] (letters/s [12.7, 11.5, 15.3, 8.8, 27.0, 12.9])",
         "voice_fallback": "gemini tts failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:/",
         "sfx": 8,
         "engine": "hype",
