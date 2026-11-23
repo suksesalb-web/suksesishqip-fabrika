@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "tweet",
       "time": "12:00",
-      "photo_query": "german dictionary and laptop on desk evening lamp",
+      "photo_query": "open book and laptop on wooden desk at night",
       "note": "Side hustle tweet, i vetmi follow-up i javës për fituesin e 17 nëntorit (Fiverr, 67.387 views): gjuhë tjetër (gjermanisht), numrat nga faqja e Fiverr për përkthyes shqip. Lëvizja e zgjuar: shërbim vetëm për çiftin gjermanisht–shqip, për emigrantët në Gjermani. Shikuesi merr: titullin e shërbimit dhe çmimin për fjalë.",
       "source_item": "https://www.fiverr.com/hire/albanian-translation",
       "sources": [
@@ -23,7 +23,7 @@
       "id": "p2",
       "style": "tweet",
       "time": "15:00",
-      "photo_query": "empty office desk with calendar on holiday",
+      "photo_query": "empty office desk with chair and window",
       "note": "Situatë pune me numër, e kohës: sot është pushim zyrtar (22 nëntori, Dita e Alfabetit, ra të dielën), dhe 30 nëntori e 1 dhjetori janë pushim për 28 e 29 nëntorin. Burimi: Kodi i Punës neni 87 (teksti i konsoliduar 2024). Shikuesi merr: +25% dhe orët e pushimit, plus datat e pushimeve të javës tjetër.",
       "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
       "sources": [
@@ -118,7 +118,8 @@
           "text": "Sot kërko fletëpagesën e nëntorit, dhe kontrolloji të tre!"
         }
       ],
-      "caption": "Rroga minimale 2026: 50.000 lekë bruto (nga 1 janari).\n\nPunonjësi: 9,5% sigurime shoqërore + 1,7% shëndetësore = 5.600 lekë. Tatimi: 0 deri në 50.000. Në dorë: 44.400.\nPunëdhënësi shton 15% + 1,7% = 8.350 lekë. Kostoja e plotë: 58.350 (llogaritje jona mbi normat e 2026).\n\nKodi i Punës, neni 119: për çdo pagë, punëdhënësi të jep llogaritjen me shumën dhe të gjitha mbajtjet.\n\nRuaje dhe dërgoja kolegut me rrogë minimale.\n\n#suksesishqip #rroga #puna"
+      "caption": "Rroga minimale 2026: 50.000 lekë bruto (nga 1 janari).\n\nPunonjësi: 9,5% sigurime shoqërore + 1,7% shëndetësore = 5.600 lekë. Tatimi: 0 deri në 50.000. Në dorë: 44.400.\nPunëdhënësi shton 15% + 1,7% = 8.350 lekë. Kostoja e plotë: 58.350 (llogaritje jona mbi normat e 2026).\n\nKodi i Punës, neni 119: për çdo pagë, punëdhënësi të jep llogaritjen me shumën dhe të gjitha mbajtjet.\n\nRuaje dhe dërgoja kolegut me rrogë minimale.\n\n#suksesishqip #rroga #puna",
+      "keep": true
     },
     {
       "id": "p4",
@@ -135,11 +136,10 @@
       "beats": [
         {
           "type": "hook",
-          "kicker": "Intervista",
+          "kicker": "Intervista, rroga",
           "big": "Sa kërkon?",
-          "sub": "një numër, apo një interval?",
+          "sub": "65.000, apo 65–75 mijë?",
           "figure": "people",
-          "stamp": "GABIM",
           "at": "vetëm",
           "text": "Të pyesin në intervistë sa rrogë kërkon, dhe ti thua një numër të vetëm?"
         },
