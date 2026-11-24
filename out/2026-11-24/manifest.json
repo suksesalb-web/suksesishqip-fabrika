@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-24",
+  "rendered_at": 1795501724,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-24/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "791175",
+        "page": "https://pixabay.com/photos/working-work-space-table-desk-791175/",
+        "query": "laptop with spreadsheet on wooden table at night"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-24/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "1486358",
+        "page": "https://pixabay.com/photos/office-neourban-apple-trend-laptop-1486358/",
+        "query": "payslip paper and pen on office desk"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-24/p3/reel.mp4",
+        "out/2026-11-24/p3/frame-01.jpg",
+        "out/2026-11-24/p3/frame-02.jpg",
+        "out/2026-11-24/p3/frame-03.jpg",
+        "out/2026-11-24/p3/frame-04.jpg",
+        "out/2026-11-24/p3/frame-05.jpg",
+        "out/2026-11-24/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 29,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 28.71,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.51
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 9.75
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 13.36
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 17.07
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 24.07
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-24/p4/reel.mp4",
+        "out/2026-11-24/p4/frame-01.jpg",
+        "out/2026-11-24/p4/frame-02.jpg",
+        "out/2026-11-24/p4/frame-03.jpg",
+        "out/2026-11-24/p4/frame-04.jpg",
+        "out/2026-11-24/p4/frame-05.jpg",
+        "out/2026-11-24/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 22,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 30.09,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 6.16
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 10.1
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 16.76
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 20.74
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 24.48
+          }
+        ]
+      }
+    }
+  ]
+}
