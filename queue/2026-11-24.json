@@ -152,19 +152,19 @@
           "type": "chat",
           "kicker": "Money Saving Expert:",
           "reply": "Bëni Secret Santa",
-          "at": "secret",
+          "at": "zgjidhje",
           "text": "Faqja Money Saving Expert jep një zgjidhje të thjeshtë: bëni Secret Santa!"
         },
         {
           "type": "versus",
           "left": {
-            "label": "10 dhurata",
-            "sub": "20.000 lekë",
+            "label": "20.000",
+            "sub": "10 dhurata",
             "figure": "money"
           },
           "right": {
-            "label": "1 dhuratë",
-            "sub": "deri 1.500 lekë",
+            "label": "1.500",
+            "sub": "1 dhuratë",
             "figure": "piggy"
           },
           "at": "1.500",
