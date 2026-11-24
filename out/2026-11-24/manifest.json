@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "rendered_at": 1795501724,
+  "rendered_at": 1795501969,
   "posts": [
     {
       "id": "p1",
@@ -9,8 +9,8 @@
         "out/2026-11-24/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "791175",
-        "page": "https://pixabay.com/photos/working-work-space-table-desk-791175/",
+        "pixabay_id": "5705180",
+        "page": "https://pixabay.com/photos/breakfast-waffles-fruit-milk-5705180/",
         "query": "laptop with spreadsheet on wooden table at night"
       }
     },
@@ -21,8 +21,8 @@
         "out/2026-11-24/p2/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "1486358",
-        "page": "https://pixabay.com/photos/office-neourban-apple-trend-laptop-1486358/",
+        "pixabay_id": "794330",
+        "page": "https://pixabay.com/photos/ballpoint-pen-pen-paper-stroked-794330/",
         "query": "payslip paper and pen on office desk"
       }
     },
@@ -48,7 +48,7 @@
         "sfx": 29,
         "engine": "hype",
         "look": "grafit",
-        "duration": 28.71,
+        "duration": 28.05,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -58,27 +58,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 6.51
+            "start": 6.22
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 9.75
+            "start": 10.11
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.36
+            "start": 13.09
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 17.07
+            "start": 16.67
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 24.07
+            "start": 23.63
           }
         ]
       }
@@ -98,14 +98,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 22,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.09,
+        "duration": 26.18,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -115,27 +115,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 6.16
+            "start": 5.48
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 10.1
+            "start": 10.14
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 16.76
+            "start": 14.59
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 20.74
+            "start": 17.95
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 24.48
+            "start": 20.72
           }
         ]
       }
