@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "rendered_at": 1795502196,
+  "rendered_at": 1795503476,
   "posts": [
     {
       "id": "p1",
@@ -9,8 +9,8 @@
         "out/2026-11-24/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "10315804",
-        "page": "https://pixabay.com/photos/cat-kitten-calico-table-outdoor-10315804/",
+        "pixabay_id": "791175",
+        "page": "https://pixabay.com/photos/working-work-space-table-desk-791175/",
         "query": "laptop with spreadsheet on wooden table at night"
       }
     },
@@ -41,14 +41,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 29,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.15,
+        "duration": 28.4,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -58,27 +58,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 7.05
+            "start": 6.63
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 10.28
+            "start": 9.99
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.96
+            "start": 13.5
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 17.31
+            "start": 16.6
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 25.13
+            "start": 23.96
           }
         ]
       }
@@ -98,14 +98,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 22,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.09,
+        "duration": 27.33,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -115,27 +115,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 6.39
+            "start": 5.38
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 12.25
+            "start": 10.75
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 17.6
+            "start": 15.25
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 21.2
+            "start": 18.9
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 24.58
+            "start": 21.89
           }
         ]
       }
