@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "rendered_at": 1795588748,
+  "rendered_at": 1795588990,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-25/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "7883774",
-        "page": "https://pixabay.com/photos/woman-coat-camera-photographer-7883774/",
-        "query": "person filming with smartphone camera on tripod"
+        "pixabay_id": "7276658",
+        "page": "https://pixabay.com/photos/asian-woman-fashion-museum-art-7276658/",
+        "query": "smartphone recording video ring light"
       }
     },
     {
@@ -48,7 +48,7 @@
         "sfx": 18,
         "engine": "hype",
         "look": "grafit",
-        "duration": 27.81,
+        "duration": 28.44,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -58,27 +58,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.05
+            "start": 4.83
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 10.6
+            "start": 10.23
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 14.39
+            "start": 14.11
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 17.84
+            "start": 17.91
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 22.44
+            "start": 23.21
           }
         ]
       }
@@ -98,14 +98,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-1.mp3",
+        "music": "cinematic-2.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 20,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.34,
+        "duration": 30.32,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -115,27 +115,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.02
+            "start": 4.7
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 12.45
+            "start": 11.81
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 15.71
+            "start": 14.98
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 19.7
+            "start": 18.8
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 23.81
+            "start": 23.55
           }
         ]
       }
