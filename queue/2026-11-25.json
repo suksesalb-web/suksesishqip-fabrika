@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-25",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "smartphone on small tripod filming product on table",
+      "source_item": "https://www.sidehustlenation.com/ugc/",
+      "sources": [
+        "https://www.sidehustlenation.com/ugc/"
+      ],
+      "slides": [
+        {
+          "text": "Ke telefon me kamerë të mirë dhe mbrëmjet të lira?\n\nVideot UGC për markat paguhen 150–200 dollarë secila për fillestarët, sipas Side Hustle Nation.\n\nPara se t'i shkruash ndonjë marke, xhiro 4 video me sende që ke në shtëpi."
+        }
+      ],
+      "caption": "Rasti: Megan Collier bëri 4 video portofol me sende të shtëpisë, dërgoi 30–50 mesazhe, dhe pas 10 ditësh mori marrëveshjen e parë. Pajisjet: telefoni, një trekëmbësh dhe një dritë e vogël, CapCut. Çmimet janë të tregut amerikan, jo premtim fitimi.\n\nHapi i parë: sonte xhiro 30 sekonda me një produkt që përdor çdo ditë.\n\nDërgoja shokut që xhiron gjithçka me telefon.\n\n#suksesishqip #sidehustle #ugc #telefoni"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "euro banknotes and albanian lek coins on table",
+      "source_item": "https://www.balkanweb.com/renie-historike-e-euros-monedha-europiane-zbret-nen-90-leke-per-here-te-pare/",
+      "sources": [
+        "https://www.balkanweb.com/renie-historike-e-euros-monedha-europiane-zbret-nen-90-leke-per-here-te-pare/",
+        "https://financa.gov.al/wp-content/uploads/2026/01/Ekonomia-ne-Fokus-Nentor-2025.pdf",
+        "https://kohajone.com/aktualitet/kursi-i-kembimit-23-nentor-2026/"
+      ],
+      "slides": [
+        {
+          "text": "Të dërgojnë 500 euro nga jashtë çdo muaj?\n\nNë nëntor 2025 bënin rreth 48.330 lekë. Tani, me euron rreth 89 lekë, bëjnë rreth 44.500: gati 3.800 më pak.\n\nBëje buxhetin e dhjetorit me 89 lekë për euro, jo me 97."
+        }
+      ],
+      "caption": "Kursi mesatar i nëntorit 2025: 96,66 lekë për euro (Ministria e Financave). Më 19 nëntor 2026 euroja ra nën 90 lekë për herë të parë, dhe më 23 nëntor këmbimet e blinin me rreth 89 lekë. Llogaritjet janë tonat.\n\nHapi i parë: shumëzo paratë që të vijnë në euro me 89, jo me kursin që mban mend.\n\nDërgoja kushëririt që punon jashtë.\n\n#suksesishqip #euro #emigrantet #lekët"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Sëmuresh 3 ditë?",
+          "big": "70.000 lekë",
+          "sub": "firma paguan të paktën 80%",
+          "figure": "clock",
+          "at": "krejt",
+          "text": "Rroga 70.000 lekë dhe sëmuresh tri ditë: shefi s'mund të ta presë krejt!",
+          "say": "Rroga shtatëdhjetë mijë lekë dhe sëmuresh tri ditë: shefi s'mund të ta presë krejt!"
+        },
+        {
+          "type": "count",
+          "kicker": "Kodi i Punës, neni 130",
+          "value": 80,
+          "suffix": "%",
+          "label": "e pagës, deri në 14 ditë",
+          "at": "80%",
+          "text": "Punëdhënësi paguan të paktën 80% të pagës, deri në 14 ditë.",
+          "say": "Punëdhënësi paguan të paktën tetëdhjetë për qind të pagës, deri në katërmbëdhjetë ditë."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "Ditët 1–14",
+            "sub": "punëdhënësi",
+            "figure": "store"
+          },
+          "right": {
+            "label": "Pastaj",
+            "sub": "sigurimet shoqërore",
+            "figure": "people"
+          },
+          "at": "sigurimet",
+          "text": "Pas kësaj, pagesën e marrin përsipër sigurimet shoqërore."
+        },
+        {
+          "type": "chat",
+          "kicker": "Ti, po atë ditë:",
+          "reply": "Raporti i mjekut",
+          "at": "raportin",
+          "text": "Merre raportin e mjekut po atë ditë, jo javën tjetër!"
+        },
+        {
+          "type": "list",
+          "title": "Kur sëmuresh:",
+          "items": [
+            "Njofto shefin",
+            "Merr raportin",
+            "Shiko fletëpagesën"
+          ],
+          "text": "Njofto shefin me mesazh, merr raportin, shiko fletëpagesën në fund të muajit."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Hap kontratën",
+          "at": "hap",
+          "figure": "keypad",
+          "text": "Sot hap kontratën dhe shiko çfarë thotë për ditët e sëmundjes!"
+        }
+      ],
+      "caption": "Kodi i Punës, neni 130: kur je i sëmurë dhe periudhën s'e mbulojnë sigurimet shoqërore, punëdhënësi paguan të paktën 80% të pagës, deri në 14 ditë. Pas kësaj, pagesën e merr përsipër sigurimi shoqëror.\n\nKontrata ose kontrata kolektive mund të japë më shumë, kurrë më pak.\n\nRuaje për herën tjetër që të zë gripi, dhe dërgoja kolegut që vjen në punë me temperaturë.\n\n#suksesishqip #rroga #puna #ligji"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "source_item": "https://caa.gov.al/en/good-day-for-the-albanian-consumer/",
+      "sources": [
+        "https://www.vodafone.al/en/per-median/lajmerime/paketat-e-reja-me-parapagese-dhe-paspagese",
+        "https://caa.gov.al/en/good-day-for-the-albanian-consumer/",
+        "https://www.iwillteachyoutoberich.com/best-of-iwt-word-for-word-scripts/"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Paketa e telefonit",
+          "big": "12.000 lekë",
+          "sub": "nga rroga jote, çdo vit",
+          "figure": "smartphone",
+          "stamp": "1.200?",
+          "at": "1.200",
+          "text": "Paguan 2.200 lekë për telefonin, kur të mjafton paketa 1.200?",
+          "say": "Paguan dy mijë e dyqind lekë për telefonin, kur të mjafton paketa një mijë e dyqind?"
+        },
+        {
+          "type": "bars",
+          "kicker": "Paketat me pagesë mujore",
+          "left": {
+            "label": "1.200",
+            "sub": "6 GB"
+          },
+          "right": {
+            "label": "2.200",
+            "sub": "40 GB"
+          },
+          "at": "2.200",
+          "text": "Te një operator, paketa me 6 GB kushton 1.200, ajo me 40 GB 2.200.",
+          "say": "Te një operator, paketa me gjashtë gigabajt kushton një mijë e dyqind, ajo me dyzet gigabajt dy mijë e dyqind."
+        },
+        {
+          "type": "count",
+          "kicker": "Diferenca",
+          "value": 12000,
+          "suffix": " lekë",
+          "label": "1.000 × 12 muaj",
+          "at": "12.000",
+          "text": "Kjo diferencë bën 12.000 lekë në vit!",
+          "say": "Kjo diferencë bën dymbëdhjetë mijë lekë në vit!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Autoriteti i Konkurrencës:",
+          "reply": "Pa gjobë",
+          "at": "gjobë",
+          "text": "Kur të mbaron kontrata, mund të kalosh në paketë më të lirë pa gjobë."
+        },
+        {
+          "type": "list",
+          "title": "Para telefonatës:",
+          "items": [
+            "GB e muajit",
+            "Minutat",
+            "Data e kontratës"
+          ],
+          "text": "GB e muajit, minutat, data e kontratës: shkruaji."
+        },
+        {
+          "type": "text",
+          "title": "Sot thuaj:",
+          "highlight": "Dua paketën më të lirë",
+          "at": "dua",
+          "figure": "smartphone",
+          "text": "Sot telefono dhe thuaj: dua paketën më të lirë që mbulon përdorimin tim!"
+        }
+      ],
+      "caption": "Çmimet: paketat e reja të Vodafone nga 19 maji 2026 (paspagesë: 1.200 lekë 6 GB, 1.700 lekë 20 GB, 2.200 lekë 40 GB). One i rriti tarifat deri 2,2% nga 1 maji.\n\nAutoriteti i Konkurrencës (vendimi 1307, korrik 2026): çdo rritje çmimi njoftohet 30 ditë më parë, dhe pasi mbaron kontrata mund të kalosh në një paketë më të lirë pa gjobë.\n\nFjalia: \"Kontrata më ka mbaruar. Dua paketën më të lirë që mbulon [X] GB dhe [Y] minuta.\"\n\nDërgoja mamit që paguan paketën më të shtrenjtë dhe përdor vetëm WhatsApp-in.\n\n#suksesishqip #kursime #telefoni #fatura"
+    }
+  ]
+}
