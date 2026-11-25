@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "rendered_at": 1795588535,
+  "rendered_at": 1795588748,
   "posts": [
     {
       "id": "p1",
@@ -9,9 +9,9 @@
         "out/2026-11-25/p1/01.jpg"
       ],
       "photo": {
-        "pixabay_id": "4651087",
-        "page": "https://pixabay.com/photos/the-coffee-capuchino-hot-dark-4651087/",
-        "query": "hand holding smartphone filming coffee cup on table"
+        "pixabay_id": "7883774",
+        "page": "https://pixabay.com/photos/woman-coat-camera-photographer-7883774/",
+        "query": "person filming with smartphone camera on tripod"
       }
     },
     {
@@ -48,7 +48,7 @@
         "sfx": 18,
         "engine": "hype",
         "look": "grafit",
-        "duration": 27.47,
+        "duration": 27.81,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -58,27 +58,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 4.81
+            "start": 5.05
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 9.87
+            "start": 10.6
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 13.56
+            "start": 14.39
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 16.92
+            "start": 17.84
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 22.1
+            "start": 22.44
           }
         ]
       }
@@ -98,14 +98,14 @@
       "photo": null,
       "reel": {
         "video": null,
-        "music": "cinematic-2.mp3",
+        "music": "cinematic-1.mp3",
         "voice": "gemini:Riko",
         "voice_sync": "split",
         "voice_speed": 1.07,
         "sfx": 20,
         "engine": "hype",
         "look": "grafit",
-        "duration": 30.06,
+        "duration": 30.34,
         "shots": [
           {
             "frame": "frame-01.jpg",
@@ -115,27 +115,27 @@
           {
             "frame": "frame-02.jpg",
             "beat": 2,
-            "start": 5.49
+            "start": 5.02
           },
           {
             "frame": "frame-03.jpg",
             "beat": 3,
-            "start": 12.51
+            "start": 12.45
           },
           {
             "frame": "frame-04.jpg",
             "beat": 4,
-            "start": 15.37
+            "start": 15.71
           },
           {
             "frame": "frame-05.jpg",
             "beat": 5,
-            "start": 19.55
+            "start": 19.7
           },
           {
             "frame": "frame-06.jpg",
             "beat": 6,
-            "start": 23.31
+            "start": 23.81
           }
         ]
       }
