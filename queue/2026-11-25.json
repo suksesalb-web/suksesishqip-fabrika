@@ -5,7 +5,7 @@
       "id": "p1",
       "style": "tweet",
       "time": "12:00",
-      "photo_query": "hand holding smartphone filming coffee cup on table",
+      "photo_query": "person filming with smartphone camera on tripod",
       "source_item": "https://www.sidehustlenation.com/ugc/",
       "sources": [
         "https://www.sidehustlenation.com/ugc/"
@@ -145,7 +145,7 @@
             "label": "2.200",
             "sub": "40 GB"
           },
-          "at": "2.200",
+          "at": "ajo",
           "text": "Te një operator, paketa me 6 GB kushton 1.200, ajo me 40 GB 2.200.",
           "say": "Te një operator, paketa me gjashtë gigabajt kushton një mijë e dyqind, ajo me dyzet gigabajt dy mijë e dyqind."
         },
