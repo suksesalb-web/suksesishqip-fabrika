@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-25",
+  "rendered_at": 1795588257,
+  "posts": [
+    {
+      "id": "p1",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-25/p1/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "4374418",
+        "page": "https://pixabay.com/photos/breakfast-morning-healthy-4374418/",
+        "query": "smartphone on small tripod filming product on table"
+      }
+    },
+    {
+      "id": "p2",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-25/p2/01.jpg"
+      ],
+      "photo": {
+        "pixabay_id": "1700308",
+        "page": "https://pixabay.com/photos/money-cashbox-currency-euro-cash-1700308/",
+        "query": "euro banknotes and albanian lek coins on table"
+      }
+    },
+    {
+      "id": "p3",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-25/p3/reel.mp4",
+        "out/2026-11-25/p3/frame-01.jpg",
+        "out/2026-11-25/p3/frame-02.jpg",
+        "out/2026-11-25/p3/frame-03.jpg",
+        "out/2026-11-25/p3/frame-04.jpg",
+        "out/2026-11-25/p3/frame-05.jpg",
+        "out/2026-11-25/p3/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-1.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 19,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 29.95,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.53
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 11.06
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.02
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 18.81
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 24.1
+          }
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "status": "rendered",
+      "files": [
+        "out/2026-11-25/p4/reel.mp4",
+        "out/2026-11-25/p4/frame-01.jpg",
+        "out/2026-11-25/p4/frame-02.jpg",
+        "out/2026-11-25/p4/frame-03.jpg",
+        "out/2026-11-25/p4/frame-04.jpg",
+        "out/2026-11-25/p4/frame-05.jpg",
+        "out/2026-11-25/p4/frame-06.jpg"
+      ],
+      "photo": null,
+      "reel": {
+        "video": null,
+        "music": "cinematic-2.mp3",
+        "voice": "gemini:Riko",
+        "voice_sync": "split",
+        "voice_speed": 1.07,
+        "sfx": 20,
+        "engine": "hype",
+        "look": "grafit",
+        "duration": 30.03,
+        "shots": [
+          {
+            "frame": "frame-01.jpg",
+            "beat": 1,
+            "start": 0.0
+          },
+          {
+            "frame": "frame-02.jpg",
+            "beat": 2,
+            "start": 5.24
+          },
+          {
+            "frame": "frame-03.jpg",
+            "beat": 3,
+            "start": 12.1
+          },
+          {
+            "frame": "frame-04.jpg",
+            "beat": 4,
+            "start": 15.29
+          },
+          {
+            "frame": "frame-05.jpg",
+            "beat": 5,
+            "start": 19.18
+          },
+          {
+            "frame": "frame-06.jpg",
+            "beat": 6,
+            "start": 23.6
+          }
+        ]
+      }
+    }
+  ]
+}
