@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-27",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "reel",
+      "engine": "hype",
+      "time": "12:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Side hustle Reel në formën Fiverr (aftësi që e ka shikuesi + platformë + çmime reale + një lëvizje e zgjuar). Burimi: shërbimet e CV-ve në Fiverr: një shitëse nga Shqipëria me CV nga 10 $ dhe 184 vlerësime; një shitës nga Maqedonia e Veriut me CV Europass 50 $ (42 vlerësime). Lëvizja: titull i ngushtë 'CV Europass në gjermanisht'. Shikuesi merr: 3 hapat dhe titullin. Ndryshim në ditë: titulli i ngushtë me italisht (aftësi që e kanë shumë shqiptarë, GUIDE 2026-11-25) në vend të gjermanishtes.",
+      "source_item": "https://fiverr.com/migena1/build-you-a-proffesional-resume",
+      "sources": [
+        "https://fiverr.com/migena1/build-you-a-proffesional-resume",
+        "https://fiverr.com/duskotodoroski/write-or-edit-your-official-europass-cv",
+        "https://europass.europa.eu/en/create-europass-cv?lang=en",
+        "https://help.fiverr.com/hc/en-us/articles/360010530058-Withdrawing-your-earnings-managing-payout-methods",
+        "https://www.paypal.com/al/webapps/mpp/ua/recpymt-full"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Di të bësh një CV?",
+          "big": "50 $",
+          "sub": "një CV Europass në Fiverr",
+          "figure": "laptop",
+          "at": "lira",
+          "text": "Di të bësh një CV të rregullt, dhe mbrëmjet i ke të lira?"
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "CV e zakonshme",
+            "sub": "nga 10 $",
+            "figure": "laptop"
+          },
+          "right": {
+            "label": "CV Europass",
+            "sub": "50 $",
+            "figure": "money"
+          },
+          "at": "50",
+          "text": "Në Fiverr, CV nis nga 10 dollarë, një Europass shitet deri 50!",
+          "say": "Në Fiverr, CV nis nga dhjetë dollarë, një Europass shitet deri pesëdhjetë!"
+        },
+        {
+          "type": "count",
+          "kicker": "Një shitëse nga Shqipëria",
+          "value": 184,
+          "label": "vlerësime, me CV nga 10 $",
+          "at": "184",
+          "text": "Një shitëse nga Shqipëria ka 184 vlerësime vetëm me CV.",
+          "say": "Një shitëse nga Shqipëria ka njëqind e tetëdhjetë e katër vlerësime vetëm me CV."
+        },
+        {
+          "type": "list",
+          "title": "3 hapat:",
+          "items": [
+            "Bëj 2 shembuj",
+            "Titull i ngushtë",
+            "Vendos çmimin"
+          ],
+          "text": "Bëj dy shembuj, shkruaj një titull të ngushtë, vendos çmimin e parë të ulët."
+        },
+        {
+          "type": "chat",
+          "kicker": "Titulli:",
+          "reply": "CV Europass në italisht",
+          "at": "Itali",
+          "text": "Për shembull: CV Europass në italisht, për punë në Itali."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Bëj CV-në tënde",
+          "at": "bëj",
+          "figure": "laptop",
+          "text": "Sot bëj CV-në tënde Europass: ajo është shembulli yt i parë!"
+        }
+      ],
+      "caption": "Kontrolluar më 22 nëntor 2026 te faqet e shërbimeve në Fiverr: një shitëse nga Shqipëria shet CV nga 10 dollarë dhe ka 184 vlerësime; një shitës nga Ballkani shet CV Europass për 50 dollarë. Fiverr mban 20% të çdo pagese; paratë lirohen pas 14 ditësh.\n\nSi i merr paratë nga Shqipëria: PayPal pranon pagesa dhe të lejon t'i tërheqësh në një kartë Visa (5 dollarë për tërheqje), ose Payoneer drejt bankës.\n\nCV-në Europass e bën falas te faqja zyrtare europass.europa.eu: klienti paguan për kohën dhe gjuhën tënde.\n\nKjo s'është premtim fitimi: janë çmimet që paguajnë klientët për një punë.\n\nDërgoja shokut që ua bën CV-në të gjithëve falas.\n\n#suksesishqip #sidehustle #fiverr #cv"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "empty bar counter at night with chairs",
+      "note": "Zëvendëson tweet-in e buxhetit të familjes (INSTAT 95.227) në rishikimin kritik: ai ishte një statistikë, jo numri i shikuesit. Ky është punë me numër për një grup shumë të madh të rinjsh (bare, qendra thirrjesh, turne nate): Kodi i Punës neni 80–81, puna 22:00–06:00 paguhet të paktën 50% më shumë. Shikuesi merr: përqindjen dhe rreshtin që kërkon te fletëpagesa.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Punon pas orës 22:00, në bar apo në një qendër thirrjesh?\n\nKodi i Punës (neni 81): puna nga 22:00 deri në 06:00 është punë nate dhe paguhet të paktën 50% më shumë.\n\nShiko fletëpagesën: a ke një rresht për orët e natës?"
+        }
+      ],
+      "caption": "Kodi i Punës, neni 80: puna nga ora 22:00 deri në 06:00 është punë nate. Neni 81: ajo paguhet të paktën 50% më shumë se ora normale (kontrata kolektive mund të japë më shumë).\n\nHapi i parë: numëro orët pas 22:00 të këtij muaji dhe krahasoji me fletëpagesën.\n\nDërgoja shokut që mbyll lokalin çdo natë.\n\n#suksesishqip #puna #rroga #ligji"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit (40.000 në dorë) dhe numri i parë i kursimit. Burimi: Caleb Hammer, 'emergency fund' (një muaj shpenzime i detyrueshëm, para çdo gjëje tjetër, në llogari kursimi). Llogaritje jona: 10% e 40.000 = 4.000 në muaj; 36.000 shpenzime → 9 muaj. Shikuesi merr: numrin e tij të parë dhe llogarinë e veçantë.",
+      "source_item": "https://www.calebhammer.com/post/emergency-fund",
+      "sources": [
+        "https://www.calebhammer.com/post/emergency-fund"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Asnjë lek mënjanë?",
+          "big": "40.000",
+          "sub": "rroga në dorë",
+          "figure": "piggy",
+          "at": "vetëm",
+          "text": "Rroga 40.000 lekë dhe asnjë lek mënjanë: nis nga një numër i vetëm!",
+          "say": "Rroga dyzet mijë lekë dhe asnjë lek mënjanë: nis nga një numër i vetëm!"
+        },
+        {
+          "type": "chat",
+          "kicker": "Caleb Hammer:",
+          "reply": "1 muaj shpenzime",
+          "at": "muaj",
+          "text": "Caleb Hammer thotë: i pari vjen një muaj shpenzime, para çdo gjëje tjetër."
+        },
+        {
+          "type": "list",
+          "title": "Mblidh:",
+          "items": [
+            "Qiranë",
+            "Faturat",
+            "Ushqimin"
+          ],
+          "text": "Qiranë, faturat, ushqimin, rrugën: ky është numri yt."
+        },
+        {
+          "type": "count",
+          "kicker": "10% e çdo rroge",
+          "value": 4000,
+          "suffix": " lekë",
+          "label": "në llogari të veçantë",
+          "at": "4.000",
+          "text": "Me 10% të rrogës, 4.000 lekë çdo muaj, në një llogari të veçantë.",
+          "say": "Me dhjetë për qind të rrogës, katër mijë lekë çdo muaj, në një llogari të veçantë."
+        },
+        {
+          "type": "icons",
+          "kicker": "Për 36.000 lekë",
+          "title": "9 muaj",
+          "icon": "coin",
+          "n": 9,
+          "label": "dhe e ke rezervën",
+          "at": "nëntë",
+          "text": "Për 36.000 lekë shpenzime në muaj, të duhen rreth nëntë muaj.",
+          "say": "Për tridhjetë e gjashtë mijë lekë shpenzime në muaj, të duhen rreth nëntë muaj."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Shkruaj numrin tënd",
+          "at": "shkruaj",
+          "figure": "smartphone",
+          "text": "Sot shkruaj në telefon sa të kushton një muaj jetë!"
+        }
+      ],
+      "caption": "Rregulli i Caleb Hammer (Financial Audit): një fond emergjence me shpenzimet e një muaji është i detyrueshëm, dhe ndërtohet para se të shlyesh borxhet. Pastaj borxhet me interes të lartë, pastaj 3–6 muaj. Mbahet në llogari kursimi në bankë, jo në kripto apo aksione.\n\nShembulli me 40.000 lekë dhe 36.000 shpenzime është yni: numri yt është i yti.\n\nRuaje dhe dërgoja shokut që s'ka asnjë lek mënjanë.\n\n#suksesishqip #kursime #rroga #emergjenca"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Situatë e shpeshtë: ndërrimi i punës. Kodi i Punës neni 143 (afati i njoftimit sipas viteve), 142 (prova: 5 ditë), 143(5) (20 orë në javë të paguara për të kërkuar punë kur të largon firma). Shikuesi merr: afatin e tij dhe çfarë shkruan në letrën e dorëheqjes.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Gjete punë më të mirë?",
+          "big": "1 muaj",
+          "sub": "njoftim, nga 6 muaj deri 2 vjet punë",
+          "figure": "people",
+          "stamp": "NJOFTIM",
+          "at": "njoftuar",
+          "text": "Gjete punë më të mirë dhe do ikësh nesër, pa e njoftuar shefin?"
+        },
+        {
+          "type": "list",
+          "title": "Afati i njoftimit:",
+          "items": [
+            "2 javë",
+            "1 muaj",
+            "3 muaj"
+          ],
+          "text": "Deri 6 muaj punë, 2 javë; deri 2 vjet, 1 muaj; mbi 5 vjet, 3 muaj.",
+          "say": "Deri gjashtë muaj punë, dy javë; deri dy vjet, një muaj; mbi pesë vjet, tre muaj."
+        },
+        {
+          "type": "chat",
+          "kicker": "Gjatë provës:",
+          "reply": "5 ditë njoftim",
+          "at": "5",
+          "text": "Gjatë 3 muajve të provës, mjaftojnë 5 ditë njoftim.",
+          "say": "Gjatë tre muajve të provës, mjaftojnë pesë ditë njoftim."
+        },
+        {
+          "type": "count",
+          "kicker": "Nëse të largon firma",
+          "value": 20,
+          "suffix": " orë",
+          "label": "në javë, të paguara, për të kërkuar punë",
+          "at": "20",
+          "text": "Dhe nëse të largon firma, ke 20 orë në javë të paguara për të kërkuar punë!",
+          "say": "Dhe nëse të largon firma, ke njëzet orë në javë të paguara për të kërkuar punë!"
+        },
+        {
+          "type": "list",
+          "title": "Në letër shkruaj:",
+          "items": [
+            "Data e sotme",
+            "Dita e fundit",
+            "Firma"
+          ],
+          "text": "Data e sotme, dita e fundit e punës, firma: kaq mjafton në letër."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Numëro muajt",
+          "at": "numëro",
+          "figure": "clock",
+          "text": "Sot numëro sa muaj ke në punë: ky është afati yt!"
+        }
+      ],
+      "caption": "Kodi i Punës, neni 143, afati i njoftimit pas periudhës së provës:\n• deri 6 muaj punë: 2 javë\n• 6 muaj deri 2 vjet: 1 muaj\n• 2 deri 5 vjet: 2 muaj\n• mbi 5 vjet: 3 muaj\nNeni 142: gjatë 3 muajve të provës, njoftimi është të paktën 5 ditë.\nNeni 143, pika 5: kur të njofton punëdhënësi, ke të paktën 20 orë në javë të paguara për të kërkuar punë.\n\nRuaje dhe dërgoja shokut që po mendon të ikë nga puna.\n\n#suksesishqip #puna #ligji #dorëheqja"
+    }
+  ]
+}
