@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-28",
+  "posts": [
+    {
+      "id": "p1",
+      "style": "tweet",
+      "time": "12:00",
+      "photo_query": "laptop on kitchen table with notebook evening",
+      "note": "Side hustle tweet: Upwork (jo Fiverr), për ata që dinë anglisht. Burimet: faqja e ndihmës e Upwork (tarifa 0–15% për kontratë, e dukshme para ofertës; connects 0,15 $; 10 falas në muaj për Basic) dhe njoftimi i Upwork për tërheqjen direkt në bankë lokale në Shqipëri (2020). Shikuesi merr: kostot reale para ofertës së parë dhe rrugën e parave.",
+      "source_item": "https://support.upwork.com/hc/en-us/articles/211062538",
+      "sources": [
+        "https://support.upwork.com/hc/en-us/articles/211062538",
+        "https://www.upwork.com/resources/is-upwork-free",
+        "https://community.upwork.com/t5/Announcements/Expanding-Direct-to-Local-Bank-availability/m-p/719512"
+      ],
+      "slides": [
+        {
+          "text": "Di anglisht dhe po mendon për Upwork?\n\nÇdo ofertë aty kushton pikë (\"connects\"): 10 falas në muaj, pastaj 0,15 dollarë secila. Tarifa e Upwork: 0–15% për kontratë.\n\nE sheh tarifën para ofertës: zgjidh punët ku është më e ulët."
+        }
+      ],
+      "caption": "Kontrolluar më 28 nëntor 2026 te faqet e ndihmës së Upwork. Nga Shqipëria, paratë mund të tërhiqen direkt në një bankë shqiptare (\"Direct to Local Bank\", që nga prilli 2020).\n\nHapi i parë: shkruaj profilin me një aftësi të vetme, jo me pesë.\n\nDërgoja shokut që di anglisht dhe s'po e përdor.\n\n#suksesishqip #sidehustle #upwork #anglisht"
+    },
+    {
+      "id": "p2",
+      "style": "tweet",
+      "time": "15:00",
+      "photo_query": "bank card and calendar on desk end of month",
+      "note": "Situatë pune me datë, e kohës (rroga e nëntorit, 30 nëntori dhe 1 dhjetori pushim): Kodi i Punës neni 116 (paga mujore në fund të çdo muaji, përveç marrëveshjes me shkrim) dhe 118 (përmes bankës). Shikuesi merr: ku ta kërkojë datën në kontratë.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+        "https://www.intesasanpaolobank.al/document/documents/ISPALBANIA/Footer-Documents/Bank-Holidays-2026.pdf"
+      ],
+      "slides": [
+        {
+          "text": "Rroga e nëntorit të vjen më 15 dhjetor?\n\nKodi i Punës (neni 116): paga mujore paguhet në fund të çdo muaji, përveç kur keni rënë dakord ndryshe me shkrim.\n\nHap kontratën sot dhe gjej rreshtin për datën e pagesës."
+        }
+      ],
+      "caption": "Kodi i Punës, neni 116: paga mujore paguhet në fund të çdo muaji, nëse s'është rënë dakord ndryshe me shkrim. Neni 118: paga paguhet përmes bankës. Kujdes: 30 nëntori dhe 1 dhjetori janë ditë pushimi, ndaj banka mund ta kalojë pagesën të mërkurën.\n\nNëse kontrata s'thotë asgjë për datën, pyet me shkrim: \"Cila është data e pagesës së rrogës sipas kontratës?\"\n\nDërgoja kolegut që e pret rrogën çdo muaj në një datë tjetër.\n\n#suksesishqip #rroga #puna #ligji"
+    },
+    {
+      "id": "p3",
+      "style": "reel",
+      "engine": "hype",
+      "time": "18:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Rroga e shikuesit (60.000) dhe dhjetori: limiti ditor nga rroga në rrogë. Metoda: ClearScore / Money Saving Expert (paratë që mbeten ÷ ditët deri te rroga tjetër; qiraja dhe faturat ndahen ditën e rrogës). Kodi i Punës neni 116: rroga në fund të muajit → rroga e dhjetorit më 31 dhjetor. Llogaritje jona: (60.000 − 30.000) ÷ 31 ≈ 970 lekë në ditë. Shikuesi merr: formulën e limitit ditor.",
+      "source_item": "https://www.clearscore.com/learn/managing-money/how-to-make-your-december-pay-cheque-last-longer",
+      "sources": [
+        "https://www.clearscore.com/learn/managing-money/how-to-make-your-december-pay-cheque-last-longer",
+        "https://www.moneysavingexpert.com/news/2010/01/moneysavers-say-no-to-early-christmas-pay/",
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Rroga e nëntorit",
+          "big": "60.000 lekë",
+          "sub": "duhet të dalë 31 ditë",
+          "figure": "clock",
+          "at": "60.000",
+          "text": "Rroga 60.000 lekë hyn në fund të nëntorit, dhe duhet të të dalë 31 ditë!",
+          "say": "Rroga gjashtëdhjetë mijë lekë hyn në fund të nëntorit, dhe duhet të të dalë tridhjetë e një ditë!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Dhjetori sjell:",
+          "rows": [
+            {
+              "label": "Dhuratat",
+              "ok": false
+            },
+            {
+              "label": "Festat",
+              "ok": false
+            },
+            {
+              "label": "Faturat e dimrit",
+              "ok": false
+            }
+          ],
+          "text": "Dhuratat, festat, faturat e dimrit: dhjetori ka më shumë shpenzime se zakonisht."
+        },
+        {
+          "type": "count",
+          "kicker": "Qira + fatura: 30.000",
+          "value": 30000,
+          "suffix": " lekë",
+          "label": "të mbeten për 31 ditë",
+          "at": "30.000",
+          "text": "Pa qiranë dhe faturat, të mbeten 30.000.",
+          "say": "Pa qiranë dhe faturat, të mbeten tridhjetë mijë."
+        },
+        {
+          "type": "versus",
+          "left": {
+            "label": "30.000 lekë",
+            "sub": "për muajin",
+            "figure": "money"
+          },
+          "right": {
+            "label": "970 lekë",
+            "sub": "në ditë",
+            "figure": "clock"
+          },
+          "at": "970",
+          "text": "Pjesëtuar me 31 ditë: rreth 970 lekë në ditë.",
+          "say": "Pjesëtuar me tridhjetë e një ditë: rreth nëntëqind e shtatëdhjetë lekë në ditë."
+        },
+        {
+          "type": "list",
+          "title": "Ditën e rrogës:",
+          "items": [
+            "Ndaj qiranë",
+            "Shkruaj limitin",
+            "Kontrollo të dielën"
+          ],
+          "text": "Ndaj qiranë në llogari tjetër, shkruaj limitin, kontrollo të dielën sa të ka mbetur."
+        },
+        {
+          "type": "text",
+          "title": "Sot:",
+          "highlight": "Llogarit limitin tënd",
+          "at": "llogarit",
+          "figure": "keypad",
+          "text": "Sot llogarit: paratë që mbeten, pjesëtuar me ditët deri te rroga tjetër!"
+        }
+      ],
+      "caption": "Formula: (rroga − qiraja − faturat) ÷ ditët deri te rroga tjetër = sa mund të shpenzosh në ditë.\nShembulli ynë: (60.000 − 30.000) ÷ 31 ≈ 970 lekë në ditë.\n\nMetoda: ClearScore dhe Money Saving Expert për muajin e dhjetorit: numëro ditët deri te rroga tjetër, ndaje mbetjen me to, dhe paratë e qirasë e faturave ndaji ditën e rrogës. Kodi i Punës, neni 116: paga mujore paguhet në fund të muajit, nëse kontrata s'thotë ndryshe.\n\nRuaje për ditën e rrogës dhe dërgoja shokut që më 20 dhjetor s'ka më lekë.\n\n#suksesishqip #rroga #dhjetori #buxheti"
+    },
+    {
+      "id": "p4",
+      "style": "reel",
+      "engine": "hype",
+      "time": "21:00",
+      "voice": "gemini:Riko",
+      "music": "mood:cinematic",
+      "note": "Zëvendësimi i ditës (rishikimi 28 nëntor): Reel-i i papublikuar i 26 nëntorit (render dështoi). Rikontrolluar 28 nëntor: Kodi i Punës neni 78 pushimi ditor 11 orë pa ndërprerje, neni 85 pushimi javor 36 orë (24 rresht), neni 54 pushim pa pagesë jo më pak se 20 minuta kur punon mbi 6 orë. Dërgohet shokut që mbyll lokalin natën. Shikuesi merr: fjalinë për shefin dhe 3 hapat.",
+      "source_item": "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+      "sources": [
+        "https://idp.al/wp-content/uploads/2025/04/Kodi-i-punes-LIGJ-2024.pdf",
+        "https://inspektoriatipunes.gov.al/wp-content/uploads/2025/04/WORKING-TIME-11.3.2025.pdf"
+      ],
+      "beats": [
+        {
+          "type": "hook",
+          "kicker": "Turni i mbrëmjes",
+          "big": "11 orë",
+          "sub": "pushim pa ndërprerje",
+          "figure": "clock",
+          "at": "ligji",
+          "text": "Mbyll në mesnatë dhe hyn prapë në 07:00, kur ligji të jep 11 orë pushim!",
+          "say": "Mbyll në mesnatë dhe hyn prapë në shtatë të mëngjesit, kur ligji të jep njëmbëdhjetë orë pushim!"
+        },
+        {
+          "type": "count",
+          "kicker": "Kodi i Punës, neni 78",
+          "value": 11,
+          "suffix": " orë",
+          "label": "pushim ditor, pa ndërprerje",
+          "at": "11",
+          "text": "Neni 78 thotë: pushimi ditor është të paktën 11 orë pa ndërprerje.",
+          "say": "Neni shtatëdhjetë e tetë thotë: pushimi ditor është të paktën njëmbëdhjetë orë pa ndërprerje."
+        },
+        {
+          "type": "bars",
+          "kicker": "Nga 24:00 deri në 07:00",
+          "left": {
+            "label": "7 orë",
+            "sub": "turni yt"
+          },
+          "right": {
+            "label": "11 orë",
+            "sub": "ligji"
+          },
+          "at": "mungojnë",
+          "text": "Nga mesnata deri në 07:00 ke vetëm 7 orë: të mungojnë 4!",
+          "say": "Nga mesnata deri në shtatë ke vetëm shtatë orë: të mungojnë katër!"
+        },
+        {
+          "type": "checks",
+          "kicker": "Edhe dy të tjera:",
+          "rows": [
+            {
+              "label": "36 orë pushim në javë",
+              "ok": true,
+              "figure": "house"
+            },
+            {
+              "label": "20 minuta pushim në ditë",
+              "ok": true,
+              "figure": "clock"
+            }
+          ],
+          "text": "Çdo javë 36 orë pushim, dhe 20 minuta pushim kur punon mbi 6 orë në ditë.",
+          "say": "Çdo javë tridhjetë e gjashtë orë pushim, dhe njëzet minuta pushim kur punon mbi gjashtë orë në ditë."
+        },
+        {
+          "type": "list",
+          "title": "Si e mbron:",
+          "items": [
+            "Shkruaj orën e mbylljes",
+            "Ruaj mesazhin e turnit",
+            "Kërko me shkrim"
+          ],
+          "text": "Shkruaj orën e mbylljes, ruaj mesazhin e turnit, kërko ndryshimin me shkrim."
+        },
+        {
+          "type": "text",
+          "title": "Ruaje këtë fjali:",
+          "highlight": "A ta nis në 11:00?",
+          "at": "nis",
+          "figure": "smartphone",
+          "text": "Herën tjetër shkruaji shefit: mbylla në mesnatë, a mund ta nis nesër në 11:00?",
+          "say": "Herën tjetër shkruaji shefit: mbylla në mesnatë, a mund ta nis nesër në njëmbëdhjetë?"
+        }
+      ],
+      "caption": "Kodi i Punës (teksti i konsoliduar me ligjin 91/2024):\n• neni 78: pushimi ditor është të paktën 11 orë pa ndërprerje\n• neni 85: pushimi javor është jo më pak se 36 orë, prej tyre 24 rresht\n• neni 54: kur punon mbi 6 orë pa ndërprerje, një pushim jo më pak se 20 minuta (pa pagesë)\nPërjashtime mund të ketë me vendim të Këshillit të Ministrave ose me kontratë kolektive.\n\nRuaje fjalinë dhe dërgoja shokut që mbyll lokalin natën.\n\n#suksesishqip #puna #turni #shefi"
+    }
+  ]
+}
